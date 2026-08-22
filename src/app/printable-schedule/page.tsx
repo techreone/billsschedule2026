@@ -195,12 +195,22 @@ export default function PrintableSchedulePage() {
           </blockquote>
         </section>
 
-        {/* H2 Chapter 2: Pocket & Wallet Format */}
-        <section className="space-y-5 pt-4 border-t border-zinc-800" id="download-wallet-pdf">
+        {/* H2 Chapter 2: Pocket & Wallet Layout */}
+        <section className="space-y-5 pt-4 border-t border-zinc-800" id="wallet-size-schedule">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
-            <span className="w-2 h-6 bg-yellow-500 rounded-full inline-block" />
+            <span className="w-2 h-6 bg-red-600 rounded-full inline-block" />
             2. Pocket & Wallet-Sized Foldable Mini Schedule Format
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/wallet-card-fold.webp"
+              alt="Pocket Wallet Sized 4-Fold Schedule Card Layout"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Pocket & Wallet-Sized 4-Fold Schedule Card Template — Credit Card Size Foldable
+            </div>
+          </div>
           <p>
             For fans on the move who want a portable reference sheet inside their wallet, purse, or jacket pocket, we offer a specialized <strong>Wallet-Sized Foldable Mini Schedule PDF</strong>. When printed and folded along pre-marked guide lines, the schedule shrinks down to a compact 2.125 x 3.375 inch card (identical to standard credit card dimensions).
           </p>
@@ -357,12 +367,22 @@ export default function PrintableSchedulePage() {
           </p>
         </section>
 
-        {/* H2 Chapter 5: Google & Apple Calendar Sync */}
+        {/* H2 Chapter 5: Calendar Sync */}
         <section className="space-y-5 pt-4 border-t border-zinc-800" id="calendar-sync-guide">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
-            <span className="w-2 h-6 bg-purple-600 rounded-full inline-block" />
+            <span className="w-2 h-6 bg-purple-500 rounded-full inline-block" />
             5. 1-Click Digital Integration: Sync to Google & Apple Calendars
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/calendar-app-sync.webp"
+              alt="Google & Apple Calendar iCal Sync on Smartphone"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Automatic iCal & Google Calendar Kickoff Time Sync & Flex Update Subscription
+            </div>
+          </div>
           <p>
             Pair your physical printed schedule sheet with live dynamic calendar alerts! By subscribing to our Webcal / iCal (`.ics`) automated feed, every Bills game is synced automatically to your iPhone, iPad, Android device, Google Calendar, or Microsoft Outlook calendar.
           </p>

@@ -257,6 +257,16 @@ export default function BRHomePage() {
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
                 6. Divisional Rivalry Matchups (AFC East Showdowns)
               </h2>
+              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+                <img
+                  src="/images/bills/bills-mafia-fans.webp"
+                  alt="Bills Mafia Tailgate Party and AFC East Divisional Rivalry Atmosphere"
+                  className="w-full h-64 md:h-72 object-cover"
+                />
+                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+                  Bills Mafia Fan Atmosphere & AFC East Tailgate Energy
+                </div>
+              </div>
               <p>
                 The road to the AFC East division title goes directly through six intense rivalry games. Buffalo faces home-and-away series against:
               </p>
@@ -275,6 +285,16 @@ export default function BRHomePage() {
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
                 7. 2026 Buffalo Bills Offense & Defense Depth Chart Highlights
               </h2>
+              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+                <img
+                  src="/images/bills/sean-mcdermott-coach.webp"
+                  alt="Buffalo Bills Coaching Staff and Sideline Playcalling Strategy"
+                  className="w-full h-64 md:h-72 object-cover"
+                />
+                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+                  Head Coach Sean McDermott & Sideline Defensive Playcalling Unit
+                </div>
+              </div>
               <p>
                 Buffalo's 2026 campaign hinges on elite roster depth across both sides of the football. According to official depth charts tracked on <a href="https://www.espn.com/nfl/team/depth/_/name/buf" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">ESPN Bills Depth Chart</a>:
               </p>

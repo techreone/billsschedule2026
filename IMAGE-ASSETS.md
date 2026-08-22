@@ -1,38 +1,36 @@
 # billsschedule2026.xyz — 图片资产与队标索引 (IMAGE-ASSETS.md)
 
-> 本文档规范 `billsschedule2026.xyz` 项目中所有球队 Logo、球场背景与品牌图片资产的存放路径与索引。
+> 本文档规范 `billsschedule2026.xyz` 全站 21+ 张 WebP 队标与实景比赛配图的索引。
+> **单篇硬要求**：每篇 2000+ 字文章必须包含 **≥3~5 张实景高清 WebP 配图**。
 
 ---
 
-## 1. 球队官方 Logo WebP 资产表
+## 1. 21+ 张高清 WebP 资产总表
 
-所有图片统一保存在 `public/images/bills/` 目录下，均经过 85% 无损 WebP 格式化：
-
-| 球队标识 (Team Slug) | 球队全称 | 本地 WebP 图片路径 | HTML 引用路径 |
+| 资产文件名 (Slug) | 图片描述 (Alt) | 尺寸/格式 | 应用页面与章节 |
 | :--- | :--- | :--- | :--- |
-| `bills` | Buffalo Bills | `public/images/bills/bills.webp` | `/images/bills/bills.webp` |
-| `dolphins` | Miami Dolphins | `public/images/bills/dolphins.webp` | `/images/bills/dolphins.webp` |
-| `patriots` | New England Patriots | `public/images/bills/patriots.webp` | `/images/bills/patriots.webp` |
-| `jets` | New York Jets | `public/images/bills/jets.webp` | `/images/bills/jets.webp` |
-| `chiefs` | Kansas City Chiefs | `public/images/bills/chiefs.webp` | `/images/bills/chiefs.webp` |
-| `ravens` | Baltimore Ravens | `public/images/bills/ravens.webp` | `/images/bills/ravens.webp` |
-| `texans` | Houston Texans | `public/images/bills/texans.webp` | `/images/bills/texans.webp` |
-| `49ers` | San Francisco 49ers | `public/images/bills/49ers.webp` | `/images/bills/49ers.webp` |
-| `rams` | Los Angeles Rams | `public/images/bills/rams.webp` | `/images/bills/rams.webp` |
-| `lions` | Detroit Lions | `public/images/bills/lions.webp` | `/images/bills/lions.webp` |
-| `seahawks` | Seattle Seahawks | `public/images/bills/seahawks.webp` | `/images/bills/seahawks.webp` |
-| `titans` | Tennessee Titans | `public/images/bills/titans.webp` | `/images/bills/titans.webp` |
-| `colts` | Indianapolis Colts | `public/images/bills/colts.webp` | `/images/bills/colts.webp` |
-| `cardinals` | Arizona Cardinals | `public/images/bills/cardinals.webp` | `/images/bills/cardinals.webp` |
-| `jaguars` | Jacksonville Jaguars | `public/images/bills/jaguars.webp` | `/images/bills/jaguars.webp` |
-| `bears` | Chicago Bears | `public/images/bills/bears.webp` | `/images/bills/bears.webp` |
-| `steelers` | Pittsburgh Steelers | `public/images/bills/steelers.webp` | `/images/bills/steelers.webp` |
-| `panthers` | Carolina Panthers | `public/images/bills/panthers.webp` | `/images/bills/panthers.webp` |
-
----
-
-## 2. 场馆与背景图片
-
-| 资产名 | 说明 | 本地 WebP 路径 |
-| :--- | :--- | :--- |
-| `highmark-stadium` | Highmark Stadium Orchard Park 球场风貌 | `/images/bills/highmark-stadium.webp` |
+| `bills.webp` | Buffalo Bills Official Team Logo | WebP | Header / Scoreboard / Countdown |
+| `dolphins.webp` | Miami Dolphins Logo | WebP | Schedule Table / Matchup Cards |
+| `patriots.webp` | New England Patriots Logo | WebP | Schedule Table / Matchup Cards |
+| `jets.webp` | New York Jets Logo | WebP | Schedule Table / Matchup Cards |
+| `chiefs.webp` | Kansas City Chiefs Logo | WebP | Schedule Table / Matchup Cards |
+| `ravens.webp` | Baltimore Ravens Logo | WebP | Schedule Table / Matchup Cards |
+| `texans.webp` | Houston Texans Logo | WebP | Schedule Table / Matchup Cards |
+| `49ers.webp` | San Francisco 49ers Logo | WebP | Schedule Table / Matchup Cards |
+| `rams.webp` | Los Angeles Rams Logo | WebP | Schedule Table / Matchup Cards |
+| `lions.webp` | Detroit Lions Logo | WebP | Schedule Table / Matchup Cards |
+| `seahawks.webp` | Seattle Seahawks Logo | WebP | Schedule Table / Matchup Cards |
+| `josh-allen-pass.webp` | Josh Allen Quarterback Passing Action | WebP (286KB) | `/` (首页 Hero 顶部大图) |
+| `highmark-stadium-snow.webp` | Highmark Stadium Orchard Park Snow Game | WebP (125KB) | `/` (首页 H2-5 主场雪战) |
+| `bills-mafia-fans.webp` | Bills Mafia Tailgate & Fan Celebration | WebP (195KB) | `/` (首页 H2-6 赛区宿敌与球迷) |
+| `sean-mcdermott-coach.webp` | Head Coach Sideline Strategy & Playcalling | WebP (180KB) | `/` (首页 H2-7 阵容深度) |
+| `nfl-broadcast-truck.webp` | NFL Satellite TV Broadcast Truck | WebP (120KB) | `/where-to-watch` (H2-2 506 Sports) |
+| `cbs-sports-camera.webp` | CBS Sports Live Broadcast Camera Rig | WebP (41KB) | `/where-to-watch` (H2-3 四大流媒体) |
+| `espn-studio-desk.webp` | ESPN Monday Night Football Studio | WebP (59KB) | `/where-to-watch` (H2-5 剪线族 live) |
+| `sports-bar-fans.webp` | Bills Backers Sports Bar Live Watch Party | WebP (150KB) | `/where-to-watch` (H2-8 OTA与酒吧) |
+| `training-camp-practice.webp` | St. John Fisher Training Camp Practice | WebP (195KB) | `/preseason-schedule` (H2-5 训练营) |
+| `wivb-local-broadcast.webp` | WIVB Channel 4 Local Studio Center | WebP (59KB) | `/preseason-schedule` (H2-2 4台独播) |
+| `roster-cut-practice.webp` | 53-Man Roster Defense & Pass-Rusher Drills | WebP (160KB) | `/preseason-schedule` (H2-3 53人名单) |
+| `printable-schedule-preview.webp` | 8.5x11 Inch Printable Schedule Sheet | WebP (19KB) | `/printable-schedule` (H2-1 PDF模板) |
+| `wallet-card-fold.webp` | Pocket Wallet Sized 4-Fold Schedule Card | WebP (85KB) | `/printable-schedule` (H2-2 钱包折叠版) |
+| `office-prediction-sheet.webp` | Office Pool Game-by-Game Score Sheet | WebP (110KB) | `/printable-schedule` (H2-6 办公室竞猜) |

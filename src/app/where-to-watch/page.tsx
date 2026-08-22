@@ -210,11 +210,21 @@ export default function WhereToWatchPage() {
           </Link>
         </div>
 
-        {/* H2-3: Official Streaming Services Guide */}
+        {/* H2-3: Official Streaming Services */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
-          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-emerald-600 pl-4">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
             Official Streaming Services Guide (Paramount+, Peacock, ESPN+, Prime Video)
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/cbs-sports-camera.webp"
+              alt="CBS Sports Live Game Broadcast Camera Rig & Production Setup"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              CBS Sports & Paramount+ High-Definition Live Broadcast Cameras
+            </div>
+          </div>
           <p>
             With cord-cutting at an all-time high, watching NFL games no longer requires a traditional cable television subscription. In 2026, four primary direct-to-consumer standalone streaming applications carry live Buffalo Bills games.
           </p>
@@ -303,11 +313,21 @@ export default function WhereToWatchPage() {
           </p>
         </section>
 
-        {/* H2-5: Cord-Cutting Streaming Options */}
+        {/* H2-5: Live TV Streaming Services */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
-          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-purple-500 pl-4">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-yellow-600 pl-4">
             Cord-Cutting Live TV Streaming Services (Fubo, Hulu, Sling, YouTube TV)
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/espn-studio-desk.webp"
+              alt="ESPN Monday Night Football & Live TV Broadcast Desk"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Live TV Streaming Broadcast Setup for Monday Night Football & Primetime Cable
+            </div>
+          </div>
           <p>
             If you want to replace traditional cable or satellite TV altogether while ensuring you get every channel carrying Bills games (CBS, FOX, NBC, ESPN, ABC, NFL Network), virtual multichannel video programming distributors (vMVPDs) are the ideal solution.
           </p>
@@ -446,9 +466,19 @@ export default function WhereToWatchPage() {
 
         {/* H2-8: Free OTA Antenna & Sports Bars */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
-          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-emerald-500 pl-4">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-emerald-600 pl-4">
             Free Over-the-Air (OTA) Antenna & Bills Backers Sports Bars
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/sports-bar-fans.webp"
+              alt="Official Buffalo Bills Backers Sports Bar Watch Party Atmosphere"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Official Bills Backers Chapter Sports Bar Game Day Gathering
+            </div>
+          </div>
           <p>
             You do not need to pay monthly subscription fees to enjoy live NFL action. If you live in or near a major metropolitan television market, you can watch free high-definition games legally using an Over-the-Air (OTA) digital antenna.
           </p>

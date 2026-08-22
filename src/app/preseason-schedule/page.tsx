@@ -304,6 +304,16 @@ export default function PreseasonPage() {
             <span className="w-2 h-6 bg-yellow-500 rounded-full inline-block" />
             3. 53-Man Roster Battles & Key Position Competitions in August
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/roster-cut-practice.webp"
+              alt="53-Man Roster Defense & Edge Pass-Rusher Drills"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Training Camp Linebacker & Defensive Line Contact Drills
+            </div>
+          </div>
           <p>
             While established superstars like Josh Allen, Dion Dawkins, Ed Oliver, and Matt Milano possess guaranteed roster security, NFL training camp rosters begin at 90 players in late July and must be trimmed down to exactly 53 players by the NFL deadline in late August. Preseason games represent the ultimate high-stakes audition where performance under game lights decides million-dollar careers.
           </p>
