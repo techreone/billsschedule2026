@@ -49,13 +49,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  // 搜索引擎站长验证（占位，待填入 GSC / Bing Webmaster 真实码）
-  verification: {
-    google: 'REPLACE_WITH_GSC_CODE',
-    other: {
-      'msvalidate.01': 'REPLACE_WITH_BING_CODE',
-    },
-  },
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
