@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Steelers Running Back Depth Chart 2026: RB Ranks",
@@ -143,6 +144,7 @@ export default function SteelersRBDepthChartPage() {
             className="object-contain drop-shadow-md"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="steelers-rb-depth-chart 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
         </div>
         <div className="md:col-span-2 space-y-3">
           <h3 className="text-xl font-bold text-amber-400">Steelers RB Room Metrics</h3>
@@ -279,6 +281,17 @@ export default function SteelersRBDepthChartPage() {
           </div>
         </div>
       </section>
-    </div>
+    
+        {/* Sources & Authority References */}
+        <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
+          <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>
+          <ul className="space-y-1">
+            <li><a href="https://www.nfl.com/teams/steelers/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">NFL.com</a></li>
+            <li><a href="https://www.espn.com/nfl/team/_/name/pit/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">ESPN.com</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
+          </ul>
+        </section>
+        <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

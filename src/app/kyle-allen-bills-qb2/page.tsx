@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Kyle Allen: Bills QB2 Preseason & Stats",
@@ -210,6 +211,7 @@ export default function KyleAllenBillsQB2Page() {
               fill
               className="object-cover"
             />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="kyle-allen-bills-qb2 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
             <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/60 to-transparent p-4 text-xs font-mono text-zinc-300">
               Kyle Allen executing high-tempo passing plays under Offensive Coordinator Joe Brady&apos;s system.
             </div>
@@ -361,6 +363,17 @@ export default function KyleAllenBillsQB2Page() {
           </div>
         </section>
       </article>
-    </div>
+    
+        {/* Sources & Authority References */}
+        <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
+          <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>
+          <ul className="space-y-1">
+            <li><a href="https://www.nfl.com/teams/buffalo-bills/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">NFL.com</a></li>
+            <li><a href="https://www.espn.com/nfl/team/_/name/buf/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">ESPN.com</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
+          </ul>
+        </section>
+        <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

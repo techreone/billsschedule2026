@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Stefon Diggs Aftermath & Bills WR Depth",
@@ -252,6 +253,7 @@ export default function StefonDiggsBillsWRAftermathPage() {
               fill
               className="object-cover"
             />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="stefon-diggs-bills-wr-aftermath 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
             <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black via-black/60 to-transparent p-4 text-xs font-mono text-zinc-300">
               Josh Allen dropping back to locate open targets across Joe Brady&apos;s multi-receiver sets.
             </div>
@@ -363,6 +365,7 @@ export default function StefonDiggsBillsWRAftermathPage() {
           </div>
         </section>
       </article>
-    </div>
+            <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

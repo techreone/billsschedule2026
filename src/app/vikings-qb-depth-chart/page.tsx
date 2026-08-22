@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Vikings QB Depth Chart 2026: Kyler Murray & McCarthy",
@@ -139,6 +140,7 @@ export default function VikingsQbDepthChartPage() {
             className="object-cover"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="vikings-qb-depth-chart 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-xs font-mono text-zinc-300">
             Minnesota Vikings quarterbacks working through dropback progressions and target drills during summer practices.
           </div>
@@ -302,6 +304,17 @@ export default function VikingsQbDepthChartPage() {
         </div>
 
       </article>
-    </div>
+    
+        {/* Sources & Authority References */}
+        <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
+          <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>
+          <ul className="space-y-1">
+            <li><a href="https://www.nfl.com/teams/vikings/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">NFL.com</a></li>
+            <li><a href="https://www.espn.com/nfl/team/_/name/min/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">ESPN.com</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
+          </ul>
+        </section>
+        <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

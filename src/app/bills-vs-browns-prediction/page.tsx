@@ -195,6 +195,7 @@ export default function BillsVsBrownsPredictionPage() {
               fill
               className="object-cover"
             />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="bills-vs-browns-prediction 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           </div>
           <p className="text-xs text-zinc-400 font-mono text-center">
             Sportsbook handicappers analyzed second-half roster depth before finalizing line movements.
@@ -284,6 +285,16 @@ export default function BillsVsBrownsPredictionPage() {
         </div>
 
       </article>
-    </div>
+    
+        {/* Sources & Authority References */}
+        <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
+          <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>
+          <ul className="space-y-1">
+            <li><a href="https://www.nfl.com/teams/buffalo-bills/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">NFL.com</a></li>
+            <li><a href="https://www.espn.com/nfl/team/_/name/buf/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">ESPN.com</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
+          </ul>
+        </section>
+</div>
   );
 }

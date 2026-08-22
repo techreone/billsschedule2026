@@ -196,6 +196,7 @@ export default function BillsVsBrownsStatsPage() {
               fill
               className="object-cover"
             />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="bills-vs-browns-stats 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           </div>
           <p className="text-xs text-zinc-400 font-mono text-center">
             Buffalo Bills quarterback unit delivered crisp passing rhythm during Week 2 preseason action in Cleveland.

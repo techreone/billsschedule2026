@@ -224,6 +224,7 @@ export default function DamarHamlinBillsStatusPage() {
               fill
               className="object-cover"
             />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="damar-hamlin-bills-status 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           </div>
           <p className="text-xs text-zinc-400 font-mono text-center">
             Damar Hamlin participating in secondary coverage drills during Buffalo Bills training sessions.

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "New York Giants Depth Chart 2026: Complete Offense & Defense",
@@ -140,6 +141,7 @@ export default function NewYorkGiantsDepthChart2026Page() {
             className="object-cover"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="new-york-giants-depth-chart-2026 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-xs font-mono text-zinc-300">
             New York Giants offense executing play-action passing drills during 2026 summer training camp at Quest Diagnostics Training Center.
           </div>
@@ -329,6 +331,7 @@ export default function NewYorkGiantsDepthChart2026Page() {
         </div>
 
       </article>
-    </div>
+            <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

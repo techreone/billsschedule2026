@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Giants QB Depth Chart 2026: Jaxson Dart & Jameis Winston ...",
@@ -139,6 +140,7 @@ export default function GiantsQbDepthChartPage() {
             className="object-cover"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="giants-qb-depth-chart 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-xs font-mono text-zinc-300">
             New York Giants starter Jaxson Dart reviewing play scripts during 2026 summer training sessions.
           </div>
@@ -302,6 +304,7 @@ export default function GiantsQbDepthChartPage() {
         </div>
 
       </article>
-    </div>
+            <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Miami Dolphins Depth Chart 2026: Starters & Roster",
@@ -143,6 +144,7 @@ export default function DolphinsDepthChart2026Page() {
             className="object-contain drop-shadow-md"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="dolphins-depth-chart-2026 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
         </div>
         <div className="md:col-span-2 space-y-3">
           <h3 className="text-xl font-bold text-teal-400">2026 Miami Dolphins Roster Snapshot</h3>
@@ -380,6 +382,7 @@ export default function DolphinsDepthChart2026Page() {
           </div>
         </div>
       </section>
-    </div>
+            <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
+</div>
   );
 }

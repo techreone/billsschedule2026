@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
+import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
   title: "Cleveland Browns QB Depth Chart 2026: Starter & Backup Br...",
@@ -139,6 +140,7 @@ export default function BrownsQbDepthChartPage() {
             className="object-cover"
             priority
           />
+          <img src="/images/bills/nfl-broadcast-truck.webp" alt="browns-qb-depth-chart 2026 NFL" className="rounded-xl border border-zinc-800 my-6" />
           <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-4 text-xs font-mono text-zinc-300">
             Cleveland Browns quarterback unit undergoing rigorous training camp reps ahead of the 2026 regular season.
           </div>
@@ -324,6 +326,7 @@ export default function BrownsQbDepthChartPage() {
         </div>
 
       </article>
-    </div>
+            <RelatedTrendPages slugs={['bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream', 'bills-vs-browns-prediction', 'bills-vs-browns-stats', 'cleveland-browns-depth-chart-2026']} />
+</div>
   );
 }
