@@ -29,7 +29,7 @@ export default function BRHeader() {
               BILLS<span className="text-red-500">SCHEDULE</span>2026
             </span>
             <span className="text-[10px] text-zinc-400 font-mono tracking-widest uppercase">
-              BILLSSCHEDULE2026.XYZ
+              BILLSSCHEDULE2026.ONLINE
             </span>
           </div>
         </Link>

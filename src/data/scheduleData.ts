@@ -18,8 +18,8 @@ export interface Game {
 
 export const SITE_CONFIG = {
   name: "Buffalo Bills Schedule 2026",
-  domain: "billsschedule2026.xyz",
-  url: "https://billsschedule2026.xyz",
+  domain: "billsschedule2026.online",
+  url: "https://billsschedule2026.online",
   description: "Official & updated Buffalo Bills 2026 schedule with game times (EST), TV channels (CBS, FOX, NBC, ESPN), radio broadcast (WGR 550), printable PDF, and bye week info.",
   primaryColor: "#00338D", // Bills Royal Blue
   accentColor: "#C60C30",  // Bills Red
