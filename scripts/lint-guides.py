@@ -333,7 +333,7 @@ def main():
                     if hs[i][1] - hs[j][1] <= 8:
                         errors.append(f'F06 图片重复(距离{hs[i][1]-hs[j][1]}): {os.path.basename(hs[i][0])} ≈ {os.path.basename(hs[j][0])}')
 
-    # L10/L14/L15 组件回归检查（静默跳过不存在的 roguewiki 独有组件）
+    # L10/L14/L15 组件回归检查（静默跳过不存在的 billsschedule2026 独有组件）
     if os.path.exists('components/GuideArticleView.tsx'):
         comp = open('components/GuideArticleView.tsx', encoding='utf-8').read()
         if 'related.slice(0, 6)' not in comp:

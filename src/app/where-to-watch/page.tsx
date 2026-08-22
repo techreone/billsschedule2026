@@ -4,8 +4,8 @@ import AdSlot from '@/components/AdSlot';
 import { SITE_CONFIG } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "What Channel is the Buffalo Bills Game on Today? (2026 TV & Stream Guide)",
-  description: "Find out what channel the Buffalo Bills game is on today, kickoff times (EST), broadcast maps on 506 Sports, streaming options, WGR 550 radio, and Sunday Ticket info.",
+  title: "Bills Game TV Channel & Streaming",
+  description: "Find what channel the Buffalo Bills game is on today: kickoff times (ET), CBS/FOX/NBC/ESPN/Prime, 506 maps, WGR 550 radio & Sunday Ticket.",
   keywords: [
     "what channel is the buffalo bills game on today",
     "buffalo bills game live stream",

@@ -15,7 +15,7 @@ import json
 # 4. 挖掘低 KD / 高回报率的 KGR (Keyword Golden Ratio) 黄金突破点
 # ----------------------------------------------------------------------
 
-kw_dir = '/home/piyoko/项目/roguewiki/keywords'
+kw_dir = '/home/piyoko/项目/billsschedule2026/keywords'
 
 # 1. 载入并解析建页前的 Semrush 魔法词库元数据
 kw_database = {}
@@ -59,7 +59,7 @@ for csv_file in glob.glob(os.path.join(kw_dir, '*.csv')):
 print(f'=== 🔮 Semrush 魔法词库成功解析 {len(kw_database)} 个元数据词 ===')
 
 # 2. 扫描本地 Markdown 页面与语义特征
-content_dir = '/home/piyoko/项目/roguewiki/content'
+content_dir = '/home/piyoko/项目/billsschedule2026/content'
 pages = {}
 inbound_links = {}
 
@@ -106,14 +106,14 @@ for root, _, files in os.walk(content_dir):
                     pass
 
 # 3. 融合 GSC & Bing 双引擎表现数据
-gsc_dir = '/home/piyoko/项目/roguewiki/reference/gsc/gsc-2026-08-20'
+gsc_dir = '/home/piyoko/项目/billsschedule2026/reference/gsc/gsc-2026-08-20'
 g_page = pd.read_csv(os.path.join(gsc_dir, '网页.csv'))
-b_page = pd.read_csv('/home/piyoko/下载/roguewiki.com_PageTrafficReport_2026_8_20.csv')
+b_page = pd.read_csv('/home/piyoko/下载/billsschedule2026.online_PageTrafficReport_2026_8_20.csv')
 
 def norm_url(u):
     if not isinstance(u, str): return '/'
     u = u.strip()
-    u = re.sub(r'^https?://(www\.)?roguewiki\.com', '', u)
+    u = re.sub(r'^https?://(www\.)?billsschedule2026\.online', '', u)
     u = u.split('#')[0].split('?')[0]
     return u.rstrip('/') or '/'
 

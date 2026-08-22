@@ -228,8 +228,8 @@ for url, p in pages.items():
 # ── 2. 全站链接图 ──
 def norm_href(href):
     h = href.split('#')[0].split('?')[0]
-    if h.startswith('http://roguewiki.com') or h.startswith('https://roguewiki.com'):
-        h = h.split('roguewiki.com')[1]
+    if h.startswith('http://billsschedule2026.online') or h.startswith('https://billsschedule2026.online'):
+        h = h.split('billsschedule2026.online')[1]
     if not h.startswith('/'): return None
     h = h.rstrip('/') or '/'
     return h
@@ -245,10 +245,10 @@ internal_hrefs = defaultdict(list)  # 目标 url -> [来源 url]
 for url, p in pages.items():
     for href, anchor in p['links']:
         # 站内判定
-        if href.startswith(('/')) or 'roguewiki.com' in href and not href.startswith('http'):
+        if href.startswith(('/')) or 'billsschedule2026.online' in href and not href.startswith('http'):
             pass
-        if href.startswith('http://roguewiki.com') or href.startswith('https://roguewiki.com'):
-            href = href.split('roguewiki.com', 1)[1] or '/'
+        if href.startswith('http://billsschedule2026.online') or href.startswith('https://billsschedule2026.online'):
+            href = href.split('billsschedule2026.online', 1)[1] or '/'
         if not href.startswith('/'):
             continue  # 外部
         if href.startswith('//'):
@@ -305,7 +305,7 @@ sitemap_pages = set()
 sm_file = os.path.join(OUT_DIR, 'sitemap.xml')
 if os.path.exists(sm_file):
     sm = open(sm_file, encoding='utf-8').read()
-    sitemap_pages = set(re.findall(r'<loc>https?://roguewiki\.com([^<]+)</loc>', sm))
+    sitemap_pages = set(re.findall(r'<loc>https?://billsschedule2026\.online([^<]+)</loc>', sm))
 else:
     report('ERROR', 'Sitemap.xml not found', '/')
 

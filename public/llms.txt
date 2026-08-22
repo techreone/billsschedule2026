@@ -1,0 +1,15 @@
+# billsschedule2026.online — Buffalo Bills Schedule 2026
+
+An unofficial fan broadcast & streaming guide for the Buffalo Bills 2026 NFL season.
+Covers every game's kickoff time (Eastern Time), TV network (CBS, FOX, NBC, ESPN, Amazon Prime Video), streaming options, radio (WGR 550 AM), printable PDF schedule, and calendar sync.
+
+## Pages
+
+- / — Buffalo Bills Schedule 2026: Official game times, TV channels, streaming & Week 12 bye week guide (17 regular-season games, primetime breakdown, Highmark Stadium weather, AFC East rivalries, depth chart, ticket & calendar sync).
+- /where-to-watch — What channel is the Buffalo Bills game on today: CBS/FOX/NBC/ESPN/Prime Video, 506 Sports coverage maps, Paramount+/Peacock/ESPN+/Prime, NFL Sunday Ticket on YouTube TV, cord-cutting (Fubo/Hulu/Sling), WGR 550 radio, DAZN NFL Game Pass internationally, OTA antenna & Bills Backers bars.
+- /preseason-schedule — 2026 Buffalo Bills preseason schedule: August dates, kickoff times (ET), WIVB-TV Channel 4, roster battles, Josh Allen playing time, St. John Fisher training camp, NFL+ streaming.
+- /printable-schedule — Free printable 2026 Bills schedule PDF (8.5x11 & wallet), color-coded home/away, 4-time-zone conversion, Google/Apple calendar (.ics) sync, office-pool grid.
+
+## Notes
+
+Not affiliated with the NFL or the Buffalo Bills. All times Eastern (ET). Broadcast rights per the current NFL media deal (through 2033).

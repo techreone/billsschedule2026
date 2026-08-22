@@ -28,7 +28,7 @@ MICRO_INTENT_PATTERNS = {
 }
 
 # 2. 扫描全站长尾攻略 md 文件，建立图谱与结构解析
-content_dir = '/home/piyoko/项目/roguewiki/content'
+content_dir = '/home/piyoko/项目/billsschedule2026/content'
 pages = {}
 inbound_links = {}
 
@@ -85,14 +85,14 @@ for root, _, files in os.walk(content_dir):
                     pass
 
 # 3. 载入 GSC 与 Bing 数据，融合引擎真实表现
-gsc_dir = '/home/piyoko/项目/roguewiki/reference/gsc/gsc-2026-08-20'
+gsc_dir = '/home/piyoko/项目/billsschedule2026/reference/gsc/gsc-2026-08-20'
 g_page = pd.read_csv(os.path.join(gsc_dir, '网页.csv'))
-b_page = pd.read_csv('/home/piyoko/下载/roguewiki.com_PageTrafficReport_2026_8_20.csv')
+b_page = pd.read_csv('/home/piyoko/下载/billsschedule2026.online_PageTrafficReport_2026_8_20.csv')
 
 def norm_url(u):
     if not isinstance(u, str): return '/'
     u = u.strip()
-    u = re.sub(r'^https?://(www\.)?roguewiki\.com', '', u)
+    u = re.sub(r'^https?://(www\.)?billsschedule2026\.online', '', u)
     u = u.split('#')[0].split('?')[0]
     return u.rstrip('/') or '/'
 

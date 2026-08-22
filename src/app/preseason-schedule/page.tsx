@@ -4,8 +4,8 @@ import AdSlot from '@/components/AdSlot';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "Buffalo Bills Preseason Schedule 2026: Dates, WIVB TV & Roster Battles",
-  description: "Complete 2026 Buffalo Bills preseason schedule guide featuring August game dates, kickoff times (ET), WIVB-TV Channel 4 local broadcasts, 53-man roster battle updates, Josh Allen playing time expectations, St. John Fisher training camp logistics, and NFL+ streaming options.",
+  title: "Bills 2026 Preseason Schedule & TV",
+  description: "2026 Buffalo Bills preseason schedule: August game dates, kickoff times (ET), WIVB-TV Channel 4, roster battles, Josh Allen & NFL+ streaming.",
   keywords: [
     "buffalo bills preseason schedule 2026",
     "bills preseason game dates 2026",

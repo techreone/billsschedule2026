@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
   name: "Buffalo Bills Schedule 2026",
   domain: "billsschedule2026.online",
   url: "https://billsschedule2026.online",
-  description: "Official & updated Buffalo Bills 2026 schedule with game times (EST), TV channels (CBS, FOX, NBC, ESPN), radio broadcast (WGR 550), printable PDF, and bye week info.",
+  description: "Buffalo Bills 2026 schedule: game times (ET), TV channels CBS/FOX/NBC/ESPN, WGR 550 radio, printable PDF & Week 12 bye week.",
   primaryColor: "#00338D", // Bills Royal Blue
   accentColor: "#C60C30",  // Bills Red
 };

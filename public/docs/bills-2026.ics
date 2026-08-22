@@ -1,0 +1,174 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//billsschedule2026.online//Bills 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:PreseasonW1-ChicagoBears@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260810T170000Z
+DTEND:20260810T200000Z
+SUMMARY:Buffalo Bills @ Chicago Bears (Preseason W1)
+DESCRIPTION:TV: WIVB (CBS Local) | Sat\, Aug 10\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:PreseasonW2-PittsburghSteelers@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260817T230000Z
+DTEND:20260818T020000Z
+SUMMARY:Buffalo Bills @ Pittsburgh Steelers (Preseason W2)
+DESCRIPTION:TV: WIVB (CBS Local) | Sat\, Aug 17\, 2026 7:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:PreseasonW3-CarolinaPanthers@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260824T170000Z
+DTEND:20260824T200000Z
+SUMMARY:Buffalo Bills @ Carolina Panthers (Preseason W3)
+DESCRIPTION:TV: WIVB (CBS Local) | Sat\, Aug 24\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week1-ArizonaCardinals@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260908T170000Z
+DTEND:20260908T200000Z
+SUMMARY:Buffalo Bills @ Arizona Cardinals (Week 1)
+DESCRIPTION:TV: CBS | Sun\, Sep 8\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week2-MiamiDolphins@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260913T001500Z
+DTEND:20260913T031500Z
+SUMMARY:Buffalo Bills @ Miami Dolphins (Week 2)
+DESCRIPTION:TV: Amazon Prime Video | Thu\, Sep 12\, 2026 8:15 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week3-JacksonvilleJaguars@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260923T233000Z
+DTEND:20260924T023000Z
+SUMMARY:Buffalo Bills @ Jacksonville Jaguars (Week 3)
+DESCRIPTION:TV: ESPN / ESPN2 | Mon\, Sep 23\, 2026 7:30 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week4-BaltimoreRavens@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20260930T002000Z
+DTEND:20260930T032000Z
+SUMMARY:Buffalo Bills @ Baltimore Ravens (Week 4)
+DESCRIPTION:TV: NBC (Sunday Night Football) | Sun\, Sep 29\, 2026 8:20 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week5-HoustonTexans@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261006T170000Z
+DTEND:20261006T200000Z
+SUMMARY:Buffalo Bills @ Houston Texans (Week 5)
+DESCRIPTION:TV: CBS | Sun\, Oct 6\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week6-NewYorkJets@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261015T001500Z
+DTEND:20261015T031500Z
+SUMMARY:Buffalo Bills @ New York Jets (Week 6)
+DESCRIPTION:TV: ESPN (Monday Night Football) | Mon\, Oct 14\, 2026 8:15 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week7-TennesseeTitans@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261020T170000Z
+DTEND:20261020T200000Z
+SUMMARY:Buffalo Bills @ Tennessee Titans (Week 7)
+DESCRIPTION:TV: CBS | Sun\, Oct 20\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week8-SeattleSeahawks@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261027T200500Z
+DTEND:20261027T230500Z
+SUMMARY:Buffalo Bills @ Seattle Seahawks (Week 8)
+DESCRIPTION:TV: FOX | Sun\, Oct 27\, 2026 4:05 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week9-MiamiDolphins@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261103T180000Z
+DTEND:20261103T210000Z
+SUMMARY:Buffalo Bills @ Miami Dolphins (Week 9)
+DESCRIPTION:TV: CBS | Sun\, Nov 3\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week10-IndianapolisColts@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261110T180000Z
+DTEND:20261110T210000Z
+SUMMARY:Buffalo Bills @ Indianapolis Colts (Week 10)
+DESCRIPTION:TV: CBS | Sun\, Nov 10\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week11-KansasCityChiefs@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261117T212500Z
+DTEND:20261118T002500Z
+SUMMARY:Buffalo Bills @ Kansas City Chiefs (Week 11)
+DESCRIPTION:TV: CBS Game of the Week | Sun\, Nov 17\, 2026 4:25 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week12BYEWEEK-NOGAMEBYEWEEK@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261124T050000Z
+DTEND:20261124T080000Z
+SUMMARY:Buffalo Bills @ NO GAME (BYE WEEK) (Week 12 (BYE WEEK))
+DESCRIPTION:TV: N/A | Sun\, Nov 24\, 2026 BYE WEEK ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week13-SanFrancisco49ers@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261202T012000Z
+DTEND:20261202T042000Z
+SUMMARY:Buffalo Bills @ San Francisco 49ers (Week 13)
+DESCRIPTION:TV: NBC (Sunday Night Football) | Sun\, Dec 1\, 2026 8:20 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week14-LosAngelesRams@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261208T180000Z
+DTEND:20261208T210000Z
+SUMMARY:Buffalo Bills @ Los Angeles Rams (Week 14)
+DESCRIPTION:TV: FOX | Sun\, Dec 8\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week15-DetroitLions@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261215T180000Z
+DTEND:20261215T210000Z
+SUMMARY:Buffalo Bills @ Detroit Lions (Week 15)
+DESCRIPTION:TV: CBS | Sun\, Dec 15\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week16-NewEnglandPatriots@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261222T180000Z
+DTEND:20261222T210000Z
+SUMMARY:Buffalo Bills @ New England Patriots (Week 16)
+DESCRIPTION:TV: CBS | Sun\, Dec 22\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week17-NewYorkJets@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20261229T180000Z
+DTEND:20261229T210000Z
+SUMMARY:Buffalo Bills @ New York Jets (Week 17)
+DESCRIPTION:TV: CBS | Sun\, Dec 29\, 2026 1:00 PM ET ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+BEGIN:VEVENT
+UID:Week18-NewEnglandPatriots@billsschedule2026.online
+DTSTAMP:20260822T000000Z
+DTSTART:20270105T180000Z
+DTEND:20270105T210000Z
+SUMMARY:Buffalo Bills @ New England Patriots (Week 18)
+DESCRIPTION:TV: TBD (CBS / FOX) | Sun\, Jan 5\, 2027 TBD ET. Unofficial billsschedule2026.online fan guide.
+END:VEVENT
+END:VCALENDAR

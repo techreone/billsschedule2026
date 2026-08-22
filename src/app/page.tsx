@@ -6,8 +6,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Buffalo Bills Schedule 2026: Official Game Times, TV Channels, Streaming & Bye Week",
-  description: "Comprehensive 2026 Buffalo Bills schedule guide featuring all 17 regular season kickoff times in Eastern Time (ET), CBS/NBC/FOX/ESPN TV networks, primetime broadcasts, Highmark Stadium weather, and Week 12 bye week analysis.",
+  title: { absolute: "Buffalo Bills Schedule 2026: Game Times & TV Channels" },
+  description: "2026 Buffalo Bills schedule with all 17 game times (ET), CBS/FOX/NBC/ESPN channels, primetime TV, Highmark Stadium weather and Week 12 bye week analysis.",
   keywords: [
     "Buffalo Bills schedule 2026",
     "Bills game today time",

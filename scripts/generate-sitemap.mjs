@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const ROOT = process.cwd()
-const BASE = 'https://roguewiki.com'
+const BASE = 'https://billsschedule2026.online'
 const DATA_DIR = path.join(ROOT, 'data')
 const CONTENT_DIR = path.join(ROOT, 'content')
 

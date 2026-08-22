@@ -26,8 +26,9 @@
    - 图片必须由 Agent 自动获取：通过 `node scripts/fetch-image.mjs <url> --alt "..." --game bills` 下载并走代理本地化保存至 `public/images/`，统一转为 WebP 格式。
    - 运行 `python3 scripts/dedupe-images.py` 感知哈希去重，确保展示图同站唯一。
 
-4. **上线与构建 Lint 门禁 (`scripts/lint-guides.py`)**：
-   - 在执行 `npm run build` 前，**必须通过 `python3 scripts/lint-guides.py` 门禁自检 0 错误**（覆盖：frontmatter 完整性、展示图唯一、图片去重、正文内链 ≥5、权威外链 ≥3、callout/配图、死链）。
+4. **上线与构建 Lint 门禁 (`scripts/check-seo-audit.py`)**：
+   - 本项目为 Next.js App Router 静态导出（`output: 'export'`），页面即 `src/app/**/page.tsx`，**非** `content/*.md` 攻略体系；故真实门禁为 `scripts/check-seo-audit.py`（Semrush 规则全集，审计 `out/` 产物）。`scripts/lint-guides.py` 仅适用于 RogueWiki 攻略体系，对本架构会空过（扫不到 `content/*.md`），**不可作为本项目的 0 错误门禁**。
+   - 在执行 `npm run build` 前，**必须通过 `python3 scripts/check-seo-audit.py` 门禁自检 0 ERROR**（覆盖：Title/Description 长度、H1 唯一、canonical、结构化数据、死链、llms.txt 等）。
 
 5. **技术栈红线**：
    - **纯静态 SSG 导出**（`output: 'export'`）：所有页面必须为预渲染静态 HTML，确保 Cloudflare Pages / Vercel 零成本部署与秒级加载。
@@ -57,7 +58,7 @@
                     → 运行 `python3 scripts/dedupe-images.py` 感知哈希去重（相似 >0.90 视为重复）
                     → IMAGE-ASSETS 索引更新
 ⑨ 对标审查        对标 checklist 自审 + 用户终审（不合格退回重修）
-⑩ lint 门禁上线 ★   `python3 scripts/lint-guides.py` 必须 0 错误（覆盖：frontmatter 完整性、
+⑩ lint 门禁上线 ★   `python3 scripts/check-seo-audit.py` 必须 0 ERROR（覆盖：Title/Description 长度、H1 唯一、
                     展示图唯一、图片引用/去重、正文内链 ≥5、权威外链 ≥3、callout/配图、死链）
                     → `npm run build` 静态构建绿 → `out/` 验证 → 部署与 IndexNow 快速提交
 ```

@@ -105,7 +105,7 @@ const report = {
     pages: [...(links.get(r.url) || [])],
   })),
 }
-const outPath = '/tmp/roguewiki-extlinks-' + Date.now() + '.json'
+const outPath = '/tmp/billsschedule2026-extlinks-' + Date.now() + '.json'
 fs.writeFileSync(outPath, JSON.stringify(report, null, 1))
 console.log('状态码汇总:', JSON.stringify(byStatus))
 console.log('报告已保存: ' + outPath)

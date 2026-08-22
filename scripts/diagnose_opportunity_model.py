@@ -5,7 +5,7 @@ import re
 import math
 
 # 1. 搜集建页前词库
-kw_files = glob.glob('/home/piyoko/项目/roguewiki/keywords/*.csv')
+kw_files = glob.glob('/home/piyoko/项目/billsschedule2026/keywords/*.csv')
 kw_data = []
 
 for f in kw_files:
@@ -29,18 +29,18 @@ for f in kw_files:
 kw_df = pd.DataFrame(kw_data).drop_duplicates(subset=['word'])
 
 # 2. 载入 Google GSC 与 Bing 数据
-gsc_dir = '/home/piyoko/项目/roguewiki/reference/gsc/gsc-2026-08-20'
+gsc_dir = '/home/piyoko/项目/billsschedule2026/reference/gsc/gsc-2026-08-20'
 g_page = pd.read_csv(os.path.join(gsc_dir, '网页.csv'))
 
-b_kw_file = '/home/piyoko/下载/roguewiki.com_KeywordReport_2026_8_20.csv'
-b_page_file = '/home/piyoko/下载/roguewiki.com_PageTrafficReport_2026_8_20.csv'
+b_kw_file = '/home/piyoko/下载/billsschedule2026.online_KeywordReport_2026_8_20.csv'
+b_page_file = '/home/piyoko/下载/billsschedule2026.online_PageTrafficReport_2026_8_20.csv'
 
 b_page = pd.read_csv(b_page_file)
 
 def norm_url(u):
     if not isinstance(u, str): return '/'
     u = u.strip()
-    u = re.sub(r'^https?://(www\.)?roguewiki\.com', '', u)
+    u = re.sub(r'^https?://(www\.)?billsschedule2026\.online', '', u)
     u = u.split('#')[0].split('?')[0]
     u = u.rstrip('/')
     return u or '/'
@@ -75,7 +75,7 @@ def calc_weighted_pos(row):
 joint['joint_pos'] = joint.apply(calc_weighted_pos, axis=1)
 
 # 3. 解析本地 md 文件的现存 Title / H1 状态
-content_dir = '/home/piyoko/项目/roguewiki/content'
+content_dir = '/home/piyoko/项目/billsschedule2026/content'
 page_meta = {}
 
 for root, _, files in os.walk(content_dir):

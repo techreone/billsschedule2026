@@ -5,8 +5,8 @@ import PrintButton from '@/components/PrintButton';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "Printable Buffalo Bills Schedule 2026 PDF: Free Download & Calendar Sync",
-  description: "Free printable 2026 Buffalo Bills schedule PDF in standard 8.5x11 inch and wallet-sized folding formats. Features color-coded home/away games, 4-time zone conversion (EST, CST, MST, PST), Google/Apple calendar sync, and office pool prediction sheets.",
+  title: "Bills 2026 Printable Schedule PDF",
+  description: "Free printable 2026 Bills schedule PDF (8.5x11 & wallet) with color-coded home/away, 4-zone times, Google/Apple calendar sync & office pool grid.",
   keywords: [
     "printable buffalo bills schedule 2026 pdf free download",
     "buffalo bills schedule 2026 printable pdf",
@@ -396,7 +396,7 @@ export default function PrintableSchedulePage() {
                 <ol className="list-decimal pl-4 space-y-1 text-zinc-300">
                   <li>Open <em>Settings</em> → <em>Calendar</em> → <em>Accounts</em>.</li>
                   <li>Select <em>Add Account</em> → <em>Other</em> → <em>Add Subscribed Calendar</em>.</li>
-                  <li>Paste calendar URL: <code className="text-yellow-400 text-[11px] block mt-1">webcal://billsschedule2026.xyz/bills-2026.ics</code></li>
+                  <li>Paste calendar URL: <code className="text-yellow-400 text-[11px] block mt-1">webcal://billsschedule2026.online/bills-2026.ics</code></li>
                 </ol>
               </div>
 

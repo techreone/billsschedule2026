@@ -13,7 +13,7 @@ import json
 # 关联字段：word, intent, volume, kd, tier, build
 # ----------------------------------------------------------------------
 
-semrush_dir = '/home/piyoko/项目/roguewiki/longtail-seo-modeling/output'
+semrush_dir = '/home/piyoko/项目/billsschedule2026/longtail-seo-modeling/output'
 semrush_kw_map = {}
 evergreen_games_from_semrush = set()
 
@@ -43,7 +43,7 @@ print(f'  • 涵盖常青树游戏总数: {len(evergreen_games_from_semrush)} �
 print(f'  • Semrush 导出魔法词条总数: {len(semrush_kw_map)} 个')
 
 # 2. 扫描本地 Markdown 页面
-content_dir = '/home/piyoko/项目/roguewiki/content'
+content_dir = '/home/piyoko/项目/billsschedule2026/content'
 pages = {}
 inbound_links = {}
 
@@ -90,14 +90,14 @@ for root, _, files in os.walk(content_dir):
                     pass
 
 # 3. 载入 GSC & Bing 双引擎表现数据
-gsc_dir = '/home/piyoko/项目/roguewiki/reference/gsc/gsc-2026-08-20'
+gsc_dir = '/home/piyoko/项目/billsschedule2026/reference/gsc/gsc-2026-08-20'
 g_page = pd.read_csv(os.path.join(gsc_dir, '网页.csv'))
-b_page = pd.read_csv('/home/piyoko/下载/roguewiki.com_PageTrafficReport_2026_8_20.csv')
+b_page = pd.read_csv('/home/piyoko/下载/billsschedule2026.online_PageTrafficReport_2026_8_20.csv')
 
 def norm_url(u):
     if not isinstance(u, str): return '/'
     u = u.strip()
-    u = re.sub(r'^https?://(www\.)?roguewiki\.com', '', u)
+    u = re.sub(r'^https?://(www\.)?billsschedule2026\.online', '', u)
     u = u.split('#')[0].split('?')[0]
     return u.rstrip('/') or '/'
 

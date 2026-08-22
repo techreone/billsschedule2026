@@ -1,38 +1,14 @@
 import fs from 'fs'
 import path from 'path'
 
-const key = 'ef1f91abc6f37ab88af33ca5e9ecc12f'
-const host = 'roguewiki.com'
+// billsschedule2026 — IndexNow 快速提交（域名 billsschedule2026.online）
+const key = fs.readFileSync(path.join(process.cwd(), 'scripts/indexnow-key.txt'), 'utf8').trim()
+const host = 'billsschedule2026.online'
 const keyLocation = `https://${host}/indexnow-${key}.txt`
 
-// 收集全站静态页面 URL
-const urls = [
-  `https://${host}`,
-  `https://${host}/about`,
-  `https://${host}/privacy`,
-  `https://${host}/tos`
-]
-
-const contentDir = path.join(process.cwd(), 'content')
-if (fs.existsSync(contentDir)) {
-  const games = fs.readdirSync(contentDir)
-  for (const game of games) {
-    if (game.startsWith('.')) continue
-    urls.push(`https://${host}/${game}`)
-    urls.push(`https://${host}/${game}/guides`)
-    
-    const guidesDir = path.join(contentDir, game, 'guides')
-    if (fs.existsSync(guidesDir)) {
-      const files = fs.readdirSync(guidesDir)
-      for (const file of files) {
-        if (file.endsWith('.md')) {
-          const slug = file.replace(/\.md$/, '')
-          urls.push(`https://${host}/${game}/guides/${slug}`)
-        }
-      }
-    }
-  }
-}
+// 收集全站静态页面 URL（4 条 SSG 路由，域名统一为 billsschedule2026.online）
+const routes = ['', '/where-to-watch', '/preseason-schedule', '/printable-schedule']
+const urls = routes.map((r) => `https://${host}${r}`)
 
 console.log(`[IndexNow] 共收集到 ${urls.length} 个 URL 准备提交给 Bing/IndexNow API...`)
 
@@ -40,16 +16,16 @@ const payload = {
   host: host,
   key: key,
   keyLocation: keyLocation,
-  urlList: urls
+  urlList: urls,
 }
 
 try {
   const res = await fetch('https://api.indexnow.org/indexnow', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json; charset=utf-8'
+      'Content-Type': 'application/json; charset=utf-8',
     },
-    body: JSON.stringify(payload)
+    body: JSON.stringify(payload),
   })
 
   console.log(`[IndexNow API 响应状态]: ${res.status} ${res.statusText}`)

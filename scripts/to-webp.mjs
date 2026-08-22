@@ -2,7 +2,7 @@ import sharp from 'sharp'
 import fs from 'node:fs'
 import path from 'node:path'
 
-const root = '/home/piyoko/项目/roguewiki'
+const root = '/home/piyoko/项目/billsschedule2026'
 const imgDir = path.join(root, 'public', 'images')
 let total = 0, saved = 0
 

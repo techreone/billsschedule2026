@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
     default: "Buffalo Bills Schedule 2026: Game Times, TV Channels & Live Streaming Guide",
-    template: "%s | Buffalo Bills Schedule 2026",
+    template: "%s | Bills 2026",
   },
   description: SITE_CONFIG.description,
   keywords: [
@@ -39,6 +39,18 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -62,6 +74,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -92,7 +108,7 @@ export default function RootLayout({
               </span>
             </div>
             <p className="text-[11px] text-zinc-600 text-center md:text-right">
-              © 2026 billsschedule2026.xyz • Unofficial fan broadcast schedule & streaming guide. Not affiliated with NFL or Buffalo Bills.
+              © 2026 billsschedule2026.online • Unofficial fan broadcast schedule & streaming guide. Not affiliated with NFL or Buffalo Bills.
             </p>
           </div>
         </footer>

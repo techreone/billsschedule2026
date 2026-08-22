@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background with Royal Blue fill & Crimson Red border -->
+  <rect width="512" height="512" rx="110" fill="#00338D"/>
+  <rect x="16" y="16" width="480" height="480" rx="94" fill="none" stroke="#C60C30" stroke-width="24"/>
+  
+  <!-- Football Accent Angle Stripes -->
+  <path d="M 60 452 L 452 60" stroke="#C60C30" stroke-width="20" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Bold Typography: BS26 -->
+  <!-- 'B' in Crimson Red -->
+  <text x="75" y="325" font-family="Impact, Arial Black, sans-serif" font-size="250" font-weight="900" fill="#C60C30" font-style="italic">B</text>
+  
+  <!-- 'S' in White -->
+  <text x="210" y="325" font-family="Impact, Arial Black, sans-serif" font-size="250" font-weight="900" fill="#FFFFFF" font-style="italic">S</text>
+  
+  <!-- '26' in Gold Yellow -->
+  <text x="350" y="440" font-family="Impact, Arial Black, sans-serif" font-size="140" font-weight="900" fill="#FDE047" font-style="italic">26</text>
+  
+  <!-- Mini Football Icon Badge on Top Right -->
+  <g transform="translate(360, 90) scale(1.4)">
+    <ellipse cx="40" cy="40" rx="35" ry="22" fill="#C60C30" transform="rotate(-30 40 40)"/>
+    <line x1="20" y1="40" x2="60" y2="40" stroke="#FFFFFF" stroke-width="4" transform="rotate(-30 40 40)"/>
+    <line x1="30" y1="34" x2="30" y2="46" stroke="#FFFFFF" stroke-width="3" transform="rotate(-30 40 40)"/>
+    <line x1="40" y1="34" x2="40" y2="46" stroke="#FFFFFF" stroke-width="3" transform="rotate(-30 40 40)"/>
+    <line x1="50" y1="34" x2="50" y2="46" stroke="#FFFFFF" stroke-width="3" transform="rotate(-30 40 40)"/>
+  </g>
+</svg>

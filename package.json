@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-printable-assets.mjs",
     "build": "next build",
+    "postbuild": "rm -f out/_not-found.html",
     "start": "next start",
     "lint": "eslint",
-    "lint:seo": "python3 scripts/lint-guides.py",
+    "lint:seo": "python3 scripts/check-seo-audit.py",
     "search": "python3 scripts/searx-search.py",
     "fetch-image": "node scripts/fetch-image.mjs"
   },
