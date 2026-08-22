@@ -45,6 +45,37 @@ export default function AboutPage() {
         </p>
       </section>
 
+      <section className="space-y-4 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-xl font-headline font-bold text-white uppercase">What You&apos;ll Find on This Site</h2>
+        <p>
+          The portal is organized around four focused, advertising-supported resources so fans can jump straight to what they need:
+        </p>
+        <ul className="list-disc pl-5 space-y-1 text-zinc-300">
+          <li><strong>Full Season Schedule</strong> — every 2026 regular-season game with kickoff time (ET), opponent, venue, and TV/stream assignment.</li>
+          <li><strong>Where to Watch Guide</strong> — network maps, streaming platforms (CBS, FOX, NBC, ESPN, Prime Video, Peacock), and blackout explanations.</li>
+          <li><strong>Preseason Slate</strong> — August exhibition dates, roster cutdowns, and how to stream the preseason.</li>
+          <li><strong>Printable PDF &amp; Calendar</strong> — a one-page schedule sheet and .ICS feed for Google and Apple Calendar.</li>
+        </ul>
+      </section>
+
+      <section className="space-y-4 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-xl font-headline font-bold text-white uppercase">How We Keep Data Current</h2>
+        <p>
+          The NFL Flexible Scheduling policy can shift select games into primetime during Weeks 12–18. Our editorial team monitors official releases weekly and updates kickoff times, broadcast networks, and streaming links as soon as changes are confirmed by the league office. Where a late-season game is marked TBD, we surface the most likely network based on the existing media deal.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-xl font-headline font-bold text-white uppercase">Get in Touch</h2>
+        <p>
+          Found a discrepancy or want to suggest a resource? Reach our editorial staff at{' '}
+          <a href="mailto:support@billsschedule2026.online" className="text-blue-400 underline font-bold">
+            support@billsschedule2026.online
+          </a>{' '}
+          and we will review the listing promptly.
+        </p>
+      </section>
+
     </div>
   );
 }

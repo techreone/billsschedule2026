@@ -6,7 +6,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Official Buffalo Bills Schedule 2026: Game Times, TV Networks & Bye Week Guide",
+  title: "Buffalo Bills Schedule 2026: Game Times & TV Guide",
   description: "2026 Buffalo Bills schedule with all 17 game times (ET), CBS/FOX/NBC/ESPN channels, primetime TV, Highmark Stadium weather and Week 12 bye week analysis.",
   keywords: [
     "Buffalo Bills schedule 2026",
@@ -89,6 +89,22 @@ export default function BRHomePage() {
 
           {/* Top Banner — Adsterra Native */}
           <NativeBanner />
+
+          {/* Season Overview Lead-In */}
+          <section className="bg-zinc-900/60 p-6 md:p-8 rounded-2xl border border-zinc-800 space-y-4 text-sm text-zinc-300 leading-relaxed">
+            <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
+              2026 Buffalo Bills Season at a Glance
+            </h2>
+            <p>
+              The Buffalo Bills enter the 2026 NFL campaign chasing a deep postseason run behind MVP-caliber quarterback Josh Allen, head coach Sean McDermott, and one of the loudest home-field advantages in football at Highmark Stadium in Orchard Park, New York. The regular season spans 18 weeks with a 17-game slate: eight home dates and nine road contests against AFC East rivals Miami, the New York Jets, and New England, plus marquee interconference matchups.
+            </p>
+            <p>
+              Buffalo&apos;s bye lands in <strong>Week 12 (Sunday, November 24, 2026)</strong> — a late-November rest window that coaching staff favor for player recovery ahead of cold-weather December football. National television exposure is heavy, with Thursday Night Football on Prime Video, Monday Night Football on ESPN, and Sunday Night Football on NBC punctuating the schedule alongside the traditional CBS, FOX, and NBC Sunday afternoon windows.
+            </p>
+            <p>
+              This hub pulls every kickoff time (Eastern, with automatic CT/MT/PT conversions noted in our guide), network assignment, and streaming option into one place. Pair it with our <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch</Link> streaming breakdown, the <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Preseason Slate</Link>, and the <Link href="/printable-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Printable PDF &amp; Calendar</Link> to never miss a snap.
+            </p>
+          </section>
 
           {/* Game Schedule Grid Stream with Official WebP Team Logos */}
           <section className="space-y-4">

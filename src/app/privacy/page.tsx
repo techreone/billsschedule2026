@@ -47,12 +47,48 @@ export default function PrivacyPage() {
       </section>
 
       <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
-        <h2 className="text-xl font-headline font-bold text-white uppercase">4. Contact & Inquiries</h2>
+        <h2 className="text-xl font-headline font-bold text-white uppercase">4. Contact &amp; Inquiries</h2>
         <p>
           If you have questions regarding this Privacy Policy or site data practices, please contact our editorial staff at{' '}
           <a href="mailto:support@billsschedule2026.online" className="text-blue-400 underline font-bold">
             support@billsschedule2026.online
           </a>.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-lg font-headline font-bold text-white uppercase">5. Third-Party Advertising (Adsterra)</h2>
+        <p>
+          To keep the schedule free to access, we display advertising through the Adsterra network, which may serve banner, native, social-bar, and other ad formats. Adsterra and its demand partners may use cookies, web beacons, or similar technologies to measure ad performance and personalize creatives. You can opt out of personalized advertising by adjusting your browser cookie settings or visiting the Adsterra privacy center.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-lg font-headline font-bold text-white uppercase">6. Your Privacy Rights (GDPR &amp; CCPA)</h2>
+        <p>
+          Depending on your region, you may have the right to access, correct, or delete personal data we hold, and to object to certain processing. Residents of the European Economic Area and California can exercise these rights by contacting{' '}
+          <a href="mailto:support@billsschedule2026.online" className="text-blue-400 underline font-bold">support@billsschedule2026.online</a>. We respond to verified requests within the timeframes required by applicable law.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-lg font-headline font-bold text-white uppercase">7. Children&apos;s Privacy</h2>
+        <p>
+          This website is not directed to children under the age of 13, and we do not knowingly collect personal information from minors. If you believe a child has provided us personal data, please contact us and we will delete it promptly.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-lg font-headline font-bold text-white uppercase">8. Data Security &amp; Retention</h2>
+        <p>
+          We maintain reasonable technical and organizational safeguards to protect information against unauthorized access. Server logs used for security and stability are retained only as long as necessary to detect abuse and diagnose issues, after which they are purged on a routine schedule.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+        <h2 className="text-lg font-headline font-bold text-white uppercase">9. Updates to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. Material changes will be reflected by the &quot;Last Updated&quot; date at the top of this page, and continued use constitutes acceptance of the revised policy.
         </p>
       </section>
 
