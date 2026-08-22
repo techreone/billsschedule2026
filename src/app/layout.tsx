@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
     default: "Buffalo Bills Schedule 2026: Game Times, TV Channels & Live Streaming Guide",
-    template: "%s | Bills 2026",
+    template: "%s",
   },
   description: SITE_CONFIG.description,
   keywords: [

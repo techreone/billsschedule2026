@@ -6,7 +6,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Buffalo Bills Schedule 2026: Game Times, TV Networks & Roster News",
+  title: "Buffalo Bills: Game Times, TV Networks & Roster News",
   description: "Official 2026 Buffalo Bills schedule with game times (ET), CBS/FOX/NBC/ESPN primetime TV channels, Highmark Stadium weather, Bills vs Browns stats, Kyle Allen, and Ed Oliver depth chart analysis.",
   keywords: [
     "Buffalo Bills schedule 2026",
