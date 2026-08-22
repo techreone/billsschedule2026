@@ -4,7 +4,7 @@ import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "Bills Preseason Schedule 2026: WIVB TV, Stream, Bills vs Browns Delay & Sunday Ticket FAQ",
+  title: "Bills Preseason Schedule 2026: Stream & TV",
   description: "Complete 2026 Buffalo Bills preseason schedule guide: August dates, WIVB Ch. 4 broadcasts, Bills vs Browns weather delay, Kyle Allen QB2 performance, Sunday Ticket rules, NFL+ live stream, and training camp tips.",
   keywords: [
     "buffalo bills preseason schedule 2026",
@@ -783,6 +783,11 @@ export default function PreseasonPage() {
             </div>
           </div>
 
+          <h3 className="text-lg md:text-xl font-headline font-bold text-white mt-4">Special Teams Gunner & Return Unit Evaluation</h3>
+          <p>
+            Special teams coordinator Matthew Smiley places immense emphasis on kickoff and punt coverage during August exhibition games. Players fighting for the 45th through 53rd active roster spots must prove their worth on special teams. Open-field tackling on punt coverage, lane containment, and personal protector communication on punt units frequently determine who makes the 53-man roster.
+          </p>
+
           <p className="text-xs md:text-sm text-zinc-400">
             Follow official depth chart updates and transaction movements on{' '}
             <a href="https://www.espn.com/nfl/team/depth/_/name/buf/buffalo-bills" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-white">
@@ -897,6 +902,11 @@ export default function PreseasonPage() {
               </p>
             </div>
           </div>
+
+          <h3 className="text-lg font-headline font-bold text-white mt-4">Visiting Pittsford & Rochester: Hotel & Fan Accommodations</h3>
+          <p>
+            Fans traveling from Buffalo, Syracuse, Canada, or out-of-state can explore Pittsford Village and Rochester during training camp weeks. Popular accommodations near St. John Fisher University include the Del Monte Lodge Renaissance Rochester Hotel in Pittsford Village and hotels along Monroe Avenue. Rochester offers family attractions such as the Strong National Museum of Play and dining options along the Erie Canal towpath.
+          </p>
         </section>
 
         {/* H2 Chapter 10: Tickets & Stadium Experience */}
@@ -937,7 +947,12 @@ export default function PreseasonPage() {
             </div>
           </div>
 
-          <p className="text-xs md:text-sm text-zinc-300">
+          <h3 className="text-lg font-headline font-bold text-white mt-4">Highmark Stadium Gate Opening Times & Entry Policy</h3>
+          <p>
+            Stadium gates open <strong>2 hours prior to kickoff</strong>. Highmark Stadium is a 100% cashless venue, requiring credit cards or mobile payments at concession stands and retail shops. Digital mobile tickets must be loaded into Apple Wallet or Google Wallet prior to approaching security gates to avoid cell network congestion at stadium entrances.
+          </p>
+
+          <p className="text-xs md:text-sm text-zinc-300 mt-4">
             For printable schedules and game tracking sheets, check out our downloadable{' '}
             <Link href="/printable-schedule" className="text-blue-400 font-bold underline hover:text-white">
               Printable Buffalo Bills Schedule 2026 PDF
@@ -954,6 +969,9 @@ export default function PreseasonPage() {
           <p>
             Since taking over as head coach of the Buffalo Bills in 2017, Sean McDermott has established a clear, analytical methodology for managing August exhibition slates. Over his ten-year tenure in Buffalo, McDermott has compiled a <strong>16-9 preseason record</strong>, consistently balancing competitive evaluation against roster health preservation.
           </p>
+          <p>
+            McDermott&apos;s staff places particular emphasis on physical conditioning during joint practices while limiting starter exposure during live exhibition games. This tactical balance has allowed Buffalo to maintain high physical readiness for Week 1 of the regular season while avoiding major August soft-tissue injuries. Furthermore, in rain-shortened or weather-delayed games, McDermott&apos;s background as a defensive coordinator manifests in disciplined tackling drills and crisp ball-handling mechanics that routinely limit turnovers in wet playing environments.
+          </p>
 
           <div className="p-5 bg-black/80 rounded-xl border border-zinc-800 space-y-3 font-mono text-xs md:text-sm">
             <h3 className="font-headline font-bold text-blue-400 text-base">Key Preseason Analytics & McDermott Era Trends:</h3>
@@ -966,6 +984,9 @@ export default function PreseasonPage() {
               </li>
               <li>
                 <strong>Undrafted Free Agent Development:</strong> Over 12 undrafted free agents have earned opening-day 53-man roster spots in Buffalo after standout August exhibition tape, including key secondary and special teams contributors.
+              </li>
+              <li>
+                <strong>Special Teams Lane Discipline:</strong> Under special teams coordinator Matthew Smiley, Buffalo ranking among top AFC coverage units in preseason punt return yards allowed.
               </li>
             </ul>
           </div>
