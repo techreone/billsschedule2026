@@ -62,7 +62,8 @@ export default function BRHomePage() {
               
               <div className="relative z-10 space-y-3">
                 <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-red-950/90 border border-red-800/60 rounded text-red-400 text-[11px] font-headline font-bold uppercase tracking-wider">
-                  OFFICIAL 2026 BROADCAST & GAME GUIDE • 🦬 NFL 2026
+                  <img src="/images/bills/bills.webp" alt="Bills Logo" className="w-4 h-4 object-contain" />
+                  OFFICIAL 2026 BROADCAST & GAME GUIDE • NFL 2026
                 </div>
 
                 <h1 className="text-2xl sm:text-4xl lg:text-5xl font-headline font-extrabold text-white tracking-tight leading-tight uppercase">
@@ -84,11 +85,12 @@ export default function BRHomePage() {
           {/* Top Banner AdSlot */}
           <AdSlot label="Advertisement • Top Banner" type="banner" />
 
-          {/* Game Schedule Grid Stream */}
+          {/* Game Schedule Grid Stream with Official WebP Team Logos */}
           <section className="space-y-4">
             <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
               <h2 className="text-xl font-headline font-extrabold text-white uppercase tracking-wider flex items-center gap-2">
-                <span>🦬</span> 2026 Regular Season Matchup Timetable
+                <img src="/images/bills/bills.webp" alt="Bills" className="w-6 h-6 object-contain" />
+                <span>2026 Regular Season Matchup Timetable</span>
               </h2>
               <span className="text-xs text-zinc-400 font-mono">
                 17 REGULAR GAMES
@@ -110,7 +112,7 @@ export default function BRHomePage() {
 
                   <div className="flex items-center justify-between py-1">
                     <div className="flex items-center gap-3">
-                      <span className="text-3xl">{game.opponentLogo}</span>
+                      <img src={game.opponentLogoUrl} alt={game.opponent} className="w-8 h-8 object-contain" />
                       <div>
                         <div className="font-headline font-bold text-base text-white tracking-wide">
                           {game.isHome ? 'VS' : '@'} {game.opponent}

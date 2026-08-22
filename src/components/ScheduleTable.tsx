@@ -133,7 +133,7 @@ export default function ScheduleTable({ games }: ScheduleTableProps) {
                   </td>
                   <td className="py-4 px-4 whitespace-nowrap">
                     <div className="flex items-center gap-2 font-bold text-white">
-                      <span>{game.opponentLogo}</span>
+                      <img src={game.opponentLogoUrl} alt={game.opponent} className="w-5 h-5 object-contain inline-block" />
                       <span>{game.isHome ? 'vs' : '@'} {game.opponent}</span>
                     </div>
                   </td>

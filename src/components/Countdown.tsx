@@ -46,12 +46,14 @@ export default function Countdown({ nextGame }: CountdownProps) {
         
         {/* Left: Next Game Information */}
         <div className="flex-1 text-center md:text-left space-y-2">
-          {/* Static Sleek Badge - No ping or pulse animations */}
           <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-red-950/80 border border-red-800/60 rounded text-[11px] font-headline font-bold text-red-400 uppercase tracking-widest">
             UPCOMING MATCHUP • {nextGame.week}
           </div>
-          <h2 className="text-2xl md:text-4xl font-headline font-extrabold text-white uppercase tracking-tight">
-            Buffalo Bills vs {nextGame.opponent} {nextGame.opponentLogo}
+          <h2 className="text-2xl md:text-4xl font-headline font-extrabold text-white uppercase tracking-tight flex items-center justify-center md:justify-start gap-3">
+            <img src="/images/bills/bills.webp" alt="Bills" className="w-8 h-8 md:w-10 md:h-10 object-contain" />
+            <span>vs</span>
+            <img src={nextGame.opponentLogoUrl} alt={nextGame.opponent} className="w-8 h-8 md:w-10 md:h-10 object-contain" />
+            <span>{nextGame.opponent}</span>
           </h2>
           <p className="text-zinc-400 font-mono text-xs md:text-sm">
             📅 {nextGame.date} @ {nextGame.time} | 📍 {nextGame.location}

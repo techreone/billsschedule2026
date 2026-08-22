@@ -27,7 +27,7 @@ export default function BRScoreboardCarousel() {
           ref={scrollRef}
           className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth flex-1 py-0.5"
         >
-          {/* Static Live Game Demo */}
+          {/* Static Live Game Demo with Official Local WebP Logos */}
           <div className="flex-none bg-zinc-900/90 border border-zinc-800 rounded-lg p-2 w-36 hover:border-zinc-700 transition-colors">
             <div className="flex items-center justify-between text-[10px] text-zinc-400 font-mono mb-1">
               <span className="px-1.5 py-0.5 bg-red-950 text-red-400 border border-red-800/60 rounded font-bold text-[9px] uppercase">LIVE</span>
@@ -35,17 +35,23 @@ export default function BRScoreboardCarousel() {
             </div>
             <div className="space-y-1 font-mono text-xs">
               <div className="flex justify-between items-center text-white font-bold">
-                <span className="flex items-center gap-1">🦬 BUF</span>
+                <span className="flex items-center gap-1.5">
+                  <img src="/images/bills/bills.webp" alt="BUF" className="w-4 h-4 object-contain" />
+                  BUF
+                </span>
                 <span className="text-yellow-400">24</span>
               </div>
               <div className="flex justify-between items-center text-zinc-400">
-                <span className="flex items-center gap-1">🐬 MIA</span>
-                <span>17</span>
+                <span className="flex items-center gap-1.5">
+                  <img src="/images/bills/dolphins.webp" alt="MIA" className="w-4 h-4 object-contain" />
+                  MIA
+                </span>
+                <span className="text-zinc-500">17</span>
               </div>
             </div>
           </div>
 
-          {/* Map Schedule Games */}
+          {/* Map Schedule Games with Official Local WebP Logos */}
           {BILLS_2026_GAMES.slice(0, 7).map((game) => (
             <div
               key={game.id}
@@ -57,12 +63,16 @@ export default function BRScoreboardCarousel() {
               </div>
               <div className="space-y-1 font-mono text-xs">
                 <div className="flex justify-between items-center text-white font-semibold">
-                  <span className="flex items-center gap-1">🦬 BUF</span>
+                  <span className="flex items-center gap-1.5">
+                    <img src="/images/bills/bills.webp" alt="BUF" className="w-4 h-4 object-contain" />
+                    BUF
+                  </span>
                   <span className="text-zinc-600">-</span>
                 </div>
                 <div className="flex justify-between items-center text-zinc-400">
-                  <span className="flex items-center gap-1 truncate">
-                    {game.opponentLogo} {game.opponent.substring(0, 3).toUpperCase()}
+                  <span className="flex items-center gap-1.5 truncate">
+                    <img src={game.opponentLogoUrl} alt={game.opponent} className="w-4 h-4 object-contain" />
+                    {game.opponentSlug.toUpperCase()}
                   </span>
                   <span className="text-zinc-600">-</span>
                 </div>

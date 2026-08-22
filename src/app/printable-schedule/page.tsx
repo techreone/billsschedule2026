@@ -433,7 +433,10 @@ export default function PrintableSchedulePage() {
                 {regularGames.slice(0, 5).map((game) => (
                   <tr key={game.id} className="hover:bg-zinc-900/80">
                     <td className="p-3 font-bold text-white">{game.week}</td>
-                    <td className="p-3 font-bold text-white">{game.opponent} {game.opponentLogo}</td>
+                    <td className="p-3 font-bold text-white flex items-center gap-1.5">
+                      <span>{game.opponent}</span>
+                      <img src={game.opponentLogoUrl} alt={game.opponent} className="w-4 h-4 object-contain inline-block" />
+                    </td>
                     <td className="p-3 text-zinc-400">{game.isHome ? 'Home' : 'Away'}</td>
                     <td className="p-3 text-blue-300 font-bold">[ W / L ]</td>
                     <td className="p-3 text-yellow-300">___ - ___</td>
