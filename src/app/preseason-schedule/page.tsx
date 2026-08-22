@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Banner } from '@/components/ads/Adsterra';
+import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
@@ -136,6 +136,8 @@ export default function PreseasonPage() {
         </div>
       </header>
 
+      {/* Adsterra Native (优先，收益更高) */}
+      <NativeBanner />
       {/* Adsterra 320x50 */}
       <Banner adKey="5d146ebf8de0e1bf65577df613316798" width={320} height={50} />
 

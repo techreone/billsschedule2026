@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Banner } from '@/components/ads/Adsterra';
+import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import PrintButton from '@/components/PrintButton';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
@@ -139,6 +139,8 @@ export default function PrintableSchedulePage() {
         </div>
       </header>
 
+      {/* Adsterra Native (优先，收益更高) */}
+      <NativeBanner />
       {/* Adsterra 160x300 */}
       <Banner adKey="1579b0e8977abe534a5029f5b81ea5e8" width={160} height={300} />
 

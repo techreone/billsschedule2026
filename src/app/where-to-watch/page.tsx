@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Banner } from '@/components/ads/Adsterra';
+import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
@@ -80,6 +80,8 @@ export default function WhereToWatchPage() {
         </div>
       </header>
 
+      {/* Adsterra Native (优先，收益更高) */}
+      <NativeBanner />
       {/* Adsterra 300x250 */}
       <Banner adKey="8c41e1fed296062320ae7fce00172081" width={300} height={250} />
 
