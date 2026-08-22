@@ -1,15 +1,25 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function BRHeader() {
+  const pathname = usePathname();
+
+  const navItems = [
+    { label: 'Full Schedule', href: '/' },
+    { label: 'Where To Watch', href: '/where-to-watch' },
+    { label: 'Preseason', href: '/preseason-schedule' },
+    { label: 'Printable PDF', href: '/printable-schedule' },
+  ];
+
   return (
     <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-zinc-800">
       
       {/* Top Main Navigation Bar */}
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         
-        {/* Left: Brand Logo Block (Independent BS26 Identity with Official WebP Logo) */}
+        {/* Left: Brand Logo Block */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 bg-[#00338D] rounded-xl flex items-center justify-center border border-red-600/40 shadow-lg group-hover:scale-105 transition-transform p-1.5">
             <img src="/images/bills/bills.webp" alt="Bills Logo" className="w-full h-full object-contain" />
@@ -24,20 +34,24 @@ export default function BRHeader() {
           </div>
         </Link>
 
-        {/* Center: Main Section Links */}
-        <nav className="hidden md:flex items-center gap-8 text-xs font-headline font-bold uppercase tracking-wider">
-          <Link href="/" className="text-white hover:text-red-500 transition-colors">
-            Full Schedule
-          </Link>
-          <Link href="/where-to-watch" className="text-zinc-400 hover:text-white transition-colors">
-            Where To Watch
-          </Link>
-          <Link href="/preseason-schedule" className="text-zinc-400 hover:text-white transition-colors">
-            Preseason
-          </Link>
-          <Link href="/printable-schedule" className="text-zinc-400 hover:text-white transition-colors">
-            Printable PDF
-          </Link>
+        {/* Center: Dynamic Active State Navigation Links */}
+        <nav className="hidden md:flex items-center gap-8 text-xs font-headline font-bold uppercase tracking-wider h-full">
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`h-full flex items-center border-b-2 transition-all ${
+                  isActive
+                    ? 'text-white border-red-600 font-extrabold'
+                    : 'text-zinc-400 border-transparent hover:text-white hover:border-zinc-700'
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
 
         {/* Right: Quick Action Buttons */}
@@ -52,12 +66,20 @@ export default function BRHeader() {
 
       </div>
 
-      {/* Sub-bar for Mobile Navigation */}
-      <div className="md:hidden flex items-center justify-around border-t border-zinc-900 py-2 px-2 text-[11px] font-headline font-bold uppercase tracking-wider text-zinc-400 bg-zinc-950">
-        <Link href="/" className="hover:text-white">Schedule</Link>
-        <Link href="/where-to-watch" className="hover:text-white">Watch</Link>
-        <Link href="/preseason-schedule" className="hover:text-white">Preseason</Link>
-        <Link href="/printable-schedule" className="hover:text-white">PDF</Link>
+      {/* Sub-bar for Dynamic Mobile Navigation */}
+      <div className="md:hidden flex items-center justify-around border-t border-zinc-900 py-2.5 px-2 text-[11px] font-headline font-bold uppercase tracking-wider bg-zinc-950">
+        {navItems.map((item) => {
+          const isActive = pathname === item.href;
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={isActive ? 'text-red-500 font-extrabold' : 'text-zinc-400 hover:text-white'}
+            >
+              {item.label.replace('Full Schedule', 'Schedule').replace('Printable PDF', 'PDF')}
+            </Link>
+          );
+        })}
       </div>
 
     </header>
