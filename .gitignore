@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+scripts/anysearch-key.txt
+*key.txt
 
 # debug
 npm-debug.log*

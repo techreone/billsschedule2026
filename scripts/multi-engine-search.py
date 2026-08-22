@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Multi-Engine Search CLI (多引擎全通道搜索工具 - 含 AnySearch/Tavily 云端支持)
+Multi-Engine Search CLI (多引擎全通道搜索工具 - 增强版)
 =====================================================
 整合四大搜索通道：
   1. agentsearch (127.0.0.1:3939 - AgentSearch 本地 Docker，支持抓正文/README)
   2. searxng     (127.0.0.1:8080 - SearXNG 本地聚合)
   3. ddgs        (DuckDuckGo 本地免费搜索)
-  4. anysearch   (AnySearch / Tavily 云端 API 聚合)
-
-Key 配置说明 (AnySearch):
-  - 环境变量: export ANYSEARCH_API_KEY="your-key"
-  - 配置文件: scripts/anysearch-key.txt
-  - 参数传递: --key "your-key"
+  4. anysearch   (AnySearch 云端 API 聚合)
 """
 
 import sys
@@ -23,7 +18,6 @@ import urllib.request
 import urllib.parse
 
 def get_anysearch_key(provided_key=None):
-    """获取 AnySearch API Key (优先级: 参数 > 环境变量 > 配置文件)"""
     if provided_key:
         return provided_key.strip()
     
@@ -31,7 +25,6 @@ def get_anysearch_key(provided_key=None):
     if key:
         return key.strip()
 
-    # 尝试从配置文件读取
     key_file = os.path.join(os.path.dirname(__file__), "anysearch-key.txt")
     if os.path.exists(key_file):
         try:
@@ -91,29 +84,40 @@ def search_ddgs(query, n=8):
 
 def search_anysearch(query, api_key, n=8):
     if not api_key:
-        return [{"engine": "anysearch", "error": "Missing ANYSEARCH_API_KEY. Please provide key via --key, env ANYSEARCH_API_KEY, or scripts/anysearch-key.txt"}]
+        return [{"engine": "anysearch", "error": "Missing ANYSEARCH_API_KEY. Key file: scripts/anysearch-key.txt"}]
 
-    url = "https://api.tavily.com/search"  # AnySearch / Tavily standard endpoint
-    payload = json.dumps({
-        "api_key": api_key,
-        "query": query,
-        "max_results": n,
-        "search_depth": "basic"
-    }).encode('utf-8')
+    # Try AnySearch / AgentSearch cloud endpoints
+    endpoints = [
+        ("https://api.tavily.com/search", {"api_key": api_key, "query": query, "max_results": n}),
+        (f"http://127.0.0.1:3939/search?q={urllib.parse.quote(query)}&key={api_key}", None)
+    ]
 
-    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=12) as r:
-            data = json.load(r)
-            results = data.get("results", [])
-            return [{
-                "engine": "anysearch",
-                "title": item.get("title", ""),
-                "url": item.get("url", ""),
-                "snippet": item.get("content", item.get("snippet", ""))
-            } for item in results]
-    except Exception as e:
-        return [{"engine": "anysearch", "error": str(e)}]
+    for url, payload in endpoints:
+        try:
+            if payload:
+                data_bytes = json.dumps(payload).encode('utf-8')
+                req = urllib.request.Request(url, data=data_bytes, headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {api_key}"
+                })
+            else:
+                req = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}"})
+
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.load(r)
+                results = data.get("results", []) if isinstance(data, dict) else data
+                if results:
+                    return [{
+                        "engine": "anysearch",
+                        "title": item.get("title", ""),
+                        "url": item.get("url", ""),
+                        "snippet": item.get("content", item.get("snippet", ""))
+                    } for item in results[:n]]
+        except Exception as e:
+            continue
+
+    # Fallback to SearXNG or AgentSearch if cloud API times out
+    return search_searxng(query, n)
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-Engine Search CLI (AgentSearch / SearXNG / DDGS / AnySearch)")
