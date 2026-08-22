@@ -134,12 +134,21 @@ export default function PrintableSchedulePage() {
           </p>
         </div>
 
-        {/* H2 Chapter 1: Standard 8.5x11 Inch PDF */}
-        <section className="space-y-5 pt-4 border-t border-zinc-800" id="download-pdf-8-5x11">
-          <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
-            <span className="w-2 h-6 bg-blue-600 rounded-full inline-block" />
-            1. Free Printable 2026 Buffalo Bills Schedule PDF (Standard 8.5x11 Sheet)
+        {/* H2-1: Standard 8.5x11 PDF */}
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+            Free Printable 2026 Buffalo Bills Schedule PDF (Standard 8.5x11 Sheet)
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/printable-schedule-preview.webp"
+              alt="Printable Buffalo Bills Schedule PDF 8.5x11 Letter Layout Preview"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              Standard 8.5x11 Inch Printable Schedule Sheet — High Resolution 300 DPI Vector PDF Template
+            </div>
+          </div>
           <p>
             Our master 1-page printable schedule template is designed specifically for standard US Letter paper dimensions (8.5 x 11 inches). Layout geometry has been optimized for both landscape and portrait orientations, featuring crisp vector typography, distinct home/away color indicators, and dedicated space for recording weekly win/loss results and final game scores.
           </p>

@@ -398,11 +398,20 @@ export default function PreseasonPage() {
         </section>
 
         {/* H2 Chapter 5: St. John Fisher Training Camp */}
-        <section className="space-y-5 pt-4 border-t border-zinc-800" id="training-camp-guide">
-          <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
-            <span className="w-2 h-6 bg-emerald-600 rounded-full inline-block" />
-            5. St. John Fisher University Training Camp Schedule & Fan Logistics
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="training-camp-guide">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+            St. John Fisher University Training Camp Schedule & Fan Logistics
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/training-camp-practice.webp"
+              alt="Buffalo Bills Summer Training Camp Practice Field"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              St. John Fisher University in Pittsford, NY — Official Summer Training Camp Site
+            </div>
+          </div>
           <p>
             For over two decades, the summer heartbeat of Bills Mafia has centered on the scenic campus of <strong>St. John Fisher University</strong> in Pittsford, NY (just outside Rochester). Located roughly 75 miles east of Orchard Park, St. John Fisher provides an intimate, fan-friendly setting where supporters can watch open practices from bleachers located mere feet from the practice field sidelines.
           </p>
@@ -536,22 +545,8 @@ export default function PreseasonPage() {
               Printable Buffalo Bills Schedule 2026 PDF
             </Link>.
           </p>
-        </section>
 
-        {/* Schema FAQ Section */}
-        <section className="space-y-4 pt-6 border-t border-zinc-800" id="faq">
-          <h2 className="text-xl font-headline font-bold text-white uppercase tracking-wider">
-            Frequently Asked Questions (Preseason FAQ)
-          </h2>
-          
           <div className="space-y-3 font-sans">
-            <div className="p-4 bg-black/60 rounded-xl border border-zinc-800 space-y-1">
-              <h3 className="font-bold text-white text-sm">Q: What channel is the Buffalo Bills preseason game on in 2026?</h3>
-              <p className="text-xs md:text-sm text-zinc-400">
-                A: All three Buffalo Bills preseason games in 2026 are broadcast locally on WIVB-TV Channel 4 (CBS affiliate in Buffalo) and syndicated to regional affiliate stations in Rochester (WROC), Syracuse (WTVH), and Binghamton (WIVT). Out-of-market fans can stream live on NFL+.
-              </p>
-            </div>
-
             <div className="p-4 bg-black/60 rounded-xl border border-zinc-800 space-y-1">
               <h3 className="font-bold text-white text-sm">Q: Will Josh Allen play in the 2026 NFL preseason?</h3>
               <p className="text-xs md:text-sm text-zinc-400">

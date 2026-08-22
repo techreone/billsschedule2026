@@ -55,10 +55,15 @@ export default function BRHomePage() {
         {/* Left Column: 2/3 Main Stream */}
         <div className="lg:col-span-2 space-y-10">
           
-          {/* Featured Hero Banner Card */}
+          {/* Featured Hero Banner Card with Real WebP Game Action Image */}
           <section className="relative bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl group">
-            <div className="h-64 sm:h-80 w-full bg-gradient-to-r from-[#00338D] via-[#001D54] to-[#C60C30] relative flex items-end p-6 md:p-8">
-              <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+            <div className="h-64 sm:h-80 w-full relative flex items-end p-6 md:p-8">
+              <img
+                src="/images/bills/josh-allen-action.webp"
+                alt="Josh Allen Buffalo Bills Game Action"
+                className="absolute inset-0 w-full h-full object-cover object-center opacity-40 group-hover:scale-105 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
               
               <div className="relative z-10 space-y-3">
                 <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-red-950/90 border border-red-800/60 rounded text-red-400 text-[11px] font-headline font-bold uppercase tracking-wider">
@@ -229,6 +234,16 @@ export default function BRHomePage() {
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
                 5. Home vs Away Distribution & Highmark Stadium Weather Factor
               </h2>
+              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+                <img
+                  src="/images/bills/highmark-stadium-snow.webp"
+                  alt="Highmark Stadium Orchard Park Winter Snow Game Atmosphere"
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+                  Highmark Stadium in Orchard Park, NY — Famous for intense lake-effect snow games.
+                </div>
+              </div>
               <p>
                 Highmark Stadium in Orchard Park, New York, is renowned for producing some of the most dramatic weather conditions in sports history. Known for lake-effect snowstorms originating from nearby Lake Erie, late-season home games in December and January frequently experience freezing temperatures, heavy snow accumulation, and gusty winds exceeding 30 mph.
               </p>

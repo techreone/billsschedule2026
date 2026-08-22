@@ -148,10 +148,20 @@ export default function WhereToWatchPage() {
         </section>
 
         {/* H2-2: Broadcast Coverage Maps & Blackouts */}
-        <section className="space-y-4 pt-4 border-t border-zinc-800/80">
-          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
-            Broadcast Coverage Maps & Local Blackout Rules (506 Sports Breakdown)
+        <section className="space-y-3">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
+            2. Broadcast Coverage Maps & Local Blackout Rules (506 Sports Breakdown)
           </h2>
+          <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+            <img
+              src="/images/bills/nfl-broadcast-truck.webp"
+              alt="NFL Broadcast Camera & Television Satellite Truck"
+              className="w-full h-64 md:h-72 object-cover"
+            />
+            <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
+              NFL Television Network Production & Live Satellite Broadcast Logistics
+            </div>
+          </div>
           <p>
             If the Buffalo Bills are playing during the Sunday afternoon window (1:00 PM or 4:25 PM ET), your ability to watch the game on free local television depends on regional broadcast maps. Every Wednesday during the NFL season, maps are published by{' '}
             <a href="https://506sports.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 font-semibold underline hover:text-blue-300">

@@ -21,13 +21,12 @@ if (!url || !game) {
   process.exit(1)
 }
 
-// 从 URL 推断扩展名
-const extMatch = url.match(/\.(png|jpe?g|webp|gif|avif)(\?|$)/i)
-if (!extMatch) {
-  console.error('⚠️  无法从 URL 推断图片格式，跳过:', url)
-  process.exit(1)
+// 从 URL 或 Header 推断扩展名
+let ext = 'jpg';
+const extMatch = url.match(/\.(png|jpe?g|webp|gif|avif)(\?|$)/i);
+if (extMatch) {
+  ext = extMatch[1].toLowerCase().replace('jpeg', 'jpg');
 }
-const ext = extMatch[1].toLowerCase().replace('jpeg', 'jpg')
 
 // 默认文件名：alt 去特殊字符 或 用户指定
 if (!name) {
