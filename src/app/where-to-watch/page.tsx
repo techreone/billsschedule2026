@@ -4,12 +4,14 @@ import { Banner, NativeBanner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "Bills Game TV Channel & Streaming",
-  description: "Find what channel the Buffalo Bills game is on today: kickoff times (ET), CBS/FOX/NBC/ESPN/Prime, 506 maps, WGR 550 radio & Sunday Ticket.",
+  title: "Bills Game TV Channel & Streaming Guide 2026",
+  description: "Find what channel the Buffalo Bills game is on today: kickoff times (ET), Sunday Ticket preseason rules, 506 maps, Browns vs Bills stream & WGR 550.",
   keywords: [
     "what channel is the buffalo bills game on today",
     "buffalo bills game live stream",
-    "what time is the bills game today",
+    "does sunday ticket have preseason games",
+    "where can i watch preseason football",
+    "browns vs bills stream",
     "buffalo bills TV broadcast channel 2026",
     "wgr 550 am live stream buffalo bills",
     "nfl sunday ticket youtube tv bills",
@@ -41,15 +43,58 @@ export default function WhereToWatchPage() {
     ]
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does Sunday Ticket have preseason games?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, NFL Sunday Ticket on YouTube TV does not include live preseason games. Sunday Ticket is strictly designed for regular season out-of-market Sunday afternoon games. Preseason games air on local broadcast television affiliates (such as WIVB Channel 4 in Buffalo) or nationally via NFL Network and NFL+."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I watch preseason football games live?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can watch preseason football games live on local over-the-air broadcast networks (CBS, FOX, NBC, ABC), nationally televised games on NFL Network and ESPN, or stream out-of-market games live on NFL+ and Paramount+."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I stream the Browns vs Bills game live online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Browns vs Bills game can be streamed live on Paramount+ (when airing on CBS), FuboTV, Hulu + Live TV, or NFL+. Local fans can tune in over the air on WIVB CBS 4 in Buffalo or WOIO CBS 19 in Cleveland."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What channel is the Buffalo Bills game on today?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Buffalo Bills Sunday afternoon games air on CBS (WIVB Channel 4 locally) or FOX. Sunday Night Football airs on NBC, Monday Night Football airs on ESPN/ABC, and Thursday Night Football streams on Amazon Prime Video."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="space-y-8 max-w-5xl mx-auto pb-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       
       {/* Breadcrumb Navigation - Links back to homepage for SEO link equity */}
-      <nav className="text-xs font-mono text-zinc-400 flex items-center gap-2 pt-2">
+      <nav className="text-xs font-mono text-zinc-400 flex items-center gap-2 pt-2" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-white underline transition-colors">
           Home
         </Link>
@@ -67,7 +112,7 @@ export default function WhereToWatchPage() {
           What Channel is the Buffalo Bills Game on Today?
         </h1>
         <p className="text-zinc-300 text-sm sm:text-base leading-relaxed max-w-3xl">
-          Your comprehensive 2026 broadcasting directory for every Buffalo Bills game. Find exact TV channels (CBS, FOX, NBC, ESPN, Prime Video), kickoff times in Eastern Standard Time (EST), 506 Sports regional coverage maps, cord-cutting live stream services, out-of-market options on YouTube TV, and WGR 550 AM radio station details.
+          Your comprehensive 2026 broadcasting directory for every Buffalo Bills game. Find exact TV channels (CBS, FOX, NBC, ESPN, Prime Video), kickoff times in Eastern Standard Time (EST), 506 Sports regional coverage maps, cord-cutting live stream services, out-of-market options on YouTube TV, Sunday Ticket preseason rules, Browns vs Bills streaming instructions, and WGR 550 AM radio details.
         </p>
         <div className="flex flex-wrap items-center gap-4 pt-2 text-xs font-mono text-zinc-400">
           <span className="flex items-center gap-1.5 text-zinc-300">
@@ -116,7 +161,7 @@ export default function WhereToWatchPage() {
         {/* H2-1: What Channel is the Game on Today? */}
         <section className="space-y-4 pt-2">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
-            What Channel is the Buffalo Bills Game on Today? (CBS, FOX, NBC, ESPN, Prime Video)
+            1. What Channel is the Buffalo Bills Game on Today? (CBS, FOX, NBC, ESPN, Prime Video)
           </h2>
           <p>
             Determining <strong>what channel the Buffalo Bills game is on today</strong> comes down to the NFL network television rights contract, kickoff window, and matchup classification. Under the current 11-year NFL media rights deal running through 2033, five major television networks share broadcast rights for regular season and postseason games.
@@ -169,7 +214,10 @@ export default function WhereToWatchPage() {
           </div>
 
           <p>
-            For primetime Thursday night games, <strong>Amazon Prime Video</strong> holds exclusive national streaming rights. However, per NFL broadcasting rules, fans residing within the Buffalo local market (such as Erie and Niagara counties) can watch Thursday night games over the air on local free television without an Amazon subscription.
+            For primetime Thursday night games, <strong>Amazon Prime Video</strong> holds exclusive national streaming rights. However, per NFL broadcasting rules, fans residing within the Buffalo local market (such as Erie and Niagara counties) can watch Thursday night games over the air on local free television without an Amazon subscription. Official full-season broadcast listings are verified directly on{' '}
+            <a href="https://www.nfl.com/schedules/2026/by-team/buffalo-bills" target="_blank" rel="noopener noreferrer" className="text-blue-400 font-semibold underline hover:text-blue-300">
+              NFL.com Official Schedule
+            </a>.
           </p>
         </section>
 
@@ -239,7 +287,7 @@ export default function WhereToWatchPage() {
         {/* H2-3: Official Streaming Services */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
-            Official Streaming Services Guide (Paramount+, Peacock, ESPN+, Prime Video)
+            3. Official Streaming Services Guide (Paramount+, Peacock, ESPN+, Prime Video)
           </h2>
           <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
             <img
@@ -299,10 +347,161 @@ export default function WhereToWatchPage() {
           </p>
         </section>
 
-        {/* H2-4: Out-of-Market Fans: Sunday Ticket */}
+        {/* H2-4: Sunday Ticket Preseason Blackout Rules */}
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="sunday-ticket-preseason-rules">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-yellow-500 pl-4">
+            4. Sunday Ticket Preseason Blackout Rules: Does Sunday Ticket Have Preseason Games?
+          </h2>
+          <p>
+            One of the most frequently asked questions during August training camp is: <strong>does Sunday Ticket have preseason games</strong>? The definitive, official answer is <strong>NO — NFL Sunday Ticket does NOT stream live out-of-market preseason games</strong>.
+          </p>
+          <p>
+            Many football fans who purchase an expensive subscription to{' '}
+            <a href="https://tv.youtube.com/learn/nflsundayticket/" target="_blank" rel="noopener noreferrer" className="text-red-400 font-semibold underline hover:text-red-300">
+              NFL Sunday Ticket on YouTube TV
+            </a>{' '}
+            assume that the package includes every NFL game played in August. However, NFL broadcasting contracts strictly restrict Sunday Ticket functionality:
+          </p>
+
+          <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-3">
+            <h3 className="font-headline font-bold text-yellow-400 text-base uppercase">
+              ⚠️ Why Preseason Games Are Blacked Out on Sunday Ticket:
+            </h3>
+            <ul className="list-disc list-inside space-y-2 text-xs md:text-sm text-zinc-300">
+              <li>
+                <strong>Regular Season Exclusive Scope:</strong> NFL Sunday Ticket is legally licensed solely for <em>regular season Sunday afternoon games</em> (1:00 PM ET and 4:25 PM ET kickoffs) broadcast on CBS and FOX.
+              </li>
+              <li>
+                <strong>Local Affiliate Television Rights:</strong> NFL preseason broadcasting rights belong exclusively to local television stations in each team&apos;s home market (for example, WIVB Channel 4 in Buffalo or WOIO in Cleveland). Local affiliate stations sell their own regional advertising slots and do not permit Sunday Ticket to syndicate their local broadcasts nationwide.
+              </li>
+              <li>
+                <strong>National Cable Exclusive Rights:</strong> Nationally televised preseason games airing on NFL Network, ESPN, or NBC are subject to national exclusivity windows and are not included in Sunday Ticket packages.
+              </li>
+            </ul>
+          </div>
+
+          <p>
+            If you log into YouTube TV during an August preseason game expecting to watch the Buffalo Bills from another state, Sunday Ticket will display a black screen or location warning stating that the broadcast is unavailable in your package. To watch August games live outside Western New York, fans must use dedicated preseason streaming methods explained below.
+          </p>
+        </section>
+
+        {/* H2-5: Where Can I Watch Preseason Football */}
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="where-can-i-watch-preseason-football">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-emerald-500 pl-4">
+            5. Where Can I Watch Preseason Football? (Complete August Broadcast Guide)
+          </h2>
+          <p>
+            If Sunday Ticket doesn&apos;t carry preseason games, fans asking <strong>where can I watch preseason football</strong> have four official primary platforms to catch every snap of August action:
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+            <div className="p-5 bg-black/80 rounded-xl border border-zinc-800 space-y-3">
+              <h3 className="font-headline font-bold text-emerald-400 text-base">1. NFL+ (Official Out-of-Market Preseason Stream)</h3>
+              <p className="text-xs text-zinc-400 leading-relaxed">
+                The absolute best option for out-of-market fans asking where to watch preseason games is <strong>NFL+</strong> (NFL Plus). For ~$6.99/month, NFL+ provides live video streaming of <em>every out-of-market preseason game</em> across North America on phones, tablets, and smart TVs.
+              </p>
+              <div className="text-xs font-mono bg-zinc-900 p-2.5 rounded text-emerald-400 border border-zinc-800">
+                ✅ Live out-of-market preseason games + full game replays immediately after conclusion.
+              </div>
+            </div>
+
+            <div className="p-5 bg-black/80 rounded-xl border border-zinc-800 space-y-3">
+              <h3 className="font-headline font-bold text-blue-400 text-base">2. Local Television Affiliates (Over-the-Air Free)</h3>
+              <p className="text-xs text-zinc-400 leading-relaxed">
+                If you reside within the Buffalo media market (or secondary markets in Rochester, Syracuse, and Erie), preseason games air free over the air on <strong>WIVB-TV Channel 4 (CBS)</strong>, featuring play-by-play analysis from local broadcasters.
+              </p>
+              <div className="text-xs font-mono bg-zinc-900 p-2.5 rounded text-blue-400 border border-zinc-800">
+                📺 Free with an HD digital antenna in Western New York and Rochester regions.
+              </div>
+            </div>
+
+            <div className="p-5 bg-black/80 rounded-xl border border-zinc-800 space-y-3">
+              <h3 className="font-headline font-bold text-yellow-400 text-base">3. NFL Network (National Broadcast Slate)</h3>
+              <p className="text-xs text-zinc-400 leading-relaxed">
+                NFL Network broadcasts over 20 live preseason games nationally each August and airs re-broadcast replays of all 48 preseason matchups throughout the week. Check local cable or vMVPD channel lineups (FuboTV, YouTube TV, Hulu Live).
+              </p>
+              <div className="text-xs font-mono bg-zinc-900 p-2.5 rounded text-yellow-400 border border-zinc-800">
+                🏈 24/7 coverage with live national showcase games every weekend in August.
+              </div>
+            </div>
+
+            <div className="p-5 bg-black/80 rounded-xl border border-zinc-800 space-y-3">
+              <h3 className="font-headline font-bold text-red-400 text-base">4. Paramount+ & Direct Local Stream Apps</h3>
+              <p className="text-xs text-zinc-400 leading-relaxed">
+                If WIVB CBS 4 is broadcasting the Bills preseason game in your home region, you can stream the live broadcast on Paramount+ (Essential or Showtime tier) without cable.
+              </p>
+              <div className="text-xs font-mono bg-zinc-900 p-2.5 rounded text-red-400 border border-zinc-800">
+                📱 Device location verification required to pull local CBS affiliate feed.
+              </div>
+            </div>
+          </div>
+
+          <p>
+            For a detailed Week 1 through Week 3 preseason kickoff schedule, check out our dedicated{' '}
+            <Link href="/preseason-schedule" className="text-yellow-400 font-bold underline hover:text-yellow-300">
+              Buffalo Bills 2026 Preseason Schedule
+            </Link>{' '}
+            page.
+          </p>
+        </section>
+
+        {/* H2-6: Browns vs Bills Stream */}
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="browns-vs-bills-stream">
+          <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-amber-500 pl-4">
+            6. Browns vs Bills Stream & Channel Broadcast Breakdown
+          </h2>
+          <p>
+            High-profile AFC matchups like a <strong>Browns vs Bills stream</strong> generate massive search interest across both Western New York and Northeast Ohio. Whether these two historic rust-belt franchises meet during August preseason showcases or late-season regular season playoff pushes, here is how to watch the matchup live on television or digital stream:
+          </p>
+
+          <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-4">
+            <h3 className="font-headline font-bold text-white text-base uppercase">
+              🏈 Browns vs Bills Broadcast Networks & Streaming Platforms
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+              <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                <span className="text-yellow-400 font-headline font-bold uppercase text-xs block">LOCAL TV AFFILIATES</span>
+                <p className="text-zinc-300 leading-relaxed">
+                  <strong>Buffalo Market:</strong> WIVB Channel 4 (CBS) or WUTV FOX 29.<br />
+                  <strong>Cleveland Market:</strong> WOIO CBS 19 or WEWS ABC 5.
+                </p>
+              </div>
+
+              <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                <span className="text-emerald-400 font-headline font-bold uppercase text-xs block">DIRECT STREAMING SERVICES</span>
+                <p className="text-zinc-300 leading-relaxed">
+                  <strong>Paramount+:</strong> Stream CBS broadcast live in Buffalo/Cleveland markets.<br />
+                  <strong>NFL+:</strong> Live stream for out-of-market mobile devices.
+                </p>
+              </div>
+
+              <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                <span className="text-blue-400 font-headline font-bold uppercase text-xs block">LIVE TV STREAMING PACKAGES</span>
+                <p className="text-zinc-300 leading-relaxed">
+                  <strong>FuboTV / Hulu + Live TV / YouTube TV:</strong> Includes local CBS/FOX affiliates for full HD streaming without cable contract.
+                </p>
+              </div>
+
+              <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                <span className="text-red-400 font-headline font-bold uppercase text-xs block">RADIO BROADCAST CALL</span>
+                <p className="text-zinc-300 leading-relaxed">
+                  <strong>Buffalo:</strong> WGR 550 AM & 97 Rock (96.9 FM).<br />
+                  <strong>Cleveland:</strong> 92.3 The Fan (WKRK-FM) & 98.5 WNCX.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            When searching for a <strong>Browns vs Bills stream</strong>, ensure you use authorized streaming partners (Paramount+, FuboTV, NFL+) to avoid low-quality pirated streams that lag or contain malicious pop-up redirects.
+          </p>
+        </section>
+
+        {/* H2-7: Out-of-Market Fans: Sunday Ticket */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-yellow-500 pl-4">
-            Out-of-Market Fans: NFL Sunday Ticket on YouTube TV
+            7. Out-of-Market Fans: NFL Sunday Ticket on YouTube TV
           </h2>
           <p>
             For members of Bills Mafia living outside Western New York and Upstate NY, local television stations will frequently show other regional teams (such as Cowboys, Eagles, Packers, or Chiefs) during Sunday afternoon slots. The single official service for out-of-market Sunday afternoon regular season games is{' '}
@@ -335,14 +534,14 @@ export default function WhereToWatchPage() {
           </div>
 
           <p>
-            <strong>What Sunday Ticket Does Not Include:</strong> NFL Sunday Ticket exclusively unlocks Sunday afternoon (1:00 PM and 4:25 PM ET) out-of-market games. It does <em>not</em> show national primetime games (<em>Thursday Night Football</em> on Prime, <em>Sunday Night Football</em> on NBC, or <em>Monday Night Football</em> on ESPN) or games airing on your local in-market CBS/FOX television affiliate, as those are carried by national or local broadcast feeds.
+            <strong>What Sunday Ticket Does Not Include:</strong> NFL Sunday Ticket exclusively unlocks Sunday afternoon (1:00 PM and 4:25 PM ET) out-of-market games. It does <em>not</em> show national primetime games (<em>Thursday Night Football</em> on Prime, <em>Sunday Night Football</em> on NBC, or <em>Monday Night Football</em> on ESPN), August preseason games, or games airing on your local in-market CBS/FOX television affiliate, as those are carried by national or local broadcast feeds.
           </p>
         </section>
 
-        {/* H2-5: Live TV Streaming Services */}
+        {/* H2-8: Live TV Streaming Services */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-yellow-600 pl-4">
-            Cord-Cutting Live TV Streaming Services (Fubo, Hulu, Sling, YouTube TV)
+            8. Cord-Cutting Live TV Streaming Services (Fubo, Hulu, Sling, YouTube TV)
           </h2>
           <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
             <img
@@ -401,10 +600,10 @@ export default function WhereToWatchPage() {
           </div>
         </section>
 
-        {/* H2-6: Live Radio Broadcast (WGR 550 AM) */}
+        {/* H2-9: Live Radio Broadcast (WGR 550 AM) */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-500 pl-4">
-            Live Radio Broadcast: WGR 550 AM & Buffalo Bills Radio Network
+            9. Live Radio Broadcast: WGR 550 AM & Buffalo Bills Radio Network
           </h2>
           <p>
             Whether you are driving across Western New York, tailgating at Highmark Stadium in Orchard Park, or syncing live audio with your muted TV broadcast, listening to the hometown call is a treasured Bills Mafia tradition.
@@ -455,10 +654,10 @@ export default function WhereToWatchPage() {
           </p>
         </section>
 
-        {/* H2-7: International Streaming (DAZN NFL) */}
+        {/* H2-10: International Streaming (DAZN NFL) */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-sky-500 pl-4">
-            International Streaming: DAZN NFL Game Pass (Canada, UK, Europe, Australia)
+            10. International Streaming: DAZN NFL Game Pass (Canada, UK, Europe, Australia)
           </h2>
           <p>
             The Buffalo Bills boast one of the largest international fanbases in professional American football, with dedicated fan chapters across Southern Ontario, Canada, the United Kingdom, Germany, Mexico, and Australia.
@@ -490,10 +689,10 @@ export default function WhereToWatchPage() {
           </div>
         </section>
 
-        {/* H2-8: Free OTA Antenna & Sports Bars */}
+        {/* H2-11: Free OTA Antenna & Sports Bars */}
         <section className="space-y-4 pt-4 border-t border-zinc-800/80">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-emerald-600 pl-4">
-            Free Over-the-Air (OTA) Antenna & Bills Backers Sports Bars
+            11. Free Over-the-Air (OTA) Antenna & Bills Backers Sports Bars
           </h2>
           <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
             <img
@@ -536,49 +735,58 @@ export default function WhereToWatchPage() {
           </div>
         </section>
 
-        {/* H2-9: Troubleshooting Stream Delays FAQ */}
-        <section className="space-y-4 pt-4 border-t border-zinc-800/80">
+        {/* H2-12: Troubleshooting Stream Delays FAQ */}
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="faq">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-orange-500 pl-4">
-            Troubleshooting Stream Delays & Location Errors (FAQ)
+            12. Troubleshooting Stream Delays & Broadcast FAQ
           </h2>
           <p>
-            Encountering technical difficulties while trying to stream the Buffalo Bills game? Below are official fixes for common digital streaming issues:
+            Encountering technical difficulties or location restriction errors while trying to stream the Buffalo Bills game? Below are official solutions to top fan questions:
           </p>
 
           <div className="space-y-4 my-6">
             <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
               <h3 className="font-headline font-bold text-white text-base">
-                Q1: Why is my live stream 30 to 60 seconds behind the TV broadcast or radio audio?
+                Q1: Does Sunday Ticket have preseason games?
               </h3>
               <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
-                <strong>Answer:</strong> Digital streaming services (Paramount+, YouTube TV, Peacock) encode video into data packets that buffer across content delivery networks (CDNs). This introduces a 20-to-60 second latitudinal latency delay compared to direct over-the-air radio or cable broadcasts. To minimize lag, connect your device via Ethernet cable rather than Wi-Fi and restart your stream app right before kickoff.
+                <strong>Answer:</strong> No. NFL Sunday Ticket on YouTube TV is strictly for out-of-market regular season Sunday afternoon games. Preseason games are broadcast on local television affiliates (such as WIVB CBS 4 in Buffalo) or streamed nationally on NFL+ and NFL Network.
               </p>
             </div>
 
             <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
               <h3 className="font-headline font-bold text-white text-base">
-                Q2: How do I fix &quot;Location Restriction&quot; or &quot;Blackout&quot; errors on Paramount+ or YouTube TV?
+                Q2: Where can I watch preseason football live streaming?
+              </h3>
+              <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
+                <strong>Answer:</strong> Out-of-market fans can stream live preseason football on NFL+ or Paramount+ (for local CBS affiliates). In-market fans can tune in over the air on local affiliate TV networks (CBS, FOX, NBC, ABC) or watch national broadcasts on NFL Network.
+              </p>
+            </div>
+
+            <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
+              <h3 className="font-headline font-bold text-white text-base">
+                Q3: How do I stream the Browns vs Bills game live online?
+              </h3>
+              <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
+                <strong>Answer:</strong> Stream the Browns vs Bills matchup on Paramount+ (if assigned to CBS), FuboTV, Hulu + Live TV, or NFL+. Local fans can watch over the air on WIVB CBS 4 in Buffalo or WOIO CBS 19 in Cleveland.
+              </p>
+            </div>
+
+            <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
+              <h3 className="font-headline font-bold text-white text-base">
+                Q4: Why is my live stream 30 to 60 seconds behind the TV broadcast or radio audio?
+              </h3>
+              <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
+                <strong>Answer:</strong> Digital streaming services (Paramount+, YouTube TV, Peacock) encode video into data packets that buffer across content delivery networks (CDNs). This introduces a 20-to-60 second latency delay compared to direct over-the-air radio or cable broadcasts. To minimize lag, connect your device via Ethernet cable rather than Wi-Fi and restart your stream app right before kickoff.
+              </p>
+            </div>
+
+            <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
+              <h3 className="font-headline font-bold text-white text-base">
+                Q5: How do I fix &quot;Location Restriction&quot; or &quot;Blackout&quot; errors on Paramount+ or YouTube TV?
               </h3>
               <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
                 <strong>Answer:</strong> Stream apps require active location verification to serve local CBS/FOX broadcast feeds. On smart TVs or mobile devices, navigate to device settings, select Privacy/Location, and grant the streaming app permission to access precise location. If using a desktop browser, disable location-blocking extensions or clear browser cache cookies and refresh.
-              </p>
-            </div>
-
-            <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
-              <h3 className="font-headline font-bold text-white text-base">
-                Q3: Can I watch Thursday Night Football locally in Buffalo without an Amazon Prime account?
-              </h3>
-              <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
-                <strong>Answer:</strong> Yes! Under NFL television rules, games airing on subscription streaming platforms (such as Amazon Prime Video or Peacock) must be broadcast over the air on free local television stations within the home and visiting team markets (WIVB CBS 4 or WKBW ABC 7 in Buffalo).
-              </p>
-            </div>
-
-            <div className="bg-black/80 p-5 rounded-xl border border-zinc-800 space-y-2">
-              <h3 className="font-headline font-bold text-white text-base">
-                Q4: What internet speed is required to stream NFL games in 4K HDR without buffering?
-              </h3>
-              <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
-                <strong>Answer:</strong> For crisp 1080p HD streaming, a minimum broadband connection speed of 10 Mbps per device is required. For high-frame-rate 4K HDR broadcasts (available on select FuboTV and YouTube TV feeds), a minimum internet connection speed of 25 Mbps is recommended.
               </p>
             </div>
           </div>

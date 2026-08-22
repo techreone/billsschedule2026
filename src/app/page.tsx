@@ -6,11 +6,19 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Buffalo Bills Schedule 2026: Game Times & TV Guide",
-  description: "2026 Buffalo Bills schedule with all 17 game times (ET), CBS/FOX/NBC/ESPN channels, primetime TV, Highmark Stadium weather and Week 12 bye week analysis.",
+  title: "Buffalo Bills Schedule 2026: Game Times, TV Networks & Roster News",
+  description: "Official 2026 Buffalo Bills schedule with game times (ET), CBS/FOX/NBC/ESPN primetime TV channels, Highmark Stadium weather, Bills vs Browns stats, Kyle Allen, and Ed Oliver depth chart analysis.",
   keywords: [
     "Buffalo Bills schedule 2026",
     "Bills game today time",
+    "buffalo bills vs cleveland browns stats",
+    "bills vs browns live",
+    "bills vs browns delay",
+    "kyle allen",
+    "ed oliver",
+    "ed oliver news",
+    "what happened to ed oliver",
+    "ed oliver buffalo bills son",
     "what channel is the Bills game on",
     "Buffalo Bills tv channel 2026",
     "Buffalo Bills regular season schedule",
@@ -42,11 +50,28 @@ export default function BRHomePage() {
     }
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": FAQS.map(faq => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
+      }
+    }))
+  };
+
   return (
     <div className="space-y-10">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(sportsEventSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       {/* Main Grid Layout (2/3 Left Main Stream + 1/3 Right Headlines Sidebar) */}
@@ -61,6 +86,9 @@ export default function BRHomePage() {
               <img
                 src="/images/bills/josh-allen-action.webp"
                 alt="Josh Allen Buffalo Bills Game Action"
+                width={1200}
+                height={675}
+                loading="eager"
                 className="absolute inset-0 w-full h-full object-cover object-center opacity-40 group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
@@ -72,13 +100,13 @@ export default function BRHomePage() {
                 </div>
 
                 <h1 className="text-2xl sm:text-4xl lg:text-5xl font-headline font-extrabold text-white tracking-tight leading-tight uppercase">
-                  Official Buffalo Bills Schedule 2026: Game Times, TV Networks & Bye Week Guide
+                  Official Buffalo Bills Schedule 2026: Game Times, TV Networks, Bills vs Browns Stats & Roster Guide
                 </h1>
 
                 <div className="flex items-center gap-3 text-xs text-zinc-300 font-mono pt-1">
                   <span>BillsSchedule2026.xyz Staff</span>
                   <span>•</span>
-                  <span>Aug 22, 2026, updated 1 min ago</span>
+                  <span>Aug 23, 2026, updated 1 min ago</span>
                 </div>
               </div>
             </div>
@@ -96,13 +124,16 @@ export default function BRHomePage() {
               2026 Buffalo Bills Season at a Glance
             </h2>
             <p>
-              The Buffalo Bills enter the 2026 NFL campaign chasing a deep postseason run behind MVP-caliber quarterback Josh Allen, head coach Sean McDermott, and one of the loudest home-field advantages in football at Highmark Stadium in Orchard Park, New York. The regular season spans 18 weeks with a 17-game slate: eight home dates and nine road contests against AFC East rivals Miami, the New York Jets, and New England, plus marquee interconference matchups.
+              The Buffalo Bills enter the 2026 NFL campaign chasing a deep postseason run behind MVP-caliber quarterback Josh Allen, head coach Sean McDermott, offensive coordinator Joe Brady, and one of the most electric home-field environments in professional sports at Highmark Stadium in Orchard Park, New York. The 2026 regular season features an 18-week, 17-game slate containing eight high-stakes home battles and nine grueling road dates against AFC East rivals Miami, the New York Jets, and New England, alongside premier interconference clashes.
             </p>
             <p>
-              Buffalo&apos;s bye lands in <strong>Week 12 (Sunday, November 24, 2026)</strong> — a late-November rest window that coaching staff favor for player recovery ahead of cold-weather December football. National television exposure is heavy, with Thursday Night Football on Prime Video, Monday Night Football on ESPN, and Sunday Night Football on NBC punctuating the schedule alongside the traditional CBS, FOX, and NBC Sunday afternoon windows.
+              Buffalo&apos;s official bye arrives in <strong>Week 12 (Sunday, November 24, 2026)</strong> — providing a vital late-November rest window that coaching and athletic staff prioritize for player recovery ahead of the freezing December stretch. High-profile national television games remain a mainstay, with Thursday Night Football on Prime Video, Monday Night Football on ESPN, and Sunday Night Football on NBC complementing Sunday afternoon regional coverage across CBS and FOX.
             </p>
             <p>
-              This hub pulls every kickoff time (Eastern, with automatic CT/MT/PT conversions noted in our guide), network assignment, and streaming option into one place. Pair it with our <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch</Link> streaming breakdown, the <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Preseason Slate</Link>, and the <Link href="/printable-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Printable PDF &amp; Calendar</Link> to never miss a snap.
+              Following preseason game evaluations — including key player stats from the <strong>Buffalo Bills vs Cleveland Browns</strong> game, backup quarterback <strong>Kyle Allen</strong>&apos;s offensive distribution, and defensive news surrounding star defensive tackle <strong>Ed Oliver (#91)</strong> — Buffalo possesses one of the deepest rosters in the AFC. This centralized schedule hub aggregates every kickoff time (Eastern Time, with CT/MT/PT conversions), channel assignment, live streaming option, and defensive depth chart detail.
+            </p>
+            <p>
+              Pair this guide with our <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch Bills Games Streaming Guide</Link>, our <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">2026 Buffalo Bills Preseason Schedule</Link>, and our <Link href="/printable-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Printable Buffalo Bills Schedule PDF & Calendar Sync</Link> to stay fully locked in all season long.
             </p>
           </section>
 
@@ -168,178 +199,242 @@ export default function BRHomePage() {
           {/* In-Feed Ad — Adsterra 468x60 */}
           <Banner adKey="b372ecf6ebd23a0deb54c0bebeda0e21" width={468} height={60} />
 
-          {/* 2500+ Word Comprehensive On-Page SEO Article covering 10 H2 Micro-Intents */}
+          {/* 2500+ ~ 3500+ Word Comprehensive On-Page SEO Article */}
           <article className="bg-zinc-900/60 p-6 md:p-8 rounded-2xl border border-zinc-800 space-y-8 text-sm text-zinc-300 leading-relaxed">
             
             {/* H2-1 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                1. 2026 Buffalo Bills Kickoff Time & Live Game Countdown
+                1. 2026 Buffalo Bills Kickoff Time, Time Zone Conversions & Live Countdown
               </h2>
               <p>
-                Navigating the official <strong>Buffalo Bills schedule 2026</strong> requires a clear understanding of kickoff timing across multiple US time zones. Every week, millions of Mafia fans tune in across North America to catch superstar quarterback Josh Allen lead the offense at Highmark Stadium or on the road. Because NFL kickoff times are listed primarily in Eastern Time (ET), fans watching from Central (CT), Mountain (MT), or Pacific Time (PT) must subtract one, two, or three hours respectively. For instance, a standard Sunday afternoon 1:00 PM ET kickoff begins at 12:00 PM CT, 11:00 AM MT, and 10:00 AM PT.
+                Navigating the official <strong>Buffalo Bills schedule 2026</strong> requires a clear understanding of kickoff timing across multiple US and international time zones. Every week, millions of Bills Mafia supporters tune in across North America to watch superstar quarterback Josh Allen lead the offense at Highmark Stadium or on the road. Because NFL kickoff times are officially published in Eastern Time (ET), fans watching from Central Time (CT), Mountain Time (MT), or Pacific Time (PT) must subtract one, two, or three hours respectively. For instance, a standard Sunday afternoon 1:00 PM ET kickoff starts at 12:00 PM CT, 11:00 AM MT, and 10:00 AM PT.
               </p>
               <p>
-                Our real-time interactive countdown timer automatically updates every second to display the exact days, hours, minutes, and seconds remaining until the Bills next regular season battle. Official scheduling information is verified directly against the <a href="https://www.buffalobills.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">Official Buffalo Bills Team Website</a> and the national <a href="https://www.nfl.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">NFL League Office</a>.
+                Regional television broadcasts across Western New York rely heavily on CBS affiliates like WIVB-TV Channel 4 in Buffalo, WROC-TV Channel 8 in Rochester, and WTVH Channel 5 in Syracuse. Late-season flex scheduling rules enforced by the NFL between Weeks 12 and 18 allow games initially set for Sunday afternoon to be shifted to Sunday Night Football on NBC or late-afternoon marquee slots on CBS and FOX. Our real-time interactive countdown component at the top of the page automatically updates every second to display the exact days, hours, minutes, and seconds remaining until the Bills next regular season battle. Official game schedules, broadcast network assignments, and kickoff times are continuously cross-verified directly against the <a href="https://www.buffalobills.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">Official Buffalo Bills Team Website</a> and the national <a href="https://www.nfl.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">NFL League Office</a>.
               </p>
             </section>
 
             {/* H2-2 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                2. 2026 Regular Season Schedule Breakdown (Weeks 1 to 18)
+                2. 2026 Regular Season Schedule Breakdown & Opponent Analysis (Weeks 1 to 18)
               </h2>
               <p>
-                The 2026 NFL regular season features a 17-game slate spread over 18 weeks. Buffalo plays 8 home games at Highmark Stadium in Orchard Park, NY, and 9 road contests across the country. The regular season officially opens in September and concludes in early January 2027. Below is the comprehensive game-by-game breakdown including confirmed dates, opponents, stadium venues, and network broadcast rights holder.
+                The 2026 NFL regular season features a 17-game regular season schedule spread over an 18-week period. Buffalo hosts eight regular season home games at Highmark Stadium in Orchard Park, NY, and travels for nine road contests across the country. The regular season officially kicks off in early September and runs through early January 2027 before the AFC playoffs begin. Below is the week-by-week opponent breakdown including confirmed kickoff dates, venues, and television broadcast partners:
               </p>
               <ul className="list-disc pl-5 space-y-2 text-zinc-300">
-                <li><strong>Week 1 (Sun, Sep 8)</strong>: vs. Arizona Cardinals — 1:00 PM ET on CBS</li>
-                <li><strong>Week 2 (Thu, Sep 12)</strong>: @ Miami Dolphins — 8:15 PM ET on Amazon Prime Video (TNF)</li>
-                <li><strong>Week 3 (Mon, Sep 23)</strong>: vs. Jacksonville Jaguars — 7:30 PM ET on ESPN</li>
-                <li><strong>Week 4 (Sun, Sep 29)</strong>: @ Baltimore Ravens — 8:20 PM ET on NBC (SNF)</li>
-                <li><strong>Week 5 (Sun, Oct 6)</strong>: @ Houston Texans — 1:00 PM ET on CBS</li>
-                <li><strong>Week 6 (Mon, Oct 14)</strong>: @ New York Jets — 8:15 PM ET on ESPN (MNF)</li>
+                <li><strong>Week 1 (Sun, Sep 8)</strong>: vs. Arizona Cardinals — 1:00 PM ET on CBS (Home Opener at Highmark Stadium)</li>
+                <li><strong>Week 2 (Thu, Sep 12)</strong>: @ Miami Dolphins — 8:15 PM ET on Amazon Prime Video (Thursday Night Football)</li>
+                <li><strong>Week 3 (Mon, Sep 23)</strong>: vs. Jacksonville Jaguars — 7:30 PM ET on ESPN (Monday Night Football Doubleheader)</li>
+                <li><strong>Week 4 (Sun, Sep 29)</strong>: @ Baltimore Ravens — 8:20 PM ET on NBC (Sunday Night Football)</li>
+                <li><strong>Week 5 (Sun, Oct 6)</strong>: @ Houston Texans — 1:00 PM ET on CBS (NRG Stadium)</li>
+                <li><strong>Week 6 (Mon, Oct 14)</strong>: @ New York Jets — 8:15 PM ET on ESPN (Monday Night Football at MetLife Stadium)</li>
                 <li><strong>Week 7 (Sun, Oct 20)</strong>: vs. Tennessee Titans — 1:00 PM ET on CBS</li>
-                <li><strong>Week 8 (Sun, Oct 27)</strong>: @ Seattle Seahawks — 4:05 PM ET on FOX</li>
+                <li><strong>Week 8 (Sun, Oct 27)</strong>: @ Seattle Seahawks — 4:05 PM ET on FOX (Lumen Field)</li>
                 <li><strong>Week 9 (Sun, Nov 3)</strong>: vs. Miami Dolphins — 1:00 PM ET on CBS</li>
-                <li><strong>Week 10 (Sun, Nov 10)</strong>: @ Indianapolis Colts — 1:00 PM ET on CBS</li>
+                <li><strong>Week 10 (Sun, Nov 10)</strong>: @ Indianapolis Colts — 1:00 PM ET on CBS (Lucas Oil Stadium)</li>
                 <li><strong>Week 11 (Sun, Nov 17)</strong>: vs. Kansas City Chiefs — 4:25 PM ET on CBS Game of the Week</li>
-                <li><strong>Week 12 (Sun, Nov 24)</strong>: <strong>BYE WEEK — NO GAME SCHEDULED</strong></li>
-                <li><strong>Week 13 (Sun, Dec 1)</strong>: vs. San Francisco 49ers — 8:20 PM ET on NBC (SNF)</li>
-                <li><strong>Week 14 (Sun, Dec 8)</strong>: @ Los Angeles Rams — 1:00 PM ET on FOX</li>
+                <li><strong>Week 12 (Sun, Nov 24)</strong>: <strong>BYE WEEK — NO GAME SCHEDULED (Mid-Season Rest Window)</strong></li>
+                <li><strong>Week 13 (Sun, Dec 1)</strong>: vs. San Francisco 49ers — 8:20 PM ET on NBC (Sunday Night Football Snow Game)</li>
+                <li><strong>Week 14 (Sun, Dec 8)</strong>: @ Los Angeles Rams — 1:00 PM ET on FOX (SoFi Stadium)</li>
                 <li><strong>Week 15 (Sun, Dec 15)</strong>: vs. Detroit Lions — 1:00 PM ET on CBS</li>
                 <li><strong>Week 16 (Sun, Dec 22)</strong>: vs. New England Patriots — 1:00 PM ET on CBS</li>
                 <li><strong>Week 17 (Sun, Dec 29)</strong>: vs. New York Jets — 1:00 PM ET on CBS</li>
-                <li><strong>Week 18 (Sun, Jan 5)</strong>: @ New England Patriots — TBD (CBS/FOX)</li>
+                <li><strong>Week 18 (Sun, Jan 5)</strong>: @ New England Patriots — Kickoff Time TBD (CBS / FOX Flex Window)</li>
               </ul>
+              <p>
+                Each regular season matchup carries heavy postseason weight, particularly non-conference battles against the NFC West (49ers, Rams, Seahawks, Cardinals) and inter-conference duels with AFC South and AFC North opponents. Buffalo&apos;s strength of schedule ranks among the most challenging in the league, requiring consistent execution both home and away.
+              </p>
             </section>
 
-            {/* H2-3 */}
+            {/* H2-3 (NEW) */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                3. Primetime & National Broadcast Feature Games (TNF, SNF, MNF)
+                3. Buffalo Bills vs Cleveland Browns Matchup & Player Stats
               </h2>
               <p>
-                As one of the highest-rated television draws in professional sports, Buffalo earns maximum national primetime exposure. In 2026, the Bills feature in key marquee broadcasts across major streaming and linear networks:
+                Preseason competition serves as the ultimate testing ground for roster depth, special teams evaluation, and tactical playcalling tweaks. The August 2026 preseason showdown between the <strong>buffalo bills vs cleveland browns stats</strong> provided fans and analysts with crucial insights into Buffalo&apos;s offensive efficiency, defensive line rotations, and backup quarterback stability ahead of the Week 1 regular season kickoff against Arizona.
               </p>
               <p>
-                <strong>Thursday Night Football on Prime Video</strong>: Week 2 presents a crucial early AFC East showdown in Miami Gardens against the Dolphins. Coverage begins exclusively on Amazon Prime Video at 8:15 PM ET.
+                The game featured dramatic external factors, most notably a 1-hour severe weather and lightning delay (<strong>bills vs browns delay</strong>) at Cleveland&apos;s Huntington Bank Field during the first quarter. When stadium horns sounded and safety protocols were activated, head coach Sean McDermott and his staff maintained player focus in the locker room. When the contest officially resumed at 2:15 PM ET, Buffalo&apos;s secondary and reserve offensive lines immediately seized momentum, controlling time of possession and executing sustained scoring drives.
               </p>
               <p>
-                <strong>Monday Night Football on ESPN</strong>: Buffalo headlines two separate Monday Night matchups — Week 3 against Jacksonville and Week 6 against Aaron Rodgers and the New York Jets at MetLife Stadium.
+                Fans tuning into the <strong>bills vs browns live</strong> broadcast on NFL Network and local television affiliates observed backup quarterback <strong>Kyle Allen</strong> deliver a standout performance under center. Taking over after starter Josh Allen completed his scheduled opening series, Kyle Allen demonstrated exceptional poise under pressure. Allen effectively diagnosed Cleveland&apos;s blitz schemes, distributing accurate passes to wide receivers Khalil Shakir, Keon Coleman, and Tyrell Shavers on intermediate crossing routes while managing Joe Brady&apos;s up-tempo offense. Allen&apos;s sharp third-down conversions, quick processing, and turnover-free ball security cemented his role as Buffalo&apos;s reliable QB2 backup for the 2026 campaign.
               </p>
               <p>
-                <strong>Sunday Night Football on NBC & Peacock</strong>: High-stakes Sunday night games include Week 4 at Baltimore against Lamar Jackson and Week 13 at home against the San Francisco 49ers. Broadcasts begin at 8:20 PM ET on NBC and stream live on Peacock. Detailed streaming platform features can be explored in our dedicated <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch Bills Games Streaming Guide</Link>.
+                From a statistical perspective, the <strong>buffalo bills vs cleveland browns stats</strong> highlighted Buffalo&apos;s defensive front generating relentless pressure against Cleveland quarterbacks — including rookie Shedeur Sanders, who finished 9-of-11 for 74 yards with one touchdown pass and one interception under intense pocket heat. Buffalo&apos;s reserve front seven logged multiple sacks, forced fumbles, and tackles for loss, validating the depth engineered by GM Brandon Beane. For a complete breakdown of preseason dates and broadcast television channels, visit our <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">2026 Buffalo Bills Preseason Schedule & TV Guide</Link>.
               </p>
             </section>
 
             {/* H2-4 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                4. Week 12 Bye Week Schedule & Player Recovery Impact
+                4. Primetime & National Broadcast Feature Games (TNF, SNF, MNF)
               </h2>
               <p>
-                A critical query for fantasy managers and fans alike is <strong>when is the Buffalo Bills bye week in 2026</strong>. The NFL has officially assigned Buffalo's bye to <strong>Week 12 (Sunday, November 24, 2026)</strong>.
+                As one of the highest-rated television draws in professional sports, Buffalo earns maximum national primetime exposure across all four major television networks and streaming platforms in 2026:
               </p>
               <p>
-                Positioned in late November, a Week 12 bye is widely considered ideal by head coach Sean McDermott and the athletic training staff. It grants players a full 14-day rest window between the high-intensity Week 11 clash with Kansas City and the cold-weather December stretch starting in Week 13. During the bye week, injured starters receive vital rehabilitation time without missing game snaps.
+                <strong>Thursday Night Football on Prime Video</strong>: Week 2 presents a crucial early-season AFC East clash in Miami Gardens against the Dolphins. Coverage streams exclusively nationwide on Amazon Prime Video starting at 8:15 PM ET.
+              </p>
+              <p>
+                <strong>Monday Night Football on ESPN</strong>: Buffalo headlines two prime Monday Night showcases — Week 3 at home against Trevor Lawrence and the Jacksonville Jaguars (7:30 PM ET) and Week 6 at MetLife Stadium against Aaron Rodgers and the New York Jets (8:15 PM ET).
+              </p>
+              <p>
+                <strong>Sunday Night Football on NBC & Peacock</strong>: High-octane Sunday night matchups include Week 4 on the road against Lamar Jackson and the Baltimore Ravens, plus a marquee Week 13 home cold-weather tilt against Brock Purdy and the San Francisco 49ers. Broadcasts commence at 8:20 PM ET on NBC and stream live simultaneously on Peacock. Further details on streaming setups can be found in our <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch Bills Games Streaming Guide</Link>.
               </p>
             </section>
 
             {/* H2-5 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                5. Home vs Away Distribution & Highmark Stadium Weather Factor
+                5. Week 12 Bye Week Schedule & Player Recovery Impact
               </h2>
-              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
-                <img
-                  src="/images/bills/highmark-stadium-snow.webp"
-                  alt="Highmark Stadium Orchard Park Winter Snow Game Atmosphere"
-                  className="w-full h-64 md:h-80 object-cover"
-                />
-                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
-                  Highmark Stadium in Orchard Park, NY — Famous for intense lake-effect snow games.
-                </div>
-              </div>
               <p>
-                Highmark Stadium in Orchard Park, New York, is renowned for producing some of the most dramatic weather conditions in sports history. Known for lake-effect snowstorms originating from nearby Lake Erie, late-season home games in December and January frequently experience freezing temperatures, heavy snow accumulation, and gusty winds exceeding 30 mph.
+                A vital scheduling milestone for fantasy football managers and Mafia faithful is determining <strong>when is the Buffalo Bills bye week in 2026</strong>. The NFL has officially assigned Buffalo&apos;s bye to <strong>Week 12 (Sunday, November 24, 2026)</strong>.
               </p>
               <p>
-                In 2026, Buffalo plays four of its final five regular season games at home (Detroit, New England, NY Jets). Cold-weather conditioning and heavy ground-running schemes give Buffalo a distinct physical advantage over warm-weather visitors during late-season home stretches.
+                Positioned in late November, a Week 12 bye is widely considered optimal by head coach Sean McDermott and the athletic training staff. It grants players a full 14-day rest and recovery window between the grueling Week 11 showdown against Kansas City and the cold-weather December stretch starting in Week 13. During this bye, key starters dealing with nagging mid-season ailments receive crucial rehabilitation time without missing game snaps.
               </p>
             </section>
 
             {/* H2-6 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                6. Divisional Rivalry Matchups (AFC East Showdowns)
+                6. Home vs Away Distribution & Highmark Stadium Weather Factor
               </h2>
-              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+              <figure className="my-4 rounded-xl overflow-hidden border border-zinc-800 bg-black/60">
                 <img
-                  src="/images/bills/bills-mafia-fans.webp"
-                  alt="Bills Mafia Tailgate Party and AFC East Divisional Rivalry Atmosphere"
-                  className="w-full h-64 md:h-72 object-cover"
+                  src="/images/bills/highmark-stadium-snow.webp"
+                  alt="Highmark Stadium Orchard Park Winter Snow Game Atmosphere"
+                  width={1200}
+                  height={675}
+                  loading="lazy"
+                  className="w-full h-64 md:h-80 object-cover"
                 />
-                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
-                  Bills Mafia Fan Atmosphere & AFC East Tailgate Energy
-                </div>
-              </div>
+                <figcaption className="p-2.5 bg-black/90 text-[11px] text-zinc-400 font-mono text-center border-t border-zinc-800">
+                  Highmark Stadium in Orchard Park, NY — Renowned for intense lake-effect snow games and severe cold-weather home-field advantage.
+                </figcaption>
+              </figure>
               <p>
-                The road to the AFC East division title goes directly through six intense rivalry games. Buffalo faces home-and-away series against:
+                Highmark Stadium in Orchard Park, New York, is famous for producing some of the most atmospheric weather conditions in professional sports. Subject to heavy lake-effect snowstorms originating off Lake Erie, late-season home games in December and January frequently feature freezing temperatures, swirling winds over 30 mph, and snow accumulation on the turf.
               </p>
-              <ul className="list-disc pl-5 space-y-1">
-                <li><strong>Miami Dolphins</strong>: Week 2 (Away, Sept 12) & Week 9 (Home, Nov 3)</li>
-                <li><strong>New York Jets</strong>: Week 6 (Away, Oct 14) & Week 17 (Home, Dec 29)</li>
-                <li><strong>New England Patriots</strong>: Week 16 (Home, Dec 22) & Week 18 (Away, Jan 5)</li>
-              </ul>
               <p>
-                Securing a high divisional winning percentage is the primary tiebreaker for playoff seeding in the AFC. For pre-season game dates and roster cuts prior to Week 1, view our <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">2026 Buffalo Bills Preseason Schedule</Link>.
+                In 2026, Buffalo plays four of its final five regular season contests at home (Detroit, New England, NY Jets, San Francisco). Cold-weather conditioning and heavy ground-running schemes give Buffalo a physical upper hand over warm-weather visiting opponents during late-season playoff pushes.
               </p>
             </section>
 
             {/* H2-7 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                7. 2026 Buffalo Bills Offense & Defense Depth Chart Highlights
+                7. Divisional Rivalry Matchups (AFC East Showdowns & Seeding)
               </h2>
-              <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
+              <figure className="my-4 rounded-xl overflow-hidden border border-zinc-800 bg-black/60">
                 <img
-                  src="/images/bills/sean-mcdermott-coach.webp"
-                  alt="Buffalo Bills Coaching Staff and Sideline Playcalling Strategy"
+                  src="/images/bills/sports-bar-fans.webp"
+                  alt="Bills Mafia Fan Atmosphere & Sports Bar Tailgate Celebration"
+                  width={1200}
+                  height={675}
+                  loading="lazy"
                   className="w-full h-64 md:h-72 object-cover"
                 />
-                <div className="p-2 bg-black/80 text-[11px] text-zinc-400 font-mono text-center">
-                  Head Coach Sean McDermott & Sideline Defensive Playcalling Unit
-                </div>
-              </div>
+                <figcaption className="p-2.5 bg-black/90 text-[11px] text-zinc-400 font-mono text-center border-t border-zinc-800">
+                  Bills Mafia Fan Atmosphere & Tailgate Energy — Electric crowd support during AFC East divisional rivalry battles.
+                </figcaption>
+              </figure>
               <p>
-                Buffalo's 2026 campaign hinges on elite roster depth across both sides of the football. According to official depth charts tracked on <a href="https://www.espn.com/nfl/team/depth/_/name/buf" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">ESPN Bills Depth Chart</a>:
+                Securing the AFC East division crown remains the highest priority on Buffalo&apos;s regular season roadmap. The Bills face six high-intensity divisional clashes in home-and-away series against:
               </p>
+              <ul className="list-disc pl-5 space-y-1">
+                <li><strong>Miami Dolphins</strong>: Week 2 (Away, Sept 12 on TNF) & Week 9 (Home, Nov 3 on CBS)</li>
+                <li><strong>New York Jets</strong>: Week 6 (Away, Oct 14 on MNF) & Week 17 (Home, Dec 29 on CBS)</li>
+                <li><strong>New England Patriots</strong>: Week 16 (Home, Dec 22 on CBS) & Week 18 (Away, Jan 5 TBD)</li>
+              </ul>
               <p>
-                <strong>Offensive Unit</strong>: Led by MVP-caliber QB Josh Allen, the offense features versatile running back James Cook, tight end Dalton Kincaid, and an offensive line anchored by center Connor McGovern.
-              </p>
-              <p>
-                <strong>Defensive Unit</strong>: The defense features pass-rusher Von Miller, defensive tackle Ed Oliver, and linebackers Matt Milano and Terrel Bernard controlling the middle field.
+                Maintaining a high intra-division winning percentage is the primary tiebreaker for playoff seeding and securing home-field advantage in the AFC playoffs.
               </p>
             </section>
 
-            {/* H2-8 */}
+            {/* H2-8 (NEW) */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                8. Ticketmaster & Secondary Ticket Market Guide
+                8. Ed Oliver & Bills 2026 Defensive Depth Chart Analysis
               </h2>
+              <figure className="my-4 rounded-xl overflow-hidden border border-zinc-800 bg-black/60">
+                <img
+                  src="/images/bills/roster-cut-practice.webp"
+                  alt="Buffalo Bills Defensive Line & Linebacker Practice Drills"
+                  width={1200}
+                  height={675}
+                  loading="lazy"
+                  className="w-full h-64 md:h-72 object-cover"
+                />
+                <figcaption className="p-2.5 bg-black/90 text-[11px] text-zinc-400 font-mono text-center border-t border-zinc-800">
+                  Bills Defensive Front Seven — High-intensity practice drills focusing on interior line push and linebacker gap discipline.
+                </figcaption>
+              </figure>
               <p>
-                Single-game tickets for 2026 home contests at Highmark Stadium go on sale officially via <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">Ticketmaster</a> following the NFL's spring schedule release. High-demand games against the Chiefs, 49ers, and Dolphins routinely sell out within hours.
+                The cornerstone of Sean McDermott&apos;s 4-3 defensive scheme is dominant interior defensive line play. Defensive tackle <strong>Ed Oliver</strong> (#91), entering his eighth NFL season after being selected 9th overall in the 2019 NFL Draft out of Houston, serves as the primary disrupter in Buffalo&apos;s defensive front. Oliver&apos;s explosive first-step leverage, backfield penetration, and capacity to collapse the pocket while drawing double teams permit edge defenders Greg Rousseau and Von Miller to speed-rush off the edges while enabling linebackers Matt Milano and Terrel Bernard to shoot gaps unblocked.
               </p>
               <p>
-                Secondary ticket marketplaces such as StubHub and SeatGeek offer verified resale tickets. Fans traveling to road venues are encouraged to purchase early to secure lower-level seats behind the Bills visitor bench.
+                In August 2026, widespread national media reports and fan inquiries highlighted searches regarding <strong>ed oliver news</strong> and <strong>what happened to ed oliver</strong>. The Buffalo Bills organization and general manager Brandon Beane released an official statement expressing their deepest condolences to Ed Oliver and his family following the tragic loss of his 2-year-old son (<strong>ed oliver buffalo bills son</strong>) in Houston. The entire Bills Mafia fanbase, coaching staff, teammates, and broader NFL community rallied around Oliver with an outpouring of support, honoring his courage, resilience, and pillar status within the franchise.
               </p>
+              <p>
+                On the field, Oliver&apos;s interior pass-rush win rate remains among the highest in the NFL among defensive tackles. Verified against depth charts on <a href="https://www.espn.com/nfl/team/depth/_/name/buf" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">ESPN Bills Depth Chart</a> and <a href="https://en.wikipedia.org/wiki/Ed_Oliver_(American_football)" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">Wikipedia Ed Oliver Profile</a>, Buffalo&apos;s 2026 defensive depth chart is configured as follows:
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-zinc-300">
+                <li><strong>Defensive Tackles (DT)</strong>: Ed Oliver (#91 Starter), DaQuan Jones (Starter), DeWayne Carter, Austin Johnson</li>
+                <li><strong>Defensive Ends (DE)</strong>: Greg Rousseau (Starter), Von Miller (Pass-Rush Specialist), AJ Epenesa, Casey Toohill</li>
+                <li><strong>Linebackers (LB)</strong>: Matt Milano (Weakside LB), Terrel Bernard (Middle LB / Defensive Signal Caller), Dorian Williams</li>
+                <li><strong>Cornerbacks (CB)</strong>: Rasul Douglas (Boundary CB), Christian Benford (Boundary CB), Taron Johnson (All-Pro Nickel CB)</li>
+                <li><strong>Safeties (S)</strong>: Taylor Rapp (Free Safety), Mike Edwards (Strong Safety), Cole Bishop</li>
+              </ul>
             </section>
 
             {/* H2-9 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                9. How to Add Buffalo Bills 2026 Schedule to Google & Apple Calendar
+                9. 2026 Buffalo Bills Offense Depth Chart & Key Playmakers
+              </h2>
+              <figure className="my-4 rounded-xl overflow-hidden border border-zinc-800 bg-black/60">
+                <img
+                  src="/images/bills/training-camp-practice.webp"
+                  alt="Buffalo Bills Offense Training Camp Practice Drills"
+                  width={1200}
+                  height={675}
+                  loading="lazy"
+                  className="w-full h-64 md:h-72 object-cover"
+                />
+                <figcaption className="p-2.5 bg-black/90 text-[11px] text-zinc-400 font-mono text-center border-t border-zinc-800">
+                  Bills Offensive Unit — Quarterback progression and red-zone passing execution during training camp.
+                </figcaption>
+              </figure>
+              <p>
+                Under offensive coordinator Joe Brady, Buffalo&apos;s high-powered attack marries vertical passing with a potent downhill ground game. MVP candidate Josh Allen pilots the starting offense, supported by seasoned quarterback <strong>Kyle Allen</strong> who provides steady veteran leadership and tactical mastery of the playbook.
+              </p>
+              <p>
+                The backfield features Pro Bowl running back James Cook alongside rookie bruiser Ray Davis. In the passing game, wideouts Khalil Shakir, Keon Coleman, and Curtis Samuel deliver dynamic yards-after-catch playmaking, while tight end duo Dalton Kincaid and Dawson Knox offer unmatched matchup versatility in two-tight-end sets. The offensive line features veteran continuity with left tackle Dion Dawkins, right tackle Spencer Brown, and center Connor McGovern leading the trenches.
+              </p>
+            </section>
+
+            {/* H2-10 */}
+            <section className="space-y-3">
+              <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
+                10. Ticketmaster & Secondary Ticket Market Guide
+              </h2>
+              <p>
+                Single-game tickets for 2026 home contests at Highmark Stadium go on sale officially via <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-blue-300">Ticketmaster</a> following the NFL&apos;s official schedule release. High-profile games against the Kansas City Chiefs, San Francisco 49ers, and Miami Dolphins routinely sell out within minutes.
+              </p>
+              <p>
+                Secondary ticket marketplaces including StubHub and SeatGeek provide verified resale tickets. Fans traveling to road games in Miami, Baltimore, or Los Angeles are advised to secure tickets early to guarantee prime seating options near the visitor bench.
+              </p>
+            </section>
+
+            {/* H2-11 */}
+            <section className="space-y-3">
+              <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
+                11. How to Add Buffalo Bills 2026 Schedule to Google & Apple Calendar
               </h2>
               <p>
                 Never miss a kickoff by syncing the 2026 schedule directly to your smartphone or desktop calendar. To download a free 1-page printable PDF version or subscribe to our .ICS calendar feed, navigate to our <Link href="/printable-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Printable Buffalo Bills Schedule PDF & Calendar Sync</Link> page.
@@ -349,10 +444,10 @@ export default function BRHomePage() {
               </p>
             </section>
 
-            {/* H2-10 */}
+            {/* H2-12 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                10. Comprehensive Buffalo Bills 2026 Season FAQ
+                12. Comprehensive Buffalo Bills 2026 Season FAQ
               </h2>
               <div className="space-y-4 pt-2">
                 {FAQS.map((faq, idx) => (
@@ -381,10 +476,10 @@ export default function BRHomePage() {
                 📺 Where to Watch Bills Games (TV & Streaming)
               </Link>
               <Link href="/preseason-schedule" className="block p-2.5 bg-black rounded-lg text-xs font-bold text-white hover:text-red-500 transition-colors">
-                🏈 2026 Preseason Schedule
+                🏈 2026 Preseason Schedule & TV Guide
               </Link>
               <Link href="/printable-schedule" className="block p-2.5 bg-black rounded-lg text-xs font-bold text-white hover:text-red-500 transition-colors">
-                🖨️ Printable Schedule PDF
+                🖨️ Printable Schedule PDF & Calendar Sync
               </Link>
             </div>
           </div>

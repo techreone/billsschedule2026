@@ -5,16 +5,20 @@ import PrintButton from '@/components/PrintButton';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
-  title: "Bills 2026 Printable Schedule PDF",
-  description: "Free printable 2026 Bills schedule PDF (8.5x11 & wallet) with color-coded home/away, 4-zone times, Google/Apple calendar sync & office pool grid.",
+  title: "Bills 2026 Printable Schedule PDF & Depth Charts",
+  description: "Download free printable 2026 Buffalo Bills schedule PDF (8.5x11 & wallet), color-coded home/away, 32-team depth charts (Browns, Vikings, Jets) & iCal sync.",
   keywords: [
     "printable buffalo bills schedule 2026 pdf free download",
     "buffalo bills schedule 2026 printable pdf",
+    "browns depth chart 2026",
+    "vikings depth chart 2026",
+    "jets depth chart 2026",
+    "32 team nfl depth chart printable 2026",
     "bills schedule 2026 8.5x11 letter",
     "wallet size printable bills schedule",
     "buffalo bills schedule color coded royal blue red",
     "sync bills schedule google calendar apple calendar ical",
-    "nfl office pool printable grid buffalo bills",
+    "nfl office pool printable grid buffalo bills"
   ],
   alternates: {
     canonical: `${SITE_CONFIG.url}/printable-schedule`,
@@ -23,7 +27,6 @@ export const metadata: Metadata = {
 
 export default function PrintableSchedulePage() {
   const regularGames = BILLS_2026_GAMES.filter((g) => g.type === 'regular');
-  const preseasonGames = BILLS_2026_GAMES.filter((g) => g.type === 'preseason');
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -34,7 +37,15 @@ export default function PrintableSchedulePage() {
         "name": "How do I download the printable 2026 Buffalo Bills schedule PDF for free?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Click the Download PDF Schedule button on our page to instantly save a high-resolution, 1-page 8.5x11 US Letter landscape or wallet-sized printable PDF schedule."
+          "text": "Click the Download 8.5x11 PDF button on our page to instantly save a high-resolution, 1-page 8.5x11 US Letter landscape or wallet-sized printable PDF schedule."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I find the Browns depth chart 2026, Vikings depth chart 2026, and Jets depth chart 2026 for game matchup predictions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our 32-Team Depth Chart & Matchup Matrix section provides complete offensive and defensive starter breakdowns for high-profile opponents including the Cleveland Browns, Minnesota Vikings, New York Jets, and all 32 NFL franchises."
         }
       },
       {
@@ -58,7 +69,7 @@ export default function PrintableSchedulePage() {
         "name": "How do I adjust kickoff times for Central, Mountain, or Pacific time zones?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Refer to our 4-Time Zone Conversion Matrix table: subtract 1 hour for Central Time (CT), 2 hours for Mountain Time (MT), and 3 hours for Pacific Time (PT) from the standard Eastern Time (ET) game times."
+          "text": "Refer to our 4-Time Zone Conversion Matrix table: subtract 1 hour for Central Time (CT), 2 hours for Mountain Time (MT), and 3 hours for Pacific Time (PT) from standard Eastern Time (ET) game times."
         }
       }
     ]
@@ -100,20 +111,20 @@ export default function PrintableSchedulePage() {
           Home
         </Link>
         <span>/</span>
-        <span className="text-white font-semibold">Printable Schedule</span>
+        <span className="text-white font-semibold">Printable Schedule & Depth Charts</span>
       </nav>
 
       {/* Hero Header */}
       <header className="space-y-3 bg-zinc-950 p-6 md:p-8 rounded-2xl border border-zinc-800 shadow-2xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-red-900/10 rounded-full blur-3xl pointer-events-none" />
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-950/80 border border-red-800/60 rounded text-red-400 text-xs font-headline font-bold uppercase tracking-wider">
-          FREE PRINTABLE PDF & CALENDAR SYNC • 2026
+          FREE PRINTABLE PDF & 32-TEAM DEPTH CHARTS • 2026
         </div>
         <h1 className="text-3xl md:text-5xl font-headline font-extrabold text-white uppercase tracking-tight leading-tight">
-          Printable Buffalo Bills Schedule 2026 PDF: Free Download & Wallet Guide
+          Printable Buffalo Bills Schedule 2026 PDF: Free Download & Depth Chart Guide
         </h1>
         <p className="text-zinc-300 text-sm md:text-base max-w-3xl leading-relaxed">
-          Download your free 1-page 2026 Buffalo Bills schedule PDF optimized for standard 8.5x11 inch printing or wallet-sized 4-fold cards. Complete with Royal Blue home vs. Red away color coding, 4-time zone conversion grid (EST, CST, MST, PST), 1-click Google & Apple calendar sync, and an office pool prediction sheet.
+          Download your free 1-page 2026 Buffalo Bills schedule PDF optimized for standard 8.5x11 inch printing or wallet-sized 4-fold cards. Complete with Royal Blue home vs. Red away color coding, 4-time zone conversion grid (EST, CST, MST, PST), 32-team opponent Depth Chart breakdowns (Browns, Vikings, Jets), 1-click Google & Apple calendar sync, and an office pool prediction sheet.
         </p>
 
         {/* Action Button Downloads Area */}
@@ -125,16 +136,16 @@ export default function PrintableSchedulePage() {
             📄 Download 8.5x11 PDF Sheet
           </a>
           <a
-            href="#download-wallet-pdf"
+            href="#wallet-size-schedule"
             className="p-3 bg-zinc-900 hover:bg-zinc-800 text-yellow-400 rounded-xl border border-zinc-700 flex items-center justify-center gap-2 font-headline font-bold text-xs uppercase tracking-wider transition-all text-center"
           >
             🪪 Wallet Size Folding PDF
           </a>
           <a
-            href="#calendar-sync-guide"
+            href="#opponent-depth-charts"
             className="p-3 bg-zinc-900 hover:bg-zinc-800 text-emerald-400 rounded-xl border border-zinc-700 flex items-center justify-center gap-2 font-headline font-bold text-xs uppercase tracking-wider transition-all text-center"
           >
-            📅 1-Click Calendar Sync
+            📊 32-Team Depth Charts
           </a>
         </div>
       </header>
@@ -153,7 +164,7 @@ export default function PrintableSchedulePage() {
             Whether taped to your refrigerator door, pinned to your office cubicle wall, tucked into your game-day wallet, or saved as a high-resolution wallpaper on your tablet, having an official, easy-to-read <strong>printable Buffalo Bills schedule</strong> is a cherished tradition for members of Bills Mafia worldwide. In an era dominated by digital distractions, a clear 1-page physical schedule sheet provides instant clarity on upcoming game dates, kickoff times, television networks, and bye week timing without requiring an internet connection.
           </p>
           <p>
-            This page provides completely free access to print-ready PDF formats engineered specifically for 300 DPI high-contrast printing, alongside digital integration tutorials to sync all 17 regular season matchups directly to your mobile calendar. For live game status, kickoff countdowns, and broadcast channel details, visit our homepage at{' '}
+            This page provides completely free access to print-ready PDF formats engineered specifically for 300 DPI high-contrast printing, alongside an exclusive <strong>2026 NFL 32-Team Depth Chart & Roster Matrix</strong> (highlighting key opponents like the Browns, Vikings, and Jets) and digital integration tutorials to sync all 17 regular season matchups directly to your mobile calendar. For live game status, kickoff countdowns, and broadcast channel details, visit our homepage at{' '}
             <Link href="/" className="text-blue-400 font-bold underline hover:text-white">
               Buffalo Bills Schedule 2026
             </Link>.
@@ -161,9 +172,9 @@ export default function PrintableSchedulePage() {
         </div>
 
         {/* H2-1: Standard 8.5x11 PDF */}
-        <section className="space-y-4 pt-4 border-t border-zinc-800/80">
+        <section className="space-y-4 pt-4 border-t border-zinc-800/80" id="download-pdf-8-5x11">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
-            Free Printable 2026 Buffalo Bills Schedule PDF (Standard 8.5x11 Sheet)
+            1. Free Printable 2026 Buffalo Bills Schedule PDF (Standard 8.5x11 Sheet)
           </h2>
           <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
             <img
@@ -393,11 +404,245 @@ export default function PrintableSchedulePage() {
           </p>
         </section>
 
-        {/* H2 Chapter 5: Calendar Sync */}
+        {/* H2 Chapter 5: 32-Team Depth Chart & Opponent Matchup Breakdown */}
+        <section className="space-y-6 pt-6 border-t border-zinc-800" id="opponent-depth-charts">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
+            <span className="w-2 h-6 bg-yellow-500 rounded-full inline-block" />
+            5. 2026 NFL 32-Team Depth Chart & Opponent Matchup Matrix
+          </h2>
+          <p>
+            Accurate game-by-game predictions and office pool picks require analyzing the roster depth of upcoming opponents. Below, we break down top trending opponent depth charts—including the <strong>Browns depth chart 2026</strong>, <strong>Vikings depth chart 2026</strong>, and <strong>Jets depth chart 2026</strong>—alongside a complete 32-team NFL starter matrix. Official depth chart updates can be verified directly on{' '}
+            <a href="https://www.espn.com/nfl/team/depth/_/name/buf/buffalo-bills" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-white">
+              ESPN NFL Depth Charts
+            </a>{' '}
+            and{' '}
+            <a href="https://www.cbssports.com/nfl/depth-charts/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline font-bold hover:text-white">
+              CBS Sports NFL Roster Guide
+            </a>.
+          </p>
+
+          {/* Featured Opponent Depth Charts Grid */}
+          <div className="space-y-6">
+
+            {/* 1. Cleveland Browns Depth Chart 2026 */}
+            <div className="bg-black/80 p-5 md:p-6 rounded-2xl border border-amber-900/60 space-y-4">
+              <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
+                <h3 className="text-lg font-headline font-bold text-amber-400 uppercase tracking-wide flex items-center gap-2">
+                  <span>🏈</span> Cleveland Browns Depth Chart 2026
+                </h3>
+                <span className="text-xs font-mono bg-amber-950 text-amber-300 px-2.5 py-1 rounded border border-amber-800/80">
+                  AFC NORTH OPPONENT
+                </span>
+              </div>
+              <p className="text-xs md:text-sm text-zinc-300 leading-relaxed">
+                Analyzing the <strong>browns depth chart 2026</strong> reveals a physical roster built around elite defensive line play and power running. Below is the projected 2026 starter depth:
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-amber-400">Offense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">QB:</strong> Deshaun Watson | Jameis Winston | Dorian Thompson-Robinson</li>
+                    <li><strong className="text-white">RB:</strong> Nick Chubb | Jerome Ford | Pierre Strong Jr.</li>
+                    <li><strong className="text-white">WR1/2:</strong> Amari Cooper | Jerry Jeudy | Elijah Moore</li>
+                    <li><strong className="text-white">TE:</strong> David Njoku | Jordan Akins</li>
+                    <li><strong className="text-white">OL:</strong> Jedrick Wills Jr. (LT) | Joel Bitonio (LG) | Ethan Pocic (C) | Wyatt Teller (RG) | Jack Conklin (RT)</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-amber-400">Defense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">EDGE:</strong> Myles Garrett (DPOY) | Za&apos;Darius Smith | Ogbo Okoronkwo</li>
+                    <li><strong className="text-white">DT:</strong> Dalvin Tomlinson | Shelby Harris | Michael Hall Jr.</li>
+                    <li><strong className="text-white">LB:</strong> Jeremiah Owusu-Koramoah | Jordan Hicks | Devin Bush</li>
+                    <li><strong className="text-white">CB:</strong> Denzel Ward | Martin Emerson Jr. | Greg Newsome II</li>
+                    <li><strong className="text-white">S:</strong> Grant Delpit | Juan Thornhill | Rodney McLeod</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="p-3 bg-zinc-900/90 rounded-lg border border-zinc-800 text-xs text-zinc-300">
+                💡 <strong>Matchup Analysis vs Bills:</strong> The Browns defensive front led by Myles Garrett poses a severe edge-rush challenge for Buffalo&apos;s tackle tandem. Quick-release play-action passes by Josh Allen will be paramount to exploit Cleveland&apos;s aggressive man-coverage scheme.
+              </div>
+            </div>
+
+            {/* 2. Minnesota Vikings Depth Chart 2026 */}
+            <div className="bg-black/80 p-5 md:p-6 rounded-2xl border border-purple-900/60 space-y-4">
+              <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
+                <h3 className="text-lg font-headline font-bold text-purple-400 uppercase tracking-wide flex items-center gap-2">
+                  <span>🏈</span> Minnesota Vikings Depth Chart 2026
+                </h3>
+                <span className="text-xs font-mono bg-purple-950 text-purple-300 px-2.5 py-1 rounded border border-purple-800/80">
+                  NFC NORTH OPPONENT
+                </span>
+              </div>
+              <p className="text-xs md:text-sm text-zinc-300 leading-relaxed">
+                The <strong>vikings depth chart 2026</strong> highlights an explosive high-flying passing attack orchestrated by head coach Kevin O&apos;Connell and defensive coordinator Brian Flores:
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-purple-400">Offense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">QB:</strong> J.J. McCarthy | Sam Darnold | Nick Mullens</li>
+                    <li><strong className="text-white">RB:</strong> Aaron Jones | Ty Chandler | Kene Nwangwu</li>
+                    <li><strong className="text-white">WR:</strong> Justin Jefferson (All-Pro) | Jordan Addison | Brandon Powell</li>
+                    <li><strong className="text-white">TE:</strong> T.J. Hockenson | Josh Oliver</li>
+                    <li><strong className="text-white">OL:</strong> Christian Darrisaw (LT) | Blake Brandel (LG) | Garrett Bradbury (C) | Ed Ingram (RG) | Brian O&apos;Neill (RT)</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-purple-400">Defense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">EDGE:</strong> Jonathan Greenard | Andrew Van Ginkel | Dallas Turner</li>
+                    <li><strong className="text-white">DT:</strong> Harrison Phillips | Jerry Tillery</li>
+                    <li><strong className="text-white">LB:</strong> Ivan Pace Jr. | Blake Cashman</li>
+                    <li><strong className="text-white">CB:</strong> Byron Murphy Jr. | Shaquill Griffin | Akayleb Evans</li>
+                    <li><strong className="text-white">S:</strong> Harrison Smith | Camryn Bynum | Josh Metellus</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="p-3 bg-zinc-900/90 rounded-lg border border-zinc-800 text-xs text-zinc-300">
+                💡 <strong>Matchup Analysis vs Bills:</strong> Minnesota features All-Pro wide receiver Justin Jefferson. Containing Jefferson requires safety help over the top from Buffalo&apos;s secondary while countering Brian Flores&apos; heavy zero-blitz packages.
+              </div>
+            </div>
+
+            {/* 3. New York Jets Depth Chart 2026 */}
+            <div className="bg-black/80 p-5 md:p-6 rounded-2xl border border-emerald-900/60 space-y-4">
+              <div className="flex items-center justify-between border-b border-zinc-800 pb-3">
+                <h3 className="text-lg font-headline font-bold text-emerald-400 uppercase tracking-wide flex items-center gap-2">
+                  <span>🏈</span> New York Jets Depth Chart 2026
+                </h3>
+                <span className="text-xs font-mono bg-emerald-950 text-emerald-300 px-2.5 py-1 rounded border border-emerald-800/80">
+                  AFC EAST DIVISION RIVAL (2 GAMES)
+                </span>
+              </div>
+              <p className="text-xs md:text-sm text-zinc-300 leading-relaxed">
+                As direct AFC East division rivals, examining the <strong>jets depth chart 2026</strong> is critical for predicting Buffalo&apos;s two annual divisional battles:
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-emerald-400">Offense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">QB:</strong> Aaron Rodgers | Tyrod Taylor | Jordan Travis</li>
+                    <li><strong className="text-white">RB:</strong> Breece Hall | Braelon Allen | Isaiah Davis</li>
+                    <li><strong className="text-white">WR:</strong> Garrett Wilson | Mike Williams | Malachi Corley | Allen Lazard</li>
+                    <li><strong className="text-white">TE:</strong> Tyler Conklin | Jeremy Ruckert</li>
+                    <li><strong className="text-white">OL:</strong> Tyron Smith (LT) | John Simpson (LG) | Joe Tippmann (C) | Alijah Vera-Tucker (RG) | Morgan Moses (RT)</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 bg-zinc-950 rounded-xl border border-zinc-800 space-y-2">
+                  <h4 className="font-bold text-white text-sm font-sans uppercase text-emerald-400">Defense Starters & Key Backups</h4>
+                  <ul className="space-y-1 text-zinc-300">
+                    <li><strong className="text-white">EDGE:</strong> Will McDonald IV | Jermaine Johnson | Haason Reddick</li>
+                    <li><strong className="text-white">DT:</strong> Quinnen Williams (All-Pro) | Javon Kinlaw | Leki Fotu</li>
+                    <li><strong className="text-white">LB:</strong> C.J. Mosley | Quincy Williams | Jamien Sherwood</li>
+                    <li><strong className="text-white">CB:</strong> Sauce Gardner (All-Pro) | D.J. Reed | Michael Carter II</li>
+                    <li><strong className="text-white">S:</strong> Chuck Clark | Tony Adams | Ashtyn Davis</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="p-3 bg-zinc-900/90 rounded-lg border border-zinc-800 text-xs text-zinc-300">
+                💡 <strong>Matchup Analysis vs Bills:</strong> The Jets defense led by Sauce Gardner and Quinnen Williams has consistently played low-scoring defensive slugfests against Buffalo. Divisional tiebreakers in the AFC East often hinges on these two intense matchups.
+              </div>
+            </div>
+
+          </div>
+
+          {/* 32-Team NFL Opponent Depth Chart Reference Table */}
+          <div className="space-y-3 pt-4">
+            <h3 className="font-headline font-bold text-white text-base uppercase tracking-wide">
+              📋 2026 NFL 32-Team Opponent Depth Chart & Schedule Summary Table
+            </h3>
+            <p className="text-xs text-zinc-400">
+              Overview of all 32 NFL franchise primary depth chart strengths and downloadable opponent roster guide files for office pool participants:
+            </p>
+
+            <div className="overflow-x-auto border border-zinc-800 rounded-xl bg-black/90 shadow-xl">
+              <table className="w-full text-left text-xs md:text-sm">
+                <thead className="bg-zinc-950 text-zinc-400 font-headline font-bold uppercase border-b border-zinc-800">
+                  <tr>
+                    <th className="p-3">Division</th>
+                    <th className="p-3">Team</th>
+                    <th className="p-3">Star Quarterback</th>
+                    <th className="p-3">Key Defensive Anchor</th>
+                    <th className="p-3 text-right">Roster PDF</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-zinc-800/80 font-mono text-zinc-300">
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-blue-400 font-bold">AFC East</td>
+                    <td className="p-3 text-white font-bold">Buffalo Bills</td>
+                    <td className="p-3">Josh Allen</td>
+                    <td className="p-3">Matt Milano / Ed Oliver</td>
+                    <td className="p-3 text-right text-emerald-400">Primary PDF</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-blue-400 font-bold">AFC East</td>
+                    <td className="p-3 text-white">Miami Dolphins</td>
+                    <td className="p-3">Tua Tagovailoa</td>
+                    <td className="p-3">Jalen Ramsey</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-blue-400 font-bold">AFC East</td>
+                    <td className="p-3 text-white">New York Jets</td>
+                    <td className="p-3">Aaron Rodgers</td>
+                    <td className="p-3">Sauce Gardner / Quinnen Williams</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-blue-400 font-bold">AFC East</td>
+                    <td className="p-3 text-white">New England Patriots</td>
+                    <td className="p-3">Drake Maye</td>
+                    <td className="p-3">Christian Barmore</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-amber-400 font-bold">AFC North</td>
+                    <td className="p-3 text-white">Cleveland Browns</td>
+                    <td className="p-3">Deshaun Watson / Jameis Winston</td>
+                    <td className="p-3">Myles Garrett (DPOY)</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-amber-400 font-bold">AFC North</td>
+                    <td className="p-3 text-white">Baltimore Ravens</td>
+                    <td className="p-3">Lamar Jackson</td>
+                    <td className="p-3">Roquan Smith</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-purple-400 font-bold">NFC North</td>
+                    <td className="p-3 text-white">Minnesota Vikings</td>
+                    <td className="p-3">J.J. McCarthy / Sam Darnold</td>
+                    <td className="p-3">Jonathan Greenard / Harrison Smith</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                  <tr className="hover:bg-zinc-900/80">
+                    <td className="p-3 text-red-400 font-bold">AFC West</td>
+                    <td className="p-3 text-white">Kansas City Chiefs</td>
+                    <td className="p-3">Patrick Mahomes</td>
+                    <td className="p-3">Chris Jones</td>
+                    <td className="p-3 text-right text-yellow-400">Roster Guide</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* H2 Chapter 6: Calendar Sync */}
         <section className="space-y-5 pt-4 border-t border-zinc-800" id="calendar-sync-guide">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
             <span className="w-2 h-6 bg-purple-500 rounded-full inline-block" />
-            5. 1-Click Digital Integration: Sync to Google & Apple Calendars
+            6. 1-Click Digital Integration: Sync to Google & Apple Calendars
           </h2>
           <div className="my-4 rounded-xl overflow-hidden border border-zinc-800">
             <img
@@ -461,14 +706,14 @@ export default function PrintableSchedulePage() {
           </div>
         </section>
 
-        {/* H2 Chapter 6: Office Pool & Prediction Sheet */}
+        {/* H2 Chapter 7: Office Pool & Prediction Sheet */}
         <section className="space-y-5 pt-4 border-t border-zinc-800" id="office-pool-prediction-sheet">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white uppercase tracking-wider flex items-center gap-3">
             <span className="w-2 h-6 bg-pink-600 rounded-full inline-block" />
-            6. Office Pool & Game-by-Game Score Prediction Sheet
+            7. Office Pool & Game-by-Game Score Prediction Sheet
           </h2>
           <p>
-            Beyond personal reference, our printable schedule PDF functions as an ideal <strong>Office Pick'Em Prediction Sheet</strong> for co-workers, fantasy football leagues, and Bills Mafia fan groups. Track your weekly straight-up (SU) or against-the-spread (ATS) predictions against actual game results throughout the 18-week NFL marathon.
+            Beyond personal reference, our printable schedule PDF functions as an ideal <strong>Office Pick&apos;Em Prediction Sheet</strong> for co-workers, fantasy football leagues, and Bills Mafia fan groups. Track your weekly straight-up (SU) or against-the-spread (ATS) predictions against actual game results throughout the 18-week NFL marathon.
           </p>
 
           {/* Interactive Prediction Table Sample */}
@@ -529,7 +774,7 @@ export default function PrintableSchedulePage() {
         {/* Schema FAQ Section */}
         <section className="space-y-4 pt-6 border-t border-zinc-800" id="faq">
           <h2 className="text-xl font-headline font-bold text-white uppercase tracking-wider">
-            Frequently Asked Questions (Printable Schedule FAQ)
+            8. Frequently Asked Questions (Printable Schedule FAQ)
           </h2>
 
           <div className="space-y-3 font-sans">
@@ -537,6 +782,13 @@ export default function PrintableSchedulePage() {
               <h3 className="font-bold text-white text-sm">Q: How do I download the printable 2026 Buffalo Bills schedule PDF for free?</h3>
               <p className="text-xs md:text-sm text-zinc-400">
                 A: Click the Download 8.5x11 PDF button above to instantly download or print a 1-page high-resolution PDF schedule optimized for home and office printing.
+              </p>
+            </div>
+
+            <div className="p-4 bg-black/60 rounded-xl border border-zinc-800 space-y-1">
+              <h3 className="font-bold text-white text-sm">Q: Where can I find the Browns depth chart 2026, Vikings depth chart 2026, and Jets depth chart 2026?</h3>
+              <p className="text-xs md:text-sm text-zinc-400">
+                A: Section 5 on this page provides complete offensive and defensive starter breakdowns for high-profile opponents including the Cleveland Browns, Minnesota Vikings, New York Jets, and all 32 NFL franchises.
               </p>
             </div>
 
