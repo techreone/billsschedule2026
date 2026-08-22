@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:seo": "python3 scripts/lint-guides.py",
+    "search": "python3 scripts/searx-search.py",
+    "fetch-image": "node scripts/fetch-image.mjs"
   },
   "dependencies": {
     "next": "16.3.2",
@@ -20,6 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.2",
+    "sharp": "^0.33.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
