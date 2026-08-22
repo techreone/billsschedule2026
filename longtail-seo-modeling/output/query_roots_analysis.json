@@ -1,227 +1,328 @@
 {
-  "top_tokens": [
-    [
-      "sitemap.xml",
-      18
-    ],
-    [
-      "post",
-      11
-    ],
+  "total_urls_analyzed": 672,
+  "top_query_tokens": [
     [
       "schedule",
-      10
+      672
     ],
     [
-      "fbs",
-      4
+      "new",
+      84
     ],
     [
-      "weeks",
-      4
+      "los",
+      42
     ],
     [
-      "sitemap2.xml",
-      3
+      "angeles",
+      42
     ],
     [
-      "sitemap3.xml",
-      3
+      "york",
+      42
     ],
     [
-      "nfl",
-      3
+      "bay",
+      42
     ],
     [
-      "cfl",
-      3
+      "seattle",
+      21
     ],
     [
-      "ncaa",
-      3
+      "seahawks",
+      21
     ],
     [
-      "fcs",
-      3
+      "chargers",
+      21
     ],
     [
-      "ufl",
-      3
+      "houston",
+      21
     ],
     [
-      "sitemap4.xml",
-      2
+      "texans",
+      21
     ],
     [
-      "sitemap5.xml",
+      "san",
+      21
+    ],
+    [
+      "francisco",
+      21
+    ],
+    [
+      "49ers",
+      21
+    ],
+    [
+      "jets",
+      21
+    ],
+    [
+      "jacksonville",
+      21
+    ],
+    [
+      "jaguars",
+      21
+    ],
+    [
+      "buffalo",
+      21
+    ],
+    [
+      "bills",
+      21
+    ],
+    [
+      "green",
+      21
+    ],
+    [
+      "packers",
+      21
+    ],
+    [
+      "giants",
+      21
+    ],
+    [
+      "indianapolis",
+      21
+    ],
+    [
+      "colts",
+      21
+    ],
+    [
+      "pittsburgh",
+      21
+    ],
+    [
+      "steelers",
+      21
+    ],
+    [
+      "denver",
+      21
+    ],
+    [
+      "broncos",
+      21
+    ],
+    [
+      "minnesota",
+      21
+    ],
+    [
+      "vikings",
+      21
+    ],
+    [
+      "atlanta",
+      21
+    ],
+    [
+      "falcons",
+      21
+    ],
+    [
+      "chicago",
+      21
+    ],
+    [
+      "bears",
+      21
+    ],
+    [
+      "cincinnati",
+      21
+    ],
+    [
+      "bengals",
+      21
+    ],
+    [
+      "orleans",
+      21
+    ],
+    [
+      "saints",
+      21
+    ],
+    [
+      "dallas",
+      21
+    ],
+    [
+      "cowboys",
+      21
+    ],
+    [
+      "arizona",
+      21
+    ],
+    [
+      "cardinals",
+      21
+    ],
+    [
+      "cleveland",
+      21
+    ],
+    [
+      "browns",
+      21
+    ],
+    [
+      "baltimore",
+      21
+    ],
+    [
+      "ravens",
+      21
+    ],
+    [
+      "carolina",
+      21
+    ],
+    [
+      "panthers",
+      21
+    ],
+    [
+      "las",
+      21
+    ],
+    [
+      "vegas",
+      21
+    ]
+  ],
+  "top_url_segments": [
+    [
+      "2012-seattle-seahawks-schedule",
       1
     ],
     [
-      "sitemap6.xml",
+      "2010-los-angeles-chargers-schedule",
       1
     ],
     [
-      "sitemap7.xml",
+      "2025-houston-texans-schedule",
       1
     ],
     [
-      "sitemap8.xml",
+      "2019-san-francisco-49ers-schedule",
       1
     ],
     [
-      "sitemap9.xml",
+      "2017-new-york-jets-schedule",
       1
     ],
     [
-      "sitemap10.xml",
+      "2015-los-angeles-chargers-schedule",
       1
     ],
     [
-      "sitemap11.xml",
+      "2022-jacksonville-jaguars-schedule",
       1
     ],
     [
-      "page",
+      "2017-buffalo-bills-schedule",
       1
     ],
     [
-      "wpb",
+      "2026-green-bay-packers-schedule",
       1
     ],
     [
-      "wcs",
+      "2008-new-york-giants-schedule",
       1
     ],
     [
-      "conference",
+      "2026-indianapolis-colts-schedule",
       1
     ],
     [
-      "news",
+      "2009-pittsburgh-steelers-schedule",
+      1
+    ],
+    [
+      "2027-denver-broncos-schedule",
+      1
+    ],
+    [
+      "2008-minnesota-vikings-schedule",
+      1
+    ],
+    [
+      "2022-green-bay-packers-schedule",
+      1
+    ],
+    [
+      "2010-denver-broncos-schedule",
+      1
+    ],
+    [
+      "2024-atlanta-falcons-schedule",
+      1
+    ],
+    [
+      "2014-chicago-bears-schedule",
+      1
+    ],
+    [
+      "2008-san-francisco-49ers-schedule",
+      1
+    ],
+    [
+      "2019-houston-texans-schedule",
+      1
+    ],
+    [
+      "2018-cincinnati-bengals-schedule",
+      1
+    ],
+    [
+      "2016-new-orleans-saints-schedule",
+      1
+    ],
+    [
+      "2009-san-francisco-49ers-schedule",
+      1
+    ],
+    [
+      "2018-dallas-cowboys-schedule",
+      1
+    ],
+    [
+      "2012-new-york-jets-schedule",
+      1
+    ],
+    [
+      "2026-san-francisco-49ers-schedule",
+      1
+    ],
+    [
+      "2026-arizona-cardinals-schedule",
+      1
+    ],
+    [
+      "2024-cleveland-browns-schedule",
+      1
+    ],
+    [
+      "2017-pittsburgh-steelers-schedule",
+      1
+    ],
+    [
+      "2011-pittsburgh-steelers-schedule",
       1
     ]
   ],
-  "top_segments": [
-    [
-      "post-sitemap.xml",
-      1
-    ],
-    [
-      "post-sitemap2.xml",
-      1
-    ],
-    [
-      "post-sitemap3.xml",
-      1
-    ],
-    [
-      "post-sitemap4.xml",
-      1
-    ],
-    [
-      "post-sitemap5.xml",
-      1
-    ],
-    [
-      "post-sitemap6.xml",
-      1
-    ],
-    [
-      "post-sitemap7.xml",
-      1
-    ],
-    [
-      "post-sitemap8.xml",
-      1
-    ],
-    [
-      "post-sitemap9.xml",
-      1
-    ],
-    [
-      "post-sitemap10.xml",
-      1
-    ],
-    [
-      "post-sitemap11.xml",
-      1
-    ],
-    [
-      "page-sitemap.xml",
-      1
-    ],
-    [
-      "nfl-sitemap.xml",
-      1
-    ],
-    [
-      "cfl-sitemap.xml",
-      1
-    ],
-    [
-      "ncaa-sitemap.xml",
-      1
-    ],
-    [
-      "fbs_schedule-sitemap.xml",
-      1
-    ],
-    [
-      "fbs_schedule-sitemap2.xml",
-      1
-    ],
-    [
-      "fbs_schedule-sitemap3.xml",
-      1
-    ],
-    [
-      "fbs_schedule-sitemap4.xml",
-      1
-    ],
-    [
-      "fcs_schedule-sitemap.xml",
-      1
-    ],
-    [
-      "fcs_schedule-sitemap2.xml",
-      1
-    ],
-    [
-      "fcs_schedule-sitemap3.xml",
-      1
-    ],
-    [
-      "nfl_schedule-sitemap.xml",
-      1
-    ],
-    [
-      "cfl_schedule-sitemap.xml",
-      1
-    ],
-    [
-      "ufl-sitemap.xml",
-      1
-    ],
-    [
-      "ufl_schedule-sitemap.xml",
-      1
-    ],
-    [
-      "wpb_wcs-sitemap.xml",
-      1
-    ],
-    [
-      "ncaa_conference-sitemap.xml",
-      1
-    ],
-    [
-      "ncaa_weeks-sitemap.xml",
-      1
-    ],
-    [
-      "nfl_weeks-sitemap.xml",
-      1
-    ]
-  ],
-  "top_patterns": []
+  "top_route_patterns": []
 }
