@@ -10,9 +10,26 @@ const key = fs.readFileSync(path.join(process.cwd(), 'scripts/indexnow-key.txt')
 const host = 'billsschedule2026.online'
 const keyLocation = `https://${host}/indexnow-${key}.txt`
 
-// 收集全站静态页面 URL（4 条 SSG 路由，域名统一为 billsschedule2026.online）
-// 与 sitemap.ts 对齐：覆盖全站 7 条路由
-const routes = ['', '/where-to-watch', '/preseason-schedule', '/printable-schedule', '/about', '/privacy', '/terms']
+// 收集全站静态页面 URL（域名统一为 billsschedule2026.online）
+// 与 sitemap.ts 对齐：覆盖全站 57 条路由（7 个原路由 + 50 个趋势新词 SSG 路由）
+const routes = [
+  '', '/where-to-watch', '/preseason-schedule', '/printable-schedule', '/about', '/privacy', '/terms',
+  '/are-there-any-preseason-nfl-games-on-today', '/arizona-cardinals-depth-chart-2026',
+  '/bills-kicker-depth-chart', '/bills-quarterback-depth-chart', '/bills-rb-depth-chart',
+  '/bills-vs-browns-delay-weather', '/bills-vs-browns-live-stream', '/bills-vs-browns-prediction', '/bills-vs-browns-stats',
+  '/broncos-qb-depth-chart', '/browns-qb-depth-chart', '/chargers-depth-chart-2026', '/cleveland-browns-depth-chart-2026',
+  '/colts-qb-depth-chart', '/colts-wr-depth-chart', '/commanders-depth-chart-2026', '/commanders-qb-depth-chart',
+  '/cowboys-depth-chart-2026', '/damar-hamlin-bills-status', '/denver-broncos-depth-chart-2026',
+  '/does-nfl-sunday-ticket-include-preseason-games', '/dolphins-depth-chart-2026', '/eagles-depth-chart-2026',
+  '/ed-oliver-son-family-news', '/falcons-qb-depth-chart', '/frank-gore-jr-bills-roster',
+  '/giants-qb-depth-chart', '/giants-rb-depth-chart', '/is-josh-allen-playing-today', '/jets-qb-depth-chart',
+  '/kansas-city-chiefs-depth-chart-2026', '/kyle-allen-bills-qb2', '/lions-qb-depth-chart', '/matt-milano-injury-status',
+  '/minnesota-vikings-depth-chart-2026', '/new-york-giants-depth-chart-2026', '/new-york-jets-depth-chart-2026',
+  '/nfl-plus-preseason-live-stream-guide', '/panthers-depth-chart-2026', '/panthers-rb-depth-chart',
+  '/ray-davis-bills-rb', '/saints-depth-chart-2026', '/steelers-depth-chart-2026', '/steelers-rb-depth-chart',
+  '/stefon-diggs-bills-wr-aftermath', '/tampa-bay-buccaneers-depth-chart-2026', '/tennessee-titans-depth-chart-2026',
+  '/texans-depth-chart-2026', '/vikings-qb-depth-chart', '/where-can-i-watch-nfl-preseason-games',
+]
 const urls = routes.map((r) => `https://${host}${r}`)
 
 console.log(`[IndexNow] 共收集到 ${urls.length} 个 URL 准备提交给 Bing/IndexNow API...`)

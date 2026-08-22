@@ -3,6 +3,7 @@ import Countdown from '@/components/Countdown';
 import BRTopHeadlines from '@/components/BRTopHeadlines';
 import { NativeBanner, Banner } from '@/components/ads/Adsterra';
 import Link from 'next/link';
+ import { TREND_SLUGS, slugToLabel } from '@/data/trendSlugs';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -135,6 +136,23 @@ export default function BRHomePage() {
             <p>
               Pair this guide with our <Link href="/where-to-watch" className="text-blue-400 underline font-bold hover:text-blue-300">Where to Watch Bills Games Streaming Guide</Link>, our <Link href="/preseason-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">2026 Buffalo Bills Preseason Schedule</Link>, and our <Link href="/printable-schedule" className="text-blue-400 underline font-bold hover:text-blue-300">Printable Buffalo Bills Schedule PDF & Calendar Sync</Link> to stay fully locked in all season long.
             </p>
+          </section>
+
+          {/* Trending 2026 — 全站新词枢纽(内链总入口, 根治孤儿页) */}
+          <section className="mt-10 bg-zinc-900/60 rounded-2xl border border-zinc-800 p-6">
+            <h2 className="text-xl font-headline font-bold text-white uppercase tracking-wider border-b border-zinc-800 pb-2 mb-4">
+              🔥 Trending 2026: Bills &amp; NFL Hub
+            </h2>
+            <p className="text-xs text-zinc-400 mb-4">最新爆发的 Buffalo Bills 与全网 32 队 2026 趋势新词深度页：</p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+              {TREND_SLUGS.map((s) => (
+                <li key={s}>
+                  <Link href={`/${s}`} className="text-blue-400 hover:text-blue-300 underline text-sm">
+                    {slugToLabel(s)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
 
           {/* Game Schedule Grid Stream with Official WebP Team Logos */}
