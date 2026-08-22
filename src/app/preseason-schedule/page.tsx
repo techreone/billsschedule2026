@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import AdSlot from '@/components/AdSlot';
+import { Banner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
@@ -136,7 +136,8 @@ export default function PreseasonPage() {
         </div>
       </header>
 
-      <AdSlot label="Advertisement" type="banner" />
+      {/* Adsterra 320x50 */}
+      <Banner adKey="5d146ebf8de0e1bf65577df613316798" width={320} height={50} />
 
       {/* Main Guide Content Article */}
       <article className="bg-zinc-900/60 p-6 md:p-10 rounded-2xl border border-zinc-800 space-y-10 text-zinc-300 leading-relaxed text-sm md:text-base">

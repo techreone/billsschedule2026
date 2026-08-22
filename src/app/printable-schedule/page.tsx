@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import AdSlot from '@/components/AdSlot';
+import { Banner } from '@/components/ads/Adsterra';
 import PrintButton from '@/components/PrintButton';
 import { SITE_CONFIG, BILLS_2026_GAMES } from '@/data/scheduleData';
 
@@ -139,7 +139,8 @@ export default function PrintableSchedulePage() {
         </div>
       </header>
 
-      <AdSlot label="Advertisement" type="banner" />
+      {/* Adsterra 160x300 */}
+      <Banner adKey="1579b0e8977abe534a5029f5b81ea5e8" width={160} height={300} />
 
       {/* Main Guide Content Article */}
       <article className="bg-zinc-900/60 p-6 md:p-10 rounded-2xl border border-zinc-800 space-y-10 text-zinc-300 leading-relaxed text-sm md:text-base">

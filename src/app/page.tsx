@@ -1,7 +1,7 @@
 import { BILLS_2026_GAMES, FAQS } from '@/data/scheduleData';
 import Countdown from '@/components/Countdown';
 import BRTopHeadlines from '@/components/BRTopHeadlines';
-import AdSlot from '@/components/AdSlot';
+import { NativeBanner, Banner } from '@/components/ads/Adsterra';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
@@ -87,8 +87,8 @@ export default function BRHomePage() {
           {/* Dynamic Countdown Component */}
           <Countdown nextGame={nextGame} />
 
-          {/* Top Banner AdSlot */}
-          <AdSlot label="Advertisement • Top Banner" type="banner" />
+          {/* Top Banner — Adsterra Native */}
+          <NativeBanner />
 
           {/* Game Schedule Grid Stream with Official WebP Team Logos */}
           <section className="space-y-4">
@@ -149,7 +149,8 @@ export default function BRHomePage() {
             </div>
           </section>
 
-          <AdSlot label="Advertisement • In-Feed Ad" type="banner" />
+          {/* In-Feed Ad — Adsterra 468x60 */}
+          <Banner adKey="b372ecf6ebd23a0deb54c0bebeda0e21" width={468} height={60} />
 
           {/* 2500+ Word Comprehensive On-Page SEO Article covering 10 H2 Micro-Intents */}
           <article className="bg-zinc-900/60 p-6 md:p-8 rounded-2xl border border-zinc-800 space-y-8 text-sm text-zinc-300 leading-relaxed">

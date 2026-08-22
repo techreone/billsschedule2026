@@ -3,6 +3,7 @@ import './globals.css';
 import { SITE_CONFIG, FAQS } from '@/data/scheduleData';
 import BRScoreboardCarousel from '@/components/BRScoreboardCarousel';
 import BRHeader from '@/components/BRHeader';
+import { SocialBar, Smartlink } from '@/components/ads/Adsterra';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
@@ -121,6 +122,7 @@ export default function RootLayout({
                 <a href="/about" className="hover:text-white transition-colors">About Us</a>
                 <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
                 <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+                <Smartlink className="hover:text-white transition-colors" />
               </div>
             </div>
             <p className="text-[11px] text-zinc-600 text-center">
@@ -128,6 +130,9 @@ export default function RootLayout({
             </p>
           </div>
         </footer>
+
+        {/* Adsterra Social Bar */}
+        <SocialBar />
 
       </body>
     </html>

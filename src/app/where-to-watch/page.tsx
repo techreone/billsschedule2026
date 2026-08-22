@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import AdSlot from '@/components/AdSlot';
+import { Banner } from '@/components/ads/Adsterra';
 import { SITE_CONFIG } from '@/data/scheduleData';
 
 export const metadata: Metadata = {
@@ -80,7 +80,8 @@ export default function WhereToWatchPage() {
         </div>
       </header>
 
-      <AdSlot label="Advertisement • Top Banner" type="banner" />
+      {/* Adsterra 300x250 */}
+      <Banner adKey="8c41e1fed296062320ae7fce00172081" width={300} height={250} />
 
       {/* Main Guide Content */}
       <article className="bg-zinc-900/70 p-6 md:p-10 rounded-2xl border border-zinc-800 space-y-10 text-zinc-300 leading-relaxed text-sm md:text-base">
