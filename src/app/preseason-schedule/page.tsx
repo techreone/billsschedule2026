@@ -63,8 +63,31 @@ export default function PreseasonPage() {
     ]
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://billsschedule2026.online"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Preseason Schedule",
+        "item": "https://billsschedule2026.online/preseason-schedule"
+      }
+    ]
+  };
+
   return (
-    <div className="space-y-8 max-w-5xl mx-auto">
+    <div className="space-y-8 max-w-5xl mx-auto pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

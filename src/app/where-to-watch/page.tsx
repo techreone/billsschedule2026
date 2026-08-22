@@ -22,8 +22,31 @@ export const metadata: Metadata = {
 };
 
 export default function WhereToWatchPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://billsschedule2026.online"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Where to Watch",
+        "item": "https://billsschedule2026.online/where-to-watch"
+      }
+    ]
+  };
+
   return (
     <div className="space-y-8 max-w-5xl mx-auto pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       
       {/* Breadcrumb Navigation - Links back to homepage for SEO link equity */}
       <nav className="text-xs font-mono text-zinc-400 flex items-center gap-2 pt-2">

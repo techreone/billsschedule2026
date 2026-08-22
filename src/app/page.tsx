@@ -6,7 +6,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: { absolute: "Buffalo Bills Schedule 2026: Game Times & TV Channels" },
+  title: "Official Buffalo Bills Schedule 2026: Game Times, TV Networks & Bye Week Guide",
   description: "2026 Buffalo Bills schedule with all 17 game times (ET), CBS/FOX/NBC/ESPN channels, primetime TV, Highmark Stadium weather and Week 12 bye week analysis.",
   keywords: [
     "Buffalo Bills schedule 2026",

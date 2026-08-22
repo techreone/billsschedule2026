@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     description: SITE_CONFIG.description,
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
+    images: [
+      {
+        url: "/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Buffalo Bills Schedule 2026 Official Broadcast & Kickoff Times Guide",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -34,6 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Buffalo Bills Schedule 2026",
     description: SITE_CONFIG.description,
+    images: ["/og-image.webp"],
   },
   robots: {
     index: true,
@@ -98,16 +107,23 @@ export default function RootLayout({
 
         {/* Custom Dark Footer */}
         <footer className="bg-black border-t border-zinc-900 py-10 mt-12 text-xs text-zinc-500">
-          <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <div className="bg-[#00338D] text-white font-headline font-black text-sm px-2 py-0.5 rounded border border-blue-400/30">
-                BS<span className="text-yellow-300">26</span>
+          <div className="max-w-7xl mx-auto px-4 space-y-6">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-zinc-900 pb-6">
+              <div className="flex items-center gap-2">
+                <div className="bg-[#00338D] text-white font-headline font-black text-sm px-2 py-0.5 rounded border border-blue-400/30">
+                  BS<span className="text-yellow-300">26</span>
+                </div>
+                <span className="font-headline font-bold text-white uppercase text-sm">
+                  BILLS SCHEDULE 2026
+                </span>
               </div>
-              <span className="font-headline font-bold text-white uppercase text-sm">
-                BILLS SCHEDULE 2026
-              </span>
+              <div className="flex items-center gap-6 font-mono text-zinc-400">
+                <a href="/about" className="hover:text-white transition-colors">About Us</a>
+                <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+              </div>
             </div>
-            <p className="text-[11px] text-zinc-600 text-center md:text-right">
+            <p className="text-[11px] text-zinc-600 text-center">
               © 2026 billsschedule2026.online • Unofficial fan broadcast schedule & streaming guide. Not affiliated with NFL or Buffalo Bills.
             </p>
           </div>
