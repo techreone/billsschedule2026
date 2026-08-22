@@ -1,5 +1,8 @@
 # billsschedule2026.xyz — 深度意图拆解与独立网络搜索 Query 库 (INTENT-DECOMPOSITION.md)
 
+> **对标建模认证 (Competitor Reference Modeling)**：
+> 本意图大纲 **100% 参考对标了顶级体育赛程大站 `FBSchedules.com` (`/nfl/buffalo-bills/`)、`Bleacher Report` 与 `ESPN` 的实测网页排版与用户核心 Segment 提取**。
+>
 > **最高防失真原则**：
 > 1. 任何页面必须支撑 **2000 ~ 3000 字的高信息密度深度精品长文**。
 > 2. **每个意图章节必须独立搭配 1~2 个精准的网络 Search Query**。动笔前必须执行搜索核实最新官方数据，绝不凭空臆想时间、网络或阵容，坚决杜绝信息失真！
@@ -9,6 +12,7 @@
 ## 1. 首页 (`/`) 意图与搜索 Query 库 (目标字数: 2500+ 字)
 
 - **主打词**: `buffalo bills schedule 2026`
+- **对标基准**: 参考 FBSchedules & ESPN Bills Schedule Pillar Page 结构
 
 | 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
 | :--- | :--- | :--- | :--- |
@@ -28,6 +32,7 @@
 ## 2. 转播与频道页 (`/where-to-watch`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `where to watch buffalo bills game today` / `what channel is the bills game on`
+- **对标基准**: 参考 Bleacher Report Broadcast & Streaming Guide 结构
 
 | 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
 | :--- | :--- | :--- | :--- |
@@ -46,6 +51,7 @@
 ## 3. 季前赛页 (`/preseason-schedule`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `buffalo bills preseason schedule 2026`
+- **对标基准**: 参考 WIVB Local Broadcast & Preseason Guide 结构
 
 | 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
 | :--- | :--- | :--- | :--- |
@@ -62,6 +68,7 @@
 ## 4. 可打印 PDF 页 (`/printable-schedule`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `printable buffalo bills schedule 2026 pdf free download`
+- **对标基准**: 参考 ProFootballNetwork Printable Schedule Format 结构
 
 | 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
 | :--- | :--- | :--- | :--- |
