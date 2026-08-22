@@ -1,24 +1,24 @@
-# billsschedule2026.xyz — 项目全局规则与工作流 (AGENTS.md)
+# billsschedule2026.xyz — 全局规则与 v3 统一工作流 (AGENTS.md)
 
-> 本文件是 `billsschedule2026.xyz` 项目的最高指导规范。**所有 Agent 与协作流程必须严格遵循本文件**。
+> 本文件是 `billsschedule2026.xyz` 项目的最高指导规范。**所有 Agent 与协作流程必须无条件严格遵循本文件**。
 
 ---
 
 ## ⚠️ 最高纪律与红线
 
 1. **绝对禁止急躁写代码/建水页**：
-   - 任何页面动笔前，必须先完成**数据验证、Sitemap 词根拓扑建模、意图深拆**。
+   - 任何页面动笔前，必须完成 **Sitemap 词根拓扑建模、宽词库收集、意图先行深拆 (一词 10 意图)**。
    - **无主打关键词，绝对不新建页面**（坚决捍卫“一页一词”铁律，防止 Thin Content 薄弱内容与爬虫预算浪费）。
 
-2. **强制使用实时网络搜索引擎脚本 (禁用原生不实时推测)**：
-   - 动笔撰写任何章节前，**必须执行 `python3 scripts/searx-search.py "<query>"` 实时请求搜索引擎**获取最新真实官方数据。
-   - 严禁依赖模型原生的不实时记忆下笔。
+2. **强制使用多通道实时搜索引擎 (`scripts/multi-engine-search.py`)**：
+   - 动笔撰写任何章节前，**必须运行多通道搜索 CLI (`agentsearch` / `searxng` / `anysearch` / `ddgs`)** 查实 2026 赛季最新数据，关键数值需 ≥2 源一致才落笔。严禁依赖模型非实时记忆。
 
-3. **图片获取与本地化规范 (`scripts/fetch-image.mjs`)**：
-   - 图片必须由 Agent 自动获取：通过 `node scripts/fetch-image.mjs <url> --alt "<alt>" --game bills` 下载并走代理本地化保存至 `public/images/`，统一转为 WebP 格式。
+3. **图片获取与本地化去重规范 (`scripts/fetch-image.mjs` & `dedupe-images.py`)**：
+   - 图片必须由 Agent 自动获取：通过 `node scripts/fetch-image.mjs <url> --alt "..." --game bills` 下载并走代理本地化保存至 `public/images/`，统一转为 WebP 格式。
+   - 运行 `python3 scripts/dedupe-images.py` 感知哈希去重，确保展示图同站唯一。
 
 4. **上线与构建 Lint 门禁 (`scripts/lint-guides.py`)**：
-   - 在执行 `npm run build` 前，**必须通过 `python3 scripts/lint-guides.py` 门禁自检**，确保 0 死链、0 TDK 越界、字数与外链合规。
+   - 在执行 `npm run build` 前，**必须通过 `python3 scripts/lint-guides.py` 门禁自检 0 错误**（覆盖：frontmatter 完整性、展示图唯一、图片去重、正文内链 ≥5、权威外链 ≥3、callout/配图、死链）。
 
 5. **技术栈红线**：
    - **纯静态 SSG 导出**（`output: 'export'`）：所有页面必须为预渲染静态 HTML，确保 Cloudflare Pages / Vercel 零成本部署与秒级加载。
@@ -27,21 +27,31 @@
 
 ---
 
-## 核心工作流：从 Sitemap 建模到内容上线（12 步统一流水线）
+## v3 统一工业级流水线 (10 大节点，顺序不可颠倒)
 
 ```
-① Sitemap 建模 ★   运行 longtail-seo-modeling 脚本抓取对标站 Sitemap → 提取 Query Root 查询词根
-② 数据/联想 ★     通过 Google Suggest / Trends 对核心词（如 Bills Schedule）做横向联想扩展
-③ 重组归堆 ★       把联想词按【主题实体】（如 赛程表/频道/季前赛/门票/轮空周）归堆
-④ 意图深拆 ★       对每个目标词深拆 3-10 条用户核心疑问（作为页面 H2/H3 章节骨架）
-⑤ 独立 Query 搜索 ★ 动笔前运行 `python3 scripts/searx-search.py` 查实最新开球时间、频道、广播
-⑥ 网页图片本地化 ★  运行 `node scripts/fetch-image.mjs` 抓取权威配图并自动压缩为 WebP
-⑦ 内部链接与面包屑  在路由规划阶段即定义互链关系（所有长尾页必带面包屑与指向首页的锚文本）
-⑧ 写作与内容填充   逐意图展开讲透，插入官方/权威数据，保持关键词密度在 3% ~ 5%
-⑨ 结构化数据       嵌入 Schema.org (FAQPage / SportsEvent / ItemList) JSON-LD 代码
-⑩ Lint 门禁自检 ★   运行 `python3 scripts/lint-guides.py` 全站 0 错误检查
-⑪ 静态构建校验     执行 `npm run build` 验证全静态 out 目录生成
-⑫ 上线与提交       部署至托管平台，运行 `node scripts/submit-indexnow.mjs` 提交收录
+① 词库收集 (宽)    Google Trends / Suggest + 黄金后缀组装 + 排列组合 + 疑问式 + 对标大站反查
+                    → 形成精准词库候选池
+② 意图识别 (先行)★ 对【每一个】候选词独立深拆 3-10 条意图，写进 INTENT-DECOMPOSITION.md ——
+                    不是按词面判断，而是揣测"搜这个词的人到底想要什么答案"
+③ 质量分级 (通用)  Tier 算法 (volume×KD 矩阵) 分级：
+                    Tier 1-2 = 高质主词 → 独立建页 (一个萝卜坑一篇，绝不揉进 combo)；
+                    Tier 3-5 = 附属词 (FAQ / H2 章节 / 内链 combo)
+④ 按意图聚类        发生在意图拆解【之后】——高热度高质词各占一页，意图相似的低质词归入主词簇
+⑤ 背景理解 ★       动笔前通过多通道搜索 CLI (`scripts/multi-engine-search.py`) 搜该赛程主词 3-5 次，
+                    吃透 2026 赛季赛程规则、电视台版权、广播频道与球场细节，彻底消除 AI 幻觉
+⑥ 逐意图写作 ★     GUIDE-WRITING.md 深度版：每个意图 = 一个 H2/H3 实质章节，讲透背景、开球时间、
+                    频道分配与赛事细节；搜索量不省，关键数值 ≥2 源一致才落笔；
+                    ★ 正文引用权威外链（NFL.com / CBS / ESPN / Wikipedia）——提升 AI 检索引用权重；
+                    ★ 严禁引用竞争新站
+⑦ sources 追溯      在 reference/guides/{slug}-sources.md 记录参考 URL 与数据结论（可追溯）
+⑧ 注册 + 配图      图片本地化：`node scripts/fetch-image.mjs <url> --alt "..." --game bills` 转 WebP
+                    → 运行 `python3 scripts/dedupe-images.py` 感知哈希去重（相似 >0.90 视为重复）
+                    → IMAGE-ASSETS 索引更新
+⑨ 对标审查        对标 checklist 自审 + 用户终审（不合格退回重修）
+⑩ lint 门禁上线 ★   `python3 scripts/lint-guides.py` 必须 0 错误（覆盖：frontmatter 完整性、
+                    展示图唯一、图片引用/去重、正文内链 ≥5、权威外链 ≥3、callout/配图、死链）
+                    → `npm run build` 静态构建绿 → `out/` 验证 → 提交与 IndexNow 提交
 ```
 
 ---
@@ -50,8 +60,9 @@
 
 | 脚本文件 | 工具用途 | 执行命令 |
 | :--- | :--- | :--- |
-| `scripts/searx-search.py` | 本地多搜索引擎 (SearXNG/AgentSearch) 实时检索 | `python3 scripts/searx-search.py "<query>"` |
+| `scripts/multi-engine-search.py` | 本地多搜索引擎 (AgentSearch/SearXNG/AnySearch/DDGS) 实时检索 | `python3 scripts/multi-engine-search.py "<query>"` |
 | `scripts/fetch-image.mjs` | 图片抓取、代理下载与自动 WebP 本地化 | `node scripts/fetch-image.mjs <url> --alt "..." --game bills` |
+| `scripts/dedupe-images.py` | 感知哈希去重，防止配图重复 | `python3 scripts/dedupe-images.py` |
 | `scripts/lint-guides.py` | 全站 SEO、死链与 Markdown 质量门禁自检 | `python3 scripts/lint-guides.py` |
 | `scripts/check-seo-audit.py` | SEO 结构审计与关键词密度检查 | `python3 scripts/check-seo-audit.py` |
 | `scripts/check-external-links.mjs` | 外部权威链接 404 检测 | `node scripts/check-external-links.mjs` |
