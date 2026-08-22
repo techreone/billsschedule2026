@@ -1,100 +1,73 @@
-# billsschedule2026.xyz — 深度意图拆解大纲库 (INTENT-DECOMPOSITION.md)
+# billsschedule2026.xyz — 深度意图拆解与独立网络搜索 Query 库 (INTENT-DECOMPOSITION.md)
 
-> **最高写作原则**：任何页面必须支撑 **2000 ~ 3000 字的高信息密度深度精品长文**！
-> 本文档针对规划中的 4 个核心页面，进行了**极致穷尽的微意图深拆（Exhaustive Intent Breakdown, 每页 7 ~ 10 条 H2/H3 大纲）**。正文动笔时必须逐条展开，填充独家数据、球场细节、电视网政策与具体时间。
+> **最高防失真原则**：
+> 1. 任何页面必须支撑 **2000 ~ 3000 字的高信息密度深度精品长文**。
+> 2. **每个意图章节必须独立搭配 1~2 个精准的网络 Search Query**。动笔前必须执行搜索核实最新官方数据，绝不凭空臆想时间、网络或阵容，坚决杜绝信息失真！
 
 ---
 
-## 1. 首页 (`/`) 意图深拆大纲 (目标字数: 2500+ 字)
+## 1. 首页 (`/`) 意图与搜索 Query 库 (目标字数: 2500+ 字)
 
 - **主打词**: `buffalo bills schedule 2026`
-- **目标意图拆解大纲 (10 大 H2 章节)**：
 
-1. **H2-1: 2026 Buffalo Bills Kickoff Time & Live Game Countdown**
-   - 微意图：下一场比赛对手是谁、开球时间 (EST/PST/CST 换算)、倒计时、球场地点、实时状态。
-2. **H2-2: 2026 Regular Season Schedule Breakdown (Weeks 1-18)**
-   - 微意图：17 场常规赛逐场对阵明细表（含 Week 1~18 开球时间、主客场、球场名称、TV 电视台）。
-3. **H2-3: Primetime & National Broadcast Feature Games (TNF, SNF, MNF)**
-   - 微意图：黄金时间全美直播场次分析（Prime Video 独播 Thursday Night、NBC 独播 Sunday Night、ESPN 独播 Monday Night 的关键对决与看点）。
-4. **H2-4: Week 12 Bye Week Schedule & Player Recovery Impact**
-   - 微意图：2026 赛季第 12 周（11月24日）轮空周 Bye Week 详细解析、轮空期前后赛程难度对比、核心球员伤病恢复影响。
-5. **H2-5: Home vs Away Game Distribution & Highmark Stadium Weather Factor**
-   - 微意图：Orchard Park 主场 8 场与客场 9 场的分布，分析 Late-Season (12月/1月) 恶劣大雪天气对主场进攻与开球时间调整的影响。
-6. **H2-6: Divisional Rivalry Matchups (AFC East Showdowns)**
-   - 微意图：对阵 Dolphins、Jets、Patriots 的 6 场 AFC East 部门内战赛程安排与历史战绩焦点。
-7. **H2-7: 2026 Buffalo Bills Offense & Defense Depth Chart Highlights**
-   - 微意图：Josh Allen 带领的进攻路线、外接手群与防守阵型 Depth Chart（阵容深度图）对各阶段赛程胜率的影响。
-8. **H2-8: Ticketmaster & Secondary Ticket Market Guide**
-   - 微意图：Highmark Stadium 主场门票开售时间、客场战门票预订、Secondary Market 票价趋势与买票防坑指南。
-9. **H2-9: How to Add Buffalo Bills 2026 Schedule to Google & Apple Calendar**
-   - 微意图：赛程一键同步 ICS 订阅文件、Google Calendar 与 iOS Calendar 赛前提醒设置步骤。
-10. **H2-10: Comprehensive Buffalo Bills 2026 Season FAQ**
-    - 微意图：涵盖黑蔽政策、加时赛规则、收音机广播频道的常见球迷 FAQ 问答。
+| 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
+| :--- | :--- | :--- | :--- |
+| **H2-1: Live Countdown & Multi-Timezone Kickoff** | 下一场对阵、开球时间 (EST/PST/CST 换算)、倒计时与实时比赛状态 | `"buffalo bills next game kickoff time 2026"`<br>`"buffalo bills schedule eastern time central time"` | 必须精准确认开球时间 EST 与换算，不能错 1 小时 |
+| **H2-2: 2026 Regular Season Schedule Breakdown** | 17 场常规赛逐场时间表（日期、对手、主客场、球场、TV） | `"buffalo bills 2026 regular season opponents dates"`<br>`"buffalo bills 2026 home away games"` | 核对 17 场比赛的 Opponent 与 Stadium 官方发布 |
+| **H2-3: Primetime & National Broadcast Feature Games** | Thursday/Sunday/Monday Night 黄金时间全美直播场次分析 | `"buffalo bills primetime games 2026 Thursday Night Monday Night"` | 验证 Prime Video, NBC, ESPN 的独播场次分配 |
+| **H2-4: Week 12 Bye Week Schedule & Impact** | 第 12 周轮空周 Bye Week 详情、前后难度与伤病恢复 | `"buffalo bills 2026 bye week date week 12"` | 确认轮空周确实在 Week 12，不凭空捏造轮空日期 |
+| **H2-5: Weather Factor at Highmark Stadium** | Orchard Park 12月/1月恶劣暴风雪天气对主场比赛的影响 | `"Highmark stadium weather snow late season buffalo bills games"` | 引用历史湖效应暴风雪 (Lake-effect snow) 真实案例 |
+| **H2-6: Divisional Rivalry Matchups (AFC East)** | 对阵 Dolphins, Jets, Patriots 的 6 场内战安排与战绩看点 | `"buffalo bills AFC East divisional schedule 2026"` | 核实 Dolphins / Jets / Patriots 6 场比赛的开球档期 |
+| **H2-7: 2026 Offense & Defense Depth Chart** | Josh Allen 领衔的阵容 Depth Chart 对赛程胜率影响 | `"buffalo bills depth chart 2026 starters roster"` | 搜索最新 Offense / Defense 首发阵容名单 |
+| **H2-8: Ticketmaster & Secondary Ticket Market** | Highmark Stadium 门票开售、客场购票与 Secondary Market 票价 | `"buffalo bills tickets 2026 Highmark stadium Ticketmaster"` | 确认官方票务合作伙伴与票价参考区间 |
+| **H2-9: How to Add Schedule to Google & Apple Calendar** | 赛程一键同步 ICS 订阅文件与手机日历提醒 | `"buffalo bills schedule add to google calendar ical"` | 验证标准 Webcal / ICS 订阅 URL 格式 |
+| **H2-10: Comprehensive Buffalo Bills Season FAQ** | 加时赛规则、黑蔽政策与广播频道的 FAQ 问答 | `"NFL overtime rules 2026 tv blackout policies"` | 确保规则为 NFL 最新官方规则 |
 
 ---
 
-## 2. 转播与频道页 (`/where-to-watch`) 意图深拆大纲 (目标字数: 2000+ 字)
+## 2. 转播与频道页 (`/where-to-watch`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `where to watch buffalo bills game today` / `what channel is the bills game on`
-- **目标意图拆解大纲 (9 大 H2 章节)**：
 
-1. **H2-1: What Channel is the Buffalo Bills Game on Today? (Network Map)**
-   - 微意图：CBS, FOX, NBC, ESPN, Amazon Prime 五大电视网版权分割地图与判断依据。
-2. **H2-2: Sunday Afternoon Broadcast Coverage Maps & Blackout Rules**
-   - 微意图：CBS 与 FOX 周日下午场地的 Broadcast Coverage Map 分布规则与本地地域黑蔽政策 (Local Blackout)。
-3. **H2-3: Official Streaming Services Guide (Paramount+, Peacock, ESPN+, Prime Video)**
-   - 微意图：四大官方 Stream App 的月费价格、画质 (4K HDR)、支持设备与免费试用。
-4. **H2-4: Out-of-Market Fans Guide: NFL Sunday Ticket on YouTube TV**
-   - 微意图：居住在水牛城以外地区的全国球迷，如何通过 NFL Sunday Ticket 收看未在本地电视台放映的每场比赛。
-5. **H2-5: Cord-Cutting Streaming Options (FuboTV, Hulu + Live TV, Sling TV)**
-   - 微意图：剪线族没有 Cable TV 时，替代网络电视服务平台对比与性价比分析。
-6. **H2-6: Live Radio Broadcast & Audio Streaming (WGR 550 AM & SiriusXM)**
-   - 微意图：水牛城本地 WGR 550 AM 旗舰电台、SiriusXM 卫星广播与 NFL Game Pass 音频直播指引。
-7. **H2-7: International Streaming Guide (DAZN NFL Game Pass International)**
-   - 微意图：加拿大、英国、欧洲、澳大利亚等海外 Bills 球迷的官方观看渠道。
-8. **H2-8: Free Legal Viewing Options & Local Sports Bars Search Guide**
-   - 微意图：OTA 室内天线免费看 CBS/NBC 广播，以及全球 Bills Backers 体育酒吧聚会观赛指南。
-9. **H2-9: Troubleshooting Broadcast Stream Delays & Blackouts FAQ**
-   - 微意图：解决播放卡顿、地域限制与设备兼容疑难解答 FAQ。
+| 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
+| :--- | :--- | :--- | :--- |
+| **H2-1: What Channel is the Game on Today?** | CBS/FOX/NBC/ESPN/Prime 五大电视网版权分割地图 | `"what channel is the buffalo bills game on today"` | 准确归类 Sunday Afternoon vs Primetime 电视台 |
+| **H2-2: Broadcast Coverage Maps & Blackouts** | CBS 与 FOX 地方黑蔽政策 Local Blackouts 详解 | `"NFL broadcast coverage maps 506 sports bills game"` | 引用 506 Sports 区域覆盖图规则 |
+| **H2-3: Official Streaming Services Guide** | Paramount+, Peacock, ESPN+, Prime Video 月费与设备 | `"Paramount plus Peacock ESPN plus NFL live stream 2026"` | 搜索最新流媒体月费 ($5.99/$11.99) 与 4K 支持 |
+| **H2-4: Out-of-Market Fans: Sunday Ticket** | 水牛城以外全国球迷通过 Sunday Ticket 看球指引 | `"NFL Sunday Ticket YouTube TV prices 2026 out of market"` | 确认 YouTube TV 为 Sunday Ticket 独家平台 |
+| **H2-5: Cord-Cutting Streaming Options** | FuboTV, Hulu + Live TV, Sling TV 剪线族平台对比 | `"FuboTV Hulu Live TV Sling TV channel packages NFL"` | 校验各网络电视平台是否包含 CBS/FOX/NBC/ESPN |
+| **H2-6: Live Radio Broadcast (WGR 550 AM)** | 水牛城 WGR 550 AM 旗舰台与 SiriusXM 广播 | `"buffalo bills radio station WGR 550 live broadcast"` | 确认 WGR 550 为官方广播电台呼号与频率 |
+| **H2-7: International Streaming (DAZN NFL)** | 海外 (加拿大/欧洲/澳洲) 球迷官方观看渠道 | `"DAZN NFL Game Pass International 2026 countries"` | 校验 DAZN 国际版的覆盖国家与购买方式 |
+| **H2-8: Free OTA Antenna & Sports Bars** | OTA 室内天线免费看与 Bills Backers 体育酒吧 | `"free over the air TV antenna NFL games CBS NBC"`<br>`"Bills Backers chapter locations sports bars"` | 说明 OTA 室内天线免费抓取 CBS/NBC HD 信号原理 |
+| **H2-9: Troubleshooting Stream Delays FAQ** | 解决播放卡顿、地域限制与设备兼容 FAQ | `"NFL stream buffering troubleshoot geo block"` | 提供清晰的刷新缓冲、IP 清除与设备重试步骤 |
 
 ---
 
-## 3. 季前赛页 (`/preseason-schedule`) 意图深拆大纲 (目标字数: 2000+ 字)
+## 3. 季前赛页 (`/preseason-schedule`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `buffalo bills preseason schedule 2026`
-- **目标意图拆解大纲 (7 大 H2 章节)**：
 
-1. **H2-1: 2026 Buffalo Bills Preseason Game Schedule & Kickoff Times**
-   - 微意图：8 月 3 场季前赛具体开球时间、对手 (Bears, Steelers, Panthers) 和场馆信息。
-2. **H2-2: Preseason Local Broadcast Network (WIVB-TV Channel 4 & Affiliates)**
-   - 微意图：季前赛本地转播网络 WIVB 电视台及纽约州周边地区联盟电视台列表。
-3. **H2-3: Roster Battles & Position Competitions to Watch in Preseason**
-   - 微意图：季前赛重点关注的 53 人大名单边缘球员与外接手/防守后卫位置竞争。
-4. **H2-4: Starter Playing Time Expectations (How much will Josh Allen play?)**
-   - 微意图：主力四分卫与核心首发在 Week 1, Week 2, Week 3 季前赛的预计出场节数规律。
-5. **H2-5: Training Camp & Open Practice Schedule at St. John Fisher University**
-   - 微意图：圣约翰费舍尔大学训练营公开练习日与季前赛衔接时间表。
-6. **H2-6: Preseason Streaming & Out-of-Market Replay on NFL+**
-   - 微意图：如何在 NFL+ 观看季前赛实时直播与全场录像回放。
-7. **H2-7: Preseason Ticket Prices & Highmark Stadium Fan Experience**
-   - 微意图：季前赛便宜门票购买、停车与带小孩观赛体验指南。
+| 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
+| :--- | :--- | :--- | :--- |
+| **H2-1: 2026 Preseason Schedule & Kickoff Times** | 8 月 3 场季前赛具体开球时间、对手和场馆 | `"buffalo bills 2026 preseason schedule dates opponents"` | 精准核对 Preseason Week 1-3 对手与开球时间 |
+| **H2-2: Preseason Local Broadcast Network** | WIVB-TV Channel 4 本地转播联盟列表 | `"WIVB channel 4 buffalo bills preseason broadcast network"` | 确认 WIVB-TV 为季前赛地方独家转播台 |
+| **H2-3: Roster Battles & Position Competitions** | 53 人大名单边缘球员与位置竞争看点 | `"buffalo bills 53 man roster competition 2026 preseason"` | 搜索训练营中值得关注的新人与位置争夺战 |
+| **H2-4: Starter Playing Time Expectations** | Josh Allen 与首发在 Week 1~3 的预计出场节数 | `"Josh Allen starter playing time preseason NFL"` | 总结 NFL 季前赛首发四分卫出场常规规律 |
+| **H2-5: Training Camp Schedule at St. John Fisher** | 圣约翰费舍尔大学训练营公开练习日时间表 | `"buffalo bills training camp St John Fisher University 2026"` | 核实训练营地点为 St. John Fisher University |
+| **H2-6: Preseason Streaming on NFL+** | NFL+ 实时直播与全场录像回放指引 | `"NFL Plus live stream preseason games replay"` | 确认 NFL+ 包含全美所有季前赛的 Out-of-Market 直播 |
+| **H2-7: Preseason Ticket Prices & Experience** | 季前赛便宜门票、停车与带小孩观赛指南 | `"buffalo bills preseason tickets price parking Highmark"` | 提供季前赛低价门票与停车区 (Lot 1-7) 提示 |
 
 ---
 
-## 4. 可打印 PDF 页 (`/printable-schedule`) 意图深拆大纲 (目标字数: 2000+ 字)
+## 4. 可打印 PDF 页 (`/printable-schedule`) 意图与搜索 Query 库 (目标字数: 2000+ 字)
 
 - **主打词**: `printable buffalo bills schedule 2026 pdf free download`
-- **目标意图拆解大纲 (6 大 H2 章节)**：
 
-1. **H2-1: Free 2026 Buffalo Bills Printable Schedule PDF (1-Page High-Res Download)**
-   - 微意图：提供单页高分辨率、符合标准 8.5x11 纸张打印尺寸的赛程表 PDF 模板。
-2. **H2-2: Pocket & Wallet-Sized Printable Schedule Layout**
-   - 微意图：口袋便携版、钱包折叠版赛程打印格式与黑白省墨打印指引。
-3. **H2-3: Highmark Stadium Home vs Away Color-Coded Print Layout**
-   - 微意图：主场 Royal Blue 与客场 Red 区分的高清晰度色彩标注设计。
-4. **H2-4: Time Zone Specific Printable Schedules (EST, CST, MST, PST)**
-   - 微意图：针对全美四大时区（东部、中部、山地、太平洋）的开球时间对照打印表。
-5. **H2-5: One-Click Calendar Sync Guide (Google Calendar, iCal, Outlook)**
-   - 微意图：如何将 17 场赛程直接导入 iOS/Android/Outlook 日历并开启赛前 15 分钟自动提醒。
-6. **H2-6: Office Pool & Fan Bracket Printable Templates**
-   - 微意图：办公室球迷赛程预测表与胜负纪录打印模版。
+| 章节 (H2/H3) | 核心微意图大纲 | 独立搭配网络 Search Query (强制搜索核查) | 数据防失真验证要求 |
+| :--- | :--- | :--- | :--- |
+| **H2-1: Free Printable Schedule PDF (1-Page)** | 8.5x11 标印尺寸单页高分 PDF 模板 | `"buffalo bills schedule printable 2026 1 page pdf"` | 确保说明文字包含标准 Letter (8.5x11 英寸) 规格 |
+| **H2-2: Pocket & Wallet-Sized Layout** | 口袋便携版、钱包折叠版与黑白省墨打印 | `"wallet size printable NFL schedule folding"` | 介绍 4-fold 钱包折叠打印裁剪技巧 |
+| **H2-3: Home vs Away Color-Coded Layout** | Royal Blue 主场与 Red 客场色彩标注设计 | `"buffalo bills official color codes hex royal blue red"` | 确认 Bills 官方主题色 Hex (`#00338D` / `#C60C30`) |
+| **H2-4: Time Zone Specific Printable Schedules** | EST, CST, MST, PST 全美四大时区开球对照 | `"NFL kickoff times timezone offset EST CST MST PST"` | 提供四大时区精准时间减算规则 |
+| **H2-5: One-Click Calendar Sync Guide** | iOS/Android/Outlook 日历一键导入与提醒 | `"sync NFL schedule to google calendar apple calendar 2026"` | 讲解 .ICS 文件导入与订阅日历协议 (Webcal) |
+| **H2-6: Office Pool & Fan Bracket Templates** | 办公室预测表与胜负纪录模版 | `"NFL office pool printable schedule grid template"` | 包含每周 W/L (胜/负) 记录方格设计说明 |
