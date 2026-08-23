@@ -377,6 +377,72 @@ export default function ClevelandBrownsDepthChart2026Page() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Quarterback Competition That Defines Everything
+        </h2>
+        <p>
+          Cleveland&apos;s 2026 depth chart cannot be understood without leading with its unresolved quarterback picture — the storyline national outlets flagged all summer, including <a href="https://www.covers.com/nfl/bills-vs-browns-prediction-picks-odds-today-saturday-august-22-2026" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">coverage noting</a> that the Browns entered the preseason still deciding their QB1. That uncertainty cascades through every other position group: receiver rotations depend on which arm wins, protection schemes shift between mobility profiles, and even the defensive chart&apos;s patience with young corners reflects an offense expected to need help scoring.
+        </p>
+        <p>
+          The preseason loss to Buffalo — a 31-7 defeat documented in the official <a href="https://www.clevelandbrowns.com/news/bills-31-browns-7-final-score-stats-game-recap" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Browns.com recap</a> — offered live evidence for the competition rather than a resolution. Until the staff names a definitive starter, every depth chart listing at the position should be read in pencil.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          A Base 4-3 Built to Protect Its Own Offense
+        </h2>
+        <p>
+          Structural services like <a href="https://www.ourlads.com/nfldepthcharts/depthchart/CLE" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> project Cleveland as a base 4-3 defense — a front designed to generate pressure with its defensive line alone and protect a secondary that has invested premium draft capital across multiple seasons. The defensive line remains this roster&apos;s deepest position group, and its rotation philosophy means the fourth and fifth linemen here carry genuine weekly value rather than emergency-designation status.
+        </p>
+        <p>
+          That depth matters double in a division where Cincinnati and Baltimore field two of the conference&apos;s most dangerous quarterback-receiver pairings. Cleveland&apos;s path to contention runs through winning the pocket-collapsing war first; the chart is constructed accordingly.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Reading the Chart Through Cutdown Week
+        </h2>
+        <p>
+          The seats to monitor as the exhibition calendar closes: third receiver in an offense that may lean run-heavy depending on its quarterback verdict, the swing-tackle backup protecting an aging edge, and the final linebacker seat where special-teams value traditionally decides the outcome. Roster trackers like <a href="https://www.draftsharks.com/depth-chart/cleveland-browns" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Draft Sharks</a> maintain weekly updates as the picture clarifies.
+        </p>
+        <p>
+          Fans following AFC North storylines all winter can map every date on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, revisit the Bills-Browns meeting in our <Link href="/bills-vs-browns-stats" className="text-blue-400 underline hover:text-blue-300">final box score breakdown</Link>, and see how the delay unfolded in the <Link href="/bills-vs-browns-delay-weather" className="text-blue-400 underline hover:text-blue-300">weather timeline guide</Link>.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Myles Garrett Standard Shapes Everything Else
+        </h2>
+        <p>
+          Building any depth chart around a generational edge rusher creates structural obligations most fans never consider: opponents game-plan specifically to neutralize him, which means the defensive chart must generate complementary pressure from interior alignments and opposite-side rotations. Cleveland&apos;s investment pattern along the defensive line reflects exactly that requirement — premium resources spread across the front rather than concentrated behind one superstar.
+        </p>
+        <p>
+          The offensive implication runs parallel: an offense facing quarterback uncertainty leans harder on ball-control football, which demands fresh defensive legs deep into games. The rotation depth visible throughout this chart is not luxury spending; it is the operational requirement of a roster whose best player commands double-team attention on every snap.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Deshaun Watson Contract Shadow
+        </h2>
+        <p>
+          No Browns depth chart discussion is complete without acknowledging the financial reality underneath it: Watson&apos;s fully guaranteed contract remains the largest and most structurally unusual deal in league history, and its cap mechanics constrain every roster decision around him regardless of his on-field standing. When competition designations appear at quarterback — as they genuinely have this camp — the organization is managing both a performance evaluation and the league&apos;s most complicated salary-cap ledger simultaneously.
+        </p>
+        <p>
+          This is why Cleveland&apos;s patience with the competition reads differently than similar battles elsewhere. Other franchises cut bait on underperforming passers quickly because their contracts allow it. Cleveland&apos;s structure makes continuity the default regardless of practice performance — which means the coaching staff&apos;s public framing of open competition coexists with financial gravity pointing one direction.
+        </p>
+        <p>
+          For rival fan bases, the schadenfreude writes itself; for analysts, it is the league&apos;s clearest case study in how guarantee structures reshape football decisions for years after the paperwork signs.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

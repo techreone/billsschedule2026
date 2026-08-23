@@ -365,6 +365,43 @@ export default function GiantsRbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          A Four-Man Battle With Real Roster Consequences
+        </h2>
+        <p>
+          New York&apos;s running back chart is the roster&apos;s most crowded competition. The national data listings at <a href="https://sportsdata.usatoday.com/football/nfl/teams/new-york-giants/351/depthChart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">USA Today</a> show rookie bruiser <strong>Cam Skattebo</strong> listed first with <strong>Tyrone Tracy Jr.</strong> and veteran <strong>Devin Singletary</strong> stacked behind, while ESPN&apos;s chart adds <strong>Najee Harris</strong> to the mix — giving this room four backs who have all earned genuine NFL carries somewhere.
+        </p>
+        <p>
+          CBS&apos; coverage framing Tracy&apos;s situation as &quot;more competition in the backfield&quot; confirms what the listing implies: nobody has been handed anything, and the preseason finale will function as a direct audition for multiple seats.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Skill-Profile Logic Behind the Crowding
+        </h2>
+        <p>
+          This is not redundant accumulation — each back occupies a distinct lane. Skattebo brings contact-balance power and receiving craft that made his college profile one of the draft&apos;s most complete. Tracy offers home-run acceleration that flips field position on single plays. Singletary provides trusted pass protection and scheme fluency. Harris, if he sticks, is pure between-tackles volume for December football when New York&apos;s stadium conditions demand it.
+        </p>
+        <p>
+          Coaching staffs keep the profiles they cannot replace and trade the ones they can — which means special-teams value, not preseason rushing averages, will decide the final seat here.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Fantasy Read: Volume Distribution Is Everything
+        </h2>
+        <p>
+          For fantasy purposes, this chart&apos;s crowding suppresses every individual ceiling until a clear hierarchy emerges — which makes training-camp reports more valuable than last season&apos;s statistics. The name to watch is Skattebo: rookie backs who open atop unofficial charts typically hold that line only if their pass protection matures quickly, and his early-down role depends entirely on earning staff trust in blitz pickup.
+        </p>
+        <p>
+          Compare conference backfields in our <Link href="/steelers-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Steelers RB guide</Link> (where Harris built his résumé) and our <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills breakdown</Link>, tracking every relevant date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
       {/* H2-9: Fantasy Football & DFS Implications */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">

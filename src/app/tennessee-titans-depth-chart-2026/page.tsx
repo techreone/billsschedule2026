@@ -358,6 +358,48 @@ export default function TitansDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Special Teams Foundation Under New Staffs
+        </h2>
+        <p>
+          Coaching transitions quietly reshape special teams more than any other unit, because coverage schemes are staff-specific installations that take full seasons to install properly. Tennessee&apos;s bottom roster seats — the final linebacker, sixth defensive back, and fourth receiver listings — exist almost entirely for this phase of the game, where new coordinators blend inherited personnel with imported specialists.
+        </p>
+        <p>
+          The practical consequence for fans: preseason coverage units reveal more about this staff&apos;s roster philosophy than any offensive series. Watch which young defenders sprint downfield on kickoffs — those are next season&apos;s starters being identified early, and their names rarely match what casual depth-chart readers expect.
+        </p>
+      </section>
+
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Developmental Timeline This Chart Actually Serves
+        </h2>
+        <p>
+          Strip away the weekly results and Tennessee&apos;s depth chart is serving one master: the growth curve of its young quarterback. Every veteran import on the offensive line, every receiver addition, every tight-end retention was purchased to accelerate a single development arc — because the modern NFL&apos;s most reliable path back to relevance runs through maximizing a quarterback&apos;s early contract window while his salary cap hit stays manageable.
+        </p>
+        <p>
+          That framing explains the chart&apos;s apparent contradictions. Why keep aging veterans at guard instead of playing rookies? Because protection consistency accelerates passer development faster than athletic upside. Why import a proven edge rusher rather than draft one? Because the defensive side of the roster needs to hold serve while the offensive investment matures. Nothing on this sheet exists for its own sake.
+        </p>
+        <p>
+          The organizational risk is equally clear: if the young passer stalls, an entire roster construction ages without a contending core around it. This is the bet every rebuilding franchise makes eventually, and Tennessee&apos;s version at least built its supporting infrastructure correctly — which history says matters more than any single draft pick.
+        </p>
+      </section>
+
+      {/* Footer */}
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Interior Line Battle With Playoff Implications
+        </h2>
+        <p>
+          The right guard competition — veteran import versus drafted development — deserves more attention than its depth-chart position suggests. Interior protection failures end quarterback development arcs: pressure up the middle destroys timing faster than edge rush because the quarterback cannot climb the pocket to escape it. Whoever wins this seat inherits responsibility for the entire offensive investment&apos;s success.
+        </p>
+        <p>
+          Preseason interior reps are the only honest evaluation window, since joint practices and camp drills rarely feature full-contact interior rush. The staff&apos;s decision timeline here — early cutdown versus post-first-game — will signal how close the competition actually ran.
+        </p>
+      </section>
+
       {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">

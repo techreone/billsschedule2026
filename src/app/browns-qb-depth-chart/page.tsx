@@ -272,6 +272,43 @@ export default function BrownsQbDepthChartPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Battle Is Official: Watson vs. Sanders
+        </h2>
+        <p>
+          Cleveland&apos;s quarterback competition stopped being media speculation in August, when offensive coordinator Todd Monken publicly framed the preseason as a genuine battle between <strong>Deshaun Watson</strong> and <strong>Shedeur Sanders</strong> — per the camp coverage captured by national trackers. The league&apos;s own depth listing at <a href="https://www.espn.com/nfl/team/depth/_/name/cle" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> lines up Watson first with Sanders and rookie Dillon Gabriel behind him, but the exhibition tape has been doing the talking: Sanders&apos; first preseason start included a perfect opening drive that instantly became national conversation.
+        </p>
+        <p>
+          This is the rare depth chart battle where fan interest rivals roster stakes. Every snap either quarterback takes gets graded by an audience far larger than the coaching staff intended.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Reading the Tiers: What Each Name Represents
+        </h2>
+        <p>
+          The four-man chart tells four different stories. Watson represents the highest-paid reclamation project in league history — his health and form are the franchise&apos;s financial reality regardless of public sentiment. Sanders carries unprecedented media gravity for a fifth-round pick, plus genuine preseason production. Gabriel arrives as a decorated college veteran whose development curve the staff controls deliberately. And Taylen Green&apos;s presence signals a long-term athletic traits bet stashed at the bottom of the room.
+        </p>
+        <p>
+          For the organization, the ideal outcome is simple: one of these names separates decisively before Week 1, because a true timeshare into September would waste a defensive roster built to win now.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How This Resolves — and What It Means for Buffalo Fans
+        </h2>
+        <p>
+          Preseason performance will decide this faster than practice reps: the staff cannot afford sentimentality in a division featuring two MVP-caliber passers. Bills fans watching from afar got their own look at Cleveland&apos;s uncertainty when the two teams met — our <Link href="/bills-vs-browns-stats" className="text-blue-400 underline hover:text-blue-300">31-7 box score breakdown</Link> captures how the game unfolded after the <Link href="/bills-vs-browns-delay-weather" className="text-blue-400 underline hover:text-blue-300">lightning delay</Link>.
+        </p>
+        <p>
+          Track every resolution point of this saga and the full AFC slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* Section 5: FAQ */}
         {/* Section 5: FAQ */}
         <section className="space-y-4 pt-4 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-tight border-l-4 border-orange-500 pl-3">

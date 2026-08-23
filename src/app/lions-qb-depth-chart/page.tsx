@@ -304,6 +304,69 @@ export default function LionsQBDepthChartPage() {
         </div>
       </section>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Jared Goff QB1, and a Genuinely Interesting Battle Behind Him
+        </h2>
+        <p>
+          Detroit&apos;s top line is the league&apos;s most settled: Jared Goff starts, full stop, behind one of football&apos;s best offensive lines in an offense tailored precisely to his strengths. The intrigue lives one seat down, where the top-backup job has turned into a real competition. Per <a href="https://www.facebook.com/Local4/posts/detroit-lions-quarterback-joshua-dobbs-is-looking-forward-to-his-first-preseason/1512213267617904/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Detroit&apos;s Local 4 coverage</a>, veteran journeyman <strong>Joshua Dobbs</strong> joined the room this offseason and sat out the recent preseason opener as coaching staff protected his install timeline, while <strong>Hendon Hooker</strong> continues ramping back after last season&apos;s injury — with national notes at <a href="https://www.foxsports.com/nfl/nate-sudfeld-player" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Fox Sports</a> having tracked the Hooker concussion-protocol absence that complicated last cycle&apos;s backup battle.
+        </p>
+        <p>
+          Translation for fans: Detroit&apos;s front office stopped assuming and started auditioning. Two different veteran archetypes — Dobbs&apos; mobility-reclamation profile versus Hooker&apos;s arm-talent development track — are competing to be the guy who plays four games if the worst happens in Motown.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Why This Backup Battle Matters More in Detroit Than Most Places
+        </h2>
+        <p>
+          The Lions&apos; offense is uniquely sensitive to quarterback changes. Its play-action heavy structure depends on timing throws that take repetition to master, its protection schemes assume specific pocket-movement habits, and its receiver routes tree rewards quarterbacks who hit landmarks on schedule. A backup who cannot operate those mechanics turns a five-win swing into an eight-win collapse — which is exactly why the organization invested in two experienced names rather than a developmental lottery ticket.
+        </p>
+        <p>
+          Preseason reps are where this verdict gets written. Every snap Hooker takes is evaluated against his injury recovery arc; every Dobbs series tests whether his famous mobility survives inside a structured pocket system rather than freelancing.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The NFC North Context
+        </h2>
+        <p>
+          Division rivals all upgraded their quarterback situations this cycle, which makes Detroit&apos;s depth insurance more valuable than in softer years. The comparison chart across the division reads like a case study in roster philosophy: stability versus upside versus reclamation. Fans tracking how the North shakes out can follow every interconference date on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and see the mirror-image stable situation in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback guide</Link>.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Practice Squad Quarterback: Detroit&apos;s Quiet Insurance Layer
+        </h2>
+        <p>
+          Beneath the three-man competition sits the league&apos;s most misunderstood roster mechanism: the practice squad quarterback who takes scout-team reps mimicking each week&apos;s opponent. Detroit&apos;s development infrastructure uses this seat deliberately — young arms get paid to learn the offense while giving the starting defense full-speed looks at mobile passer archetypes. The best organizations treat this player as a genuine developmental investment rather than a body.
+        </p>
+        <p>
+          His elevation path is also the roster&apos;s emergency valve: when injuries compress the active quarterback room mid-season, practice-squad promotions happen within forty-eight hours, meaning this unnamed listing can become relevant faster than any free-agent signing could.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Goff&apos;s Value: What Detroit Would Actually Lose
+        </h2>
+        <p>
+          Backup quarterback conversations implicitly value the starter, and Detroit&apos;s situation deserves explicit framing: Jared Goff&apos;s specific skills — pre-snap command, rhythm-based accuracy, and the trust of an entire offensive infrastructure built around his timing — are precisely the qualities no backup replicates. This is why the backup battle matters for depth-chart purposes but cannot change the offense&apos;s fundamental identity. Whoever wins the seat inherits a system calibrated to someone else&apos;s strengths.
+        </p>
+        <p>
+          The front office&apos;s dual-veteran approach also reflects a sober read of NFC North roster building: rival defenses upgraded their fronts this offseason, meaning Goff&apos;s exposure to pressure increases regardless of scheme. Insurance spending at quarterback is defensive coordination against opponents&apos; investments.
+        </p>
+        <p>
+          For bettors and fantasy managers tracking Detroit&apos;s ceiling, the actionable insight is that this offense&apos;s floor depends less on Goff&apos;s health than on whether either backup can operate play-action timing within two weeks of emergency preparation — historically one of the hardest transitions in professional football.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

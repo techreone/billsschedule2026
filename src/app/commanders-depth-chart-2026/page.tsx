@@ -351,6 +351,48 @@ export default function CommandersDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Quinn Culture Dividend
+        </h2>
+        <p>
+          Head coach Dan Quinn&apos;s program has quietly changed what this depth chart means. Rosters take on their coach&apos;s competitive personality within eighteen months, and Quinn&apos;s defensive pedigree shows in the retention pattern: special-teams aces, rotational linemen, and coverage specialists occupy proportionally more seats here than on offense-first rosters. That identity matters in December games when margins compress to execution details rather than star power.
+        </p>
+        <p>
+          The cultural compounding also explains why Washington tolerated more competition designations than rival charts carry: Quinn&apos;s staff evaluates constantly, and public listings reflect meritocracy rather than settled hierarchy. Players respond to that transparency with measurable effort spikes in camp settings — an intangible that shows up in fourth-quarter defensive stamina by mid-season.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Cap-Sheet Reality Behind Every Listing
+        </h2>
+        <p>
+          Depth charts are also financial documents, and Washington&apos;s construction reveals a front office managing a specific tension: paying premium market rates at quarterback while building cheap depth everywhere else. The qualification tags scattered across the running back room are not just competition honesty — they are cost control, because rookie running back contracts make auditioning young backs materially smarter than guaranteeing veteran money for identical production.
+        </p>
+        <p>
+          That philosophy explains several otherwise-puzzling listings across this chart: proven veterans on minimum deals holding seats ahead of higher-drafted developmental players, special-teamers retained for their salary efficiency rather than defensive value, and the deliberate absence of expensive free-agent additions at positions where the draft pipeline already flows.
+        </p>
+        <p>
+          For fans learning to read rosters like executives rather than video-game general managers, this is the lesson this chart teaches: every name is simultaneously a football decision and a spreadsheet decision, and the best organizations never separate the two. The teams that fail in the modern NFL almost always fail in the gap between talent evaluation and cap management — spending premium dollars on premium-position backups while their starters age without succession plans.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Second-Year Leap Candidates Worth Monitoring
+        </h2>
+        <p>
+          Depth charts hide their most important names in plain sight: second-year players who logged limited rookie snaps are statistically the roster&apos;s highest-variance group, and Washington&apos;s chart carries several. Historical leap rates for second-year defenders with 200-plus special-teams snaps exceed fifty percent for meaningful rotational contribution, which means the qualification-tagged listings scattered through this defense are future-starter auditions happening in real time.
+        </p>
+        <p>
+          Fans tracking these names weekly gain a genuine analytical edge over national narratives, which focus on established stars while missing the internal promotions that actually swing divisional games. By November, today&apos;s footnotes become the storyline — and the depth chart history documents exactly when each ascension began.
+        </p>
+      </section>
+
       {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">

@@ -325,6 +325,72 @@ export default function DenverBroncosDepthChart2026Page() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Defense Is the Headline: Surtain Anchors a 3-4 Machine
+        </h2>
+        <p>
+          Denver&apos;s 2026 depth chart is defensive-first by design, and the projection services agree on its architecture. <a href="https://www.ourlads.com/nfldepthcharts/depthchart/DEN" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> frames the Broncos as a base 3-4 with <strong>Pat Surtain II</strong> — arguably football&apos;s best corner — anchoring the right corner seat, Kris Abrams-Draine developing across from him, and <strong>Ja&apos;Quan McMillian</strong> holding the nickel in a five-secondary package that plays most of the game. National confirmation lives at <a href="https://www.espn.com/nfl/team/depth/_/name/den" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> and <a href="https://www.cbssports.com/nfl/teams/den/denver-broncos/depth-chart/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">CBS Sports</a>.
+        </p>
+        <p>
+          That construction is not accidental. In a division where two franchises field premium quarterbacks, Denver built a defense that can win the line-of-scrimmage war with four rushers and blanket receivers without blitz support — the roster equivalent of a mortgage paid off early.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Offense: Settled Quarterback, Rebuilt Skill Spots
+        </h2>
+        <p>
+          On the other side of the ball, the chart centers on Bo Nix&apos;s continued development, and our dedicated <Link href="/broncos-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">quarterback depth guide</Link> covers that hierarchy in detail. Around him, the skill positions reflect a front office comfortable importing proven production rather than waiting on draft development — a philosophy shift from previous cycles that signals genuine playoff expectations within this coaching staff&apos;s timeline.
+        </p>
+        <p>
+          The offensive line remains the quiet strength: continuity up front is what converts a young quarterback&apos;s second-year leap into divisional contention, and Denver&apos;s interior returns largely intact.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How This Chart Wins the AFC West — or Doesn&apos;t
+        </h2>
+        <p>
+          Denver&apos;s path is explicit in its own roster construction: suffocate opponents defensively, protect the football offensively, and let divisional games in altitude do the rest. The risk profile concentrates in one place — if the passing game stalls against elite defenses, the margin for error shrinks to field-goal margins in January weather. Every rival fan base watching the West race should bookmark this chart as the season&apos;s control case.
+        </p>
+        <p>
+          Compare conference builds in our <Link href="/kansas-city-chiefs-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Chiefs guide</Link> and <Link href="/chargers-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Chargers breakdown</Link>, with every date mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Surtain Shadow Effect on Divisional Game Plans
+        </h2>
+        <p>
+          Roster charts cannot capture what an elite corner does to opposing game plans: entire route concepts disappear from rival playbooks, receivers get shadowed away from strength alignments, and passing games compress toward whichever side the star defender is not occupying. Denver&apos;s defensive construction around Surtain exploits this geometric advantage systematically — the nickel and safety tiers are built to punish quarterbacks forced toward his side of the field.
+        </p>
+        <p>
+          This is why secondary depth listings matter more in Denver than raw talent grades suggest: every defensive back behind the star inherits easier assignments because opponents have already eliminated their best concepts from consideration. The chart reads like depth; functionally, it operates like force multiplication.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Rookie Integration Map Worth Watching
+        </h2>
+        <p>
+          Denver&apos;s chart rewards fans who track rookie development arcs rather than just final roster spots. The cornerback pipeline behind Surtain — with Abrams-Draine&apos;s qualification-tagged listing signaling genuine competition rather than placeholder status — represents the franchise&apos;s preferred talent-acquisition model: draft corners early, develop them against elite divisional receivers, and let veteran stopgaps hold seats only until the young player wins decisively.
+        </p>
+        <p>
+          The same philosophy repeats across the nickel position, where McMillian&apos;s hold on the slot reflects earned trust rather than default retention. This is what sustainable roster construction looks like: every seat has a short-term answer and a longer-term succession plan, with competition designations protecting the organization from its own complacency.
+        </p>
+        <p>
+          For fantasy and betting purposes, the actionable insight involves defensive back performance against divisional passing games — Denver&apos;s secondary tiers are deep enough that injuries cause less statistical dropoff than any rival in the conference, a quiet edge that shows up in December standings.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-orange-400 hover:underline flex items-center gap-1">

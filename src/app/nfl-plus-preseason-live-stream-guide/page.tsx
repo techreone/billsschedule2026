@@ -344,6 +344,59 @@ export default function NFLPlusPreseasonLiveStreamGuidePage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          NFL+ Pricing and Tiers: The Official Numbers
+        </h2>
+        <p>
+          The league&apos;s own support documentation is the source of truth here: per <a href="https://support.nfl.com/hc/en-us/articles/35869739723028-How-much-does-NFL-cost" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL Support&apos;s pricing page</a>, NFL+ comes in two tiers — the base plan at $6.99/month or $49.99/year, and <strong>NFL+ Premium</strong> above it. The league&apos;s promotional page at <a href="https://www.nfl.com/plus/learn-more" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL.com/plus</a> has also run annual-plan discounts that materially change the math for season-long subscribers, so check both before committing.
+        </p>
+        <p>
+          The critical distinction most buyers miss lives in the fine print between tiers: which games stream where, and on what devices. Understanding that split is exactly what this guide untangles.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          What Each Tier Actually Includes for Preseason
+        </h2>
+        <p>
+          The base NFL+ subscription delivers live local and primetime preseason games — but with the platform restriction that defines this product: phone and tablet only for live game streams. As national coverage from <a href="https://sports.yahoo.com/nfl/article/2026-nfl-preseason-how-to-watch-every-football-game-ahead-of-the-season-kickoff-tv-schedule-where-to-stream-today-and-more-125900023.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo&apos;s preseason viewing guide</a> confirms, that mobile-first limitation surprises new subscribers every August. Premium unlocks the full out-of-market preseason slate, plus NFL RedZone and full-game replays that base-tier users wait to access.
+        </p>
+        <p>
+          For Bills fans specifically: local Western New York broadcasts of Buffalo&apos;s exhibitions stream on your phone through either tier, but watching an out-of-market afternoon kickoff like Bills-Browns on a living-room screen requires Premium or a traditional pay-TV route.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Is It Worth It? An Honest Decision Framework
+        </h2>
+        <p>
+          Buy base NFL+ if you are one fan in-market who watches primarily on your phone and wants August football plus the regular-season mobile experience in one cheap package. Upgrade to Premium if out-of-market matchups matter to you — fantasy managers tracking multiple rosters, displaced fans following hometown teams, or completionists who want every snap. Skip it entirely if you want living-room viewing of national windows; cable substitutes or trial-timed streaming services handle those better, as our <Link href="/where-can-i-watch-nfl-preseason-games" className="text-blue-400 underline hover:text-blue-300">league-wide viewing guide</Link> details.
+        </p>
+        <p>
+          And for clarity on what the premium Sunday product does not cover, our <Link href="/does-nfl-sunday-ticket-include-preseason-games" className="text-blue-400 underline hover:text-blue-300">Sunday Ticket explainer</Link> prevents the most common purchase mistake of the summer. Track every Bills date worth watching on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Schedule 2026 hub</Link>.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Device Restriction Explained: Why Mobile-Only Matters
+        </h2>
+        <p>
+          The single most misunderstood element of NFL+ is the platform limitation on live local and primetime game streams: phone and tablet only. This restriction is not technological — it is contractual, carved out years ago to protect television partners who paid billions for living-room distribution rights. The league&apos;s streaming product was deliberately designed to complement television rather than replace it, which means the phone in your pocket became the only legally available screen for certain games.
+        </p>
+        <p>
+          Practical workarounds exist within the rules. Casting from the app to larger screens violates terms; watching in-market desktop streams through alternate legitimate products does not. Fans who primarily watch on commutes, at work desks, or in second-screen contexts find the mobile experience genuinely sufficient — which describes a larger audience segment every year.
+        </p>
+        <p>
+          Before subscribing, honestly audit your viewing habits: if ninety percent of your football happens on a living-room television, this product will frustrate you regardless of tier. If your consumption is mobile-first anyway, the pricing represents some of the best value in sports streaming.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

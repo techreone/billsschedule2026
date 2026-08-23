@@ -291,6 +291,43 @@ export default function NewYorkGiantsDepthChart2026Page() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          A Roster Entering Its Second Rebuild Phase
+        </h2>
+        <p>
+          New York&apos;s 2026 depth chart reflects a franchise that already reset once and is now managing the consequences. National projection services at <a href="https://www.espn.com/nfl/team/depth/_/name/nyg/new-york-giants" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a>, <a href="https://www.ourlads.com/nfldepthcharts/depthchart/NYG" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a>, and <a href="https://www.cbssports.com/nfl/teams/NYG/new-york-giants/depth-chart/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">CBS Sports</a> agree on the broad strokes: a young core at the skill positions, an offensive line rebuilt through high draft investment, and competitive tiers scattered across the defense where veteran stopgaps hold seats for developing draft picks.
+        </p>
+        <p>
+          The franchise-altering name sits at receiver: Malik Nabers&apos; qualification-tagged listing on national charts is the single most important health designation in this organization, because his ceiling defines what this offense can attempt schematically.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Backfield Reset: Skattebo, Tracy, and a Familiar Face
+        </h2>
+        <p>
+          The running back chart carries genuine competition weight. National data listings show rookie bruiser <strong>Cam Skattebo</strong> atop the table with second-year speedster Tyrone Tracy Jr. and veteran Devin Singletary stacked behind — while ESPN&apos;s chart also lists <strong>Najee Harris</strong>, the former Steelers feature back, resurfacing in East Rutherford as the power-run insurance policy. CBS&apos; coverage framing &quot;more competition in the backfield&quot; confirms this is a live battle rather than settled hierarchy.
+        </p>
+        <p>
+          Four legitimate backs for two or three active seats makes this the most cutdown-relevant position competition on the roster, and preseason finale snap distributions will reveal the verdict before the transactions do.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Divisional Reality Check
+        </h2>
+        <p>
+          The NFC East remains the conference&apos;s most demanding division, and New York&apos;s chart must be read against Dallas&apos; stability, Philadelphia&apos; championship continuity, and Washington&apos; ascending core. The Giants&apos; path runs through young-talent outperformance — which is precisely why the health designations (Nabers foremost) matter more here than anywhere else in the division.
+        </p>
+        <p>
+          Compare the full divisional picture in our guides to the <Link href="/cowboys-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Cowboys</Link>, <Link href="/eagles-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Eagles</Link>, and <Link href="/commanders-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Commanders</Link> — with every matchup date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* Section 7 */}
         {/* Section 7 */}
         <section className="space-y-4">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">

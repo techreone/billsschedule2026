@@ -317,6 +317,72 @@ export default function ChiefsDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Dynasty Standard: What Continuity Looks Like
+        </h2>
+        <p>
+          Kansas City&apos;s depth chart is the league&apos;s control group — the roster every other franchise measures itself against. National trackers at <a href="https://www.espn.com/nfl/team/depth/_/name/kc" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a>, <a href="https://www.ourlads.com/nfldepthcharts/depthchart/KC" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a>, and <a href="https://sportsdata.usatoday.com/football/nfl/teams/kansas-city-chiefs/339/depthChart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">USA Today</a> agree on the top-line architecture without qualification: a top-two quarterback of all time, a Hall-of-Fame trajectory tight end, and a coaching staff whose schematic innovations get copied league-wide within two seasons.
+        </p>
+        <p>
+          That continuity is the actual story of this chart. While rivals rebuild offensive lines and retool receiver rooms annually, Kansas City&apos;s competitive advantage has been the absence of churn at the positions that require the longest developmental runways. The depth slots change; the foundation does not.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Where Genuine Battles Exist
+        </h2>
+        <p>
+          Even dynasties have open seats, and Kansas City&apos;s live competitions cluster in predictable places: the receiver rotation behind the established stars, where speed profiles rotate seasonally; the left tackle succession plan, which has quietly become the roster&apos;s most important long-term question; and the defensive interior, where the front office has historically spent draft capital rather than free-agency money.
+        </p>
+        <p>
+          Preseason August is when those answers surface. The Chiefs&apos; exhibition approach famously protects its irreplaceable players while giving genuine auditions to the bottom third of the roster — meaning the depth chart you see in September will differ from August&apos;s listing almost entirely below tier two.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Reading This Chart as an AFC Rival Fan
+        </h2>
+        <p>
+          For Buffalo fans, this chart is the measuring stick that defines playoff seeding conversations every January. Kansas City&apos;s construction philosophy — pay the quarterback, draft the trenches, develop receivers internally — is precisely the template Buffalo has mirrored since its own franchise quarterback extension. Comparing the two builds position-by-position explains most preseason prediction debates.
+        </p>
+        <p>
+          Map every potential Chiefs-Bills rematch scenario on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and see the mirror-image build in our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB guide</Link>.
+        </p>
+      </section>
+
+      {/* FAQ */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Tight End Succession Nobody Wants to Write
+        </h2>
+        <p>
+          The most consequential seat on Kansas City&apos;s chart is not currently occupied by a starter — it is the eventual successor to a future Hall of Fame tight end whose retirement announcement will restructure this offense overnight. The developmental names listed behind him are being evaluated against the hardest positional comparison in modern football, and the front office&apos;s draft investments at the position reflect an organization planning for succession rather than pretending it will never come.
+        </p>
+        <p>
+          How this transition gets managed — gradual rotation versus abrupt handoff — will define the offense&apos;s next competitive cycle. Every training camp rep from the younger tight ends carries franchise-level weight that their listing position completely hides.
+        </p>
+      </section>
+
+        {/* FAQ */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Every Franchise Copies — and Why Copies Fail
+        </h2>
+        <p>
+          Kansas City&apos;s roster construction has been studied, documented, and imitated for a decade: draft and develop the quarterback, pay premium defensive talent only at impact positions, treat receiver as a rotational commodity rather than an investment priority, and never let a contract dispute outlast the player&apos;s production curve. Half the league&apos;s front offices now publicly claim this playbook.
+        </p>
+        <p>
+          The copies keep failing for one uncomfortable reason: the system&apos;s engine is not the strategy but the quarterback&apos;s below-market superpowers. Schematic creativity covers structural flaws only when one player can convert broken plays into explosives at league-best rates. Rival rosters that adopted the receiver-devaluation half without the generational-passer half discovered that ordinary quarterbacks need genuine weapons — which is why Buffalo&apos;s mirror-image build deliberately paired its superstar passer with premium receiving investment instead.
+        </p>
+        <p>
+          The lesson this chart teaches rival fan bases is subtle but real: copy processes, not outcomes. Kansas City drafts better than its division, develops secondary talent better than its conference, and makes contract decisions earlier than market timing suggests. Those behaviors transfer. Simply deleting receiver spending does not.
+        </p>
+      </section>
+
+        {/* FAQ */}
         {/* FAQ */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>
@@ -331,6 +397,19 @@ export default function ChiefsDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Offensive Line Succession Plan Underway
+        </h2>
+        <p>
+          The quietest franchise-level risk on any contender&apos;s chart is offensive line aging, and Kansas City&apos;s management of it deserves study from every rival front office. Developmental linemen appear in these tiers years before they inherit starting seats, coached by one of football&apos;s most respected position staffs, with veteran bridges signed only when draft classes fail to develop on schedule.
+        </p>
+        <p>
+          This is why the Chiefs&apos; protection has survived multiple coordinator changes and contract departures: the succession pipeline never empties. Rival fans watching their own line situations deteriorate should copy the process rather than envy the outcome — sustained protection is purchased through three consecutive strong drafts, not single-offseason spending sprees.
+        </p>
+      </section>
+
+        {/* FAQ */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

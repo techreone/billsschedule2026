@@ -382,6 +382,35 @@ export default function BillsRbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Final Seat: Gore Jr. Versus Wheeler
+        </h2>
+        <p>
+          The backfield&apos;s last roster battle deserves its own analysis because it represents two competing development philosophies. Gore Jr. carries pedigree plus polished vision — the kind of profile that succeeds on refined fundamentals. Wheeler counters with raw special-teams range that coaches covet because coverage units decide close games in ways offensive statistics never capture. One makes the roster by earning offensive trust; the other makes it by covering kicks immediately.
+        </p>
+        <p>
+          The loser still has a path: Buffalo&apos;s practice squad historically protects its priority backs, meaning this competition determines Week 1 active status more than long-term employment. Watch the fourth-quarter snap distributions in the final exhibition — coaches reveal their true rankings through who plays when outcomes stop mattering.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Contract Dimension: Why This Room&apos;s Economics Matter
+        </h2>
+        <p>
+          Buffalo&apos;s backfield decisions cannot be separated from running back economics. The franchise&apos;s refusal to pay premium second-contract money at the position — a league-wide trend Buffalo helped normalize — means every season brings fresh legs competing at rookie wages against incumbents playing prove-it years. Cook&apos;s extension resolution stabilized this specific room, but the structural pressure remains: Davis and Johnson both enter contract-relevant seasons where their market value depends entirely on split-duty production they may never get volume to show.
+        </p>
+        <p>
+          This is why the coaching staff&apos;s rotation philosophy matters more here than at any other position group. Generational offenses can suppress running back salaries because the passing game carries the payroll — but only if the committee delivers playoff-quality ground football on rookie contracts. That is the quiet bargain every name on this chart has accepted, and it is why preseason auditions carry financial consequences far beyond September depth chart listings.
+        </p>
+        <p>
+          The front office&apos;s ideal outcome is boring: balanced production, no contract drama, and a December offense that runs when lake-effect wind makes everything else theoretical.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">

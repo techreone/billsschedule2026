@@ -343,6 +343,43 @@ export default function GiantsQbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Post-Jones Era: What This Room Actually Is
+        </h2>
+        <p>
+          Every New York Giants quarterback conversation now begins after Daniel Jones — whose benching and departure closed the franchise&apos;s most expensive quarterback experiment, as documented in contemporaneous reporting from <a href="https://www.nbcnewyork.com/news/sports/giants/new-york-giants-starting-quarterback-daniel-jones-benched/6007563/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NBC New York</a>. The current room is built around a first-round developmental investment whose growth curve defines this franchise&apos;s competitive timeline more than any other single variable on the roster.
+        </p>
+        <p>
+          National fantasy guidance like <a href="https://www.espn.com/fantasy/football/story/_/id/47879613/fantasy-football-2026-offensive-depth-charts" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN&apos;s 2026 depth-chart primer</a> frames the situation soberly: this is a room valued for its trajectory rather than its present production, which changes how every supporting-cast decision should be read.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Supporting Cast Makes This Room Interesting
+        </h2>
+        <p>
+          What separates this developmental situation from typical rebuilds is the talent around it: Malik Nabers is a genuine alpha receiver, the backfield got deeper this offseason (see our <Link href="/giants-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">running back breakdown</Link>), and the offensive line&apos;s draft investment created real protection for the first time in years. Young quarterbacks with elite weapons develop faster — the film study accelerates when completions actually convert drives.
+        </p>
+        <p>
+          The staff&apos;s challenge is sequencing: protecting confidence during losing stretches without stunting the aggressive throws that made this pick worth its capital.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How to Judge This Room Fairly
+        </h2>
+        <p>
+          The honest evaluation framework ignores win-loss record entirely: completion percentage over expectation, pressure-to-sack conversion, third-down operation tempo, and red-zone decision speed are the metrics that predict second-year leaps. Divisional tests against Philadelphia and Dallas will produce ugly tape regardless of quality — judge those snaps on mechanics, not outcomes.
+        </p>
+        <p>
+          Follow every NFC East measuring-stick game on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare stable-room constructions in our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB guide</Link>.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
       {/* H2-9: Fantasy Football & DFS Implications */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">

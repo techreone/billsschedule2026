@@ -323,6 +323,59 @@ export default function FalconsQBDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Strangest Depth Chart Listing of 2026
+        </h2>
+        <p>
+          Atlanta&apos;s quarterback table produced the offseason&apos;s most confusing listing: an August release reported by <a href="https://sports.yahoo.com/articles/falcons-qb-depth-chart-tua-021828568.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo Sports</a> showed <strong>Tua Tagovailoa</strong> atop the Falcons chart with Michael Penix Jr. omitted under an injury designation — a development nobody&apos;s offseason model predicted. For context on how fast this room has moved: club-published projections from <a href="https://www.atlantafalcons.com/news/falcons-depth-chart-projected-starters-after-2025-nfl-draft" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">AtlantaFalcons.com</a> had framed Penix as the starter with Kirk Cousins as the veteran reserve after the 2025 draft.
+        </p>
+        <p>
+          When reading any single early-August listing, remember the genre: unofficial charts contain messaging, administrative artifacts, and occasional genuine surprises. This one contains at least two of those three, and the truth will surface in uniform before September.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Cousins Factor and Room Construction
+        </h2>
+        <p>
+          Kirk Cousins&apos; continued presence on this roster remains the NFC South&apos;s quiet leverage story. A decorated veteran with proven division-winning production serving as either QB1 insurance or trade-bait asset changes how rivals game-plan and how the market values Atlanta&apos;s picks. The Falcoholic&apos;s coverage through last season documented his standing behind Penix; whether that hierarchy holds under the newest listings determines if this room becomes the league&apos;s most stable or its most volatile.
+        </p>
+        <p>
+          Depth construction this top-heavy with experience is rare: most teams keep exactly one credible veteran behind a young starter. Atlanta carrying multiple playoff-tested arms signals win-now pressure from the top of the organization.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Fantasy and Betting Angles Worth Monitoring
+        </h2>
+        <p>
+          Quarterback uncertainty radiates into every fantasy valuation around this offense: elite skill-position talent only produces to its projection if the passing game operates from a stable pocket leader. Until the depth chart clarifies — genuinely, not administratively — Atlanta&apos;s receivers and tight ends carry discounted ceilings relative to their talent, which sharp-eyed drafters can exploit in best-ball formats.
+        </p>
+        <p>
+          Follow every NFC South resolution point on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare quarterback-room builds in the <Link href="/saints-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">division-rival Saints guide</Link>.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What the Injury Designation Actually Means Here
+        </h2>
+        <p>
+          The reported omission of a starting-caliber quarterback under an injury designation deserves careful reading rather than panic. Training-camp injury designations serve multiple administrative purposes: roster compliance mechanics, practice-squad protection rules, and sometimes genuine medical caution during August contact windows. The distinction between &quot;injured&quot; and &quot;unavailable for the season&quot; is the entire ballgame in how this listing should be interpreted — and early-August designations frequently clear before meaningful football arrives.
+        </p>
+        <p>
+        What the listing does confirm: Atlanta&apos;s quarterback room entered camp with health variables significant enough that chart-makers could not present a conventional hierarchy. For a franchise that invested premium draft capital and veteran money at this position, administrative ambiguity itself is the story — stable organizations publish clean hierarchies because their situations are clean.
+        </p>
+        <p>
+          Monitor practice participation reports over box scores here: participation clarity will precede any depth chart correction by weeks, and it is the only reliable signal about whether this resolves before games count.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
       {/* H2-9: Fantasy Football & DFS Implications */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">

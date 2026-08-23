@@ -351,6 +351,56 @@ export default function NewYorkJetsDepthChart2026Page() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The First Unofficial Chart: A Roster Rebuilt From Scratch
+        </h2>
+        <p>
+          New York released its first unofficial training camp depth chart on August 10, compiled by the team&apos;s communications staff and published through <a href="https://www.newyorkjets.com/news/2026-jets-unofficial-depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NewYorkJets.com</a> — the cleanest official window into how this rebuilt roster currently stacks. National projections at <a href="https://www.espn.com/nfl/team/depth/_/name/nyj/new-york-jets" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> and <a href="https://www.ourlads.com/nfldepthcharts/depthchart/NYJ" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> fill in the competitive tiers the club leaves fluid.
+        </p>
+        <p>
+          The tight end room illustrates this chart&apos;s youth movement perfectly: Kenyon Sadiq&apos;s qualification-tagged listing ahead of Mason Taylor, Jeremy Ruckert, and Jelani Woods represents four developmental tight ends competing for a pecking order that genuinely has not been decided.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Reading a Rebuild&apos;s Chart Differently
+        </h2>
+        <p>
+          Contender charts answer &quot;who starts?&quot; Rebuilding charts answer &quot;who develops, and where does the timeline bend?&quot; New York&apos;s listing leans toward the second genre: qualification tags scattered across young position groups, veteran seats held for locker-room stability rather than statistical projection, and competition designations protecting nobody&apos;s feelings. That is what healthy roster construction looks like when playoffs are not the honest expectation.
+        </p>
+        <p>
+          For fans of other franchises, this chart matters mainly as trade-deadline reconnaissance: rebuilding rosters hold the league&apos;s most interesting rental assets, and August depth charts reveal which veterans are blocking prospects the front office wants to see play.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The AFC East Lens
+        </h2>
+        <p>
+          Buffalo plays this rebuild twice a year, and divisional history says these games are trap games in September and statement games by December. The Bills&apos; own construction is documented across our hub — start with the <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">running back breakdown</Link> and the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage for every divisional date.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Trade Deadline Assets Hiding in This Chart
+        </h2>
+        <p>
+          Rebuilding rosters hold the league&apos;s most valuable November inventory, and New York&apos;s depth chart reveals which names could become rental assets if the season unfolds as expected. Veteran seats on expiring contracts — the classic deadline commodity — appear across the defensive front seven and offensive line tiers, while young players with qualification tags represent developmental lottery tickets contending teams occasionally overpay to accelerate.
+        </p>
+        <p>
+          The front office&apos;s strategy writes itself: accumulate conditional value through the first half, then convert expiring veteran production into draft capital at the deadline when contender desperation peaks. This is not cynicism; it is how modern rebuilding franchises fund their next competitive window without suffering through decade-long wilderness phases.
+        </p>
+        <p>
+          For Bills fans, divisional implications cut both ways: trading away veterans weakens immediate head-to-head matchups but strengthens a rival&apos;s future — the eternal rebuild-vs-win calculus that defines every AFC East season.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-emerald-400 hover:underline flex items-center gap-1">

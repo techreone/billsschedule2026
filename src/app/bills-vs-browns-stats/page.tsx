@@ -361,6 +361,85 @@ export default function BillsVsBrownsStatsPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Final Box Score Access: Every Official Source
+        </h2>
+        <p>
+          The complete statistical record of this game lives in four places worth bookmarking. The league&apos;s official box score runs at <a href="https://www.espn.com/nfl/game/_/gameId/401873294/bills-browns" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN&apos;s game summary page</a> with full play-by-play and team stats; CBS maintains the parallel <a href="https://www.cbssports.com/nfl/gametracker/boxscore/NFL_20260822_BUF@CLE/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">gametracker record</a>; and both club sites published postgame statistical recaps — Cleveland&apos;s version at <a href="https://www.clevelandbrowns.com/news/bills-31-browns-7-final-score-stats-game-recap" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Browns.com</a> and Buffalo&apos;s at the <a href="https://www.buffalobills.com/news/bills-31-browns-7-final-score-game-highlights-key-stats-preseason-week-2" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">team&apos;s official recap</a>.
+        </p>
+        <p>
+          Preseason box scores carry real caveats: drives are scripted, protections are simplified, and second-half rotations make team-level totals less meaningful than individual performances. Read them for player evaluation, not for predictive inference.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Statistical Story: 31-7 and What Built It
+        </h2>
+        <p>
+          The final margin was 31-7, and Buffalo&apos;s own recap identified the headline stat pattern plainly: the wide receiver room flashed repeatedly in a dominant all-around performance. Backup quarterbacks distributed the ball efficiently across that group, the run game sustained drives well enough to keep Cleveland&apos;s defense on the field for long stretches, and the defensive front&apos;s pressure rate turned several Cleveland possessions into quick punts that flipped field position permanently.
+        </p>
+        <p>
+          Special teams quietly contributed the kind of hidden yards that decide August games — coverage units pinning returns deep and giving Buffalo&apos;s offense short fields repeatedly. In 24-point preseason wins, those hidden margins usually matter more than any single highlight.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Context That Raw Numbers Miss
+        </h2>
+        <p>
+          Two structural factors shaped every number in this game. First, Buffalo rested essentially all of its starters — our <Link href="/is-josh-allen-playing-today" className="text-blue-400 underline hover:text-blue-300">Josh Allen status guide</Link> documents the pregame confirmation — meaning these stats belong almost entirely to players fighting for roster spots. Second, the <Link href="/bills-vs-browns-delay-weather" className="text-blue-400 underline hover:text-blue-300">lightning delay</Link> compressed both teams&apos; scripted rotations, which inflated some backups&apos; snap counts beyond what either staff originally planned.
+        </p>
+        <p>
+          For the betting-market angle on this result, see the <Link href="/bills-vs-browns-prediction" className="text-blue-400 underline hover:text-blue-300">prediction and recap analysis</Link>, and track every remaining 2026 date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage.
+        </p>
+      </section>
+
+        {/* Section 5: Historical Head-to-Head Record */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Reading Box Scores Across Different Eras of Preseason
+        </h2>
+        <p>
+          Historical comparisons require era adjustment: modern preseasons feature starters playing fewer snaps than any previous generation, meaning today&apos;s backup-dominated box scores would have looked like garbage-time sequences in earlier decades. When older fans cite preseason stat lines from previous eras as evidence of what August performance means, they are describing a fundamentally different competitive environment.
+        </p>
+        <p>
+          The three-week format itself is recent history — longer exhibition slates once gave roster bubble players entire games to state their case. Today&apos;s compressed auditions concentrate decision-making into fewer snaps, raising both the stakes per play and the randomness of who surfaces with highlight numbers. A single delayed-game fourth quarter can decide a roster seat that once required a full four-preseason-game body of work.
+        </p>
+      </section>
+
+        {/* Section 5: Historical Head-to-Head Record */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Which Numbers Actually Predict Regular-Season Success
+        </h2>
+        <p>
+          Preseason statistics require a decoding manual before they mean anything. Pressure rate generated by defensive backups correlates reasonably with regular-season line play — this game&apos;s consistent pocket collapse on Cleveland&apos;s mixed protection packages tells you something real about both rosters&apos; interior depth. Completion percentage means almost nothing without route-tree context. Yards per carry for running backs fighting roster seats reflects opponent third-stringers more than talent.
+        </p>
+        <p>
+          The genuinely predictive August stats, validated across multiple seasons by analytics staffs: turnover-worthy throws per dropback by backup quarterbacks, penalty counts per snap by offensive linemen, missed-tackle rates in the second half when fatigue equalizes talent gaps, and special-teams coverage speeds. Buffalo winning every one of those categories in this game is why the staff will tolerate the ugly highlights that also appeared.
+        </p>
+        <p>
+          Fans wanting the raw official numbers should work from the league-sanctioned box score sources listed above rather than aggregated secondary sites, which frequently mislabel preseason drives.
+        </p>
+      </section>
+
+        {/* Section 5: Historical Head-to-Head Record */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Players Whose Stats Actually Mattered
+        </h2>
+        <p>
+          Within any preseason box score, three player categories produce meaningful evaluation data: backup quarterbacks operating full drives (their decision-making translates directly), defensive linemen rotating against mixed protection (pressure rate is scheme-neutral), and specialists under live conditions (kickoff hang-time and coverage speeds never appear in practice). Everything else — receiver totals against third-team corners, rushing averages behind second-string lines — requires heavy contextual discounting before comparison across games or rosters.
+        </p>
+        <p>
+          Buffalo&apos;s staff will weight this specific box score accordingly: the quarterback efficiency numbers and defensive pressure rates will inform real decisions, while the gaudy receiving totals get credited partially to Cleveland&apos;s rotated secondary. Understanding that weighting explains why postgame roster moves rarely match fan expectations built from highlight numbers.
+        </p>
+      </section>
+
+        {/* Section 5: Historical Head-to-Head Record */}
         {/* Section 5: Historical Head-to-Head Record */}
         <section className="space-y-4">
           <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">

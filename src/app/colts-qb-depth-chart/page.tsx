@@ -312,6 +312,22 @@ export default function ColtsQBDepthChartPage() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-3">
+          The Contract Mechanics That Shape Every Decision
+        </h2>
+        <p>
+          Indianapolis&apos; quarterback situation cannot be separated from its contract architecture: a rookie-scale deal approaching decision points on one side, a veteran bridge contract with limited remaining guarantees on the other. That asymmetry explains the organization&apos;s otherwise-puzzling tolerance for trade-request drama — the financial structures make patience cheap and resolution expensive, at least through this season&apos;s cap calendar.
+        </p>
+        <p>
+          League-wide, these situations resolve in three predictable patterns: the incumbent earns the job permanently and the draft investment gets traded at recouped value; the veteran falters early and the young player reclaims the room by November; or both play well enough that the front office banks picks in a seller&apos;s market next offseason. Indianapolis&apos; roster construction — genuinely competitive everywhere else — is designed to survive any of the three outcomes.
+        </p>
+        <p>
+          Fans of rival AFC teams should pay attention regardless: whichever quarterback emerges from this situation inherits a playoff-caliber supporting cast, meaning this depth chart battle has conference-seeding consequences far beyond Indiana.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Colts QB Depth Chart</h3>

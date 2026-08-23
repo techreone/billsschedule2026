@@ -348,6 +348,45 @@ export default function BillsVsBrownsDelayPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Fan Safety Checklist for Delay Games
+        </h2>
+        <p>
+          Attending a game that goes into lightning delay requires decisions faster than stadium announcements sometimes allow. The protocol worth internalizing: move to the concourse immediately when the field clears — the open bowl becomes the most dangerous location on the property once strikes register within eight miles; avoid standing near railings and large glass panels during high winds; and expect concession lines to explode, because thousands of people suddenly have nothing to do but eat and drink.
+        </p>
+        <p>
+          The resumption signal is official: play restarts thirty minutes after the last strike within the detection radius, announced through stadium PA and team channels. Smart attendees use the delay window to relocate to covered seats rather than returning to exposed positions — resumption does not mean the weather cell has fully passed, only that it has moved far enough away to resume.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Betting Angle: How Delays Reshape Markets
+        </h2>
+        <p>
+          Sportsbooks handle weather delays with less grace than fans expect. Most operators suspend live wagering during the stoppage but keep pregame tickets standing — meaning bettors who locked Cleveland -3 before kickoff rode out a forty-minute interruption and watched their side lose outright anyway. Live totals bettors face the trickier mechanics: extended delays historically depress scoring in the first quarter after resumption, as both offenses re-warm, which makes second-half under positions quietly valuable in delay games.
+        </p>
+        <p>
+          The sharper lesson from this specific game: Buffalo&apos;s backups emerged from the stoppage visibly sharper than Cleveland&apos;s mix of starters and reserves, converting re-warm asymmetry into the 24-point final margin. Whether that was conditioning philosophy, scripted rotation management, or simple variance, professional bettors have long tracked which coaching staffs handle interruptions well — because some teams treat delays as momentum resets while others treat them as disruptions to survive.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Home Viewing During Delays: What Your Screen Shows
+        </h2>
+        <p>
+          Television viewers experience weather delays differently than stadium attendees, and knowing what to expect prevents unnecessary channel-flipping. National broadcasts typically cut to studio hosts who fill time with analysis replays; local affiliate feeds sometimes switch to alternate programming entirely; and streaming platforms handle suspensions least gracefully — some freeze on the last frame while others drop to error screens that look like outages rather than delays.
+        </p>
+        <p>
+          The reliable information hierarchy during any stoppage: official team social accounts first (they announce resumption targets before broadcast partners update), then league delay trackers, then broadcast studio segments. The Cleveland resumption followed this exact sequence — announced through team channels well before national graphics caught up.
+        </p>
+      </section>
+
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">

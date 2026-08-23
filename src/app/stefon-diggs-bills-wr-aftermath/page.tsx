@@ -338,6 +338,59 @@ export default function StefonDiggsBillsWRAftermathPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Life After Diggs: The Receiving Corps Buffalo Built
+        </h2>
+        <p>
+          When Stefon Diggs departed, the question was never whether Buffalo could replace his raw production line — it was whether a committee approach could replicate the gravity he commanded on every snap. Two seasons into the answer, the depth chart has crystallized around a clear internal hierarchy: <strong>Khalil Shakir</strong> has established himself as the unit&apos;s most consistently efficient separator, with PFF-grade recognition documented across local coverage, while second-round investment <strong>Keon Coleman</strong> carries the boundary-X profile the offense lacked after the trade.
+        </p>
+        <p>
+          The committee&apos;s logic shows up weekly: no single defender can bracket one receiver and neutralize this passing game, because production distributes across alignments and body types rather than concentrating in one matchup-proof star.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Coleman Question: Trade Rumors and Development Reality
+        </h2>
+        <p>
+          The most current storyline around this room is Coleman&apos;s trajectory. National reporting — including <a href="https://sports.yahoo.com/articles/philadelphia-eagles-perfect-trade-target-153556278.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo&apos;s trade-market analysis</a> naming him an intriguing target for receiver-needy contenders — reflects the gap between his draft-day projection and his establishment pace. Former coaches&apos; comments about the post-Diggs transition atmosphere, resurfaced in <a href="https://www.si.com/nfl/bills/onsi/news/buffalo-bills-nfl-coach-stefon-diggs-detrimental-atmosphere" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">SI&apos;s Bills coverage</a>, add historical context to how this corps was rebuilt rather than patched.
+        </p>
+        <p>
+          For Buffalo&apos;s front office, the calculation is straightforward: young boundary receivers with elite physical traits historically break through in year three, and trading them at their valuation floor is how franchises end up paying someone else&apos;s breakout.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What the Numbers Say About the Post-Trade Offense
+        </h2>
+        <p>
+          The statistical verdict on the committee approach keeps landing in Buffalo&apos;s favor: Josh Allen&apos;s efficiency metrics have remained elite despite the name-brand reduction, because this offense generates explosives through scheme and quarterback talent rather than isolation matchups. The preseason meeting against Cleveland offered another data point — our <Link href="/bills-vs-browns-stats" className="text-blue-400 underline hover:text-blue-300">box score breakdown</Link> notes the receiver room flashing repeatedly in the 31-7 win.
+        </p>
+        <p>
+          Follow every receiving-corps test remaining on the schedule via the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and see how the quarterback room supports this construction in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">QB depth guide</Link>.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Contract Economics Behind the Trade Decision
+        </h2>
+        <p>
+          Buffalo&apos;s Diggs decision was never purely football. His contract aged into the phase where receiver deals become cap liabilities — escalating salaries outpacing typical production curves — and the organization chose to reset the financial clock while the return value still existed. League history is unkind to teams that pay thirty-something receivers top-of-market money into decline years; the Bills fronted that curve rather than chasing it.
+        </p>
+        <p>
+          The reinvestment strategy shows in this chart: Shakir&apos;s team-friendly development track, Coleman&apos;s rookie-scale boundary profile, and mid-round receiver additions collectively cost a fraction of one Diggs season while offering collective ceiling the aging-star model could not match. This is portfolio theory applied to pass-catchers — diversify single-point failure risk, accept lower median production for higher combined outcomes.
+        </p>
+        <p>
+          The verdict remains open until January football arrives, because committee receiving rooms historically shine in the regular season and get tested in playoffs when defenses take away the easy reads. That postseason stress test is the actual deadline on this roster-construction debate.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

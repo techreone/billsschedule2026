@@ -366,6 +366,48 @@ export default function CardinalsDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Harrison Development Curve: Year-Two Expectations
+        </h2>
+        <p>
+          Elite rookie receiver seasons historically follow a pattern: production arrives through athletic dominance in year one, then jumps again in year two as route sophistication catches up to physical tools. Arizona&apos;s entire passing-game projection hinges on that second jump — contested-catch rate improving, release packages expanding, and the tactical fouling defenses resort to (holding away from the ball) getting officiated differently once a receiver establishes reputation.
+        </p>
+        <p>
+          The supporting chart construction serves this development directly: a legitimate secondary threat prevents bracket coverage, and the tight end presence occupies the middle-field defender who would otherwise rob crossing routes. When fans evaluate this offense weekly, the stat worth watching is not receiving yards but how often double-team alignments appear on first down — that number predicts everything else.
+        </p>
+      </section>
+
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Desert-Heat Factor in Roster Construction
+        </h2>
+        <p>
+          One roster-building variable this chart reflects that analysts rarely discuss: Arizona&apos;s September climate. Early-season home games played in triple-digit heat demand deeper rotation depth than northern venues require, because hydration management and fatigue cycles compress effective rotation windows regardless of talent. The Cardinals&apos; historical preference for keeping extra defensive line bodies active — visible in this chart&apos;s generous front-four tiers — is climate adaptation as much as schematic philosophy.
+        </p>
+        <p>
+          The scheduling asymmetry cuts both ways across a season: divisional rivals visiting in early fall inherit conditions they cannot simulate in practice, while Arizona&apos;s late-season road trips to cold-weather venues test a roster built for speed rather than trench warfare in wind and snow. Front offices that acknowledge these edges in their construction — heavier rotation here, power packages there — quietly bank wins that betting markets undervalue every single season.
+        </p>
+        <p>
+          It is also why preseason snap counts matter differently for this roster: the staff is building heat-acclimatized conditioning baselines in August that pay dividends in November, when opponents who overworked their starters in exhibition play begin breaking down.
+        </p>
+      </section>
+
+      {/* Footer */}
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How to Read Arizona&apos;s Chart Against Its Schedule
+        </h2>
+        <p>
+          Depth charts gain meaning from schedule context, and Arizona&apos;s construction reveals specific divisional planning. Against run-heavy divisional rivals, the interior defensive line rotation matters more than edge statistics suggest; against pass-first opponents, the fifth and sixth defensive backs see their snaps multiply. The chart carries enough two-way depth at both layers to survive either emphasis without schematic compromise.
+        </p>
+        <p>
+          Fans projecting win totals should map each opponent&apos;s offensive identity against these depth strengths rather than averaging generic power ratings: roster-vs-roster matchups explain more variance than talent summaries, especially in a division where coaching styles diverge sharply.
+        </p>
+      </section>
+
       {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">

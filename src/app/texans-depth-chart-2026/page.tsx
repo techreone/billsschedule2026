@@ -331,6 +331,85 @@ export default function TexansDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          A Contender&apos;s Chart: Talent Stacked at Every Tier
+        </h2>
+        <p>
+          Houston&apos;s 2026 depth chart reads like a team that believes its championship window is open right now. The official release via <a href="https://www.houstontexans.com/team/depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">HoustonTexans.com</a> and national projections at <a href="https://www.espn.com/nfl/team/depth/_/name/hou" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> show a roster with few genuine battles and many confirmed strengths: an established franchise quarterback, a No. 1 receiver who commands double coverage weekly, and a tight end tandem — <strong>Dalton Schultz</strong> leading Foster Moreau — that might be the conference&apos;s best one-two punch at the position.
+        </p>
+        <p>
+          The receiver room behind the headline names is where Houston&apos;s depth-building shows: Xavier Hutchinson, Justin Watson, and Zay Jones give the quarterback experienced contingency options, while rookie Jaylin Newton-era additions like Jaylin Noel carry qualification tags that signal open competition rather than settled roles.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The 4-3 Foundation and Its Depth Philosophy
+        </h2>
+        <p>
+          Schematic services like <a href="https://www.ourlads.com/nfldepthcharts/depthchart/HOU" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> project Houston as a base 4-3 defense — the classic four-man-front structure that demands deep, interchangeable defensive line rotation. That requirement shapes the bottom half of this chart: the fourth and fifth defensive ends are not special-teamers here but genuine weekly contributors in a rotation designed to keep fresh legs attacking the AFC&apos;s premium quarterbacks.
+        </p>
+        <p>
+          In a division that also features Indianapolis&apos; rebuilt offense and Tennessee&apos;s remodel, Houston&apos;s ability to pressure with four while dropping seven into coverage remains the divisional gold standard — and the depth chart is built to preserve exactly that advantage through seventeen weeks plus January.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Would Actually Change This Chart
+        </h2>
+        <p>
+          Contender charts move only through injury or trade, and Houston&apos;s leverage positions reflect both risks: tackle depth behind two premium anchors, and the third corner seat in a division full of slot-oriented receivers. If the season stays healthy, expect this chart to look nearly identical from September through January — the surest sign of a roster built by continuity rather than hope.
+        </p>
+        <p>
+          Map every Texans-relevant matchup and the full league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare divisional builds in our <Link href="/tennessee-titans-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Titans guide</Link> and <Link href="/colts-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts quarterback analysis</Link>.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Offensive Line Continuity: The Invisible Contender Advantage
+        </h2>
+        <p>
+          Houston&apos;s most underrated roster advantage never appears in skill-position discussions: line continuity across multiple seasons. Five men learning each other&apos;s leverage habits, timing calls, and communication shorthand produces collective protection that exceeds individual talent grades — and the Texans&apos; interior has developed exactly that institutional cohesion while rival front offices churned replacements through their own protection units.
+        </p>
+        <p>
+          The depth behind the starters reflects mature planning rather than uncertainty: swing-tackle insurance, an experienced interior backup, and developmental late-rounders stashed for future years. Championship-caliber rosters are built on precisely this kind of boring, essential redundancy.
+        </p>
+      </section>
+
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Tight End Tandem as an Offensive Identity
+        </h2>
+        <p>
+          Most rosters treat tight end as a complementary position; Houston&apos;s chart treats it as structural. The Schultz-Moreau pairing gives the offense two genuinely different tools — a route-running separator who wins against linebackers and a blocking-first presence who anchors twelve-personnel packages — and the staff uses both identities situationally enough that defenses cannot substitute down into nickel comfortably. That personnel flexibility is why Houston&apos;s play-action game generates explosive plays at rates its receiver talent alone would not predict.
+        </p>
+        <p>
+          The construction also hedges against young-receiver volatility. When boundary targets force contested catches into tight windows, a reliable intermediate tight end converts broken plays into manageable third downs — the invisible stat that keeps scoring drives alive across a seventeen-game season.
+        </p>
+        <p>
+          Rival defensive coordinators have noticed: AFC South game plans increasingly dedicate their best coverage linebacker to this tandem rather than doubling the perimeter, which is the highest compliment scheme can pay a position group.
+        </p>
+      </section>
+
+      {/* Footer */}
+      {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Receiver Room Depth Behind the Headline Names
+        </h2>
+        <p>
+          The qualification tags scattered through Houston&apos;s receiver tiers represent genuine opportunity economics: with an elite quarterback distributing to a proven top pair, the third-through-fifth seats become high-leverage developmental positions where practice performance converts directly into regular-season touches. Rookies with question marks next to their names are not buried here — they are being staged.
+        </p>
+        <p>
+          This construction pattern repeats across contending rosters: premium seats settled, competition concentrated exactly where coaching attention can accelerate development. For fans learning to read depth charts as organizational strategy documents rather than simple rankings, Houston&apos;s chart is a masterclass in tiered intentionality.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

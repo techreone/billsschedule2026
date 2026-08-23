@@ -346,6 +346,72 @@ export default function SteelersDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Aaron Rodgers Under Center: The Chart&apos;s Earthquake
+        </h2>
+        <p>
+          Pittsburgh&apos;s 2026 depth chart contains the offseason&apos;s biggest single name change: <strong>Aaron Rodgers</strong>, listed atop the quarterback seat, with Mason Rudolph returning as backup and rookie Will Howard developing behind him — per the <a href="https://www.espn.com/nfl/team/depth/_/name/pit" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN depth projection</a> and the syndicated chart listing showing Rodgers at No. 8 atop the offensive table. A four-time MVP finishing his career in black and gold rewrites every expectation for this offense overnight.
+        </p>
+        <p>
+          The supporting cast got its own headline upgrade: <strong>DK Metcalf</strong> lines up as the field-warping WR1, Pat Freiermuth holds the tight end seat, and Zach Frazier anchors center — giving Rodgers the kind of physical, catch-radius-driven receiving threat he has historically elevated into All-Pro seasons.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Jaylen Warren Leads a Remade Backfield
+        </h2>
+        <p>
+          The running back tier pairs Warren&apos;s promotion (covered fully in our <Link href="/steelers-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">dedicated RB breakdown</Link>) with imported power in Rico Dowdle and rookie Kaleb Johnson developing behind them. The rotation logic fits Rodgers&apos; historical preferences perfectly: a trusted pass-protection back for third downs, a between-tackles hammer for cold-weather November football, and developmental speed for special teams.
+        </p>
+        <p>
+          For a franchise that has spent two decades building around defense and run-game identity, adding a Hall-of-Fame-caliber passer to that formula is the roster-construction equivalent of changing sports — and the depth chart reflects a staff betting its window on immediate production.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Defensive Constant in a Time of Change
+        </h2>
+        <p>
+          While the offense transformed, the defensive chart remains Pittsburgh&apos;s continuity story — a base 3-4 front, per <a href="https://www.ourlads.com/nfldepthcharts/depthchart/PIT" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads&apos; projection</a>, built on edge pressure and linebacker range rather than secondary star power. That structure has survived multiple coordinator cycles, and it is the reason oddsmakers treat Pittsburgh&apos;s floor as playoff-relevant regardless of offensive question marks.
+        </p>
+        <p>
+          Map every Steelers-relevant AFC clash and the full league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare division builds in the <Link href="/cleveland-browns-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Browns guide</Link>.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Rudolph Return Story Worth Appreciating
+        </h2>
+        <p>
+          Backup quarterback returns are rare in the NFL — burned bridges usually stay burned — which makes Mason Rudolph&apos;s presence behind a future Hall of Fame addition quietly remarkable. His institutional knowledge spans multiple offensive coordinators, his locker-room credibility survived public competition narratives, and his career arc (from draft-day project to playoff-game emergency starter back to trusted reserve) represents exactly the temperament franchises need in their insurance policies.
+        </p>
+        <p>
+          Behind him, the rookie developmental seat completes a textbook three-tier room: proven veteran starter, system-fluent backup, and cost-controlled prospect learning without pressure. Every franchise claims to build rooms this way; few actually execute it cleanly.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Rodgers Timeline Question Every Fan Is Asking
+        </h2>
+        <p>
+          Signing a quarterback in his forties reframes every depth chart decision through succession planning, and Pittsburgh&apos;s construction acknowledges this openly. Rudolph&apos;s return provides proven-system insurance; Howard&apos;s rookie development gives the organization a cost-controlled succession candidate learning behind a future Hall of Famer. This is the model championship franchises have converged on: one final veteran push, one developmental understudy, and a front office honest enough to plan for both timelines simultaneously.
+        </p>
+        <p>
+          The supporting-cast construction reinforces the win-now urgency. Metcalf&apos;s arrival — a physical receiver whose contested-catch profile ages gracefully — pairs with Freiermuth&apos;s reliable intermediate presence precisely because window-limited rosters need players who produce immediately rather than projection-based athletes.
+        </p>
+        <p>
+        The AFC North context raises the stakes further: divisional rivals all field playoff-caliber rosters, meaning Pittsburgh&apos;s veteran-push strategy either cashes into January football or forces a full rebuild by next offseason. Depth charts rarely carry this much binary consequence.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Steelers 2026 Depth Chart</h3>

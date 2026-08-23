@@ -296,6 +296,35 @@ export default function CommandersQBDepthChartPage() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Rushing Ceiling That Breaks Fantasy Models
+        </h2>
+        <p>
+          Standard quarterback projections systematically underrate Daniels because his rushing floor functions like a second running back in fantasy formats. Even in games where passing volume disappoints, designed quarterback runs and scramble-gain production deliver weekly floors that pocket-only passers cannot match at any draft position. The depth chart construction — mobile-capable backups, zone-read friendly line rotations — exists partly to protect that rushing dimension rather than coach it away for longevity reasons.
+        </p>
+        <p>
+          The risk calculus is equally explicit: every designed carry trades long-term availability for short-term scoring. How the staff balances that trade across seventeen games will decide both Washington&apos;s season and Daniels&apos; career arc, making it the quiet storyline behind every snap this room takes.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Injury Contingency Nobody Wants to Discuss
+        </h2>
+        <p>
+          Every backup quarterback evaluation is secretly an insurance calculation, and Washington&apos;s situation deserves blunt analysis. Mariota&apos;s MCL sprain — however minor — landed on a room whose entire design assumes his availability. If the medical timeline drifts, the organization faces the choice every contender dreads: expose a rookie before he is ready, sign a street free agent who lacks system knowledge, or trade assets for someone else&apos;s veteran.
+        </p>
+        <p>
+          History says the third option is where contenders overpay most badly. Quarterback-needy buyers at the August and September transaction deadlines routinely surrender day-three picks that become day-two contributors for stopgap arms who throw fifteen passes. The Commanders&apos; front office has generally resisted that market inefficiency, trusting internal development instead — which is precisely why Kaliakmanis&apos; preseason reps carry roster-building weight beyond this season&apos;s game results.
+        </p>
+        <p>
+          The uncomfortable truth about franchise-quarterback rosters is that their Super Bowl probability swings more on the quality of sixty anonymous backup snaps than most analytics models capture. Washington&apos;s season may ultimately depend on players listed here as footnotes.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Commanders QB Depth Chart</h3>
@@ -315,6 +344,19 @@ export default function CommandersQBDepthChartPage() {
         </div>
       </section>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Reading Backup Reps Correctly in the Preseason Finale
+        </h2>
+        <p>
+          The final exhibition week reveals backup hierarchies through snap distribution rather than announcements: coordinators give their intended regular-season number two full first-half drives against opponent first-unit defenses, then hand development reps to everyone else. Watching who plays WITH whom — which receivers, which protection package — decodes the staff&apos;s true confidence ranking faster than any press conference.
+        </p>
+        <p>
+          For Washington specifically, Mariota&apos;s health status converts this finale from routine evaluation into potential season-shaping evidence. A clean, extended performance locks his insurance role; hesitation or physical limitation forces the front office toward external answers before roster cutdown deadlines eliminate available alternatives.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

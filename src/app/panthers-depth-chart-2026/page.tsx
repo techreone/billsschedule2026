@@ -334,6 +334,56 @@ export default function PanthersDepthChartPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Official Chart Exists — and It Leads With a Rookie Star
+        </h2>
+        <p>
+          Carolina is one of the few franchises publishing its full 2026 depth chart directly, with offense, defense, and special teams tiers live on <a href="https://www.panthers.com/team/depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Panthers.com</a>. The headliner: <strong>Tetairoa McMillan</strong>, the record-setting college receiver, listed first at WR ahead of Brycen Tremayne — with <a href="https://www.rotowire.com/football/nfl-depth-charts/carolina-panthers-depth-chart-car" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Rotowire&apos;s transcription</a> showing Jalen Coker, Xavier Legette, Jimmy Horn, and John Metchie stacked into one of the league&apos;s deeper young receiver rooms.
+        </p>
+        <p>
+          That concentration of young pass-catchers is a deliberate bet on quarterback development: give your young passer more legitimate targets than coverage schemes can account for, and accelerate his growth curve by force.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Quarterback Room Behind Bryce Young
+        </h2>
+        <p>
+          The offensive structure protects its investment under center with experienced insurance: national projections list Kenny Pickett as the primary veteran backup, with Kyle Trask developing further down — per the combined picture at <a href="https://www.espn.com/nfl/team/depth/_/name/car" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> — giving Carolina one of the more experienced QB rooms relative to its starter&apos;s age. Our <Link href="/panthers-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">running back competition guide</Link> covers how the ground game supports this construction.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What This Chart Says About the Rebuild&apos;s Timeline
+        </h2>
+        <p>
+          Publishing a complete official chart early signals organizational clarity unusual for a rebuilding team — positions are settled enough to name, competitions are documented rather than hidden. For a franchise resetting around young talent, that transparency is itself a milestone: the front office believes its best roster decisions are already made and wants fans tracking specific battles rather than general hope.
+        </p>
+        <p>
+          Map every Panthers-relevant date and the full league schedule on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* Section 7 */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Defensive Rebuild Hiding in Plain Sight
+        </h2>
+        <p>
+          While the offensive youth movement draws headlines, Carolina&apos;s defensive depth chart tells the equally important half of this rebuild: premium draft investment across the defensive line, a secondary being restocked through multiple classes rather than single drafts, and linebacker seats held by developmental picks learning behind functional veterans. The structure follows modern defensive philosophy — invest where league-wide supply is thinnest (edge rushers and corners), fill interior rotation through value rounds.
+        </p>
+        <p>
+          The special teams tier deserves particular attention from roster watchers: rebuilding teams use those three seats as developmental proving grounds, meaning the final defensive listings here are effectively future-starter projections rather than career special-teamer designations.
+        </p>
+        <p>
+      For fans tracking how quickly young rosters translate into wins, the historical pattern says defense matures first — which makes Carolina&apos;s defensive chart the leading indicator for when this rebuild&apos;s competitive phase actually begins.
+        </p>
+      </section>
+
+        {/* Section 7 */}
         {/* Section 7 */}
         <section className="space-y-4">
           <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">

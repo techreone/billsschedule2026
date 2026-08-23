@@ -308,6 +308,56 @@ export default function PanthersRBDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Chuba Hubbard Leads — With a Genuine Competition Behind Him
+        </h2>
+        <p>
+          Carolina&apos;s running back picture pairs a settled starter with one of the deeper competition charts in the conference. National projections at <a href="https://www.espn.com/nfl/team/depth/_/name/car" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> and <a href="https://www.rotowire.com/football/nfl-depth-charts/carolina-panthers-depth-chart-car" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Rotowire</a> line up <strong>Chuba Hubbard</strong> first — though his listing carried a qualification tag through early August, signaling the staff wanted camp competition documented rather than presumed — with former Texas star <strong>Jonathon Brooks</strong> continuing his development track and rookie <strong>Trevor Etienne</strong> pushing for immediate rotation work.
+        </p>
+        <p>
+          The depth behind that trio is where things get interesting for roster watchers: AJ Dillon brings a proven power profile from Green Bay, giving Carolina a genuinely different run style than its top two, and the final roster math suggests one of these names lands on the practice squad rather than the 53.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          How the Quarterback Situation Shapes This Backfield
+        </h2>
+        <p>
+          No backfield operates in a vacuum, and Carolina&apos;s chart reflects its passer development explicitly. With Bryce Young continuing his own rebuild and Kenny Pickett imported as experienced insurance — both visible on the same ESPN projection — the running game carries elevated importance as the stabilizer for a young passing attack. That means goal-line and short-yardage packages get expanded installs, and the power-back skill set Dillon offers gets a longer evaluation look than it would in a settled offense.
+        </p>
+        <p>
+          For fantasy managers, Hubbard remains the clear projection leader if healthy, but Brooks&apos; recovery trajectory and Etienne&apos;s preseason burst are the two variables most likely to redistribute third-down work by October.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Cutdown Math
+        </h2>
+        <p>
+          Five backs competing for three or four seats means the preseason finale functions as a direct audition. Special teams value separates ties here — Dillon&apos;s coverage-unit history gives him a quiet edge for the final seat, while Etienne&apos;s return-game flashes could force a six-man conversation. Watch the second-half snap distributions in the last exhibition week; coaches reveal their true rankings through who plays when the outcome stops mattering.
+        </p>
+        <p>
+          Follow every Panthers-relevant date and the full league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare backfield builds in the <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills running back guide</Link>.
+        </p>
+      </section>
+
+        {/* FAQ */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Pass-Protection Learning Curve Nobody Talks About
+        </h2>
+        <p>
+          The single fastest way for a young running back to lose a coaching staff&apos;s trust is blitz-pickup failure, and Carolina&apos;s competition should be read through that lens entirely. Hubbard holds his seat largely because his protection maturity lets the offense keep him on the field for third downs; Brooks&apos; recovery timeline includes relearning those assignments against NFL speed; Etienne&apos;s rookie auditions will be graded more on blocking technique than rushing average.
+        </p>
+        <p>
+          This is why running back competitions resolve later than fans expect and why practice reports matter more than preseason stat lines. A forty-yard breakout against third-team defenders impresses nobody in the meeting room; a perfectly executed pick-up of an unblocked edge rusher earns third-down snaps for a full season.
+        </p>
+      </section>
+
+        {/* FAQ */}
         {/* FAQ */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>
@@ -322,6 +372,19 @@ export default function PanthersRBDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          What Hubbard&apos;s Contract Situation Adds to the Picture
+        </h2>
+        <p>
+          Established running backs on team-friendly deals occupy the league&apos;s most valuable roster economics — production above replacement at costs that permit spending elsewhere. Carolina&apos;s construction around its starter reflects exactly that logic: competitive depth behind him raises practice intensity without pressuring the salary structure, and every backfield addition was priced as complementary rather than hierarchical challenge.
+        </p>
+        <p>
+          For the organization, the ideal outcome is boring sustainability: 240 combined touches spread across two healthy backs, a rookie developing on schedule, and zero contract drama through the trade deadline. Boring backfields win divisions; exciting ones sell jerseys and lose locker rooms.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

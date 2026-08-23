@@ -289,6 +289,72 @@ export default function BroncosQbDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Bo Nix QB1: Stability Denver Hasn&apos;t Had in Years
+        </h2>
+        <p>
+          Denver&apos;s 2026 quarterback depth chart is remarkable mostly for how uncontroversial it is. <strong>Bo Nix</strong> enters the season as the unchallenged starter, with beat coverage — including the <a href="https://sports.yahoo.com/articles/jarrett-stidham-primary-backup-bo-120000753.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo Sports camp report</a> confirming Jarrett Stidham as the primary backup — presenting a hierarchy that has not wavered since the spring program opened. After years of quarterback turbulence in the Mile High City, stability itself has become a competitive advantage.
+        </p>
+        <p>
+          Nix&apos;s command shows up in the details coaches actually grade: pre-snap identification adjustments, red-zone operation tempo, and the ball-security numbers that carried his college efficiency into the professional ranks. The organization built its offensive line and running game investments around his skill set, meaning everything listed behind him on this chart is insurance planning rather than competition design.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Backup Room: Stidham Holds, Wilson Waits
+        </h2>
+        <p>
+          The two-deep behind Nix pairs experience with intrigue. Stidham — a seventh-year veteran whose career spans New England, Las Vegas, and Denver, with nineteen regular-season appearances documented on the <a href="https://www.denverbroncos.com/team/players-roster/jarrett-stidham/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">team&apos;s official roster page</a> — offers the system fluency that makes him a reliable game-day number two. Behind him, Zach Wilson&apos;s presence as the third quarterback is one of the league&apos;s quieter reclamation projects: a former top-two pick rebuilding value inside a building famous for its quarterback development infrastructure.
+        </p>
+        <p>
+          That three-man construction reflects modern roster math perfectly. Teams keep exactly two quarterbacks active most weeks and stash the third as a practice-squad elevation candidate; carrying a reclamation arm in that slot costs almost nothing while preserving trade optionality if Wilson flashes in closed practices or brief preseason bursts.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How Denver&apos;s Construction Compares Across the AFC
+        </h2>
+        <p>
+          Zoom out and Denver&apos;s quarterback table reads like the AFC&apos;s spectrum in miniature: a settled young franchise starter, a competent veteran bridge, and a lottery-ticket reclamation arm. Contrast that with the volatility documented in our guides to the <Link href="/colts-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts&apos; reset</Link> and the <Link href="/vikings-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Vikings&apos; camp upheaval</Link>, and you see why Denver&apos;s quiet confidence ranks among the conference&apos;s most enviable positions.
+        </p>
+        <p>
+          Every Broncos-relevant matchup this season lives on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub alongside broadcast details in the <Link href="/where-to-watch" className="text-blue-400 underline hover:text-blue-300">streaming guide</Link>.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Stidham&apos;s Value Actually Represents
+        </h2>
+        <p>
+          Seventh-year backup quarterbacks occupy a strange professional niche: paid for institutional knowledge rather than playing time, valued for practice-week preparation of game plans they will never execute, and retained across coaching changes precisely because their continuity outlasts the coordinators who signed them. Stidham&apos;s tenure spans multiple offensive regimes in Denver, making him a living playbook whose roster seat costs less than replacing his function annually.
+        </p>
+        <p>
+          His trade value follows the same logic from the buying side: teams facing emergency quarterback needs prefer arms already fluent in similar systems, and Denver&apos;s history of developing passers raises the market perception of anyone trained inside the building. Every clean preseason series quietly appreciates that asset.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Altitude Variable in Denver&apos;s Quarterback Development
+        </h2>
+        <p>
+          Denver&apos;s home environment quietly shapes quarterback development in ways national analysis routinely misses. Mile High altitude compresses throwing windows with faster-degrading stamina, amplifies ball flight on deep shots, and turns fourth-quarter home games into conditioning contests that favor offenses practicing daily in the same air. Nix&apos;s home/road splits since arriving have reflected exactly this pattern — and the staff&apos;s offensive construction leans into it deliberately, scripting aggressive early-downs at altitude before opponents adjust their substitution rhythms.
+        </p>
+        <p>
+          For the backups listed here, the altitude factor is audition-relevant too: Stidham&apos;s institutional value includes years of practice familiarity with these conditions, knowledge that becomes roster-visible only if injury forces him onto the field. It is one more reason organizations keep system-fluent veterans even when arm talent arguments suggest younger alternatives.
+        </p>
+        <p>
+      Rival coordinators planning November trips to Denver budget for it as well — silent counts, scripted tempo breaks, and rotation-heavy defensive line usage all trace back to the same environmental math that shapes the home team&apos;s depth chart.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-orange-400 hover:underline flex items-center gap-1">

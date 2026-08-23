@@ -332,6 +332,43 @@ export default function RayDavisBillsRBPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Rookie Tape That Forced His Way Into the Rotation
+        </h2>
+        <p>
+          Ray Davis&apos; introduction to NFL football left no ambiguity about his ceiling. His full profile lives across the standard trio — the <a href="https://www.espn.com/nfl/player/_/id/4429501/ray-davis" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN player page</a>, his <a href="https://www.buffalobills.com/team/players-roster/ray-davis/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">official Bills roster listing</a>, and <a href="https://www.nfl.com/players/ray-davis-2/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL.com&apos;s statistics archive</a> — but the signature moment needs no stat table: a 152-scrimmage-yard demolition of the Jets that announced, mid-rookie-season, that Buffalo&apos;s fourth-round investment had already outgrown its developmental timeline.
+        </p>
+        <p>
+          That game mattered beyond the box score. Fourth-round running backs are drafted as insurance; Davis played like an heir apparent, and every subsequent rotation decision in this backfield has been made with his emergence as the reference point.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Skill Profile: Why It Translates
+        </h2>
+        <p>
+          Davis&apos; college production translated because his game is built on transferable mechanics rather than scheme exploitation: compact frame with natural pad level, one-cut decisiveness in zone concepts, receiving hands that make him a legitimate checkdown weapon, and the contact-balance trait that separates rotational backs from feature backs. His kickoff-return usage — including the 45-yard return against New England documented on his team page — adds special-teams value that protects his roster seat regardless of offensive rotation decisions.
+        </p>
+        <p>
+          In Buffalo&apos;s offense specifically, his between-tackles profile complements James Cook&apos;s perimeter explosiveness exactly the way coordinators draw it up when they want both styles available within a single drive.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          His 2026 Role in the Loaded Backfield
+        </h2>
+        <p>
+          The full hierarchy — Cook ahead, Ty Johnson and Davis battling for second-chair snaps, Frank Gore Jr. and Ian Wheeler fighting for the final seats — is mapped in our <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">complete Bills running back depth chart</Link>. Davis&apos; path to expanded touches runs through short-yardage conversion rate and goal-line packages, where his power profile gives the coaching staff a different answer than Cook offers.
+        </p>
+        <p>
+          Fantasy managers should note the touchdown equity: committee backs behind elite offenses inherit goal-line carries without needing volume, and Davis&apos; preseason usage suggests the staff trusts him in those moments. Track every opportunity on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* Section 7 */}
         {/* Section 7 */}
         <section className="space-y-4">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">

@@ -263,6 +263,72 @@ export default function SteelersRBDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Headline: Jaylen Warren Is Listed First
+        </h2>
+        <p>
+          Pittsburgh&apos;s first official depth chart of 2026 settled the offseason&apos;s loudest running back question in one line item: <strong>Jaylen Warren</strong>, the former undrafted free agent, opened training camp listed as RB1, according to <a href="https://www.nbcsports.com/fantasy/football/player-news/2026-08-05/steelers-list-warren-as-rb1-on-first-depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NBC Sports&apos; fantasy tracker</a>. For a player who entered the league as an afterthought and spent his early seasons clawing reps away from higher-drafted backs, topping an August chart represents the completion of one of the position&apos;s most complete ascension stories in recent franchise history.
+        </p>
+        <p>
+          Context matters for reading that listing correctly. Najee Harris, the physical feature back who owned this backfield for years, is no longer the name at the top of the sheet — <a href="https://www.profootballnetwork.com/fantasy-football/jaylen-warren-fantasy-projection-2026/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Pro Football Network&apos;s projection</a> frames his departure as the structural shift that finally handed Warren the lead role he had been chipping toward since his rookie summer. Depth charts in early August are projections rather than promises, but organizations do not hand the top line to platoon players by accident.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Why Warren Fits What Pittsburgh&apos;s Offense Became
+        </h2>
+        <p>
+          The promotion is schematic as much as statistical. Warren&apos;s profile — decisive one-cut acceleration, genuine receiving threat value out of the backfield, and pass-protection maturity unusual for a former UDFA — matches where modern NFL offenses have moved. Defensive fronts that once sat in heavy boxes against a downhill power style now must account for a back who can line up detached, run option routes against linebackers, and still punish light boxes between the tackles when the defense substitutes nickel personnel.
+        </p>
+        <p>
+          Pittsburgh&apos;s staff has also valued Warren&apos;s reliability in blitz pickup, the unglamorous discipline that decides whether young quarterbacks survive divisional pass rushes. In AFC North football, where November weather compresses passing windows and every third-down snap becomes a trench war, the trusted-pass-protector role carries more weekly value than raw yardage totals suggest.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Competition Behind Him and Cutdown Realities
+        </h2>
+        <p>
+          Behind Warren, the chart remains genuinely fluid. The Steelers&apos; updated release ahead of their second preseason game kept the second-tier ordering in motion, which tells you the coaching staff has not finalized its rotation between power-back complements and third-down specialists. Preseason snaps are precisely where those verdicts get written, and special-teams value functions as the tiebreaker for whichever back claims the final roster seat.
+        </p>
+        <p>
+          For fantasy managers, the actionable takeaway is straightforward but conditional: Warren&apos;s early-down volume projection is elite if the chart holds, but Pittsburgh&apos;s history suggests a hot-hand complement will eat goal-line work regardless of what August listed. Track the weekly movement yourself via club releases, map every Steelers-relevant date on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare conference backfields in our <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills running back breakdown</Link>.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Imported Power: What the New Complement Brings
+        </h2>
+        <p>
+          The backfield&apos;s imported power piece fills a role Warren&apos;s profile deliberately leaves open: between-tackles volume work in December, goal-line sequences where leverage beats lateral agility, and the ball-control fourth quarters that AFC North weather turns into trench wars. Pittsburgh&apos;s offensive identity has always leaned physical in the season&apos;s final month, and the rotation construction here is calibrated for exactly that calendar.
+        </p>
+        <p>
+          The rookie developmental seat behind them completes the standard three-tier build — with one twist: special-teams coordinator influence over the final roster seat means the third back&apos;s coverage-unit tape carries equal weight to his offensive audition. Fans grading this competition by rushing highlights alone will mispredict the cutdown outcome every single year.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How Rodgers Changes Everything for This Backfield
+        </h2>
+        <p>
+          Warren&apos;s promotion coincides with a schematic earthquake: veteran Hall-of-Fame quarterbacks historically transform running back value in specific, predictable ways. Checkdown targets multiply as defenses retreat deeper. Play-action effectiveness spikes because linebackers must respect downfield routes they ignored against conservative passers. And pass-protection responsibilities expand dramatically — veteran signal-callers identify blitz patterns pre-snap but still need backs who convert protection calls into clean pockets.
+        </p>
+        <p>
+          Warren&apos;s profile happens to match every one of those demands, which is presumably why the organization paired his promotion with the quarterback addition rather than treating them as separate roster decisions. The receiving-back skill set that made him a fan favorite becomes exponentially more valuable when the passer checks the ball down at elite rates.
+        </p>
+        <p>
+          For fantasy drafters, this convergence is the single most underrated backfield storyline in the conference: volume plus efficiency opportunity arriving simultaneously for a back whose prior production came despite limited offensive ambition.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Steelers RB Depth Chart</h3>

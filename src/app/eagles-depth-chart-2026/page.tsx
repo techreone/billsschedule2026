@@ -375,6 +375,43 @@ export default function EaglesDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Champion&apos;s Chart: Continuity as a Weapon
+        </h2>
+        <p>
+          Philadelphia&apos;s official depth chart at <a href="https://www.philadelphiaeagles.com/team/depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Eagles.com</a> reads like a championship program&apos;s victory lap — and the offensive line tier is the proof of concept. <strong>Cam Jurgens</strong> centers an interior with Tyler Steen at right guard, the incomparable <strong>Lane Johnson</strong> holds right tackle with a genuine developmental backup behind him, and Dallas Goedert anchors the tight end seat: per the team&apos;s own listing. National projections at <a href="https://www.espn.com/nfl/team/depth/_/name/phi" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> add context on the receiver tiers, where <a href="https://www.ourlads.com/nfldepthcharts/depthchart/PHI" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> shows DeVonta Smith holding one boundary and imported Dontayvion Wicks competing for the other.
+        </p>
+        <p>
+          Championship rosters rarely publish this kind of stability. The absence of competition designations across the premium positions tells you exactly how the front office grades its own roster.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Receiver Room Refresh Behind the Stars
+        </h2>
+        <p>
+          The most interesting tier battle lives behind A.J. Brown and DeVonta Smith, where the imported Wicks competes with rookie Makai Lemon for the third-receiver seat that this offense actually uses heavily. Philadelphia&apos;s scheme rotates three-wide sets at elite rates, meaning that seat produces genuine weekly production rather than emergency snaps — which is why the front office spent real assets on it rather than promoting from within by default.
+        </p>
+        <p>
+          For fantasy managers, the third Eagle receiver has been a quietly productive leaguewide asset for multiple seasons running; identifying the winner of this camp battle early is free equity.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How the Defending Standard Shapes Every Opponent&apos;s Week
+        </h2>
+        <p>
+          For Buffalo fans, Philadelphia&apos;s chart is both blueprint and benchmark — the roster construction every contender measures against, with trench philosophy nearly identical to Buffalo&apos;s own. When these franchises meet, the line-of-scrimmage war decides the game hours before kickoff. Our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB guide</Link> covers the mirror-image construction from Buffalo&apos;s side.
+        </p>
+        <p>
+          Track every Eagles-relevant matchup and the complete league schedule on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
       {/* H2-9: Fantasy Football & DFS Implications */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">

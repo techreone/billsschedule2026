@@ -318,6 +318,85 @@ export default function CowboysDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The First Unofficial Chart: Stability at the Top
+        </h2>
+        <p>
+          Dallas released its first unofficial depth chart of 2026 in mid-August, and the beat&apos;s read — captured in the <a href="https://www.facebook.com/MikeLeslieWFAA/posts/the-cowboys-have-released-their-first-unofficial-depth-chart-for-2026/1614574820027494/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">WFAA beat report</a> — emphasized stability: <strong>Dak Prescott</strong> under center, <strong>CeeDee Lamb</strong> as the undisputed WR1, and a backfield now fronted by <strong>Javonte Williams</strong>, the former Denver power back imported to replace the committee approach of recent seasons. National trackers at <a href="https://www.espn.com/nfl/team/depth/_/name/dal" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> and <a href="https://www.cbssports.com/nfl/teams/dal/dallas-cowboys/depth-chart/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">CBS Sports</a> mirror that top-line consensus.
+        </p>
+        <p>
+          Stability at quarterback and receiver is the Cowboys&apos; structural luxury; everything below those seats carries genuine competition, which is what makes the middle of this chart worth tracking weekly through cutdowns.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Javonte Williams and the Backfield Reset
+        </h2>
+        <p>
+          Williams&apos; arrival changes the math of Dallas&apos; short-yardage and clock-management identity. His contact-balance profile — built on years of absorbing AFC West punishment between the tackles — gives the offense a hammer for December football when AT&amp;T Stadium&apos;s indoor conditions still favor downhill blocking over perimeter speed. The coaching staff&apos;s willingness to import a known quantity rather than develop from within signals a win-now posture on the offensive side of the ball.
+        </p>
+        <p>
+          For fantasy purposes, Williams&apos; goal-line equity is the number to watch: this offense red-zones frequently, and the first chart listing suggests he will get first crack at every high-value carry inside the five.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How to Read This Chart Through Cutdown Week
+        </h2>
+        <p>
+          Unofficial charts are organizational messaging as much as meritocracy. Listing a free-agent newcomer first tells the locker room the job is his to lose; leaving second-tier slots fluid keeps every camp body practicing like a starter. The seats worth monitoring through the final exhibition week are WR3, the swing-tackle backup behind an aging left side, and the fourth defensive-line rotation spot in a front that needs fresh legs to sustain its four-man pressure philosophy.
+        </p>
+        <p>
+          Fans mapping NFC East races all winter can follow every date on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, compare divisional builds in the <Link href="/commanders-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Commanders guide</Link>, and see the quarterback-specific picture in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB breakdown</Link>.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The WR2 Seat and Its Ripple Effects
+        </h2>
+        <p>
+          Behind an undisputed WR1, Dallas&apos; second boundary seat carries schematic consequences far beyond its individual production. The offense&apos;s ability to attack coverage shells depends on the opposite-side receiver winning one-on-one matchups consistently enough that defenses cannot rotate safety help toward the star. Every defensive coordinator in the division starts their game plan by answering one question: can this WR2 beat our corner without help?
+        </p>
+        <p>
+          The camp competition at that seat therefore matters more than its depth-chart position suggests. Whichever receiver wins it inherits not just targets but defensive attention redistribution that elevates the entire passing game — the quiet multiplier effect that separates functional offenses from efficient ones.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Ownership Question That Shadows This Roster
+        </h2>
+        <p>
+          No honest Dallas depth chart analysis ignores the organizational context: this franchise has spent multiple offseasons navigating contract standoffs with its own stars, and each unresolved negotiation reshapes the roster&apos;s practical construction. Depth chart listings in Dallas carry dual meaning — they reflect coaching preference and simultaneously signal which contract situations the front office has stopped negotiating toward resolutions.
+        </p>
+        <p>
+          The imported backfield fits that pattern precisely. Acquiring proven production via trade or value free agency rather than extending homegrown talent is the signature move of a cap-managed roster unwilling to meet market rates on second contracts — smart in isolation, risky in aggregate, because championship windows close faster than compensatory picks mature.
+        </p>
+        <p>
+          For fans tracking the NFC East race, the actionable read is simple: Dallas&apos; ceiling remains elite because quarterback and WR1 anchor everything, but its floor depends on imported pieces outperforming their acquisition cost. That is a narrower margin than divisional rivals enjoy, which is why every training-camp rep on this chart carries playoff-seeding weight by December.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
+      {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Cutdown Week Timeline That Decides Everything
+        </h2>
+        <p>
+          Dallas&apos; fluid second-tier listings resolve on a fixed league calendar: initial cutdowns compress rosters dramatically in one league-wide transaction wave, waiver claims reshuffle the margins within twenty-four hours, and the practice squad assembly completes the picture days later. Every competitive listing on this chart lives or dies inside that single week.
+        </p>
+        <p>
+          Fans tracking specific battles should watch three signals: which players sit out the final exhibition (protected locks), which veterans request releases rather than accept reduced roles, and which positions see external claims once waivers process. The chart published after that week is the season&apos;s real one — everything before it was negotiation.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Cowboys 2026 Depth Chart</h3>

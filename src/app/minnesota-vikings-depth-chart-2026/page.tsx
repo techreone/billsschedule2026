@@ -351,6 +351,43 @@ export default function MinnesotaVikingsDepthChart2026Page() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Official Source and the Receiver Room Headline
+        </h2>
+        <p>
+          Minnesota publishes its depth chart directly through <a href="https://www.vikings.com/team/depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Vikings.com</a>, and national transcription services like <a href="https://www.rotowire.com/football/nfl-depth-charts/minnesota-vikings-depth-chart-min" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Rotowire</a> mirror its receiver hierarchy: <strong>Justin Jefferson</strong> and Jordan Addison forming one of football&apos;s premier duos, with veteran Jauan Jennings imported into the slot rotation alongside rookie Tai Felton — a group deep enough that legitimate NFL receivers are fighting for the fourth and fifth seats.
+        </p>
+        <p>
+          Jefferson remains the offense&apos;s gravitational center: coverage schemes bend toward him weekly, which is precisely why the front office keeps investing in complementary winners who feast on single coverage.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Quarterback Story Colors Every Other Tier
+        </h2>
+        <p>
+          No Vikings position group can be evaluated without the quarterback upheaval as context — Kyler Murray taking the reins with the former franchise investment moved to backup, per our full <Link href="/vikings-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">QB room analysis</Link>. For the skill positions, that means an established big-throwing starter feeding arguably the league&apos;s best pure receiver: a combination whose ceiling keeps Minnesota in every game regardless of defensive script.
+        </p>
+        <p>
+          The offensive line&apos;s continuity is the quiet enabler here; interior stability is what turns elite receiver talent into actual fourth-quarter leads.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Would Change This Chart Midseason
+        </h2>
+        <p>
+          Two variables carry mid-season mutation risk: the quarterback health designation (whose backup profile makes every practice report national news) and the third cornerback seat against a division full of elite passing games. Beyond those, this chart is stable by design — a contender&apos;s construction with clearly defined tiers rather than open auditions.
+        </p>
+        <p>
+          Map every Vikings-relevant matchup and the complete league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare receiver rooms in the <Link href="/colts-wr-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts WR guide</Link>.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-purple-400 hover:underline flex items-center gap-1">

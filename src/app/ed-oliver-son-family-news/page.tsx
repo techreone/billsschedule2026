@@ -325,6 +325,35 @@ export default function EdOliverSonNewsPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Defensive Line Context if Time Away Extends
+        </h2>
+        <p>
+          Football logistics matter only after family, but readers searching this topic deserve complete context. Buffalo&apos;s interior defensive line was constructed with rotational depth precisely because modern offenses force six and seven linemen into game plans; Oliver&apos;s absence for any duration would redistribute interior snaps across that rotation rather than require external acquisition. The coaching staff&apos;s history with personal-leave situations favors flexibility over rigid timetables.
+        </p>
+        <p>
+          Any roster transaction reporting on this front should be treated skeptically unless sourced through official team channels — speculative trade talk during family tragedies reflects the worst of coverage culture, and this page will not amplify it.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How Organizations Handle Personal Tragedy: The Buffalo Precedent
+        </h2>
+        <p>
+          The Bills organization has navigated public tragedy before, and each instance built institutional muscle that applies here. The franchise&apos;s handling of Damar Hamlin&apos;s cardiac emergency in January 2023 — medical coordination, family privacy protection, and measured public communication — became a league-wide case study in crisis management. That institutional experience shapes how this current situation is being managed: family-first timelines, minimal official comment, and deliberate protection of the player from media obligations he has no responsibility to fulfill.
+        </p>
+        <p>
+        The players&apos; side of the equation matters equally. Locker rooms function as support systems in ways outsiders rarely see — teammates coordinating meals, handling logistics, absorbing professional questions so the affected player never has to. Buffalo&apos;s veteran leadership group, shaped by multiple shared crises over recent seasons, understands this choreography instinctively.
+        </p>
+        <p>
+          For fans wondering what meaningful support looks like from outside the building: respecting the information boundary the team established is genuinely the most valuable contribution. Speculative reporting and social-media sleuthing force families to relive details publicly; patience is the only form of fan engagement this situation rewards.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">

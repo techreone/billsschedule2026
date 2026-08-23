@@ -341,6 +341,59 @@ export default function WhereCanIWatchNFLPreseasonGamesPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Four Legitimate Ways to Watch August Football
+        </h2>
+        <p>
+          The league&apos;s official hub at <a href="https://www.nfl.com/ways-to-watch" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL.com/ways-to-watch</a> organizes every option, but the practical breakdown fits into four buckets. <strong>One: local over-the-air broadcasts</strong> — every exhibition game airs free on regional affiliates in each team&apos;s market, which is how Rochester&apos;s WROC carried Buffalo&apos;s Cleveland trip. <strong>Two: national cable windows</strong> — NFL Network distributes a large share of the slate league-wide. <strong>Three: the league&apos;s streaming product</strong> — our <Link href="/nfl-plus-preseason-live-stream-guide" className="text-blue-400 underline hover:text-blue-300">NFL+ tier guide</Link> details how Premium carries out-of-market games. <strong>Four: general live-TV streaming services</strong> that include the cable channels.
+        </p>
+        <p>
+          As <a href="https://www.usatoday.com/story/sports/nfl/2026/08/22/nfl-preseason-saturday-tv-channels-schedule-watch-week-2/91364033007/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">USA Today&apos;s Week 2 viewing guide</a> confirmed, NFL+ Premium carries the entirety of the preseason, and services like Fubo handle the rest through trial timing for one-game viewers.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Decision Tree: Which Option Fits You
+        </h2>
+        <p>
+          In-market fan watching your own team? A digital antenna is free and legally flawless — local affiliates carry every game. Displaced fan following a hometown roster? The out-of-market streaming product exists precisely for you, with the mobile-device caveat explained in our NFL+ guide. One-game curious viewer? Time a live-TV streaming free trial to the specific Saturday window. Every-game completionist? Premium plus a cable-substitute service covers all windows together.
+        </p>
+        <p>
+          What none of these paths should cost you: confusion about which product excludes preseason entirely — our <Link href="/does-nfl-sunday-ticket-include-preseason-games" className="text-blue-400 underline hover:text-blue-300">Sunday Ticket explainer</Link> prevents that purchase mistake.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Team-Specific Guides and the Regular Season Ahead
+        </h2>
+        <p>
+          Specific matchups get their own broadcast maps as the schedule tightens — our <Link href="/bills-vs-browns-live-stream" className="text-blue-400 underline hover:text-blue-300">Bills-Browns breakdown</Link> shows the pattern (local affiliates plus national cable) that most games follow. Once the exhibition calendar closes, broadcast assignments shift to the league&apos;s national partners, and our <Link href="/where-to-watch" className="text-blue-400 underline hover:text-blue-300">Bills Where to Watch hub</Link> tracks every regular-season window.
+        </p>
+        <p>
+          Lock in your full season plan on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage, where kickoff times and networks update as flexible scheduling announcements arrive.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Radio Broadcasts: The Most Underrated August Option
+        </h2>
+        <p>
+          Every preseason game carries full radio broadcasts through each team&apos;s network, and for genuine football students this remains the richest viewing product available. Radio announcers explain roster battles as they happen — naming bubble players, decoding rotation logic, and translating coaching decisions in real time. Television broadcasts assume narrative knowledge; radio assumes nothing and teaches constantly.
+        </p>
+        <p>
+          The practical access points: team sites stream their networks directly (both Buffalo&apos;s and Cleveland&apos;s guides linked above list their feeds), league platforms carry national audio packages, and local flagship stations broadcast over the air entirely free. For fans who consume sports during commutes or work hours, August radio actually outperforms September television for pure football education per minute.
+        </p>
+        <p>
+          Pairing radio audio with a muted television stream is also the connoisseur&apos;s move: you get the visual clarity of camera angles plus the explanatory depth of broadcasters who know the roster battles intimately enough to narrate them properly.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

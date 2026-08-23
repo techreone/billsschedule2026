@@ -295,6 +295,72 @@ export default function VikingsQbDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How Minnesota Got Here: The Camp Battle Nobody Predicted
+        </h2>
+        <p>
+          The most stunning quarterback development of the 2026 offseason happened in Minneapolis, where J.J. McCarthy — the hand-picked successor after the Sam Darnold transition — enters the season as Kyler Murray&apos;s backup, per the <a href="https://www.startribune.com/minnesota-vikings-jj-mccarthy-contract-nfl-future-kyler-murray-starting-qb-depth-chart-training-camp/601878028" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Star Tribune&apos;s training camp reporting</a>. What was framed in July as a transition year became a genuine competition by August, and the veteran won it outright.
+        </p>
+        <p>
+          For context on how quickly narratives moved: Minnesota&apos;s own camp preview published mid-July still framed the room around McCarthy&apos;s ascent from the Darnold era, and by mid-August the local beat was running headlines asking whether the organization had moved off its former cornerstone entirely. Few position rooms anywhere in the league swung that far that fast.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          What Murray Brings and Why It Worked Immediately
+        </h2>
+        <p>
+          Kevin O&apos;Connell&apos;s system prizes precision timing, layered throws off play action, and quarterbacks who can win from clean pockets without sacrificing escape discipline. Murray&apos;s profile — elite short-area acceleration, a career of high-end completion percentages, and proven production in structured offenses — slots into that framework with minimal translation friction. The coaching staff&apos;s public comments have consistently emphasized schematic fit over pedigree, which is exactly the lens through which this decision should be read.
+        </p>
+        <p>
+          The offensive construction around him — a legitimate receiving corps and a committee backfield built for zone-heavy concepts — gives Minnesota a floor it did not have during the transition year, and the division race math changes accordingly.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          McCarthy&apos;s Path From Here
+        </h2>
+        <p>
+          Backup quarterback is not a career sentence at twenty-three, but the trade market implications are real: teams desperate for young arms will call, and Minnesota&apos;s front office now holds an asset whose value depends entirely on practice-week evaluation rather than game tape. McCarthy&apos;s development milestones — full-command installs, two-minute operation, red-zone accuracy — will be graded internally every week, and any Murray injury instantly converts this from the league&apos;s most intriguing backup story into its highest-stakes one.
+        </p>
+        <p>
+          Compare stable situations in our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB breakdown</Link> and the <Link href="/broncos-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Broncos&apos; settled room</Link>, with every Vikings-relevant date mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The O&apos;Connell System as Quarterback Accelerator
+        </h2>
+        <p>
+          Coaching fit matters more at quarterback than any other position, and Minnesota&apos;s offensive infrastructure has become one of the league&apos;s recognized passer accelerators: layered play-action concepts, clean launch points, and route combinations engineered to create easy completions that build in-game confidence. Veterans arriving from chaotic situations have historically found the system&apos;s clarity restorative — which is precisely why this particular acquisition pairing generated league-wide interest.
+        </p>
+        <p>
+          For the backup competing behind the starter, the same system offers a genuine development laboratory: practice-week installs against elite defensive looks, with coaching staff experienced in tailoring teaching to individual processing styles. Rooms this well-coached resolve their competitions on merit rather than salary gravity.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Trade Market Implications Nobody Is Pricing Correctly
+        </h2>
+        <p>
+          A young, drafted, healthy quarterback stuck behind a newly imported starter is the rarest commodity on the NFL trade market — and Minnesota&apos;s situation deserves sharper analysis than the usual &quot;will they trade him&quot; speculation. Backup quarterbacks with starting experience and first-round capital attached historically return second-round compensation when multiple needy teams emerge, which happens every season by Week 6 somewhere in the league.
+        </p>
+        <p>
+          The Vikings&apos; leverage calculation is therefore patient by design: holding the asset through training camp costs nothing, preseason performance either builds or rebuilds trade value, and a single injury elsewhere converts their backup into an auction item. Rival general managers know this, which is why exploratory calls reportedly intensified as camp progressed — and why Minnesota&apos;s asking price has reportedly reflected confidence rather than motivation.
+        </p>
+        <p>
+          For the player himself, the professional calculus is equally clear: practice-week excellence against a first-team defense is now his primary audition tape for thirty-one other organizations, making every closed-door session this season more consequential than most starters&apos; game film.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-purple-400 hover:underline flex items-center gap-1">

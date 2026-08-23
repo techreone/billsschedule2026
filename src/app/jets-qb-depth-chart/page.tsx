@@ -347,6 +347,43 @@ export default function JetsQbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Post-Rodgers Era: A Room Built for the Future
+        </h2>
+        <p>
+          New York released its first unofficial 2026 depth chart on August 10 through <a href="https://www.facebook.com/jetsxfactor/posts/the-new-york-jets-released-their-first-unofficial-depth-chart-ahead-of-the-2026-/1933574174639192/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">beat coverage</a> — and the quarterback table within it represents the franchise&apos;s first fully post-Aaron Rodgers construction in years. The fan-base conversation captured across Jets media has centered less on who starts and more on draft-capital strategy: community analysis as far back as November flagged that evaluators viewed the 2027 class as deeper at quarterback than 2026, shaping expectations for how this season&apos;s room would be constructed.
+        </p>
+        <p>
+          That context is essential for reading any Jets QB listing honestly: this is a development-first room where rep distribution serves long-term evaluation rather than weekly win probability.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          What the Preseason Actually Tests in a Room Like This
+        </h2>
+        <p>
+          Developmental quarterback rooms get evaluated against different criteria than win-now ones: processing speed under pressure, huddle command, install retention across three preseason weeks, and mechanics consistency when protection breaks down. Every snap a young Jets passer takes this August feeds an organizational decision with multi-year consequences — which is why the coaching staff&apos;s rep distributions matter more than results.
+        </p>
+        <p>
+          For neutral observers, the practical takeaway is patience: rooms built this way resolve slowly, and mid-season benchings or promotions reflect information gathering rather than panic.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The AFC East Quarterback Contrast
+        </h2>
+        <p>
+          Buffalo&apos;s stability at the position — documented in our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB depth chart guide</Link> — makes the divisional contrast stark twice a year: one sideline playing with house money, the other defending an MVP-caliber standard. Those games remain the measuring stick every Jets quarterback will be judged against regardless of the calendar.
+        </p>
+        <p>
+          Follow both meetings and the full divisional slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
       {/* H2-9: Fantasy Football & DFS Implications */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">

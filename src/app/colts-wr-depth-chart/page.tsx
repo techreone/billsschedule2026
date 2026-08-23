@@ -462,6 +462,43 @@ export default function ColtsWRDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Trio That Defines Indianapolis&apos; Passing Game
+        </h2>
+        <p>
+          Indianapolis&apos; receiver room is built on a clean three-tier structure that local analysis captured plainly in an August confidence poll: <strong>Michael Pittman Jr.</strong> as the boundary alpha, <strong>Josh Downs</strong> as the slot machine — his four-year development arc documented on the <a href="https://www.colts.com/team/players-roster/josh-downs/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">team&apos;s official roster page</a> — and <strong>Adonai Mitchell</strong> as the second-year boundary breakout candidate whose physical tools have kept national expectation elevated since draft night.
+        </p>
+        <p>
+          The room&apos;s question, posed bluntly by that same local discussion, is whether this group ranks among the conference&apos;s best units or merely a good one. The answer depends almost entirely on Mitchell&apos;s third-down growth and Pittman&apos;s continued dominance in contested-catch situations.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          How the Quarterback Reset Changes Receiver Values
+        </h2>
+        <p>
+          The offseason&apos;s quarterback shakeup — covered fully in our <Link href="/colts-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">QB depth chart analysis</Link> — redistributes fantasy and betting value across this receiver chart in specific ways. A timing-and-accuracy-first starter raises the floor for possession receivers like Downs, whose route precision wins regardless of throw quality, while deep-threat profiles absorb more variance week to week.
+        </p>
+        <p>
+          Pittman&apos;s projection remains the steadiest in the room — national fantasy rankings have consistently placed him among the reliable boundary producers — but his touchdown equity depends on red-zone operation improving from last season&apos;s finishes inside the twenty.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Depth Behind the Stars
+        </h2>
+        <p>
+          Beyond the trio, Indianapolis&apos; chart carries developmental speed and special-teams contributors whose seats depend entirely on August tape. The fourth receiver seat in this offense matters more than most: this scheme rotates three-wide sets heavily enough that the No. 4 sees real snaps in November fatigue windows, making it a genuine roster battle rather than a formality.
+        </p>
+        <p>
+          Follow every AFC South passing-game test and the complete league schedule on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare receiver-room builds in our <Link href="/minnesota-vikings-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Vikings depth chart guide</Link>.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>
