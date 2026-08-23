@@ -434,6 +434,19 @@ export default function DolphinsDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Related Divisional &amp; Position Coverage
+        </h2>
+        <p>
+          Miami&apos;s depth chart gains meaning from its divisional crucible. Compare the quarterback rooms across the AFC East in our <Link href="/jets-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Jets QB depth chart</Link>, study the benchmark construction in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback guide</Link>, and see how running back committees are built league-wide in the <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills RB breakdown</Link>.
+        </p>
+        <p>
+        Planning to watch Miami play Buffalo? Our <Link href="/where-to-watch" className="text-blue-400 underline hover:text-blue-300">Where to Watch streaming guide</Link> maps every broadcast window, with all kickoff dates on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">

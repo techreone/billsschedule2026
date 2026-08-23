@@ -419,6 +419,19 @@ export default function KyleAllenBillsQB2Page() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Deepen Your Quarterback Room Research
+        </h2>
+        <p>
+          The QB2 battle is one layer of Buffalo&apos;s passing-game infrastructure. See how the starter&apos;s seat is structured in the full <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback depth chart</Link>, check whether the franchise passer is suiting up in <Link href="/is-josh-allen-playing-today" className="text-blue-400 underline hover:text-blue-300">our Allen availability tracker</Link>, and review the preseason audition tape analysis in the <Link href="/bills-vs-browns-stats" className="text-blue-400 underline hover:text-blue-300">Bills-Browns box score breakdown</Link>.
+        </p>
+        <p>
+        For the receiver room this backup group throws to, our <Link href="/stefon-diggs-bills-wr-aftermath" className="text-blue-400 underline hover:text-blue-300">post-Diggs receiving corps analysis</Link> covers the pass-catcher hierarchy, with every kickoff mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

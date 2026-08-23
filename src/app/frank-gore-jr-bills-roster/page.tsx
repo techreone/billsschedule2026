@@ -424,6 +424,19 @@ export default function FrankGoreJrBillsRosterPage() {
       </section>
 
       {/* H2-10: How To Watch The Buffalo Bills */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Rest of the Backfield Battle in Context
+        </h2>
+        <p>
+          Gore Jr.&apos;s roster fight is one seat inside Buffalo&apos;s deepest position competition. See the full hierarchy — James Cook, Ty Johnson, and Ray Davis&apos; rotation roles — in the complete <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills running back depth chart</Link>, then read the dedicated profiles on fellow bubble competitor <Link href="/ray-davis-bills-rb" className="text-blue-400 underline hover:text-blue-300">Ray Davis</Link> and the quarterback he would be blocking for in the <Link href="/kyle-allen-bills-qb2" className="text-blue-400 underline hover:text-blue-300">QB2 battle analysis</Link>.
+        </p>
+        <p>
+        Every cutdown decision lands on the calendar mapped at the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, with broadcast details for each audition game in our <Link href="/where-to-watch" className="text-blue-400 underline hover:text-blue-300">streaming guide</Link>.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch The Buffalo Bills */}
       {/* H2-10: How To Watch The Buffalo Bills */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">

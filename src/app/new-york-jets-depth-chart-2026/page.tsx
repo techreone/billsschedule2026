@@ -424,6 +424,19 @@ export default function NewYorkJetsDepthChart2026Page() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Go Deeper: Jets Position Layers &amp; Divisional Rivals
+        </h2>
+        <p>
+          The quarterback tier gets its own dedicated treatment in our <Link href="/jets-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Jets QB room analysis</Link>, while divisional context lives in the <Link href="/dolphins-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Dolphins depth chart</Link> and the conference standard-setter in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback guide</Link> — three builds that define how the AFC East race will actually unfold.
+        </p>
+        <p>
+        For viewing logistics across every New York game, work from our <Link href="/where-to-watch" className="text-blue-400 underline hover:text-blue-300">Where to Watch guide</Link>, and track both meetings with Buffalo on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Bills Schedule 2026</Link> homepage.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

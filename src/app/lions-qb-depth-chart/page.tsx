@@ -393,6 +393,19 @@ export default function LionsQBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Compare Quarterback Rooms Across the League
+        </h2>
+        <p>
+          Detroit&apos;s insurance-first construction reads differently against rival builds: see the reclamation model in our <Link href="/broncos-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Broncos QB depth chart</Link>, the veteran-surplus volatility in the <Link href="/colts-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts quarterback situation</Link>, and the market-market drama in the <Link href="/giants-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Giants post-Jones rebuild</Link>.
+        </p>
+        <p>
+        For the stable-franchise benchmark these rooms are measured against, study the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills quarterback guide</Link>, and map every cross-conference matchup on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Schedule 2026 hub</Link>.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

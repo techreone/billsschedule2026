@@ -361,6 +361,19 @@ export default function SteelersRBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Connect This Backfield to the Full Roster Picture
+        </h2>
+        <p>
+          Warren&apos;s promotion is one layer of Pittsburgh&apos;s offensive reset. See every position tier in the complete <Link href="/steelers-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Steelers 2026 depth chart</Link>, study the divisional benchmark backfield in our <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills running back breakdown</Link>, and follow the rookie competitor profiled in <Link href="/ray-davis-bills-rb" className="text-blue-400 underline hover:text-blue-300">Ray Davis&apos; Bills roster guide</Link>.
+        </p>
+        <p>
+        When these AFC rivals meet, this backfield battle meets Buffalo&apos;s linebacker health question — tracked in our <Link href="/matt-milano-injury-status" className="text-blue-400 underline hover:text-blue-300">Milano status page</Link> — with every date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Schedule 2026 hub</Link>.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

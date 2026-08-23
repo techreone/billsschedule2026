@@ -373,6 +373,19 @@ export default function CommandersQBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Expand Your NFC East Quarterback Research
+        </h2>
+        <p>
+          This page is the QB-specific layer of Washington&apos;s full roster picture — start with the complete <Link href="/commanders-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Commanders 2026 depth chart</Link> for offense, defense, and special teams tiers. Then compare the division&apos;s other passer situations in our <Link href="/giants-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Giants quarterback rebuild analysis</Link>, and study the conference benchmark in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills quarterback guide</Link>.
+        </p>
+        <p>
+        For fantasy managers weighing Mariota-dependent receiver values, our <Link href="/where-can-i-watch-nfl-preseason-games" className="text-blue-400 underline hover:text-blue-300">preseason viewing guide</Link> helps you scout the auditions live, with every Commanders-Bills style interconference matchup on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Schedule 2026 hub</Link>.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

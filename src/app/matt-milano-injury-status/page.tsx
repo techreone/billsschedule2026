@@ -390,6 +390,19 @@ export default function MattMilanoInjuryStatusPage() {
       </section>
 
         {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Continue Reading: Bills Roster &amp; Availability Coverage
+        </h2>
+        <p>
+          Linebacker availability is one thread in a broader roster picture. Track the offensive side in our <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">running back depth chart breakdown</Link>, monitor the quarterback room&apos;s game-day status in <Link href="/is-josh-allen-playing-today" className="text-blue-400 underline hover:text-blue-300">our Josh Allen availability tracker</Link>, and see how fellow defender <Link href="/damar-hamlin-bills-status" className="text-blue-400 underline hover:text-blue-300">Damar Hamlin&apos;s safety battle</Link> is developing alongside Milano&apos;s own return timeline.
+        </p>
+        <p>
+        When divisional opponents field competing rosters, context matters too — our <Link href="/new-york-jets-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Jets depth chart guide</Link> covers the AFC East rival Buffalo faces twice a season, with every matchup date mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">
