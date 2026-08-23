@@ -315,6 +315,43 @@ export default function CommandersDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          The Offense Runs Through Jayden Daniels — Literally
+        </h2>
+        <p>
+          Washington&apos;s offensive depth chart is an exercise in supporting-cast optimization around one generational talent. The projected alignment confirmed by national trackers — <a href="https://sports.yahoo.com/articles/commanders-depth-chart-updated-stefon-193253221.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo Sports&apos; camp compilation</a> among them — pairs Terry McLaurin&apos;s boundary reliability with Dyami Brown&apos;s vertical stretch in the receiving corps, while the offensive line continues prioritizing athletic interior protection suited to quarterback movement concepts.
+        </p>
+        <p>
+          What distinguishes this chart from typical builds is how deliberately every skill-position grouping complements designed quarterback runs: receivers are expected to block downfield on keeper plays, and tight ends split time between YAC routes and edge containment duties most teams assign to tackles.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-red-500 pl-3">
+          A Genuinely Open Backfield Competition
+        </h2>
+        <p>
+          The running back depth chart carries official competition designations deep into August: <strong>Jacory Croskey-Merritt</strong> and <strong>Rachaad White</strong> both entered camp listed with qualification tags ahead of Kaytron Allen and Jeremy McNichols — per the <a href="https://www.espn.com/nfl/team/depth/_/name/wsh" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN depth projection</a> — meaning the staff genuinely does not know its Week 1 starter at the position. That uncertainty is unusual for a contender and makes Washington&apos;s preseason backfield tape must-watch for fantasy managers.
+        </p>
+        <p>
+          Croskey-Merritt offers one-cut explosion suited to the outside-zone scheme; White brings proven passing-game reliability from his previous stop. The tiebreaker, as always under this staff, will be pass-protection trust on third down.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          Reading the Rest of the Chart
+        </h2>
+        <p>
+          Beyond the headline battles, the depth chart&apos;s shape tells the strategic story: Washington built for track meets in a division where Philadelphia and Dallas both load the box, keeping five and six receivers active most weeks and treating the fourth safety spot as a core special-teams seat. Injuries are the only realistic path onto this chart late — the 91-man camp roster documented by beat writers showed competition at every tier rather than gaps.
+        </p>
+        <p>
+          Compare divisional builds in our <Link href="/cowboys-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Cowboys guide</Link>, or see the quarterback-specific breakdown in the <Link href="/commanders-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Commanders QB depth chart</Link>, with all league dates mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Bills Schedule 2026 hub</Link>.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Commanders 2026 Depth Chart</h3>

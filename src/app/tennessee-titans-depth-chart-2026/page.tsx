@@ -325,6 +325,40 @@ export default function TitansDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Offensive Foundation: Youth at the Controls
+        </h2>
+        <p>
+          Tennessee&apos;s 2026 depth chart is best understood as a construction project entering its most important phase: a franchise quarterback on his rookie trajectory, a true No. 1 receiver in <strong>Calvin Ridley</strong> occupying the X spot, and an offensive line being rebuilt around former first-round tackle <strong>JC Latham</strong>. Camp releases tracked by <a href="https://www.espn.com/nfl/team/depth/_/name/ten" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> and beat reporters show interior competition at right guard — where veteran Cordell Volson entered camp ahead of rookie Jackson Slater — reflecting how aggressively this staff has churned the protection picture in front of its young passer.
+        </p>
+        <p>
+          The receiver room behind Ridley blends a high-upside second-round-style development track with veterans: Elic Ayomanor&apos;s camp emergence has been one of the quieter August storylines in Nashville, and the slot competition remains fluid enough that preseason reps genuinely move the chart week to week.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Defensive Remodeling Headlined by a Trade Acquisition
+        </h2>
+        <p>
+          The most consequential name change on Tennessee&apos;s defensive depth chart is <strong>Jermaine Johnson II</strong>, listed atop the left end position after arriving from the New York Jets — a swing-for-the-fences pass-rush acquisition that instantly upgrades the front four&apos;s ceiling. Depth-chart services like <a href="https://www.ourlads.com/nfldepthcharts/depthchart/TEN" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> project him opposite Oluwafemi Oladejo, the second-year edge defender the staff is developing as a complementary threat rather than a finished product.
+        </p>
+        <p>
+          That pairing matters because the AFC South is won in the trench war against Indianapolis and Houston&apos;s protected quarterbacks. A defense that can generate four-man pressure without blitzing support changes every coverage call behind it, and Tennessee&apos;s offseason clearly prioritized exactly that outcome.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What the Chart Means for the Season Ahead
+        </h2>
+        <p>
+          Depth charts are rosters with opinions, and Tennessee&apos;s tells you the staff believes its competitive window opens now rather than later: veterans were imported at guard and edge, the receiver room was retooled around a true alpha, and the developmental timeline of the quarterback position was accelerated by protection investments rather than weapon-collecting alone. Fans comparing division builds can see the counterpoint approaches in our guides to the <Link href="/colts-qb-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts&apos; quarterback reset</Link> and <Link href="/texans-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Houston&apos;s contender roster</Link>, with every interconference date mapped on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

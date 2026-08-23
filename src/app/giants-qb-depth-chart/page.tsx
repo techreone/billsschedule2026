@@ -304,6 +304,71 @@ export default function GiantsQbDepthChartPage() {
         </div>
 
       </article>
+      {/* H2-6: Coaching Staff & Offensive Scheme */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          6. Coaching Staff &amp; Offensive Scheme in New York
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The New York Giants are led by head coach Brian Daboll, whose offensive background emphasizes tempo, spread formations, and aggressive downfield targeting. The system is built to stress defensive secondaries with layered route concepts and play-action looks that free up the top perimeter weapons.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Defensively, the Giants prioritize front-seven pressure and disciplined coverage behind it. The staff blends creative blitz design with zone principles to disguise intentions. Situational football, third-down efficiency, and special-teams execution are drilled as weekly non-negotiables in the building.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & NFC East Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          7. 2026 Season Outlook &amp; NFC East Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 New York Giants enter the year focused on stabilizing the quarterback position and fortifying the trenches. The NFC East remains one of the NFL&apos;s most balanced divisions, meaning incremental improvements in coaching and roster talent can swing multiple wins. A healthy skill group is central to the ceiling.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Postseason hopes depend on clean football in one-score games and a takeaway-driven defense. Health at the skill positions and red-zone efficiency will define whether the Giants push for wildcard relevance or remain in rebuild evaluation mode.
+        </p>
+      </section>
+
+      {/* H2-8: Quarterback Development & Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          8. Quarterback Development &amp; Competition
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          New York&apos;s quarterback room is structured around a young franchise arm supported by veteran stability and developmental depth. The coaching staff tailors the install to the starter&apos;s processing strengths, layering concepts as the season progresses. Practice reps are carefully allocated to accelerate growth.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Backup snaps carry real weight in the Giants&apos; plan, ensuring the room is prepared for injury contingency. Preseason evaluation and joint practices give the staff a clear picture of depth before the games begin to count.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Giants Players
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Fantasy managers track New York&apos;s skill players for volume-driven production, with the lead wideout offering the steadiest weekly floor. The quarterback&apos;s value is tied to touchdown rate and rushing equity rather than pure yardage totals.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          In daily fantasy, Giants stacks are most appealing in projected uptempo matchups, pairing the passer with a primary target for correlated upside. Defensive streamers often fade New York against methodical, ball-control opponents.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          10. How To Watch New York Giants Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Giants games air across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video distributing various windows depending on the flex schedule. Afternoon NFC East clashes typically land on FOX, while primetime appearances rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Giants matchups via league-approved platforms and authenticated provider apps. For the complete New York schedule, locally converted kickoff times, and verified channel assignments, pair this guide with the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/nyg" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/new-york-giants/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
             <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

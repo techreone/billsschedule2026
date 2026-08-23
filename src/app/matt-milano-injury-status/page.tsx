@@ -351,6 +351,32 @@ export default function MattMilanoInjuryStatusPage() {
           </p>
         </section>
 
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. Milano&apos;s Defensive Impact When Healthy
+          </h2>
+          <p>
+            Matt Milano is the heartbeat of Buffalo&apos;s second level. A first-team All-Pro caliber weak-side linebacker, Milano blends elite coverage instincts with violent downhill run support. When healthy, he allows defensive coordinator Bobby Babich to deploy exotic pressures and match man coverage against elite tight ends — a luxury few defenses enjoy.
+          </p>
+          <p>
+            His ability to erase crossing routes and spy mobile quarterbacks is a cornerstone of Buffalo&apos;s defensive identity. Milano&apos;s range from sideline to sideline lets the safeties play aggressive run fits, knowing the linebacker will close the intermediate window. That trust cascade is why his presence fundamentally upgrades every layer of the unit.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. Buffalo&apos;s Linebacker Depth Around Milano
+          </h2>
+          <p>
+            Should Milano need to be eased back into action, Buffalo is not without options. Middle linebacker Terrel Bernard emerged as a tackle machine and signal-caller on defense, while Dorian Williams and the rest of the room provide rotational snaps. The Bills have historically valued versatility at linebacker, and the 2026 depth chart reflects a deliberate balance of proven starters and ascending backups.
+          </p>
+          <p>
+            The coaching staff can deploy sub-packages that hide any individual limitation, using Milano in coverage while rotating Bernard and Williams against the run. This flexibility means Buffalo can weather brief absences without catastrophic drop-off, preserving the unit&apos;s status among the league&apos;s best.
+          </p>
+        </section>
+
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

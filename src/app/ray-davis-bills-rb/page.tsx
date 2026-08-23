@@ -319,6 +319,32 @@ export default function RayDavisBillsRBPage() {
           </p>
         </section>
 
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. Ray Davis&apos;s Role in Joe Brady&apos;s Backfield
+          </h2>
+          <p>
+            Ray Davis carved out a meaningful role in Buffalo&apos;s backfield by pairing downhill power with surprising receiving chops. In Joe Brady&apos;s offense, Davis is deployed on early downs and in pass-protection situations, where his blitz pickup and soft hands make him a trusted option on third downs.
+          </p>
+          <p>
+            His vision between the tackles and willingness to finish through contact give the Bills a dependable grind-it-out option when the offense needs to shorten the game. Davis&apos; pass-catching also lets Buffalo keep him on the field in obvious throwing situations without tipping the play call.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. How Davis Complements James Cook
+          </h2>
+          <p>
+            Davis&apos; physicality is the perfect stylistic counterpoint to starter James Cook&apos;s explosiveness. While Cook attacks the perimeter with speed, Davis hammers between the tackles and finishes runs through contact. Together they give the Bills a thunder-and-lightning tandem that keeps defenses guessing.
+          </p>
+          <p>
+            This split-back approach preserves Cook&apos;s legs deep into the 2026 campaign, limiting wear on the home-run threat while still imposing a physical front. When both are healthy, Buffalo&apos;s ground game becomes one of the most difficult to defend in the AFC East.
+          </p>
+        </section>
+
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

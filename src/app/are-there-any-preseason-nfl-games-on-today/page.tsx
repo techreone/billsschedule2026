@@ -307,6 +307,43 @@ export default function AreThereAnyPreseasonNFLGamesOnTodayPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The 2026 Preseason Calendar, Structured
+        </h2>
+        <p>
+          If you are asking whether NFL football is on today, the answer depends on where we are in the exhibition calendar. The 2026 preseason runs three weekends, and the league&apos;s official schedule hub at <a href="https://www.nfl.com/schedules/2026/by-week/preseason-week-1" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL.com/schedules</a> organizes every kickoff by week and date. Week 2 alone packed sixteen games between Thursday, August 20 and Sunday, August 23 — including Buffalo&apos;s lightning-delayed win in Cleveland — before the weekend closed with Seattle visiting Tennessee on the Sunday slate.
+        </p>
+        <p>
+          Week 3 shifts to a compressed Thursday-Friday core: <a href="https://www.nfl.com/schedules/2026/by-week/preseason-week-3" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">August 27 and 28</a> host the traditional dress-rehearsal window where starters see their only extended action, which is why that weekend draws triple the search traffic of the first two.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          How Kickoff Windows Work in August
+        </h2>
+        <p>
+          Preseason games cluster into predictable broadcast windows: early afternoon starts around 1 p.m. Eastern (like Bills-Browns), the late-afternoon prime lead-in slot, and an 8 p.m. national window that NFL Network distributes league-wide. Saturday is the workhorse day with games stacked across all three windows; Thursday and Friday carry single-header national packages; Sundays remain deliberately light so teams can travel home and begin the next camp week immediately.
+        </p>
+        <p>
+          For fans specifically hunting same-day answers, the fastest reliable check sequence is: the league schedule page filtered to today&apos;s date, then your team&apos;s official site for any weather or broadcast changes — the Cleveland delay proved how quickly those can cascade on game morning.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What to Watch When Games Are On
+        </h2>
+        <p>
+          Preseason football rewards a different viewing lens than the regular season: the back half of each roster plays the majority of snaps, position battles outweigh scores, and special-teams units — invisible all winter — consume nearly forty percent of the tape. If you want streaming specifics for tonight&apos;s slate, our <Link href="/where-can-i-watch-nfl-preseason-games" className="text-blue-400 underline hover:text-blue-300">where-to-watch guide</Link> breaks down every platform option, and the <Link href="/does-nfl-sunday-ticket-include-preseason-games" className="text-blue-400 underline hover:text-blue-300">Sunday Ticket coverage explainer</Link> clears up the most common package confusion.
+        </p>
+        <p>
+          Once the exhibition calendar closes, everything converts to real stakes — track every regular-season kickoff on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage and lock in your viewing plan with the <Link href="/printable-schedule" className="text-blue-400 underline hover:text-blue-300">printable PDF</Link>.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

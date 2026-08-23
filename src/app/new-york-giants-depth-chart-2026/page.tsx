@@ -278,6 +278,32 @@ export default function NewYorkGiantsDepthChart2026Page() {
         </section>
 
         {/* Section 5: FAQ */}
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. Jaxson Dart&apos;s Ascension to QB1
+          </h2>
+          <p>
+            The Giants anointed Jaxson Dart as their starting quarterback for the 2026 campaign, betting on the young passer&apos;s arm talent and mobility to energize an offense that has cycled through signal-callers in recent years. Dart&apos;s blend of velocity and escapability fits coordinator Mike Kafka&apos;s vision of a vertical, play-action heavy attack built around Malik Nabers.
+          </p>
+          <p>
+            Surrounding Dart with a capable run game and a true No. 1 receiver gives New York its clearest path to offensive competence in years. The franchise&apos;s 2026 ceiling hinges on Dart&apos;s growth curve and the protection in front of him against daunting NFC East pass rushers.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. Jameis Winston&apos;s Veteran Mentorship
+          </h2>
+          <p>
+            Veteran Jameis Winston slots in as the primary backup, bringing a cannon arm and a wealth of starting experience to steady the room. Behind Winston, Brandon Allen and Jake Haener round out the depth chart, giving New York a credible relief option and a developmental project.
+          </p>
+          <p>
+            Winston&apos;s fearless downfield mentality mirrors the aggressive identity New York wants on offense, while his experience ensures the offense will not collapse if Dart needs a series off. That veteran floor is precisely why the Giants prioritized him in the backup market.
+          </p>
+        </section>
+
         <section className="space-y-4 pt-4 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-tight border-l-4 border-blue-500 pl-3">
             5. Frequently Asked Questions (FAQ) - New York Giants Depth Chart

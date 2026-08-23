@@ -259,6 +259,43 @@ export default function CommandersQBDepthChartPage() {
         </p>
       </section>
 
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          Jayden Daniels: The Cornerstone Everything Else Defers To
+        </h2>
+        <p>
+          Washington&apos;s entire competitive window is anchored to Jayden Daniels, and every other entry on this depth chart exists to protect or develop that fact. Since his arrival, the franchise has rebuilt its offensive identity around his dual-threat profile — full-field reads from clean pockets, scheduled quarterback runs in the red zone, and the kind of processing speed that lets coordinator play-calling stay aggressive on third down. National trackers from <a href="https://www.espn.com/nfl/team/depth/_/name/wsh" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a> to <a href="https://sports.yahoo.com/articles/commanders-depth-chart-updated-stefon-193253221.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo Sports</a> agree on the top line without qualification.
+        </p>
+        <p>
+          What makes Daniels unusual among young franchise quarterbacks is how little the offense hides him: Washington asks its QB1 to win from the pocket first, which is both the best long-term development path and the reason the backup situation below him matters more than in most buildings.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-red-500 pl-3">
+          Mariota&apos;s MCL Sprain Opens a Genuine Audition Window
+        </h2>
+        <p>
+          The most consequential depth-chart news of Washington&apos;s August arrived via injury: Marcus Mariota, the designatedQB2, is sidelined with an MCL sprain — and per <a href="https://www.si.com/nfl/commanders/onsi/athan-kaliakmanis-commanders-qb3-battle-marcus-mariota-injury" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Sports Illustrated&apos;s Commanders coverage</a>, that absence has turned rookie Athan Kaliakmanis into the emergency understudy taking second-team reps ahead of schedule.
+        </p>
+        <p>
+          These snaps matter beyond the preseason standings. Backup quarterback evaluations drive the league&apos;s transaction wire all September: a strong showing from Kaliakmanis could make him a practice-squad development keeper, push Sam Hartman down the chart, or even put a veteran signing on the table if the medical timeline on Mariota drifts. Roster builders treat the two weeks before cutdown as the only live audition the position ever gets.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          Why This Room Shapes Washington&apos;s Season More Than Fans Think
+        </h2>
+        <p>
+          The NFC East race is projected to be a knife fight, and divisional tiebreakers historically swing on one or two plays from backup quarterbacks entering games cold. A healthy Mariota gives Washington one of the better insurance policies in the conference; an extended injury plus rookie inexperience would force the staff to shrink its playbook in ways opponents can plan for. That is the practical stakes behind every training-camp rep listed here.
+        </p>
+        <p>
+          Fans mapping Washington&apos;s season can compare this construction with stable situations like the one in our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback depth chart</Link>, and track every interconference date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Commanders QB Depth Chart</h3>

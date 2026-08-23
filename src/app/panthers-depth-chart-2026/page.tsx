@@ -321,6 +321,32 @@ export default function PanthersDepthChartPage() {
 
         {/* FAQ */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+            6. Bryce Young&apos;s Make-or-Break 2026
+          </h2>
+          <p>
+            Bryce Young enters 2026 under pressure to validate Carolina&apos;s decision to draft him first overall. After an uneven early career, the former Heisman winner has the arm talent and processing to flourish if the Panthers&apos; offensive line and skill-position supporting cast hold up. New weapons and a clearer scheme should let Young operate from cleaner pockets and attack downfield.
+          </p>
+          <p>
+            The Panthers have surrounded their franchise passer with a rebuilt protection unit and a diversified receiver room, signaling a full commitment to his development. For a franchise desperate to end its rebuild, stabilizing the quarterback position is the foundational step toward relevance in the NFC South.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+            7. Kenny Pickett&apos;s Role as Insurance
+          </h2>
+          <p>
+            Carolina signed Kenny Pickett to back up Young, giving the Panthers a former first-round quarterback with starting reps under his belt. Pickett&apos;s presence means a credible reliever is one snap away, and Haynes King and Kyle Trask add further depth to a room built for contingency.
+          </p>
+          <p>
+            That quarterback security is especially valuable for a young starter learning to navigate live NFL defenses. Knowing a capable veteran can steady the ship allows Young to play free, and it protects Carolina&apos;s season from the volatility that undermines so many rebuilds.
+          </p>
+        </section>
+
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>
           <div className="space-y-4">
             {faqSchema.mainEntity.map((faq, idx) => (

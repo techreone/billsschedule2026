@@ -281,6 +281,32 @@ export default function MinnesotaVikingsDepthChart2026Page() {
         </section>
 
         {/* Section 5: FAQ */}
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. J.J. McCarthy&apos;s First Full Starter Campaign
+          </h2>
+          <p>
+            After the Vikings settled their quarterback question, J.J. McCarthy takes the reins as the full-time starter for the 2026 season. The former first-round pick brings a live arm, athleticism, and the poise that won over the coaching staff during camp battles. Surrounded by Justin Jefferson, Jordan Addison, and a retooled offensive line, McCarthy&apos;s development is the single biggest variable in Minnesota&apos;s NFC North hopes.
+          </p>
+          <p>
+            McCarthy&apos;s ability to attack all three levels and extend plays with his legs gives Kevin O&apos;Connell a versatile centerpiece. The organization has invested heavily in his surrounding cast, signaling a clear belief that the young passer can anchor the franchise for the next decade if he stays healthy.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. Carson Wentz as the Veteran Safety Net
+          </h2>
+          <p>
+            Behind McCarthy, Minnesota brought back Carson Wentz to serve as the veteran backup. Wentz, a former Pro Bowl passer, offers a high-upside insurance policy with starting experience across Philadelphia, Indianapolis, and Washington. His presence means the Vikings will not be forced into a total offensive reboot if McCarthy misses time, preserving continuity in O&apos;Connell&apos;s system.
+          </p>
+          <p>
+            The quarterback room&apos;s construction reflects a deliberate balance: an ascending young starter paired with a proven reliever. That combination is exactly what contenders covet, because it insulates the season against the single most destabilizing event in football — an injury to the starting quarterback.
+          </p>
+        </section>
+
         <section className="space-y-4 pt-4 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-tight border-l-4 border-purple-500 pl-3">
             5. Frequently Asked Questions (FAQ) - Minnesota Vikings Depth Chart

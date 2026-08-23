@@ -318,6 +318,32 @@ export default function NFLPlusPreseasonLiveStreamGuidePage() {
           </p>
         </section>
 
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. NFL+ Premium vs Pro Tier Differences
+          </h2>
+          <p>
+            NFL+ remains the league&apos;s official streaming product for out-of-market and archive content. The Premium tier typically unlocks live local and primetime games on mobile devices, full game replays, Coaches Film, and condensed games, while the Pro tier adds multiple-angle viewing and deeper film tools for the truly obsessed fan.
+          </p>
+          <p>
+            Pricing sits in an affordable monthly band, making it a popular companion for fans who already subscribe to a primary broadcast provider. For preseason viewing specifically, NFL+ is the most direct legal path to watch every exhibition contest that is not carried on a local affiliate or national network.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. Streaming Preseason Across Mobile, TV, and Console Gaming
+          </h2>
+          <p>
+            Preseason action is unusually accessible because most exhibition games air on local broadcast affiliates and the teams&apos; own networks. Fans can pair NFL+ with a smart TV app, a phone, or a console such as PlayStation or Xbox to watch on the biggest screen available.
+          </p>
+          <p>
+            For nationally televised preseason contests, the standard Thursday Night Football, NBC, and ESPN windows apply the same authentication flow as the regular season. A cable or streaming login unlocks the broadcast app, while NFL+ covers the long tail of regional matchups that national partners pass on.
+          </p>
+        </section>
+
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

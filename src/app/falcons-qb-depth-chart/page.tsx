@@ -284,6 +284,71 @@ export default function FalconsQBDepthChartPage() {
             <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
           </ul>
         </section>
+      {/* H2-6: Coaching Staff & Offensive Scheme */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+          6. Coaching Staff &amp; Offensive Scheme in Atlanta
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The Atlanta Falcons operate under head coach Raheem Morris, with offensive coordinator Zac Robinson directing a scheme built on play-action, condensed formations, and layered route concepts. The system is designed to stress coverage with layered reads, allowing the quarterback to work progression-based throws underneath before attacking vertical windows downfield.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Defensively, Atlanta prioritizes speed and disguise, mixing pressure packages with zone principles to confuse opposing passers. The staff emphasizes tackling fundamentals and red-zone compactness. Special teams and situational execution are drilled weekly as core pillars of the Falcons culture.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & NFC South Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+          7. 2026 Season Outlook &amp; NFC South Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 Atlanta Falcons enter the campaign seeking to reassert themselves in a wide-open NFC South. The division lacks a clearcut dynasty, meaning Atlanta&apos;s roster talent and quarterback development could swing the balance. A balanced offense and an improved defensive front define the franchise&apos;s ceiling.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Postseason hopes hinge on consistency against divisional opponents and clean football in one-score games. Health at the skill positions and takeaway margin will determine whether the Falcons push for a division title or remain in the wild-card conversation.
+        </p>
+      </section>
+
+      {/* H2-8: QB Room Development & Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+          8. Quarterback Room Development &amp; Competition
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Atlanta&apos;s quarterback room is built around a young franchise arm supported by veteran stability and developmental depth. The coaching staff tailors the install to the starter&apos;s processing strengths, layering concepts as the season progresses. Practice reps are carefully allocated to accelerate growth without overwhelming the young passer.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Backup snaps carry real weight in Atlanta&apos;s plan, ensuring the room is prepared for injury contingency. Preseason evaluation and joint practices give the staff a clear picture of depth before the games begin to count.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Falcons Players
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Fantasy managers track Atlanta&apos;s skill players for volume-driven production, with the lead wideout and running back offering the steadiest weekly floors. The quarterback&apos;s value is tied to touchdown rate and rushing equity rather than pure yardage totals.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          In daily fantasy, Falcons stacks are most appealing in projected uptempo matchups, pairing the passer with a primary target for correlated upside. Defensive streamers, by contrast, often fade Atlanta against methodical, ball-control opponents.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">
+          10. How To Watch Atlanta Falcons Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Falcons games air across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video distributing various windows depending on the flex schedule. Afternoon NFC South clashes typically land on FOX, while primetime appearances rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Falcons matchups via league-approved platforms and authenticated provider apps. For the complete Atlanta schedule, locally converted kickoff times, and verified channel assignments, pair this guide with the <Link href="/" className="text-red-400 underline hover:text-red-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/atl" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/atlanta-falcons/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
         <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

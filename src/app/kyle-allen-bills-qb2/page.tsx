@@ -336,6 +336,48 @@ export default function KyleAllenBillsQB2Page() {
           </p>
         </section>
 
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. Preseason Progression &amp; Training Camp Outlook
+          </h2>
+          <p>
+            Kyle Allen&apos;s path to locking the QB2 role was built across the full 2026 training camp calendar at St. John Fisher University in Pittsford, New York. Through early July walkthroughs, mid-July padded practices, and the preseason opener, Allen progressively took a larger share of second-team repetitions as the coaching staff evaluated the entire quarterback room.
+          </p>
+          <p>
+            During the Hall of Fame Game and the preseason opener, Allen split series with developmental options before earning the clear No. 2 designation by the Cleveland contest. Coaches praised his footwork drills and his ability to diagnose coverage rotations pre-snap, a skill that translates directly into clean completions against blitzing defenses when the regular season arrives.
+          </p>
+          <p>
+            Heading into Week 1 of the regular season, the expectation is that Allen will handle the bulk of mop-up duty and any relief appearances, while Josh Allen absorbs the overwhelming majority of offensive snaps as Buffalo chases a Super Bowl LXI berth in the 2026 campaign.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. The Insurance Value: Game-Plan Continuity If Josh Allen Misses Time
+          </h2>
+          <p>
+            In the modern NFL, a team&apos;s ceiling is only as secure as its backup quarterback. Buffalo learned this lesson in past postseasons, and General Manager Brandon Beane has repeatedly emphasized the importance of a capable QB2. Kyle Allen provides exactly that insurance without forcing Coordinator Joe Brady to install a separate offensive system.
+          </p>
+          <p>
+            Because Allen runs the same terminology, the same protections, and the same route concepts as the starter, the Bills could theoretically maintain offensive continuity if Josh Allen were to miss a series or a game due to injury. That continuity is invaluable in a league where backup-quarterback play has decided countless playoff races. Allen&apos;s mobility also preserves the boot-action element that defines Buffalo&apos;s offense.
+          </p>
+        </section>
+
+        {/* Section 8 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-teal-500 pl-3">
+            8. How Kyle Allen Fits Buffalo&apos;s 2026 Super Bowl Window
+          </h2>
+          <p>
+            Buffalo enters the 2026 season with one of the AFC&apos;s most complete rosters, headlined by Josh Allen, a revamped receiving corps, and a stingy defense led by coordinator Bobby Babich. Within that window, Kyle Allen&apos;s role is narrow but vital: keep the offense afloat in any absence and execute the scout-team look in practice that prepares the starters each week.
+          </p>
+          <p>
+            Veteran presences like Allen also stabilize the quarterback-room culture. His mentorship of younger signal-callers and his competitive reps against Buffalo&apos;s first-team defense in practice make him a multiplier beyond the box score. For a franchise obsessed with ending its Super Bowl drought, having a trusted QB2 is a quiet but essential piece of the puzzle.
+          </p>
+        </section>
+
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

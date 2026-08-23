@@ -330,6 +330,43 @@ export default function CardinalsDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Marvin Harrison Jr. and the Passing Game Hierarchy
+        </h2>
+        <p>
+          Arizona&apos;s offensive depth chart is organized around a simple bet: <strong>Marvin Harrison Jr.</strong> is a franchise receiver whose second-phase development determines this offense&apos;s ceiling. The club&apos;s own first depth chart of the season, published via <a href="https://www.azcardinals.com/news/the-first-depth-chart-of-the-season-2026" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">AzCardinals.com</a>, lines him up on the boundary with Michael Wilson holding the other outside spot and Xavier Weaver competing in the slot — a trio whose combined chemistry with the quarterback is the single most-watched variable of camp.
+        </p>
+        <p>
+          The tight end position anchors the middle of the field, and the running back rotation remains a committee by design rather than by necessity — a structure this staff has maintained to keep legs fresh across a full desert-heat season schedule.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Quirky &quot;12 Starters&quot; Defense Explained
+        </h2>
+        <p>
+          The most interesting line in Arizona&apos;s initial release was defensive: the team listed twelve starters, because <strong>Sean Murphy-Bunting</strong> is counted as a starting slot corner alongside the two boundary positions. That fifth-secondary emphasis is not cosmetic — it reflects a base 3-4 scheme, per <a href="https://www.ourlads.com/nfldepthcharts/depthchart/ARZ" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads&apos; projection</a>, that treats nickel personnel as an every-down unit rather than a substitution package.
+        </p>
+        <p>
+          In a division featuring three different quarterback archetypes — mobile veteran, young dual-threat, and reclamation project — defensive coordinators live in nickel almost sixty percent of snaps. Arizona building its chart around six defensive backs-plus tells you exactly which weekly problems this staff expects to solve.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How to Read This Chart Through the Season
+        </h2>
+        <p>
+          Depth charts published in early August are intentions, not conclusions — Arizona&apos;s own release carried that caveat explicitly. The names worth monitoring weekly are the slot competition behind Weaver, the third defensive end role in the 3-4 front, and any movement on the offensive line where continuity has been the offseason&apos;s stated priority. When those three settle, the roster&apos;s actual identity will be set.
+        </p>
+        <p>
+      Fans tracking NFC West interconference dates — including potential Super Bowl-relevant matchups against AFC powers — can map the whole league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare wide-receiver-room builds in our <Link href="/chargers-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Chargers guide</Link>.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

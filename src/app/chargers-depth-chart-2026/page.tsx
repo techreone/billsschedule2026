@@ -311,6 +311,87 @@ export default function ChargersDepthChartPage() {
           </div>
         </section>
 
+        {/* Expanded Analysis Sections */}
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-sky-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              Greg Roman Run-First Architecture & Tight End Volume
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              Offensive coordinator Greg Roman has built his reputation on a run-first, play-action heavy architecture that maximizes Justin Herbert&apos;s platform throws. The Chargers&apos; 2026 offense leans on condensed formations, East-West stretches, and lead-power concepts that wear down defensive fronts before attacking downfield. Tight end Will Dissly and Hayden Hurst are deployed as inline blockers on early downs before releasing into intermediate crossing routes, giving Herbert reliable outlets against blitz packages.
+            </p>
+            <p>
+              Roman&apos;s scheme also emphasizes pre-snap motion to stress linebacker run fits. Motioning Ladd McConkey from the slot into the backfield forces defenses to declare coverage, and Herbert&apos;s decision-making thrives when the picture is simplified. This architectural patience — controlling the clock and field position — is precisely what Harbaugh prioritized when reshaping the Chargers&apos; offensive identity.
+            </p>
+            <p>
+              The tight end room&apos;s blocking value cannot be overstated. When Dissly or Hurst stays in to chip an edge rusher, Herbert gains the extra beat required to deliver strikes to McConkey on deep over routes. This symbiosis between the offensive line, tight ends, and Herbert&apos;s release is the engine behind the Chargers&apos; red-zone efficiency inside the AFC West.
+            </p>
+          </div>
+        </section>
+
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-sky-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              Jesse Minter Defensive Vision & Secondary Rotation
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              Defensive coordinator Jesse Minter operates a multiple-front system that disguises pressures post-snap. With Joey Bosa and Khalil Mack as the edge anchors, Minter frequently deploys simulated blitzes — dropping a defensive lineman into coverage while sending a defensive back or linebacker — to confuse opposing pass protectors. The goal is to generate free rushers without exposing the secondary to one-on-one deep shots.
+            </p>
+            <p>
+              Behind the front, Derwin James Jr. functions as the ultimate chess piece, rotating from box safety to slot corner to deep third defender based on down-and-distance. His rangy physicality allows Alohi Gilman to play single-high center field, while cornerbacks Asante Samuel Jr. and the boundary rotation handle perimeter receivers. Minter&apos;s emphasis on tackling in space has reduced explosive plays allowed, a hallmark of the unit&apos;s 2026 improvement.
+            </p>
+            <p>
+              The depth behind the stars is what separates good defenses from great ones. Tuli Tuipulotu&apos;s growth as a pass-rush chess piece and Bud Dupree&apos;s veteran burst off the edge ensure the Chargers never lose pressure rate even when Bosa or Mack are rotated out. That rotational health is why Los Angeles entered 2026 projected among the AFC&apos;s most complete defensive units.
+            </p>
+          </div>
+        </section>
+
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-sky-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              2026 AFC West Slate & Starters Availability Watch
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              The Chargers enter the 2026 AFC West slate as a physical, trench-dominated contender. Divisional clashes with Kansas City, Denver, and Las Vegas will hinge on offensive line sustainability and turnover margin. Herbert&apos;s ability to extend plays with his legs — a trait Roman has increasingly featured — adds a dimension that pure drop-back passing cannot replicate.
+            </p>
+            <p>
+              From an availability standpoint, the Chargers have prioritized veteran depth at offensive tackle and edge rusher precisely because the AFC West schedule is a war of attrition. Monitoring snap counts for Bosa and Mack across a 17-game slate remains critical; the rotational contributions of Tuipulotu and Dupree are what keep the pass rush elite deep into January.
+            </p>
+            <p>
+              Special teams consistency also factors into divisional outcomes. A reliable kicking operation and disciplined punt coverage swing field position in low-scoring, defensive-minded AFC West affairs. The Chargers&apos; attention to these hidden yards reflects Harbaugh&apos;s holistic coaching philosophy.
+            </p>
+          </div>
+        </section>
+
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-sky-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              Rookie Development & Training Camp Battle Breakdowns
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              August practices revealed intense position battles along the interior offensive line and at the third receiver spot. Young blockers competing for guard reps must demonstrate pass-protection anchor against the Bosa-Mack duo daily, the ultimate proving ground for NFL readiness. Winners of these camp reps typically translate directly into regular-season rotation snaps.
+            </p>
+            <p>
+              The Chargers&apos; player development staff emphasizes mental processing as much as athletic traits. Rookies are drilled on split-second recognition of defensive fronts, ensuring they can execute Roman&apos;s motion-heavy concepts without hesitation. This developmental patience underpins the franchise&apos;s belief that homegrown talent can sustain contention beyond the star-power window.
+            </p>
+            <p>
+              For fans tracking the roster, the final preseason exhibition provides the clearest signal of which bubble players earned a 53-man spot. Harbaugh&apos;s history suggests he rewards physicality and special-teams value, meaning camp standouts often secure roster spots over more polished but softer prospects.
+            </p>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>
@@ -325,6 +406,43 @@ export default function ChargersDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Justin Herbert and the Harbaugh Identity
+        </h2>
+        <p>
+          Every Los Angeles Chargers depth chart conversation begins with the same two facts: Justin Herbert is a top-tier AFC quarterback, and Jim Harbaugh&apos;s program has rebuilt this roster in a deliberately old-school image — big offensive lines, committed running games, and a defense built to protect fourth-quarter leads. The club&apos;s own unofficial depth chart, published through <a href="https://www.chargers.com/news/depth-chart-2026-season" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Chargers.com</a>, reflects that identity in structure if not in star power: functional, role-defined, and ruthlessly matchup-driven.
+        </p>
+        <p>
+          Herbert&apos;s supporting cast philosophy under this staff differs sharply from his earlier years. Instead of collecting downfield threats, the front office invested in trenches and timing — which is why the receiver pecking order below matters more for conversion rates than highlight reels.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Receiver Room: McConkey Sets the Standard
+        </h2>
+        <p>
+          <strong>Ladd McConkey</strong> heads the chart as the offense&apos;s uncontested chain-mover, with Quentin Johnston&apos;s continued development and a camp battle featuring Brenen Thompson&apos;s speed profile filling out the depth slots, per the <a href="https://www.espn.com/nfl/team/depth/_/name/lac" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN depth projection</a>. The question marks cluster behind the top line: KeAndre Lambert-Smith and JaQuae Jackson are fighting for roles that will be defined almost entirely by special-teams value, the same tiebreaker that decides the final offensive seats across the league.
+        </p>
+        <p>
+          McConkey&apos;s separation skill against man coverage is the engine of third-down conversions in this scheme, and his chemistry progression with Herbert remains the single most predictive stat line for this offense&apos;s ceiling.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How the AFC West Context Frames This Roster
+        </h2>
+        <p>
+          The Chargers&apos; depth chart reads differently depending on the divisional lens. Against Kansas City, the trench investments are survival gear; against Denver&apos;s defense, McConkey-vs-slot-coverage becomes the weekly chess match. Los Angeles enters the season with a roster built to win now within a narrow style profile — which makes injury resilience, more than raw talent, the variable that decides whether this group contends or merely competes.
+        </p>
+        <p>
+          Track every Chargers-relevant AFC date and the full league slate on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare conference builds in our <Link href="/kansas-city-chiefs-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Chiefs depth chart guide</Link>.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

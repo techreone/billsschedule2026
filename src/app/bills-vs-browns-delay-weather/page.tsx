@@ -312,6 +312,43 @@ export default function BillsVsBrownsDelayPage() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Case Study: The Actual Lightning Delay in Cleveland
+        </h2>
+        <p>
+          This page&apos;s guidance stopped being hypothetical on August 22. Severe weather moved over Huntington Bank Field shortly after kickoff, forcing both teams off the field before the game found any rhythm — <a href="https://www.democratandchronicle.com/story/sports/football/nfl/bills/2026/08/22/buffalo-bills-cleveland-browns-lightning-delay-preseason/91422913007/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">the Democrat &amp; Chronicle described</a> how quickly officials cleared the field once strikes registered inside the detection radius. Light rain had been falling at kickoff, per <a href="https://www.usatoday.com/story/sports/nfl/2026/08/22/browns-bills-weather-updates-lightning-delay-shedeur-sanders/91422930007/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">USA Today&apos;s tracker</a>, before the storm cell intensified directly over the lakefront stadium.
+        </p>
+        <p>
+          The Browns announced a resumption time of 2:15 p.m. Eastern roughly forty minutes after the suspension — a turnaround that matches the standard league protocol almost exactly, and a useful real-world benchmark for how long fans should budget when they see lightning hold up a game they are attending or watching.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The League&apos;s Lightning Protocol, Explained
+        </h2>
+        <p>
+          The NFL&apos;s severe-weather procedure is uniform across venues: when lightning is detected within a set radius of the stadium — typically eight miles under modern policy — officials suspend play immediately regardless of game state, and the clock does not restart until thirty minutes have elapsed without another strike inside the zone. Each new strike resets the countdown entirely, which is why some delays stretch past two hours while others resolve in a single quiet window.
+        </p>
+        <p>
+          Stadium operations use layered detection — National Weather Service feeds plus on-site monitoring — and the decision belongs to the officiating crew and stadium security, not the teams. For fans in the stands, the practical sequence is consistent: announcements direct spectators to concourse shelter, outdoor bowls empty completely, and concession areas stay open. In Cleveland&apos;s case the system worked precisely as designed, and the resumption announcement came through team social channels before many broadcast partners had updated their graphics.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          How a Delay Reshapes an August Game Plan
+        </h2>
+        <p>
+          Preseason delays create evaluation chaos that regular-season games rarely face. Rosters planned around scripted rep distributions must re-warm on compressed timelines, and coaches frequently compress their remaining snap allocations so bubble players still get their audition tape. Conditioning becomes the hidden storyline: backups who expected twenty snaps may get thirty-five, while specialists&apos; routines — kickers above all — are disrupted in ways that show up in the box score.
+        </p>
+        <p>
+          Buffalo emerged from the stoppage better than Cleveland did, pulling away 31-7 after play resumed, a result our <Link href="/bills-vs-browns-prediction" className="text-blue-400 underline hover:text-blue-300">prediction and recap breakdown</Link> covers from a betting perspective. For planning purposes, bookmark this page for future storm-threatened kickoffs and check the full <Link href="/" className="text-blue-400 underline hover:text-blue-300">Bills Schedule 2026 hub</Link> for every date ahead.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

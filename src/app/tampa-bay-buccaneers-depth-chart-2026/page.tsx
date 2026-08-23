@@ -331,6 +331,43 @@ export default function BuccaneersDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The First Official Chart: 22 Named Starters
+        </h2>
+        <p>
+          Tampa Bay&apos;s first depth chart listing of the season arrived ahead of the preseason opener, with the club publishing its projected 22 starters across offense and defense through <a href="https://www.buccaneers.com/news/looming-preseason-opener-means-first-bucs-depth-chart-2026" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Buccaneers.com</a> — a transparency level several franchises still avoid until cutdown week. The offensive line anchor points are settled and star-powered: <strong>Tristan Wirfs</strong> holds the left tackle seat with Benjamin Chukwuma listed as his backup, Ben Bredeson mans left guard, and Graham Barton centers the interior per the team&apos;s own <a href="https://www.buccaneers.com/team/depth-chart" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">official chart</a>.
+        </p>
+        <p>
+          The receiver room shows a fascinating succession note at the top: Chris Godwin Jr. is listed first with rookie Tez Johnson directly behind him — a mentor-and-development pairing that tells you exactly how the staff views its short-term and long-term boundary plans.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          A Base 3-4 With Defined Edges
+        </h2>
+        <p>
+          Defensively, national projection services like <a href="https://www.ourlads.com/nfldepthcharts/depthchart/TB" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> frame Tampa Bay as a base 3-4 front — a structure that demands genuinely differentiated edge defenders rather than interchangeable speed. That schematic requirement shaped the back seven&apos;s construction, and it means the fourth and fifth linebacker seats carry more weekly defensive value here than the same numbers do in a 4-3 building.
+        </p>
+        <p>
+          The secondary&apos;s depth slots, meanwhile, function as the roster&apos;s special-teams engine room — the final three or four defensive-back seats will be decided by coverage-unit tape from the preseason finale more than by defensive reps.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Why Tampa&apos;s Window Makes Every Tier Matter
+        </h2>
+        <p>
+          Depth charts are competitive documents only when the top tier can actually cash expectations. Tampa Bay&apos;s construction — an established quarterback, two decorated boundary receivers, and a Pro Bowl-caliber tackle — signals a win-now posture in a division that remains winnable late into Decembers. That makes the middle tiers (interior line rotation, third corner, TE2) legitimate weekly storylines rather than background noise.
+        </p>
+        <p>
+          Fans mapping the NFC picture all season can follow every cross-conference date on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and compare southern-division builds in the <Link href="/saints-depth-chart-2026" className="text-blue-400 underline hover:text-blue-300">Saints depth chart guide</Link>.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

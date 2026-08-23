@@ -385,6 +385,93 @@ export default function SaintsDepthChartPage() {
           </div>
         </section>
 
+        {/* Section 6 */}
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-amber-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              2026 NFC South Division Outlook & Schedule Strength
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              The New Orleans Saints compete in the NFC South alongside the Tampa Bay Buccaneers, Atlanta Falcons, and Carolina Panthers. Under the NFL&apos;s rotating schedule formula, the 2026 Saints slate features six divisional games &mdash; home and away against each rival &mdash; plus cross-divisional matchups drawn from the NFC West and AFC North rotations. Those interconference tilts add physical, playoff-caliber opponents to the midseason gauntlet.
+            </p>
+            <p>
+              Within the division, the Buccaneers remain the perennial front-runner thanks to offensive continuity, while the Falcons and Panthers both enter 2026 betting on young quarterback development and upgraded defensive personnel. For New Orleans, sweeping the home split against Tampa Bay and protecting the Caesars Superdome turf becomes the clearest path to a division title and a likely Wild Card berth.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+              <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-2">
+                <h4 className="text-sm font-bold text-amber-400">Tampa Bay Buccaneers</h4>
+                <p className="text-xs text-slate-300">Divisional favorite; Saints must win the home tilt at the Dome to swing the standings.</p>
+              </div>
+              <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-2">
+                <h4 className="text-sm font-bold text-amber-400">Atlanta Falcons</h4>
+                <p className="text-xs text-slate-300">Young skill-position core tests the Saints secondary in two annual meetings.</p>
+              </div>
+              <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-2">
+                <h4 className="text-sm font-bold text-amber-400">Carolina Panthers</h4>
+                <p className="text-xs text-slate-300">Rebuilding roster; prime opportunity for New Orleans to bank division wins.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 7 */}
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-amber-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              How to Watch the Saints in 2026: Broadcast & Streaming Guide
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              New Orleans Saints games air on the standard NFL broadcast carousel. As an NFC franchise, the majority of Sunday afternoon contests are carried by <strong className="text-amber-400">Fox</strong>, with periodic cross-flex moves to <strong className="text-amber-400">CBS</strong> for high-profile interconference slots. Premier national windows include Thursday Night Football on <strong className="text-amber-400">Prime Video</strong>, Sunday Night Football on <strong className="text-amber-400">NBC</strong> (streaming via Peacock), and Monday Night Football on <strong className="text-amber-400">ESPN</strong>.
+            </p>
+            <p>
+              Cord-cutters can stream every Saints broadcast through the primary network apps &mdash; the Fox Sports app, Paramount+ (CBS), and Peacock (NBC) &mdash; supplemented by NFL+ for live local and primetime action on mobile. For the complete channel map, streaming stack, and blackout explainer across all 32 teams, visit our <Link href="/where-to-watch" className="text-amber-400 font-bold hover:underline">Where to Watch 2026</Link> hub.
+            </p>
+            <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-3 my-6">
+              <h4 className="text-sm font-bold text-white">Saints 2026 Broadcast Quick Reference</h4>
+              <ul className="text-xs text-slate-300 space-y-2 list-disc list-inside">
+                <li><strong className="text-amber-400">Sunday Afternoon (CBS/Fox):</strong> Local market affiliate &amp; network app streaming.</li>
+                <li><strong className="text-amber-400">Thursday Night:</strong> Exclusive to Prime Video (NFL+ mobile simulcast).</li>
+                <li><strong className="text-amber-400">Sunday Night:</strong> NBC broadcast + Peacock exclusive stream.</li>
+                <li><strong className="text-amber-400">Monday Night:</strong> ESPN linear + ESPN app / ESPN+.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 8 */}
+        <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 bg-amber-500 rounded-full"></div>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
+              Saints 2026 NFL Draft Class & Rookie Rotation Impact
+            </h2>
+          </div>
+          <div className="text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+            <p>
+              General manager Mickey Loomis and the Saints front office entered the 2026 NFL Draft targeting trench depth and defensive youth. Early selections along the offensive line are earmarked to fortify pass protection in front of the quarterback, while mid-round cornerback and linebacker picks inject much-needed athleticism into Dennis Allen&apos;s rotating defensive sub-packages.
+            </p>
+            <p>
+              Rookies who flash in training camp routinely carve out roles on special teams and as upside reserves behind established veterans like Cameron Jordan and Demario Davis. The organization&apos;s philosophy balances win-now veteran leadership with a developing young core, ensuring the 2026 depth chart stays resilient against the injuries that inevitably shape a 17-game regular season.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+              <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-2">
+                <h4 className="text-sm font-bold text-amber-400">Offensive Line Investment</h4>
+                <p className="text-xs text-slate-300">Draft capital spent reinforcing tackle and interior depth for long-term stability.</p>
+              </div>
+              <div className="p-4 bg-[#171e2e] border border-slate-800 rounded-lg space-y-2">
+                <h4 className="text-sm font-bold text-amber-400">Defensive Youth Movement</h4>
+                <p className="text-xs text-slate-300">Rookie corners and linebackers compete for dime-package snaps behind the veterans.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="bg-[#121722] border border-slate-800 rounded-xl p-6 sm:p-8 space-y-6">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions (FAQ)</h2>

@@ -259,6 +259,32 @@ export default function LionsQBDepthChartPage() {
         </p>
       </section>
 
+      {/* Section 6 */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-sky-500 pl-3">
+          6. Jared Goff&apos;s 2026 Standing in Detroit&apos;s Offense
+        </h2>
+        <p>
+          Jared Goff enters the 2026 season firmly entrenched as Detroit&apos;s franchise quarterback after a run of prolific campaigns under the Lions&apos; offensive system. The former No. 1 overall pick has thrived on timing routes, play-action, and a heavy dose of pre-snap motion that stresses opposing secondaries. For the Lions to repeat as NFC North champions, Goff must continue protecting the football and exploiting one-on-one matchups on the perimeter.
+        </p>
+        <p>
+          Goff&apos;s rapport with his receiving targets and his quick, decisive throwing motion remain the engine of Detroit&apos;s attack. The Lions&apos; offensive staff has built the scheme around his strengths, leaning on spacing and tempo rather than exotic drop-backs, which keeps Goff playing within structure and limits negative plays.
+        </p>
+      </section>
+
+      {/* Section 7 */}
+      <section className="space-y-4">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-sky-500 pl-3">
+          7. The Backup Battle: Joshua Dobbs vs Luke Altmyer
+        </h2>
+        <p>
+          Behind Goff, the Lions carry a mix of experience and developmental upside. Joshua Dobbs, a former seventh-round pick known for his dual-threat capability and aerospace background, provides a different look with his legs and has started games across multiple franchises. His mobility gives Detroit a change-of-pace option if the offense ever needs to scramble its way out of trouble.
+        </p>
+        <p>
+          Luke Altmyer, an undrafted developmental passer, represents the long-term project the coaching staff is sculpting on the practice squad. The pecking order behind Goff is less about Week 1 and more about emergency readiness should injury strike the starter. Detroit&apos;s investment in quarterback depth reflects a franchise that remembers how quickly a season can pivot on one snap.
+        </p>
+      </section>
+
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Lions QB Depth Chart</h3>

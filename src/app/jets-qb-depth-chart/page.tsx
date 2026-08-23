@@ -308,6 +308,71 @@ export default function JetsQbDepthChartPage() {
             <li><a href="https://en.wikipedia.org/wiki/2026_NFL_season" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">Wikipedia</a></li>
           </ul>
         </section>
+      {/* H2-6: Coaching Staff & Offensive Scheme */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          6. Coaching Staff &amp; Offensive Scheme in New York
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The New York Jets operate with a staff built to maximize athleticism at the skill positions and discipline in the trenches. The offensive system blends play-action, condensed formations, and layered route concepts designed to stress coverage with progression-based reads.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Defensively, the Jets prioritize front-seven pressure and disciplined coverage behind it. The staff mixes creative blitz design with zone principles to confuse opposing passers. Situational football, third-down efficiency, and special-teams execution are drilled weekly as core pillars of the culture.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & AFC East Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          7. 2026 Season Outlook &amp; AFC East Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 New York Jets enter the year seeking to reassert themselves in a brutal AFC East that also features the Buffalo Bills and Miami Dolphins. The division rewards physicality and quarterback play, meaning roster talent and coaching consistency can swing multiple wins. A dependable backfield and improved offensive line define the ceiling.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Postseason hopes hinge on clean football in one-score games and a takeaway-driven defense. Health at the skill positions and red-zone efficiency will determine whether the Jets push for wildcard relevance or remain in evaluation mode.
+        </p>
+      </section>
+
+      {/* H2-8: Quarterback Room Development & Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          8. Quarterback Room Development &amp; Competition
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          New York&apos;s quarterback room is built around a young franchise arm supported by veteran stability and developmental depth. The coaching staff tailors the install to the starter&apos;s processing strengths, layering concepts as the season progresses. Practice reps are carefully allocated to accelerate growth.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Backup snaps carry real weight in the Jets&apos; plan, ensuring the room is prepared for injury contingency. Preseason evaluation and joint practices give the staff a clear picture of depth before the games begin to count.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Jets Players
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Fantasy managers track New York&apos;s skill players for volume-driven production, with the lead wideout offering the steadiest weekly floor. The quarterback&apos;s value is tied to touchdown rate and rushing equity rather than pure yardage totals.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          In daily fantasy, Jets stacks are most appealing in projected uptempo matchups, pairing the passer with a primary target for correlated upside. Defensive streamers often fade New York against methodical, ball-control opponents.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          10. How To Watch New York Jets Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Jets games air across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video distributing various windows depending on the flex schedule. Afternoon AFC East clashes typically land on CBS, while primetime appearances rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Jets matchups via league-approved platforms and authenticated provider apps. For the complete New York schedule, locally converted kickoff times, and verified channel assignments, pair this guide with the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/nyj" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/jets/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
         <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

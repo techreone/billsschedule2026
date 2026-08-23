@@ -334,6 +334,55 @@ export default function BillsRbDepthChartPage() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The 2026 Hierarchy at a Glance
+        </h2>
+        <p>
+          Buffalo&apos;s running back room enters the regular season with unusual clarity at the top and genuine suspense everywhere else. Projected charts published through camp — including the <a href="https://sports.yahoo.com/articles/grok-projects-buffalo-bills-depth-163000080.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Yahoo Sports compilation</a> and the national trackers at <a href="https://www.ourlads.com/nfldepthcharts/depthchart/BUF" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">Ourlads</a> — line up <strong>James Cook III</strong> as the uncontested starter, with Ty Johnson, Ray Davis, and Frank Gore Jr. stacked behind him and undrafted rookie Ian Wheeler fighting for the final seat at the table.
+        </p>
+        <p>
+          That four-man competition for roughly two active roster roles is why this page updates weekly through cutdowns: the Bills have kept three halfbacks plus a fullback in most recent seasons, which means one of these names will survive on special-teams merit alone.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          James Cook: The Engine of the Offense
+        </h2>
+        <p>
+          Cook&apos;s value is defined by versatility rather than volume. He is the rare back who threatens defenses on scripted early downs, in the two-minute drill, and as a detached receiver in empty formations — a profile that fits Buffalo&apos;s play-action-heavy offense perfectly because linebacker coverage rules break down when a starting-caliber back splits out wide. His ball-handling security in Buffalo&apos;s lake-effect November games has also become an underrated asset; coaches trust him in conditions where exchange discipline decides games.
+        </p>
+        <p>
+          The front office&apos;s decision to keep him rather than trade him during his contract standoff now looks like the stabilizing choice it promised to be: this offensive scheme still runs through Allen, but Cook is the pressure valve that keeps third-and-manageable on the menu.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Committee: Johnson, Davis, and Their Distinct Lanes
+        </h2>
+        <p>
+          Ty Johnson has quietly become one of the more trusted third-down backs in the conference — a pass-protection specialist who rarely leaves the field on two-minute drives and whose screen-pass chemistry with Josh Allen shows up in the tape long before it shows in box scores. Ray Davis occupies the complementary lane: a between-the-tackles power runner whose rookie-season flashes earned him genuine short-yardage and goal-line work, and whose preseason performances have consistently outpaced his rep count.
+        </p>
+        <p>
+          Their coexistence is not redundancy. Defensive substitution patterns force Buffalo to carry both profiles — a scatback who wins mismatches against linebackers and a hammer who converts fourth-and-one in December wind. The question is never whether both make the roster; it is how the workload splits when games count.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Bottom-of-Roster Battle: Gore Jr. and Wheeler
+        </h2>
+        <p>
+          Frank Gore Jr. carries the most famous surname in this fight and has built a legitimate case on his own tape — vision between the tackles and a compact run style that translates to preseason football. Ian Wheeler, the undrafted rookie, counters with special-teams range that coordinators covet in the 53rd-man debate. Preseason snaps like the ones logged against Cleveland are precisely where this verdict gets written, and the loser becomes a priority practice-squad candidate rather than an unemployment statistic.
+        </p>
+        <p>
+          Follow every roster decision point on our <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub, and see how the passing-game pecking order shapes up in the <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">quarterback depth guide</Link>.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

@@ -259,17 +259,70 @@ export default function ColtsQBDepthChartPage() {
         </p>
       </section>
 
+      {/* Expanded Analysis Sections */}
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          Daniel Jones at QB1: How Indianapolis Got Here
+        </h2>
+        <p>
+          The Colts&apos; decision to name Daniel Jones their starting quarterback stunned a fanbase that watched the franchise invest the fourth overall pick in Anthony Richardson only a few years earlier. The move, reported widely across Colts media and national outlets, signals that head coach Shane Steichen and general manager Chris Ballard prioritized operational stability — pre-snap command, ball security, and scheme adherence — over raw physical upside entering a season with playoff expectations in a wide-open AFC South.
+        </p>
+        <p>
+          Jones&apos; path to Indianapolis followed a full evaluation cycle elsewhere, and the Colts&apos; staff bet on his experience running a professional offense from day one of camp. The depth chart confirmation matters for fantasy managers and bettors alike: the offense will be scripted around Jones&apos; strengths — quick-game throws, designed quarterback movement on third downs, and a heavy dose of Jonathan Taylor behind one of the conference&apos;s better interior lines.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-red-500 pl-3">
+          The Anthony Richardson Situation: Trade Request and an Uncertain Future
+        </h2>
+        <p>
+          Richardson&apos;s offseason request for a trade crystallized the tension between draft-investment patience and on-field development reality. Injuries and inconsistency marked his starts, even as flashes of rare athleticism — deep-ball velocity and genuine rushing ceiling — kept national analysts invested in the upside case. ESPN&apos;s coverage has detailed why his future in Indianapolis became the franchise&apos;s most complicated quarterback question, spanning trade market interest, contract mechanics, and the possibility that a change of scenery benefits both sides.
+        </p>
+        <p>
+          Until a transaction materializes, Richardson functions as the highest-upside backup quarterback in the conference and a weekly headline risk. For Colts watchers, every practice report and preseason snap carries double meaning: game performance either rebuilds his trade value or forces the front office to reconsider whether the original investment still anchors the plan.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          What the QB Decision Means for the 2026 Colts Offense
+        </h2>
+        <p>
+          With Jones under center, Indianapolis&apos; offensive identity shifts toward efficiency football: fewer scramble-drill heroics, more scheduled throws, and an emphasis on winning the division through defense and ball control. The receiver room&apos;s development timeline also changes — young pass-catchers get a quarterback who distributes on schedule rather than extending plays off-platform, which typically raises the floor of the entire passing game while lowering its explosive ceiling.
+        </p>
+        <p>
+          Fans comparing AFC quarterback situations can see how Indianapolis&apos; reset contrasts with stable superstar situations like the one documented on our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills quarterback depth chart guide</Link>, and track every AFC matchup date on the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub.
+        </p>
+      </section>
+
+      <section className="space-y-3 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800 mt-8">
+        <h2 className="text-xl md:text-2xl font-bold text-white uppercase tracking-wider border-l-4 border-blue-500 pl-3">
+          The Backup Picture and How the Room Was Built
+        </h2>
+        <p>
+          Quarterback rooms are constructed in layers, and Indianapolis&apos; current arrangement is unusual twice over. First, the backup is not a career journeyman but a former top-five pick whose trade request remains unresolved — a player whose practice-week reps carry scouting value for 31 other teams. Second, the third-quarterboard spot typically rounds out with a development arm on the practice squad rather than a 53-man roster seat, reflecting how the modern NFL allocates those final roster slots to special-teamers and defensive linemen instead.
+        </p>
+        <p>
+          Compare that construction with the rest of the AFC South and the contrast sharpens. Houston built around a young franchise cornerstone with an established veteran steward behind him; Jacksonville similarly anchored its ceiling to a former first-overall selection. Indianapolis, by betting on a reclamation project in Jones while holding a volatile asset in Richardson, has effectively chosen the highest-variance path in the division — one where a strong eight-game stretch from the starter could deliver a playoff berth, and a shaky one could reignite the quarterback controversy the front office hoped to retire.
+        </p>
+        <p>
+          For neutral observers tracking how quarterback stability shapes conference races, our <Link href="/bills-quarterback-depth-chart" className="text-blue-400 underline hover:text-blue-300">Bills QB depth chart analysis</Link> offers the stable-franchise counterpart, and the <Link href="/colts-wr-depth-chart" className="text-blue-400 underline hover:text-blue-300">Colts receiver depth chart</Link> shows the pass-catching talent this decision must serve.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Colts QB Depth Chart</h3>
         <div className="space-y-3 text-sm text-zinc-300">
           <div>
             <h4 className="font-semibold text-blue-400">Who is the starting QB for the Indianapolis Colts?</h4>
-            <p>Anthony Richardson is the franchise starting quarterback for the Colts.</p>
+            <p>Daniel Jones enters the 2026 season as the Colts&apos; named starting quarterback, a decision that ranked among the offseason&apos;s biggest surprises after the club selected Anthony Richardson fourth overall just a few years ago.</p>
           </div>
           <div>
-            <h4 className="font-semibold text-blue-400">What is Joe Flacco&apos;s role on the Colts?</h4>
-            <p>Joe Flacco serves as the primary veteran backup quarterback (QB2).</p>
+            <h4 className="font-semibold text-blue-400">What is Anthony Richardson&apos;s current situation?</h4>
+            <p>Richardson requested a trade earlier this offseason and remains in a contested battle for his own future in Indianapolis; league reporters have detailed how complicated his Colts tenure has become.</p>
           </div>
           <div>
             <h4 className="font-semibold text-blue-400">Who calls plays for the Colts offense?</h4>

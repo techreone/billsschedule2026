@@ -281,6 +281,32 @@ export default function NewYorkJetsDepthChart2026Page() {
         </section>
 
         {/* Section 5: FAQ */}
+        {/* Section 6 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-cyan-500 pl-3">
+            6. Geno Smith&apos;s Second Act in New York
+          </h2>
+          <p>
+            Geno Smith takes over as the Jets&apos; starting quarterback for 2026, returning to the market where his career resurrected years earlier. Smith&apos;s accuracy, quick processing, and willingness to push the ball downfield make him a logical fit for an offense built around Garrett Wilson and Breece Hall. The Jets are banking on Smith&apos;s steadiness to end a prolonged playoff drought.
+          </p>
+          <p>
+            After revitalizing his trajectory with efficient, low-turnover play elsewhere, Smith brings the sort of veteran command New York&apos;s young skill players can grow alongside. His presnap communication sets the tone for an offense that wants to control the clock and lean on its playmakers.
+          </p>
+        </section>
+
+        {/* Section 7 */}
+        <section className="space-y-4">
+          <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide border-l-4 border-orange-500 pl-3">
+            7. Developing the QB Room Behind Him
+          </h2>
+          <p>
+            Behind Smith, rookie Cade Klubnik and Brady Cook represent the developmental pipeline the Jets are cultivating. Klubnik, a high-upside rookie, offers traits worth grooming, while Cook provides a steady camp arm. The organization&apos;s plan is clear: let Smith stabilize the present while the staff shapes the future of the position through the practice squad and preseason reps.
+          </p>
+          <p>
+            This structure lets New York compete now without mortgaging the long-term quarterback plan. If Klubnik develops, the Jets could possess both a reliable present and an intriguing future at the sport&apos;s most important position.
+          </p>
+        </section>
+
         <section className="space-y-4 pt-4 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-tight border-l-4 border-emerald-500 pl-3">
             5. Frequently Asked Questions (FAQ) - New York Jets Depth Chart

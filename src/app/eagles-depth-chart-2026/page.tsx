@@ -336,6 +336,71 @@ export default function EaglesDepthChart2026Page() {
           </div>
         </div>
       </section>
+      {/* H2-6: Coaching Staff & Scheme Philosophy */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          6. Coaching Staff &amp; Scheme Philosophy in Philadelphia
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Head coach Nick Sirianni leads the Philadelphia Eagles with a physical, run-first identity balanced by an explosive play-action passing attack. The offensive system leans on zone-blocking concepts, pulling linemen, and elite perimeter talent to stress defensive edges horizontally before attacking vertically. Tempo and cadence variations keep opposing defenders guessing on early downs.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Defensively, the Eagles operate a disciplined split-safety structure that forces offenses to earn every yard underneath before allowing explosive opportunities. The defensive staff prioritizes leverage, rally-to-the-football speed, and situational third-down creativity. Special teams and red-zone execution are treated as weekly non-negotiables in the Philadelphia building.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & NFC East Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          7. 2026 Season Outlook &amp; NFC East Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 Philadelphia Eagles enter the year as perennial NFC East favorites, built to win trenches and control time of possession. The division remains competitive, but Philadelphia&apos;s blend of veteran leadership and young athleticism gives it one of the highest floors in the conference. A healthy skill group and a staunch front seven define the ceiling.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Postseason expectations are championship-or-bust in Philadelphia. The margin for error shrinks against elite NFC quarterbacks, so health along the offensive line and turnover margin will decide whether the Eagles secure a bye or grind through a wild-card path.
+        </p>
+      </section>
+
+      {/* H2-8: Positional Battles & Camp Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          8. Positional Battles &amp; Training Camp Competition
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Philadelphia&apos;s training camp is defined by fierce competition for rotational snaps behind established starters. The depth behind the lead running back, the receiver rotation after the top targets, and the second level of the defense all see meaningful preseason reps. Coaches weigh special-teams value heavily when finalizing the back of the roster.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Roster churn is routine: veterans and rookies alike battle for elevation paths through the practice squad. Fans should track official transaction reports, as the final 53-man roster often shifts right up until kickoff week.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Eagles Players
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Fantasy managers prize Philadelphia&apos;s lead skill players for their volume and touchdown equity. The workhorse running back offers week-winning upside, while the top wideouts deliver both floor and ceiling thanks to condensed-target dominance. Quarterback production is tied closely to red-zone trips and rushing touchdown totals.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          In daily fantasy tournaments, Eagles stacks thrive in projected high-scoring environments, pairing the quarterback with a primary pass-catcher. Conversely, defensive streamers often target Philadelphia when the opponent controls pace and limits explosive plays.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">
+          10. How To Watch Philadelphia Eagles Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Eagles games are distributed across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video carrying various windows depending on the flex schedule. Afternoon NFC East clashes typically air on FOX, while primetime slots rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Streaming options include league-approved platforms and authenticated provider apps for cord-cutters. For the complete Philadelphia schedule, locally converted kickoff times, and verified channel assignments, pair this depth-chart guide with the <Link href="/" className="text-emerald-400 underline hover:text-emerald-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/phi" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/philadelphia-eagles/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
             <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

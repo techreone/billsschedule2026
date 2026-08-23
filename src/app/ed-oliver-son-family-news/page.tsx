@@ -280,6 +280,52 @@ export default function EdOliverSonNewsPage() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What We Know: The Announcement and Verified Timeline
+        </h2>
+        <p>
+          The Buffalo Bills confirmed on Saturday that Ed Oliver&apos;s two-year-old son had died, ending a days-long period of silence from the family with a brief, dignified statement. According to reporting from <a href="https://www.nbcnews.com/news/us-news/buffalo-bills-ed-olivers-son-died-team-announces-rcna593927" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NBC News</a> and <a href="https://www.espn.com/nfl/story/_/id/49693030/bills-star-dt-ed-oliver-mourning-tragic-death-son" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">ESPN</a>, the child was found unresponsive in a swimming pool by family members on June 28 and could not be revived. The gap between the June incident and August&apos;s public confirmation reflects the family&apos;s understandable request for privacy through an unimaginable period.
+        </p>
+        <p>
+          What is publicly verifiable ends there. No further medical details have been released by the family, and responsible coverage across league media has deliberately avoided speculation about circumstances beyond what authorities and the team have confirmed. This page will track only verified updates from official channels.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Organization&apos;s Response
+        </h2>
+        <p>
+          General manager Brandon Beane issued a statement on Saturday expressing his condolences and those of the entire organization to Oliver and his family, per <a href="https://www.nfl.com/news/bills-ed-oliver-brandon-beane-condolences-death-son" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-300">NFL.com&apos;s report</a>. The statement emphasized that the franchise would support its longtime defensive tackle in whatever way he and his family need, and asked fans and media to respect the family&apos;s privacy during the grieving process.
+        </p>
+        <p>
+          Around the league, the response followed the pattern seen in previous tragedies involving active players: teammates across rosters offered public condolences, and the Bills&apos; locker room — a group Oliver has anchored since he was selected ninth overall in 2019 — rallied around their defensive captain-in-practice if not in title. Within Buffalo&apos;s building, Oliver has long been regarded as one of the most respected voices in the defensive line room, which made the news land heavily across all position groups.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Oliver&apos;s Standing With the Franchise
+        </h2>
+        <p>
+          Football considerations are secondary in moments like this, but they form the context readers search for. Oliver remains under contract with Buffalo as a foundational interior defender, coming off a season that reinforced his status as one of the AFC&apos;s most disruptive three-techniques. The organization has historically handled personal tragedies with flexible timelines — players returning when ready rather than on a schedule — and there has been no indication from the club that anything other than a family-first approach applies here.
+        </p>
+        <p>
+          For fans tracking how the defensive line rotation absorbs any absence, our companion coverage includes the full <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub and the <Link href="/bills-rb-depth-chart" className="text-blue-400 underline hover:text-blue-300">offensive depth chart series</Link>. Updates to Oliver&apos;s status will be reflected here only when confirmed through official team channels.
+        </p>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          A Note on Coverage and Community
+        </h2>
+        <p>
+          Searches around this story spike because fans want to express support. The most meaningful thing a fan base can do, per the family&apos;s own request pattern in similar situations, is respect the privacy boundary the team has drawn. Drowning remains a leading cause of accidental death for toddlers nationwide, and organizations such as the American Academy of Pediatrics maintain freely accessible water-safety guidance for families with young children — a practical way many supporters channel their sympathy.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

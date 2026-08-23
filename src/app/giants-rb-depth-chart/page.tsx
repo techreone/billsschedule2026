@@ -326,6 +326,71 @@ export default function GiantsRbDepthChartPage() {
         </div>
 
       </article>
+      {/* H2-6: Coaching & Running Back Usage Philosophy */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          6. Coaching &amp; Running Back Usage Philosophy
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Under head coach Brian Daboll, the New York Giants deploy a rotation-based backfield that tailors touches to tactical matchups. The offensive system blends inside zone power with perimeter spread concepts, allowing the lead back to press the middle while change-of-pace options attack the edges.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          The staff values pass-catching versatility and pass-protection reliability when sorting the rotation. Multi-dimensional backs who can stay on the field for all three downs earn the heaviest weekly workloads, while specialty runners carve out defined early-down or third-down roles.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & NFC East Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          7. 2026 Season Outlook &amp; NFC East Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 New York Giants enter the year focused on stabilizing the trenches and building a dependable run game. The NFC East remains one of the NFL&apos;s most balanced divisions, so incremental improvements in coaching and roster talent can swing multiple wins. A healthy backfield is central to the offensive ceiling.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Postseason hopes depend on clean football in one-score games and a takeaway-driven defense. Health at the skill positions and red-zone efficiency will define whether the Giants push for wildcard relevance or remain in rebuild evaluation mode.
+        </p>
+      </section>
+
+      {/* H2-8: Running Back Room Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          8. Running Back Room Competition &amp; Depth
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          New York&apos;s running back room is defined by a blend of interior power and perimeter pass-catching skill. Training camp produces a real competition for early-down work and third-down specialization, with coaching staff evaluating pad level, vision, and blitz pickup.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Roster mobility is constant: undrafted free agents push veteran depth, and practice-squad elevations keep the pipeline active. Fans should monitor official transaction wire reports, as the back half of the 53-man roster often reshapes right up to kickoff week.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Giants Backs
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Fantasy managers track New York&apos;s lead back for volume-driven production and goal-line equity. Change-of-pace options offer tournament upside in games where the Giants are projected to control pace and lean on the ground game.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          In daily fantasy, stacking the Giants back with the passing game is most appealing in projected uptempo matchups. Defensive streamers often fade New York against aggressive, pressure-heavy fronts.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">
+          10. How To Watch New York Giants Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Giants games air across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video distributing various windows depending on the flex schedule. Afternoon NFC East clashes typically land on FOX, while primetime appearances rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Giants matchups via league-approved platforms and authenticated provider apps. For the complete New York schedule, locally converted kickoff times, and verified channel assignments, pair this guide with the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/nyg" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/new-york-giants/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
             <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

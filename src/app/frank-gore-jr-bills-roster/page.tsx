@@ -346,6 +346,71 @@ export default function FrankGoreJrBillsRosterPage() {
           </div>
         </section>
       </article>
+      {/* H2-6: Frank Gore Jr.&apos;s Background & College Path */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">
+          6. Frank Gore Jr.&apos;s Background &amp; College Development Path
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Frank Gore Jr. arrived in the Buffalo Bills organization carrying one of the most respected names in rushing history, the son of Pro Football Hall of Fame candidate Frank Gore Sr. His collegiate development showcased patient downhill running, reliable hands out of the backfield, and a willingness to pass-protect that NFL staffs prize in a complete back.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Coaches value Gore Jr.&apos;s football IQ and ability to read second-level defenders, traits that translate directly to a professional scheme. His route-running polish and third-down reliability give him a pathway to meaningful snaps even in a crowded backfield.
+        </p>
+      </section>
+
+      {/* H2-7: How He Fits The Bills Backfield */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">
+          7. How Frank Gore Jr. Fits the Buffalo Bills Backfield
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Buffalo&apos;s offensive system under coordinator Joe Brady emphasizes zone concepts, play-action, and backs who can stay on the field for all three downs. Gore Jr.&apos;s receiving skill and pass protection make him a natural fit for rotation work behind the lead backs, particularly on obvious passing downs.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          The Bills rotate runners based on tactical matchups, pairing power with perimeter speed. Gore Jr.&apos;s vision and patience complement the explosive traits of his teammates, giving Buffalo a multi-dimensional ground game that stresses defensive edges horizontally.
+        </p>
+      </section>
+
+      {/* H2-8: Special Teams & Return Role Potential */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">
+          8. Special Teams &amp; Return Role Potential
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Young running backs frequently carve out early-career roles through special teams, and Gore Jr.&apos;s effort and instincts project well to kickoff and punt coverage units. Reliable tackling and lane discipline are prerequisites the Buffalo staff emphasizes on every coverage snap.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          A return-game or third-down specialization role would accelerate his development while keeping a proven veteran ahead of him on early downs. Fans should monitor preseason reps to gauge how the staff plans to deploy him.
+        </p>
+      </section>
+
+      {/* H2-9: 2026 Outlook & What To Watch */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">
+          9. 2026 Outlook &amp; What To Watch With Frank Gore Jr.
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 campaign is an opportunity for Gore Jr. to translate preseason flashes into a defined regular-season role. His progression will be measured in pass-protection reps, third-down conversions, and special-teams reliability rather than raw carry totals.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Roster mobility is constant in the NFL, so practice-squad elevation pathways and in-season injury contingency keep every back prepared. Tracking official transaction reports reveals how the back end of Buffalo&apos;s 53-man roster reshapes week to week.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch The Buffalo Bills */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">
+          10. How To Watch Frank Gore Jr. &amp; The Buffalo Bills in 2026
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Buffalo Bills games air across the NFL&apos;s broadcast partners, with CBS, FOX, NBC, ESPN, and Prime Video carrying various windows depending on the flex schedule. AFC East clashes typically land on CBS, while primetime showcases rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Bills matchups via league-approved platforms and authenticated provider apps. For complete Buffalo game listings, kickoff times converted to your local timezone, and verified channel assignments, visit the <Link href="/" className="text-blue-400 underline hover:text-blue-300">Buffalo Bills Schedule 2026</Link> homepage and official listings on <a href="https://www.espn.com/nfl/team/_/name/buf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/buffalo-bills/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
             <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );

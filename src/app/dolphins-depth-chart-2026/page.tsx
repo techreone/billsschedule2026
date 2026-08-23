@@ -382,6 +382,71 @@ export default function DolphinsDepthChart2026Page() {
           </div>
         </div>
       </section>
+      {/* H2-6: Coaching Staff & Scheme Philosophy */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">
+          6. Coaching Staff &amp; Scheme Philosophy Under Mike McDaniel
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Head coach Mike McDaniel enters his fifth season with the Miami Dolphins carrying one of the most innovative offensive minds in the modern NFL. His system prioritizes pre-snap motion, wide-zone run concepts, and lightning-fast decision-making from the quarterback position. The offensive philosophy is built to stress horizontally stretched defenses, forcing linebackers to declare run or pass responsibilities before the snap.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Defensively, the coaching staff blends aggressive front-seven pressure with split-safety coverage behind it. The combination of creative blitz design and disciplined zone principles allows Miami to disguise intentions and confuse opposing quarterbacks. Special teams and situational football remain a year-round emphasis, with staffers drilling fourth-down calculus and two-point conversion analytics.
+        </p>
+      </section>
+
+      {/* H2-7: 2026 Season Outlook & AFC East Race */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">
+          7. 2026 Season Outlook &amp; AFC East Division Race
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          The 2026 Miami Dolphins enter the campaign with a clear mandate: translate elite regular-season speed into January football. The AFC East remains a two-horse race against the Buffalo Bills, with both franchises loading talent on opposite sides of the line of scrimmage. Miami&apos;s path to the division title runs directly through road games in cold-weather environments, where perimeter speed must be paired with proven trench physicality.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          National expectations hover around a playoff berth, but the margin for error is slim in a conference loaded with elite quarterbacks. Miami&apos;s rebound ability after early adversity, health at the skill positions, and red-zone efficiency will define whether the Dolphins challenge for home-field advantage or settle for a wild-card path.
+        </p>
+      </section>
+
+      {/* H2-8: Positional Battles & Camp Competition */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">
+          8. Positional Battles &amp; Training Camp Competition
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Every summer, Miami&apos;s training camp produces heated competitions for backup roles that ultimately decide regular-season depth. The battle behind the starting wideouts, the rotation along the defensive interior, and the third cornerback spot all carry meaningful snaps. Coaches evaluate pad level, leverage, and special-teams versatility when sorting the back end of the roster.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Roster mobility is constant: undrafted free agents push veteran depth, and practice-squad elevations keep the pipeline active. Fans tracking the Dolphins should monitor official transaction wire reports, as the back half of the 53-man roster often reshapes right up to kickoff week.
+        </p>
+      </section>
+
+      {/* H2-9: Fantasy Football & DFS Implications */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">
+          9. Fantasy Football &amp; DFS Implications for Dolphins Players
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          From a fantasy football perspective, Miami&apos;s skill players carry both sky-high ceilings and volatility tied to game script. The lead running back profiles as a weekly touchdown threat, while the perimeter receivers offer explosive boom weeks that can swing season-long matchups. Quarterback production hinges on completion rate and red-zone touchdown volume rather than raw passing yardage.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Daily fantasy (DFS) tournament players gravitate toward Miami stacks when projected game pace is high, pairing the quarterback with a single receiver to capture correlated upside. Defensive streamers, however, often fade the Dolphins against slow, methodical offenses that neutralize Miami&apos;s speed-based pressure.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
+        <h2 className="text-2xl font-bold text-white border-l-4 border-teal-500 pl-3">
+          10. How To Watch Miami Dolphins Games &amp; Broadcast Details
+        </h2>
+        <p className="text-zinc-300 leading-relaxed">
+          Dolphins regular-season games air across the NFL&apos;s broadcast partners, with primary windows on CBS, FOX, NBC, ESPN, and Prime Video depending on the flex schedule. Sunday afternoon divisional clashes typically land on CBS or FOX, while primetime showcases rotate through NBC&apos;s Sunday Night Football and ESPN&apos;s Monday Night Football.
+        </p>
+        <p className="text-zinc-300 leading-relaxed">
+          Cord-cutters can stream Dolphins matchups through league-approved platforms and authenticated provider apps. For the complete Miami schedule, kickoff times converted to your local timezone, and verified channel assignments, pair this depth-chart guide with the <Link href="/" className="text-teal-400 underline hover:text-teal-300">Buffalo Bills Schedule 2026</Link> hub and official listings on <a href="https://www.espn.com/nfl/team/_/name/mia" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">ESPN</a> and <a href="https://www.nfl.com/teams/miami-dolphins/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">NFL.com</a>.
+        </p>
+      </section>
+
             <RelatedTrendPages slugs={['bills-kicker-depth-chart', 'bills-quarterback-depth-chart', 'bills-rb-depth-chart', 'bills-vs-browns-delay-weather', 'bills-vs-browns-live-stream']} />
 </div>
   );
