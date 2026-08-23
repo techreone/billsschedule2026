@@ -411,6 +411,19 @@ export default function NewYorkJetsDepthChart2026Page() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Offensive Line Rebuild Measuring Stick
+        </h2>
+        <p>
+          New York&apos;s offensive line tier functions as the rebuild&apos;s honest progress report. Protection units mature on multi-year curves that resist quick fixes, and the Jets&apos; investment pattern — draft capital concentrated up front across consecutive classes — will show its compounding returns (or expose its gaps) every Sunday regardless of skill-position narratives. Quarterback development, running game efficiency, and red-zone conversion all trace back to this single tier&apos;s cohesion.
+        </p>
+        <p>
+        The measurable markers worth following: sack rate trajectory, pressure-to-sack conversion allowed, and short-yardage conversion behind interior pushes. When those three trend together, the rebuild has turned its actual corner — everything else follows line play in this sport.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

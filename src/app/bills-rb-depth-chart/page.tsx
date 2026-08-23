@@ -425,6 +425,19 @@ export default function BillsRbDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Goal-Line Package Nobody Talks About
+        </h2>
+        <p>
+          Short-yardage success is the least glamorous and most decisive stat in football, and Buffalo&apos;s backfield construction is engineered around it specifically. Goal-line packages require different skills than open-field rushing — leverage discipline, pad-level consistency, and the psychological resistance to pressing in condensed spaces — and the coaching staff grades these reps separately from standard series work.
+        </p>
+        <p>
+        The competition math here favors the power profile in the room: conversion rates inside the two directly decide divisional games played in wind, and coaches remember training-camp goal-line results longer than any highlight reel. This invisible stat category explains why certain backs survive rosters despite modest overall averages.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

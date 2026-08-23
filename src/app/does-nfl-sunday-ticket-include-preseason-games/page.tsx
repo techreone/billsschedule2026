@@ -393,6 +393,19 @@ export default function DoesNFLSundayTicketIncludePreseasonGamesPage() {
       </section>
 
         {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Cancellation and Refund Reality Check
+        </h2>
+        <p>
+          Buyers who discover the preseason exclusion after purchasing should understand their actual recourse options before contacting support. Subscription products typically honor cancellation windows measured in days, prorate refunds on annual commitments according to published schedules, and — critically for sports packages — do not refund based on content misunderstanding once games have begun. The support documentation spells out each policy explicitly, which is why reading it before purchase beats negotiating after.
+        </p>
+        <p>
+        The smarter consumer play remains timing: annual subscriptions purchased mid-season often include pricing promotions that beat August&apos;s aggressive marketing, while monthly plans let hesitant fans test the September product before committing to full-season pricing. Neither path requires the August impulse purchase this page exists to warn against.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

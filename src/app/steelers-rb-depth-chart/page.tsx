@@ -348,6 +348,19 @@ export default function SteelersRBDepthChartPage() {
         </div>
       </section>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Warren Promotion&apos;s Historical Context in Pittsburgh
+        </h2>
+        <p>
+          Pittsburgh&apos;s running back lineage makes Warren&apos;s ascension historically notable: this is a franchise whose identity was built on Hall of Fame backfields, whose fans grade the position against four-ring standards, and whose recent committees always carried an obvious feature back somewhere in the pecking order. An undrafted free agent topping the chart breaks a decades-long drafting pattern — and the organization did it because the tape, not the pedigree, demanded it.
+        </p>
+        <p>
+        The evaluation that convinced this staff shows up in three specific film traits: pass-protection recognition against simulated pressure, yards after contact that survived divisional linebacker testing, and receiving route polish that expanded the playbook rather than limiting it. Each trait addresses a documented weakness from previous seasons, which is why the promotion feels earned rather than experimental.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

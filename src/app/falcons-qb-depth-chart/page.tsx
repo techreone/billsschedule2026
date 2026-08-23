@@ -389,6 +389,19 @@ export default function FalconsQBDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Locker-Room Dynamics of Quarterback Surplus
+        </h2>
+        <p>
+          Rosters carrying multiple starting-caliber quarterbacks face chemistry questions that box scores never capture. Room hierarchy affects everything from practice rep distribution to game-plan installation order, and Atlanta&apos;s unusual concentration of experienced arms forces the coaching staff into daily management decisions most teams never confront. Veteran signal-callers expect professional transparency about their standing; anything less breeds the kind of background friction that leaks into performance.
+        </p>
+        <p>
+        The healthiest resolution paths all involve clarity arriving quickly — through performance separation, transaction, or medical reality. Prolonged ambiguity serves nobody: not the starter who needs full rep ownership, not the backups whose trade value erodes with every inactive week, and not the skill-position players caught between different timing rhythms each change under center produces.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-red-500 pl-3">

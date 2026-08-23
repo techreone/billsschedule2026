@@ -422,6 +422,19 @@ export default function CardinalsDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Tight End Middle-Field Weapon Most Charts Underrate
+        </h2>
+        <p>
+          Arizona&apos;s tight end construction deserves more attention than receiver conversations typically allow: middle-of-field presence forces linebacker coverage decisions that ripple across every other route concept, and the depth chart&apos;s investment here creates the structural spacing that boundary weapons exploit. Offenses with legitimate tight end threats convert intermediate windows at rates pure perimeter teams cannot reach.
+        </p>
+        <p>
+        The schematic marriage matters: when defensive coordinators answer tight end production with heavier coverage, the run game inherits lighter boxes; when they answer with heavier boxes, the passing game attacks the vacated intermediate. This chart was built to make both answers expensive.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

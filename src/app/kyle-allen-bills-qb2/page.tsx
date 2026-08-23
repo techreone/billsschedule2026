@@ -406,6 +406,19 @@ export default function KyleAllenBillsQB2Page() {
         </section>
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Josh Allen&apos;s Rest Days Mean for This Battle
+        </h2>
+        <p>
+          Every preseason snap the starter sits multiplies the value of this competition exponentially. Buffalo&apos;s offensive infrastructure requires a backup who can operate without practice-week degradation — the play-action timing, the protection adjustments, the two-minute operation all assume muscle memory that only game-speed reps build. The QB2 battle is therefore not about naming a backup; it is about certifying the offense&apos;s emergency operating system.
+        </p>
+        <p>
+        Kyle Allen&apos;s candidacy rests on exactly that certification: multiple offensive systems absorbed across his career, professional protection-call experience, and the specific journeyman resilience that handles irregular deployment without rhythm loss. His preseason distribution against Cleveland&apos;s mixed defenses offered the staff live evidence for the certification decision they must finalize at cutdowns.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

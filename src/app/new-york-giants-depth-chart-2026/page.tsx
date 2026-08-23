@@ -398,6 +398,19 @@ export default function NewYorkGiantsDepthChart2026Page() {
       </section>
 
         {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Offensive Line Investment Finally maturing
+        </h2>
+        <p>
+          New York&apos;s offensive line tiers represent multiple consecutive drafts of premium capital finally reaching collective maturity — the pattern analytics staffs wait for before judging quarterback development fairly. Protection units built through high picks need eighteen to twenty-four months of shared snaps before communication becomes automatic, and the Giants&apos; interior now shows exactly that institutional cohesion forming.
+        </p>
+        <p>
+        The measurable markers confirm the trajectory: pressure rates allowed trending down year-over-year, short-yardage conversion improving behind interior pushes, and — most tellingly for young passer development — clean-pocket completion percentage climbing toward league median. When those three curves move together, franchise quarterbacks start playing like franchise quarterbacks.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-blue-400 hover:underline flex items-center gap-1">

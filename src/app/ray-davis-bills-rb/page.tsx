@@ -395,6 +395,19 @@ export default function RayDavisBillsRBPage() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Pass-Protection Growth That Unlocks Bigger Roles
+        </h2>
+        <p>
+          The developmental gap between rotational and feature running backs lives almost entirely in blitz pickup — reading pressure indicators, matching rusher assignments, and delivering blocks with proper leverage against NFL speed. Davis&apos; progression through this curriculum determines whether his role expands beyond committee touches into every-down trust, and Buffalo&apos;s coaching staff has historically expanded roles within weeks once this specific milestone clears.
+        </p>
+        <p>
+        The franchise&apos;s protection-heavy offense raises the stakes further: elite passers take more designed hits than pocket-only counterparts, making the backup&apos;s ability to keep clean pockets a genuine roster-construction priority rather than a technical footnote.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

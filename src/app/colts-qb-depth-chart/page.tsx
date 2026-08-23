@@ -360,6 +360,19 @@ export default function ColtsQBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Playbook Install Timeline That Decides Early Games
+        </h2>
+        <p>
+          Quarterback transitions are ultimately installation races: how much offense can be operationalized before Week 1 determines whether September looks like competitive football or field-position survival. Indianapolis&apos; staff has historically installed in layers — core concepts first, situational packages second, full playbook by October — and the current depth chart composition suggests the same sequencing regardless of who takes game snaps.
+        </p>
+        <p>
+        For fantasy and betting markets, the install curve is the hidden variable behind early-season totals: offenses in transition historically undershoot their season averages through the first month before normalizing. Markets that price September like November consistently lose money against informed bettors tracking exactly this timeline.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

@@ -388,6 +388,19 @@ export default function BillsVsBrownsDelayPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Stadium Experience Guide for Delay-Prone Venues
+        </h2>
+        <p>
+          Lakefront stadiums like Huntington Bank Field carry documented weather patterns that regular attendees plan around as routine. August afternoons generate pop-up cells that form and dissipate within hours; September brings the first cold-front systems with sustained wind; and by November, lake-effect precipitation becomes the operational default. Season-ticket veterans pack for all three scenarios regardless of forecast confidence.
+        </p>
+        <p>
+        The venue-specific knowledge that matters: concourse shelter locations by section number, which gates reopen first after delays (staff flow management), and the unwritten rule that concession queues move fastest during the first ten minutes of any suspension — before everyone realizes how long the stoppage might last.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

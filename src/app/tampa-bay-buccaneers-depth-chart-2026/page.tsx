@@ -423,6 +423,19 @@ export default function BuccaneersDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Third-Down Package That Defines This Offense
+        </h2>
+        <p>
+          Tampa Bay&apos;s third-down personnel groupings reveal more schematic personality than any base formation. The receiver rotations, tight end splits, and backfield choices in these packages are engineered against the specific coverage tendencies this offense expects in leverage situations — and the depth chart&apos;s complementary skill distribution exists to keep those packages unpredictable across a full season.
+        </p>
+        <p>
+        Conversion rate in these sequences is the stat divisional opponents fear most, because sustained drive extension compounds into defensive fatigue that shows up as explosive plays later in games. The roster construction treats third-down efficiency as an identity rather than an outcome.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

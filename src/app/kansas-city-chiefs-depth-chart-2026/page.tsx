@@ -423,6 +423,19 @@ export default function ChiefsDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Playoff Format Context That Elevates Every Tier
+        </h2>
+        <p>
+          AFC playoff seeding math gives Kansas City&apos;s depth chart stakes most rosters lack: conference tournament byes have historically run through this franchise, meaning rival contenders are not competing for a championship so much as for the right to avoid this roster until the final round. Every tier decision — developmental or win-now — ripples into that seeding architecture.
+        </p>
+        <p>
+        For Buffalo specifically, the two franchises&apos; construction philosophies have converged enough that their matchups now function as tactical mirror matches rather than style contrasts: both build through trenches, both protect premium passers, and both treat January health retention as a roster-design input rather than luck.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

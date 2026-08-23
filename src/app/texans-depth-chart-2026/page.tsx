@@ -410,6 +410,19 @@ export default function TexansDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Divisional Arms Race in Context
+        </h2>
+        <p>
+          The AFC South has quietly become the conference&apos;s most complete division from a roster-construction standpoint, and Houston&apos;s chart is the standard others measure against. Indianapolis rebuilt its quarterback situation around proven production, Tennessee invested draft capital in foundational protection, and Jacksonville continues supplementing its core through aggressive veteran acquisition. Every rival front office is answering the same question Houston already solved: how do you build a complete roster without a single exploitable tier?
+        </p>
+        <p>
+        Houston&apos;s answer — continuity plus targeted imports plus draft-and-develop patience — produced a depth chart with no obvious weak tier, which is precisely why divisional rivals keep copying pieces of the blueprint while never quite matching the whole.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

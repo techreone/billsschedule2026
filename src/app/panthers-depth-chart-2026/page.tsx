@@ -422,6 +422,19 @@ export default function PanthersDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Quarterback Protection Progress Report
+        </h2>
+        <p>
+          Carolina&apos;s protection investment gets graded on a specific curve: pressure allowed per dropback, sack avoidance under blitz, and — the stat young offenses live by — third-and-short convertibility that keeps drives alive while the passer develops. The chart&apos;s interior additions were purchased against exactly these metrics, and early preseason series offered the first honest readings.
+        </p>
+        <p>
+        The organizational patience here is calibrated: young passers improve most when protection lets them operate from clean platforms, and every resource spent up front multiplies the value of the skill-position talent already assembled. Rival defensive staffs have noticed the upgrade — which means the true test arrives when opponents stop selling out and start disguising.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

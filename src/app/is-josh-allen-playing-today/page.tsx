@@ -384,6 +384,19 @@ export default function IsJoshAllenPlayingTodayPage() {
       {/* Mounting RelatedTrendPages Component */}
       <RelatedTrendPages currentSlug="is-josh-allen-playing-today" />
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Injury-History Context That Drives Buffalo&apos;s Caution
+        </h2>
+        <p>
+          Allen&apos;s playing style — quarterback power football with genuine contact volume — creates a protection calculus unlike pocket-passer franchises face. Every designed run carries league-average injury probability multiplied by his usage rate; every scramble extends plays past protection boundaries into hit territory. The organization&apos;s August conservatism is therefore not generic caution but specific actuarial response to how its most irreplaceable asset actually absorbs punishment.
+        </p>
+        <p>
+        League history supplies the cautionary tales: MVP-caliber seasons lost to exhibition injuries that provided zero roster information. The modern consensus among front offices has hardened accordingly — franchise quarterbacks sign contracts, not preseason obligations. Buffalo&apos;s approach simply operationalizes that consensus more consistently than most, which is why the answer to this page&apos;s question will keep being &quot;no&quot; until games count.
+        </p>
+      </section>
+
+      {/* Sources & Authority References */}
       {/* Sources & Authority References */}
       <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
         <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

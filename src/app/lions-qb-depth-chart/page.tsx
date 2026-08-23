@@ -380,6 +380,19 @@ export default function LionsQBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Divisional Arms Race Context for Detroit&apos;s Insurance
+        </h2>
+        <p>
+          NFC North rivals all upgraded their pass rushes this cycle, which transforms Detroit&apos;s backup quarterback investment from prudent planning into competitive necessity. Divisional games against rebuilt fronts are precisely where starter injuries concentrate — sustained pressure games produce the league&apos;s highest quarterback contact rates — and the Lions&apos; schedule supplies several before the season&apos;s midpoint.
+        </p>
+        <p>
+        The organization&apos;s dual-veteran construction therefore functions as direct counter-programming: whichever arm wins the backup seat brings either mobility that escapes upgraded fronts or experience that neutralizes disguised pressure. Both profiles protect the same asset — the offensive continuity that makes this roster a legitimate conference threat.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

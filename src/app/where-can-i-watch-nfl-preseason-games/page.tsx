@@ -435,6 +435,19 @@ export default function WhereCanIWatchNFLPreseasonGamesPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Recording Strategies for Fans Who Cannot Watch Live
+        </h2>
+        <p>
+          Preseason games present unique recording challenges because replay availability lags live access by hours on some platforms and disappears entirely on others. The reliable hierarchy: league streaming products archive full replays within their ecosystems; cloud DVR services record national cable windows automatically with storage to spare; and local affiliate broadcasts require over-the-air DVR hardware that remains a niche but functional market.
+        </p>
+        <p>
+        Spoiler management adds the final wrinkle — score notifications arrive faster than replay access for out-of-market games. Disabling push notifications across sports apps before settling into a delayed viewing session preserves the experience, and airplane-mode discipline during the commute home completes the protocol.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

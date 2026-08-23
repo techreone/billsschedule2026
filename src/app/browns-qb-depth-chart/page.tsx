@@ -370,6 +370,19 @@ export default function BrownsQbDepthChartPage() {
       </section>
 
         {/* Footer Navigation Link */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Preseason Evidence Standard for Quarterback Battles
+        </h2>
+        <p>
+          Quarterback competitions require evidence thresholds that casual observation misses. Coaches grade protected reps separately from pressured ones, install-command quizzes between series, and red-zone decision speed under compressed playbooks — because August defenses rarely show their full packages, making raw statistics unreliable comparison tools. The staff&apos;s public framing of open competition coexists with internal scorecards fans never see.
+        </p>
+        <p>
+        The resolution timeline follows organizational precedent too: quarterback rooms this unsettled typically produce their answer within the final exhibition week, when full dress-rehearsal series give evaluators their closest approximation of regular-season conditions before the real games begin counting.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-orange-400 hover:underline flex items-center gap-1">

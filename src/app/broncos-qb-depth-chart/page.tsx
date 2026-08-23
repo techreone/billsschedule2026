@@ -381,6 +381,19 @@ export default function BroncosQbDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Preseason Finale Reps That Finalize Everything
+        </h2>
+        <p>
+          Denver&apos;s exhibition finale carries evaluation weight unusual for a settled room: full dress-rehearsal series give the coaching staff final confirmation of operational readiness, while extended backup sequences produce the last audition tape before cutdown decisions freeze the roster. Even uncontested competitions generate consequential data in these games.
+        </p>
+        <p>
+        The staff&apos;s rep distribution philosophy reveals its priorities: starters protected entirely, backups evaluated against first-unit looks, and development arms given scripted situations that test specific growth markers. Reading those distributions tells fans exactly how confident the organization is at every tier of the position.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

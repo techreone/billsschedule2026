@@ -484,6 +484,19 @@ export default function ClevelandBrownsDepthChart2026Page() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Receiver Room Question Mark Behind the Lines
+        </h2>
+        <p>
+          Cleveland&apos;s receiving corps enters the season with genuine uncertainty layered over established names — departure fallout, developmental timelines, and health histories all compressing into a group whose collective ceiling depends on multiple simultaneous answers arriving positively. This is the offensive weakness rival defensive coordinators will attack first: bracket the known commodity, force unproven targets to beat single coverage.
+        </p>
+        <p>
+        The organization&apos;s counter-moves appear throughout the rest of the chart: run-game infrastructure designed to reduce passing volume dependence, tight end retention preserving checkdown reliability, and protection investments that buy receivers extra separation time. Whether those supports compensate determines whether this roster contends or rebuilds.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

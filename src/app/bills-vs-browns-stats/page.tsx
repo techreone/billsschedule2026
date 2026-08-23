@@ -453,6 +453,19 @@ export default function BillsVsBrownsStatsPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Third-Down Efficiency: The Stat That Told the Real Story
+        </h2>
+        <p>
+          Beyond the headline margin, third-down conversion differential explained everything about this result. Buffalo&apos;s backups sustained drives at rates that kept Cleveland&apos;s defense on the field for extended sequences — visible in second-half defensive fatigue and the explosive runs that followed — while the Browns&apos; mixed quarterback rotations repeatedly stalled in manageable-distance situations they failed to convert.
+        </p>
+        <p>
+        For evaluators, third-down performance in preseason carries unusual signal quality precisely because both teams run simplified playbooks: conversion success isolates execution rather than schematic advantage. The Bills winning that isolated contest decisively is why coaching staffs across the league circled several Buffalo reserve names in their own postgame grading sessions.
+        </p>
+      </section>
+
+        {/* Related Navigation Links */}
         {/* Related Navigation Links */}
         <div className="pt-6 border-t border-zinc-800 space-y-4">
           <h3 className="font-headline font-bold text-white uppercase tracking-wider text-base">

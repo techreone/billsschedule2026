@@ -392,6 +392,19 @@ export default function AreThereAnyPreseasonNFLGamesOnTodayPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Cutdown Week Calendar That Reshapes Everything
+        </h2>
+        <p>
+          The most eventful days of the exhibition season happen between games. League-wide cutdown deadlines compress rosters in a single transaction wave, waiver claims reshuffle released talent within twenty-four hours, and practice squad assembly completes within days — meaning fans who only watch games miss the entire personnel drama that determines what next season&apos;s depth charts actually look like.
+        </p>
+        <p>
+        For followers of specific bubble players, this week carries career consequences: a strong final exhibition can be erased by numbers crunch, while surprise releases instantly become claimed commodities. Following beat reporters through cutdown week delivers more roster intelligence than an entire preseason of box scores.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

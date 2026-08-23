@@ -393,6 +393,19 @@ export default function GiantsQbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Patience Framework: How Rebuilding Rooms Get Judged
+        </h2>
+        <p>
+          New York&apos;s quarterback development exists inside the league&apos;s least forgiving media market, which changes evaluation dynamics entirely. Local coverage grades rookie progression weekly; national narrative amplifies every interception into referendum material. The organization&apos;s internal framework deliberately ignores that noise — measuring mechanics retention, huddle command growth, and red-zone decision speed against developmental benchmarks rather than win-loss context.
+        </p>
+        <p>
+        The supporting-cast strategy serves the same patience: elite receiver talent gives young passers completion confidence that accelerates mechanical development, while the running game carries early-season scoring load so the passer learns without fourth-quarter heroics being mandatory every week.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-500 pl-3">

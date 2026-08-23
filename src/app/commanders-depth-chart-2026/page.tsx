@@ -407,6 +407,19 @@ export default function CommandersDepthChart2026Page() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Waiver-Wire Watch: Cutdown Week Intelligence
+        </h2>
+        <p>
+          Washington&apos;s final roster decisions will release talent other teams claim within twenty-four hours, which makes this chart a two-way document: it shows who stays and predicts who goes. Positions carrying surplus through cutdowns — defensive line rotation, developmental backs — become active trade conversations precisely because rival evaluators know the numbers crunch forces quality onto the market.
+        </p>
+        <p>
+        For fans learning front-office thinking, this week demonstrates roster management&apos;s real texture: every claim is simultaneously a need assessment, a salary calculation, and a bet on somebody else&apos;s coaching staff having missed something.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Commanders 2026 Depth Chart</h3>

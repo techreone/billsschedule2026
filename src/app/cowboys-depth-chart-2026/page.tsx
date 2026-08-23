@@ -397,6 +397,19 @@ export default function CowboysDepthChart2026Page() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The December Schedule That Will Test This Depth Chart
+        </h2>
+        <p>
+          Dallas&apos; late-season calendar concentrates its hardest divisional and conference matchups into the exact stretch where depth chart construction pays or punishes. Cold-weather road games demand the imported power running game; indoor divisional finales reward the passing-game continuity; and playoff-seeding scenarios likely extend meaningful snaps into weeks when lesser rosters are resting starters. The chart&apos;s middle tiers — swing linemen, third receiver, rotational edge — will absorb more consequential snaps than their listing positions imply.
+        </p>
+        <p>
+        Front offices build for this calendar asymmetry deliberately: September depth is about development, but December depth is about survival. The Cowboys&apos; construction suggests the staff understands which month actually decides its season.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Cowboys 2026 Depth Chart</h3>

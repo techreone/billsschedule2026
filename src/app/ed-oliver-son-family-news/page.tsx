@@ -368,6 +368,19 @@ export default function EdOliverSonNewsPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          Media Responsibility Standards During Personal Crises
+        </h2>
+        <p>
+          Coverage of player family tragedies follows professional standards worth restating: confirmed facts from official channels only, no speculation about circumstances, no pursuit of family members for comment, and imagery choices that respect grief. Outlets that followed this framework in covering the situation provided exactly what searching audiences needed — verified information without exploitation.
+        </p>
+        <p>
+        Fans aggregating news on social platforms carry parallel responsibility: resharing unverified claims forces corrections onto grieving families and contaminates the record permanent archives keep. The verification standard applied here — official statements, established outlet reporting, documented timelines — represents the floor for responsible engagement with any developing story touching personal tragedy.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

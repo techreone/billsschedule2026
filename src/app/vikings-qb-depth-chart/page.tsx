@@ -371,6 +371,32 @@ export default function VikingsQbDepthChartPage() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Week-One Readiness Question Every Vikings Fan Is Asking
+        </h2>
+        <p>
+          With the hierarchy settled, the practical question becomes operational readiness rather than competition. Murray&apos;s transition timeline compresses a full offense install into final camp weeks, and the early-season schedule generosity — winnable divisional games before the conference gauntlet — gives the coaching staff runway to prioritize fundamentals over volume. Expect condensed playbooks through September that expand as command evidence accumulates.
+        </p>
+        <p>
+        For McCarthy, the development assignment is equally structured: scout-team duty against one of the conference&apos;s better defenses provides weekly game-speed reps that practice-squad seasons never deliver, and every simulated Sunday sharpens the skills his next opportunity will demand. Rooms built this way produce their real answers in November, not August — and Minnesota&apos;s patient construction suggests the organization understands exactly which month its quarterback questions actually resolve.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Contract Implications Lurking Behind the Depth Chart
+        </h2>
+        <p>
+          Every quarterback depth chart decision carries contract architecture consequences, and Minnesota&apos;s construction is no exception. Starter-level acquisitions reset compensation baselines; displaced draft investments carry option mechanics that trigger or expire based on playing time thresholds; and backup salaries function as insurance premiums priced against exactly the scenarios fans speculate about weekly.
+        </p>
+        <p>
+        The front office&apos;s structuring choices reveal its actual confidence level more honestly than public comments: guarantees distributed across seasons suggest long-term planning, while backloaded escape hatches signal transition awareness. Reading the ledger alongside the depth chart tells the complete organizational story neither document tells alone.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

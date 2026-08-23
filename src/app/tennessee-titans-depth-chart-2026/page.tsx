@@ -414,6 +414,19 @@ export default function TitansDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Red-Zone Package Development Worth Watching
+        </h2>
+        <p>
+          Red-zone efficiency separates playoff offenses from statistically similar regular ones, and Tennessee&apos;s skill-position construction targets exactly this compressed-field phase. Bigger boundary targets for contested catches, a backfield built between the tackles, and tight end presence across the middle give the play-caller four distinct red-zone answers defenses must prepare simultaneously.
+        </p>
+        <p>
+        The preseason reveals these packages more honestly than any other phase because compressed fields strip away scheme disguise — execution decides everything inside the twenty. Fans tracking this roster&apos;s actual improvement should grade August red-zone series above all other statistical categories.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

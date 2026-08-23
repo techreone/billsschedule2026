@@ -411,6 +411,19 @@ export default function FrankGoreJrBillsRosterPage() {
       </section>
 
       {/* H2-10: How To Watch The Buffalo Bills */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Family Legacy Angle Without the Hype
+        </h2>
+        <p>
+          Second-generation players carry a specific evaluation burden: every practice rep gets measured against a Hall of Fame father&apos;s shadow rather than their own development curve. Gore Jr.&apos;s professional path has handled that weight with unusual maturity — choosing his own collegiate track, entering as an undrafted long shot, and building his case through special-teams willingness and between-tackles polish rather than name recognition.
+        </p>
+        <p>
+          Buffalo&apos;s decision-makers have consistently separated legacy from roster math in public comments, which is the respectful professional standard. His seat competition is judged on vision consistency, pass-protection growth, and coverage-unit contribution — the same three criteria applied to every undirected back fighting for the final offensive seat.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch The Buffalo Bills */}
       {/* H2-10: How To Watch The Buffalo Bills */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">

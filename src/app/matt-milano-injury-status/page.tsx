@@ -377,6 +377,19 @@ export default function MattMilanoInjuryStatusPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          Why Linebacker Injuries Reshape Entire Defenses
+        </h2>
+        <p>
+      Off-ball linebacker availability cascades through a defense differently than any other position: communication responsibilities, blitz-timing ownership, and coverage-adjustment authority all concentrate in this seat. When Milano has been unavailable historically, Buffalo&apos;s answer involved committee redistribution rather than single replacement — because the processing load cannot be duplicated by one player, only distributed across several.
+        </p>
+        <p>
+        The recovery-and-return pattern for this injury class also matters for expectations: modern protocols rebuild practice tolerance progressively, and early-season snap counts typically lag behind medical clearance as conditioning catches up. Fans reading participation reports should expect staged workloads rather than instant full-time deployment.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

@@ -391,6 +391,19 @@ export default function BillsQuarterbackDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Two-Minute Offense: Where Backup Value Peaks
+        </h2>
+        <p>
+          Buffalo&apos;s two-minute operation is the most quarterback-dependent system element on the roster, and it is precisely where backup preparation shows its true quality. Hurry-up offense strips coaching intervention down to hand signals and memorized conversions — the backup must process coverage, manage clocks, and call protections without a single sideline consultation. Rooms that practice this weekly produce competent emergency football; rooms that do not produce September disasters.
+        </p>
+        <p>
+        The staff grades two-minute periods in practice with scoreboard pressure applied — manufactured deficits, specific clock arithmetic, and timeout management all tested under simulated stress. That rehearsal discipline is why Bills emergency games have historically stayed competitive rather than collapsing into uncompetitive losses.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

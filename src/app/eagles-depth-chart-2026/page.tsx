@@ -425,6 +425,19 @@ export default function EaglesDepthChart2026Page() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Run-Game Identity Behind the Passing Stats
+        </h2>
+        <p>
+          Philadelphia&apos;s offensive chart carries one structural signature most rivals still misread: the rushing attack functions as the passing game&apos;s setup mechanism rather than its alternative. Designed run volume in first-half sequences forces lighter defensive boxes, which then create the single-coverage windows the perimeter weapons exploit. The depth chart&apos;s backfield composition — multiple physical runners rather than change-of-place specialists — reflects that sequencing philosophy directly.
+        </p>
+        <p>
+        Defensive coordinators who abandon box integrity to stop the passing game meet the ground attack that punishes six-man fronts; those who stay heavy meet the route combinations against softened coverage. The roster was built so both answers cost the defense something real.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">

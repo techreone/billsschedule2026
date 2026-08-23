@@ -398,6 +398,19 @@ export default function PanthersRBDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Reception Profile That Separates Modern Backs
+        </h2>
+        <p>
+          Running back value has migrated decisively toward receiving production, and Carolina&apos;s competition grades that dimension explicitly. Route-running polish out of the backfield, catch radius on off-target throws, and yards-after-catch burst on checkdowns now carry equal weight to rushing metrics in staff evaluations — because defensive substitution patterns punish offenses whose back cannot stay on the field in passing situations.
+        </p>
+        <p>
+        Each competitor answers that test differently: the established starter brings proven chemistry, the recovering talent shows natural hands, and the rookie import arrives with college reception volume that projects upward. The staff&apos;s challenge is sequencing those skills into a rotation where each player&apos;s strengths appear in their highest-leverage situations.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

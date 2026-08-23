@@ -404,6 +404,19 @@ export default function StefonDiggsBillsWRAftermathPage() {
       </section>
 
         {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Quarterback Distribution Shift in Context
+        </h2>
+        <p>
+          The post-trade receiving corps changed Josh Allen&apos;s statistical profile in ways box scores distribute rather than diminish: career-high target diversity, more balanced route-tree participation, and explosive-play production spread across alignments instead of concentrated through one matchup-proof star. Defenses can no longer solve Buffalo&apos;s passing game with a single elite corner assignment — the coverage answers simply do not exist against this distribution model.
+        </p>
+        <p>
+        The remaining question is postseason-specific: playoff defenses compress windows and take away intermediate reads, forcing committees to win with contested catches and scramble-drill chemistry. That test is the last box this construction has yet to check, and it is why January performance will settle the debate the trade started.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

@@ -410,6 +410,19 @@ export default function JetsQbDepthChartPage() {
       </section>
 
       {/* H2-10: How To Watch & Broadcast Details */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          What Competent Quarterback Play Changes Divisionally
+        </h2>
+        <p>
+          The AFC East race math shifts fundamentally the moment New York fields competent quarterback play: Buffalo&apos;s divisional dominance has partially rested on rivals cycling through unstable passer situations, and any East rival solving that position compresses everyone&apos;s playoff margins. This is why divisional fan bases track rival quarterback rooms as closely as their own.
+        </p>
+        <p>
+        For the Jets&apos; own trajectory, the development milestones matter more than win totals this season: completion percentage over expectation, turnover avoidance in compressed situations, and huddle command growth are the measurable indicators that separate sustainable fixes from temporary patches.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">

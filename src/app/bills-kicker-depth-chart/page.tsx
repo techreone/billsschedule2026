@@ -402,6 +402,19 @@ export default function BillsKickerDepthChartPage() {
       {/* Mounting RelatedTrendPages Component */}
       <RelatedTrendPages currentSlug="bills-kicker-depth-chart" />
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Analytics Revolution in Kicker Evaluation
+        </h2>
+        <p>
+          Front offices now grade kickers on metrics fans rarely see: expected points added per attempt factoring distance, weather, and holder quality; kickoff hang-time distributions under the dynamic rules; and pressure-split performance separating clean-pocket makes from game-situation conversions. By these modern measures, Bass&apos; profile reads stronger than traditional percentage totals suggest, because Orchard Park attempts carry environmental difficulty adjustments that dome kickers never accumulate.
+        </p>
+        <p>
+        The analytics framework also explains roster patience during cold streaks: regression models treat mid-season misses as noise around a true-talent baseline rather than signal of decline. Buffalo&apos;s analytical staff built exactly that case through recent volatility, and the organization&apos;s continuity decisions have followed the models rather than the talk-radio temperature.
+        </p>
+      </section>
+
+      {/* Sources & Authority References */}
       {/* Sources & Authority References */}
       <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
         <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>
