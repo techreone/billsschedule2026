@@ -385,6 +385,19 @@ export default function NewYorkGiantsDepthChart2026Page() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Nabers Health Designation Is the Whole Story
+        </h2>
+        <p>
+          Every other listing on this chart is negotiable; the qualification tag next to Malik Nabers is not. A true alpha receiver&apos;s availability swings this offense from functional to historically inefficient within a single week — defensive coverage schemes simply refuse to function normally when one receiver demands double teams on every snap, and no roster construction absorbs that loss gracefully in-season.
+        </p>
+        <p>
+        The front office&apos;s insurance investments at receiver (veteran imports plus developmental depth) exist precisely because of this dependency. Fans tracking the Giants&apos; weekly ceiling should treat practice participation reports for this single name as more predictive than any game result — his alignment percentage is the offense&apos;s real thermostat.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-blue-400 hover:underline flex items-center gap-1">

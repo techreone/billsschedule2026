@@ -410,6 +410,19 @@ export default function BuccaneersDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Cutdown Math for This Specific Roster
+        </h2>
+        <p>
+          Tampa Bay&apos;s transparency in publishing early creates an unusual analytical opportunity: fans can track every subsequent revision against the original and watch the organization&apos;s actual decision hierarchy emerge. The seats most likely to turn over before Week 1: third tight end (special-teams value decides), fourth cornerback (coverage-unit tape decides), and the ninth offensive line seat (position flexibility decides).
+        </p>
+        <p>
+        Each of those battles resolves through evidence the club has already committed to publishing — which makes following this particular chart a masterclass in how NFL rosters actually finalize beneath the transaction headlines.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

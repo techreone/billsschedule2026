@@ -412,6 +412,19 @@ export default function SteelersDepthChart2026Page() {
 
       {/* FAQ Section */}
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Veteran Quarterback Effect on Whole-Roster Timing
+        </h2>
+        <p>
+          Adding a twenty-year veteran quarterback restructures more than one position group — it changes the competitive calendar for every skill player on this chart. Routes that required anticipation windows now reward immediate separation; checkdowns become designed productions rather than broken-play fallbacks; and young receivers learn an NFL timing vocabulary years faster than they would behind developmental passers. The entire offensive depth chart ages in football-IQ terms overnight.
+        </p>
+        <p>
+          The counterweight is equally real: veteran-driven windows close quickly, which is why Pittsburgh paired this signing with win-now receiver talent rather than developmental projects. Every listing on this chart now carries binary consequences — this roster either cashes its window or resets entirely within twenty-four months.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Steelers 2026 Depth Chart</h3>

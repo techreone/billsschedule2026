@@ -382,6 +382,19 @@ export default function RayDavisBillsRBPage() {
           </p>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Fantasy Market Mispricing Worth Exploiting
+        </h2>
+        <p>
+          Committee running backs behind elite offenses are systematically undervalued in fantasy drafts, and Davis sits at the center of that inefficiency. Market pricing anchors to his role designation rather than his opportunity math: Buffalo&apos;s offense produces goal-line sequences at top-five rates, its game scripts frequently build fourth-quarter lead-closing carries, and his receiving profile adds a weekly floor independent of game plan.
+        </p>
+        <p>
+          The historical template is consistent — backup backs in top-three offenses have outproduced backfield starters in mediocre offenses across multiple recent seasons. Davis&apos; per-touch efficiency already validates the talent; the draft-cost discount simply reflects role uncertainty that one training camp report can erase overnight.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

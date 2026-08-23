@@ -357,6 +357,22 @@ export default function CommandersQBDepthChartPage() {
       </section>
 
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Front-Office Decision Tree if Mariota&apos;s Timeline Slips
+        </h2>
+        <p>
+          Contingency planning at backup quarterback runs on a fixed decision tree that Washington&apos;s front office knows by heart. Branch one: the MCL sprain heals on schedule and August&apos;s competition resolves itself — most likely path. Branch two: recovery drifts past cutdown deadlines, forcing a choice between promoting Kaliakmanis early or scanning the transaction wire for a system-familiar veteran released elsewhere. Branch three — the expensive one — an in-season injury converts the entire depth chart debate into live football.
+        </p>
+        <p>
+          Each branch carries different asset costs, which is why the staff resisted external signings during the spring market: every dollar committed to a stopgap arm reduces flexibility for the in-season move that actually matters. The current construction holds maximum optionality at minimum spend, and preseason performance data will trigger whichever branch reality selects.
+        </p>
+        <p>
+          Fans tracking this situation should watch practice participation reports rather than game results; medical clarity arrives through participation percentages weeks before any public announcement confirms it.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

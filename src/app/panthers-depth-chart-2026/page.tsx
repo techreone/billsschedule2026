@@ -409,6 +409,19 @@ export default function PanthersDepthChartPage() {
         </section>
       </div>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Second-Year Leap Class Worth Tracking
+        </h2>
+        <p>
+          Carolina&apos;s chart contains a cluster of second-year players whose rookie seasons were developmental by design — and that class statistically represents the roster&apos;s highest-variance group. League-wide leap rates for second-year players with 300-plus special-teams or rotational snaps run meaningfully above fifty percent for expanded roles, which means several names listed in backup seats here will start meaningful snaps by season&apos;s end.
+        </p>
+        <p>
+          For fans learning roster projection as a skill, this is the pattern worth internalizing: contending teams are predictable from their established names; rebuilding teams are predicted from their second-year clusters. The Panthers&apos; competitive timeline lives inside those qualification-tagged listings.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

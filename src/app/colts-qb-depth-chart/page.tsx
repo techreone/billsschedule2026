@@ -347,6 +347,19 @@ export default function ColtsQBDepthChartPage() {
         </div>
       </section>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          What Rival Defenses Are Planning Against This Room
+        </h2>
+        <p>
+          Defensive coordinators across the AFC South have spent the offseason building plans around a specific scouting question: does pressure up the middle collapse this offense faster than edge rush? The answer determines whether Indianapolis sees simulated-pressure looks designed to confuse protection calls or genuine five-and-six-man rushes testing tackle depth. The depth chart&apos;s composition — a starter comfortable operating from structured pockets — pushes rivals toward the simulation approach.
+        </p>
+        <p>
+          Indianapolis&apos; counter-investment shows in its own chart: interior line continuity and a tight end tandem built for quick-release leverage are direct answers to the division&apos;s interior pressure weapons. This chess match between rival planning and roster construction plays out across six divisional games, and the quarterback seat sits at the center of every board.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

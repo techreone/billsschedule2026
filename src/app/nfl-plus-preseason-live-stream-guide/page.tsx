@@ -425,6 +425,19 @@ export default function NFLPlusPreseasonLiveStreamGuidePage() {
         </section>
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Regular-Season Transition: What Changes in September
+        </h2>
+        <p>
+          Subscribers who bought NFL+ for August should understand exactly how the product shifts once the regular season opens. Local and primetime games continue streaming on mobile devices under the same terms, but the out-of-market preseason access that justified Premium tiers disappears from the value proposition — replaced by RedZone, full-game replays, and the fantasy-focused features that define the regular-season product. Evaluating the subscription on its September merits rather than its August trial is how smart buyers avoid renewal regret.
+        </p>
+        <p>
+        The transition also reshapes free alternatives: local broadcasts return to over-the-air dominance, national exclusives consolidate onto their partner platforms, and the viewing map simplifies even as stakes multiply. Fans who built good habits in August — antenna backups, official app notifications, schedule bookmarks — carry all of it forward at zero additional cost.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

@@ -367,6 +367,19 @@ export default function LionsQBDepthChartPage() {
 
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Contract Architecture Behind Detroit&apos;s Patience
+        </h2>
+        <p>
+          Detroit&apos;s willingness to carry multiple veteran quarterback salaries reflects a cap sheet built for its competitive window: with the franchise passer on a structured extension and championship aspirations front-loaded, spending marginal dollars on insurance arms is rational risk pricing rather than roster indulgence. The alternative — trusting an untested developmental arm as sole backup for a Super Bowl-caliber team — has ended contending seasons across recent league history.
+        </p>
+        <p>
+          The competition itself carries contractual subtext too: whichever backup separates earns not just the seat but leverage in future seasons, since proven system-fluent backups command escalating prices on the open market exactly when their teams can least afford to lose them.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

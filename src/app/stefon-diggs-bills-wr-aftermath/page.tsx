@@ -391,6 +391,19 @@ export default function StefonDiggsBillsWRAftermathPage() {
 
         {/* FAQ Section */}
         {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Draft Capital That Built This Room
+        </h2>
+        <p>
+          Receiving corps are built through three acquisition channels — draft, trade, and free agency — and Buffalo&apos;s post-Diggs construction leaned almost entirely on the first two. That preference is strategic: drafted receivers on rookie contracts deliver surplus value that funded upgrades elsewhere on the roster, while their development timelines align with the quarterback&apos;s own prime window. The committee approach was not a cost-cutting shortcut; it was a portfolio decision executed with specific capital.
+        </p>
+        <p>
+        Evaluating the strategy honestly requires the full timeline: one season is noise, two seasons suggest trend, and the playoff stress test remains the definitive verdict. What the regular-season data already shows — efficient distribution, multiple weekly contributors, no single point of defensive failure — supports the front office&apos;s thesis that modern passing games beat bracket coverage through variety rather than volume.
+        </p>
+      </section>
+
+        {/* FAQ Section */}
         {/* FAQ Section */}
         <section className="space-y-6 pt-6 border-t border-zinc-800">
           <h2 className="text-xl md:text-2xl font-headline font-bold text-white tracking-wide">

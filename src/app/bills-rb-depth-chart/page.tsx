@@ -412,6 +412,19 @@ export default function BillsRbDepthChartPage() {
 
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          December Football: When This Backfield Earns Its Contract
+        </h2>
+        <p>
+          Buffalo&apos;s late-season schedule converts this position group from complementary to central. Lake-effect wind games strip passing-game precision down to rhythm throws and ball control — exactly the conditions where a committee of fresh, stylistically diverse runners dictates game flow. The rotation design (explosive perimeter threat, power interior option, trusted third-down protector) exists because Orchard Park Decembers punish one-dimensional backfields within a single afternoon.
+        </p>
+        <p>
+          Historical pattern supports the investment: Bills teams that finished seasons with top-half rushing efficiency in bad-weather games consistently converted home-field advantage into playoff positioning, while teams that abandoned the ground game in wind watched field goals into the wind decide their January.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

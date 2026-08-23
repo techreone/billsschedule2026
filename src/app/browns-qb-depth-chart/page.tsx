@@ -354,6 +354,22 @@ export default function BrownsQbDepthChartPage() {
           </div>
         </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Rookie Development Seat: Gabriel&apos;s Deliberate Path
+        </h2>
+        <p>
+          Cleveland&apos;s third-string listing hides the room&apos;s most interesting long-term bet. Dillon Gabriel arrived as one of college football&apos;s most productive passers — a five-year starter with historic completion volume — yet the depth chart treats him as a developmental project rather than an immediate contender. That placement is deliberate: the staff is protecting his learning curve from the media circus surrounding the two names above him, letting him absorb the offense without daily headline pressure.
+        </p>
+        <p>
+          History favors this construction. Quarterbacks who spend rookie seasons operating scout teams behind established competitions frequently emerge as trade assets or emergency starters with better fundamentals than their draft positioning suggested. Gabriel&apos;s practice-week performance against Cleveland&apos;s starting defense — one of the conference&apos;s better units — will build the internal evaluation file that decides his second-season trajectory.
+        </p>
+        <p>
+          For Browns watchers, the bottom of this chart is where the franchise&apos;s next quarterback decision is quietly being drafted.
+        </p>
+      </section>
+
+        {/* Footer Navigation Link */}
         {/* Footer Navigation Link */}
         <div className="pt-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono">
           <Link href="/" className="text-orange-400 hover:underline flex items-center gap-1">

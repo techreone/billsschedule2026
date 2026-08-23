@@ -355,6 +355,19 @@ export default function EdOliverSonNewsPage() {
 
         {/* Sources & Authority References */}
         {/* Sources & Authority References */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          A Broader Note on Drowning Prevention Awareness
+        </h2>
+        <p>
+          Searches around this tragedy spike because fans process grief through information, and the most constructive thread to pull is prevention awareness. Drowning remains among the leading causes of accidental death for children under four nationally, and pediatric safety organizations consistently document that these incidents occur during brief supervision lapses — often in familiar settings like family pools — rather than exotic circumstances. Barriers, constant arm&apos;s-reach supervision for toddlers, and early swim instruction are the repeatedly validated interventions.
+        </p>
+        <p>
+          Public figures experiencing these losses frequently channel their grief into awareness work when ready, and the scale of attention this story carries could translate into meaningful prevention reach. Until then, the respectful fan posture is patience: no speculation, no intrusion, and support expressed through the privacy boundaries the family has drawn.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

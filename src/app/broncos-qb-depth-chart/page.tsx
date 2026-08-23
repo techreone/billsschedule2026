@@ -365,6 +365,22 @@ export default function BroncosQbDepthChartPage() {
 
       </article>
     
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Week-One Preparation Standard Denver Actually Runs
+        </h2>
+        <p>
+          Depth chart listings understate how much quarterback readiness is built outside game weeks. Denver&apos;s practice structure gives its starter full-speed installation reps while the backup room runs opponent-simulation scripts against the starting defense — meaning Stidham&apos;s weekly value is measured in the looks he gives Denver&apos;s own linebackers, not in garbage-time statistics. Organizations that understand this retention math keep system-fluent veterans on cheap deals indefinitely, because replacing that institutional function every offseason costs more than the salary line suggests.
+        </p>
+        <p>
+          The third-quarterback seat follows parallel logic with inverted incentives: Wilson&apos;s development reps are audition tape for thirty-one other teams as much as internal evaluation, and every clean practice week either builds trade equity or deepens the reclamation investment. Either outcome benefits the Broncos, which is exactly why three-man rooms have become the league&apos;s preferred construction for franchises with settled starters.
+        </p>
+        <p>
+          For fans modeling Denver&apos;s season, the actionable read is simple: this room&apos;s design means a one-to-two-game starter injury changes almost nothing schematically, while a multi-month absence tests the ceiling rather than the floor. That insurance gradient is worth real divisional standings points across seventeen weeks.
+        </p>
+      </section>
+
+        {/* Sources & Authority References */}
         {/* Sources & Authority References */}
         <section className="mt-6 bg-zinc-900/40 rounded-xl border border-zinc-800 p-4 text-xs text-zinc-400">
           <h3 className="font-headline font-bold text-white uppercase mb-2">Sources &amp; References</h3>

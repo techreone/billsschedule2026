@@ -398,6 +398,19 @@ export default function FrankGoreJrBillsRosterPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Practice Squad Path: Why Cutdown Isn&apos;t the End
+        </h2>
+        <p>
+          Modern NFL rosters run a two-tier employment system, and bubble players like Gore Jr. live realistically across both. The expanded practice squad functions as a development roster with game-week elevations available — meaning a back who misses the initial 53 can be promoted for individual games when injuries or matchup needs demand, accumulating service time and paychecks while remaining scheme-fluent.
+        </p>
+        <p>
+        For Buffalo specifically, keeping a fourth running back in this pipeline protects against the position&apos;s injury volatility at almost zero cap cost. The front office has historically protected its priority backs through waiver risk precisely because other teams recognize the same production indicators the Bills&apos; staff identified — which makes final-cut decisions about this seat genuinely strategic rather than administrative.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch The Buffalo Bills */}
       {/* H2-10: How To Watch The Buffalo Bills */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-blue-600 pl-3">

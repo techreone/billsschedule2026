@@ -410,6 +410,19 @@ export default function ChiefsDepthChartPage() {
       </section>
 
         {/* FAQ */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Defensive Trenches Where Championships Are Decided
+        </h2>
+        <p>
+          Kansas City&apos;s defensive interior receives less national attention than its offensive skill positions, yet this is where the franchise&apos;s recent championship runs were actually decided. Interior pressure collapses pockets that edge rush alone cannot reach, forces quarterbacks off their launch points, and converts third-and-manageable into third-and-long without blitz expenditure that would expose the secondary.
+        </p>
+        <p>
+        The rotation depth visible throughout these tiers exists because championship-caliber interior play demands fresh four-man rushes in the fourth quarter of January games. Rival offenses planning against this defense must solve the interior first — and the depth chart suggests most will leave those games without answers.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

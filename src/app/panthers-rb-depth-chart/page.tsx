@@ -385,6 +385,19 @@ export default function PanthersRBDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Etienne Factor: Rookie Profile Meets Modern Scheme
+        </h2>
+        <p>
+          Trevor Etienne&apos;s placement in this competition deserves specific attention because his skill profile matches what modern passing offenses actually ask of rookie backs: immediate receiving value from the backfield, screen-game comfort, and pass-protection coachability more than between-tackles volume. Carolina&apos;s offense — rebuilding around its young passer — needs exactly that archetype as Hubbard&apos;s complement.
+        </p>
+        <p>
+        His training camp trajectory against established veterans will reveal whether the staff views him as season-one rotation piece or redshirt development project. The answer shapes both the backfield&apos;s 2026 ceiling and the trade market for the veterans currently blocking him.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

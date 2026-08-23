@@ -409,6 +409,19 @@ export default function CardinalsDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Slot Competition With Downstream Consequences
+        </h2>
+        <p>
+          Arizona&apos;s slot receiver battle deserves attention because the winner inherits production, not just a seat. Modern offenses route their slot through the middle of zone coverage at high frequencies, meaning the third receiver in this system sees genuine weekly targets regardless of game script. The competition between the established interior option and younger challengers therefore decides real fantasy output and real fourth-quarter touches.
+        </p>
+        <p>
+        The staff&apos;s evaluation criteria will be revealing: slot receivers who win with quickness get schemed quick-game targets, while bigger-bodied slots become red-zone priorities. Watch which skill set the early-season target distribution favors — it tells you which prototype won the meeting-room argument, not just the practice field.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">

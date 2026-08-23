@@ -394,6 +394,19 @@ export default function CommandersDepthChart2026Page() {
       </section>
 
       {/* FAQ Section */}
+      <section className="mt-8 space-y-3">
+        <h2 className="mt-8 text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Defensive Identity Under a Quarterback-Led Division
+        </h2>
+        <p>
+          Washington&apos;s defensive construction answers a specific divisional problem: three rival quarterbacks capable of winning shootouts means the defense must generate pressure without selling out coverage. The front four&apos;s depth exists to sustain four-man rush rates across full games; the secondary&apos;s youth movement trades short-term mistakes for long-term ball production. Both choices reflect a staff building to survive shootouts rather than avoid them.
+        </p>
+        <p>
+          The chart&apos;s final shape suggests confidence in that identity — competition designations concentrate where depth is cheapest to fix (linebacker bench), while premium positions carry settled hierarchies. Organizations signal their self-assessment through where they allow competitions and where they do not.
+        </p>
+      </section>
+
+      {/* FAQ Section */}
       {/* FAQ Section */}
       <section className="space-y-4 bg-zinc-900 border border-zinc-800 p-6 rounded-xl">
         <h3 className="text-xl font-bold text-white">Frequently Asked Questions: Commanders 2026 Depth Chart</h3>

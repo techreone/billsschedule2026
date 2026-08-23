@@ -397,6 +397,19 @@ export default function JetsQbDepthChartPage() {
         </p>
       </section>
 
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-blue-600 pl-4">
+          The Broadcast Window Every Jets Game Occupies
+        </h2>
+        <p>
+          Rebuilding rosters play in predictable broadcast slots: regional afternoon windows early in the season, flexing toward national visibility only if the wins accumulate. For fans planning viewing around this quarterback competition, that means most of the evaluation-relevant snaps happen on regional feeds and the league&apos;s streaming products rather than prime-time national packages — a map worth building before September rather than improvising weekly.
+        </p>
+        <p>
+          The exceptions arrive late: December divisional games with playoff implications for the OTHER side still land on national windows, meaning Jets quarterbacks get measured on the biggest available stages regardless of their own team&apos;s standing. Those broadcasts are where reputations — positive or negative — calcify fastest.
+        </p>
+      </section>
+
+      {/* H2-10: How To Watch & Broadcast Details */}
       {/* H2-10: How To Watch & Broadcast Details */}
       <section className="space-y-6 bg-zinc-900/70 border border-zinc-800 p-6 rounded-xl">
         <h2 className="text-2xl font-bold text-white border-l-4 border-emerald-500 pl-3">

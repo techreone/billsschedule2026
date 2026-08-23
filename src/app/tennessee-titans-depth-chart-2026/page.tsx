@@ -401,6 +401,19 @@ export default function TitansDepthChartPage() {
       </section>
 
       {/* Footer */}
+      <section className="mt-8 space-y-3">
+        <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-l-4 border-red-600 pl-4">
+          The Receiver Room&apos;s Developmental Stacking
+        </h2>
+        <p>
+          Tennessee&apos;s receiver tiers show a front office building in layers rather than leaps: an established alpha commanding coverage, a second-year speed profile developing on schedule, imported veteran reliability for third downs, and mid-round projects competing for the developmental seats. This stacking matters because receiver groups historically produce their biggest jumps when multiple young players push each other simultaneously — competition raising the whole room&apos;s practice standard.
+        </p>
+        <p>
+        The staff&apos;s willingness to keep five and six receivers active reflects schematic trust too: this offense distributes targets laterally enough that the fourth receiver produces real snaps, making those final roster seats genuine weekly contributors rather than emergency designations.
+        </p>
+      </section>
+
+      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-[#0b0e14] py-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 space-y-3">
