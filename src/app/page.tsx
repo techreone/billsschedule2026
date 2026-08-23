@@ -3,7 +3,7 @@ import Countdown from '@/components/Countdown';
 import BRTopHeadlines from '@/components/BRTopHeadlines';
 import { NativeBanner, Banner } from '@/components/ads/Adsterra';
 import Link from 'next/link';
- import { TREND_SLUGS, slugToLabel } from '@/data/trendSlugs';
+ import { TREND_CATEGORIES, TREND_SLUGS, slugToLabel } from '@/data/trendSlugs';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -138,21 +138,54 @@ export default function BRHomePage() {
             </p>
           </section>
 
-          {/* Trending 2026 — 全站新词枢纽(内链总入口, 根治孤儿页) */}
-          <section className="mt-10 bg-zinc-900/60 rounded-2xl border border-zinc-800 p-6">
-            <h2 className="text-xl font-headline font-bold text-white uppercase tracking-wider border-b border-zinc-800 pb-2 mb-4">
-              🔥 Trending 2026: Bills &amp; NFL Hub
-            </h2>
-            <p className="text-xs text-zinc-400 mb-4">最新爆发的 Buffalo Bills 与全网 32 队 2026 趋势新词深度页：</p>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
-              {TREND_SLUGS.map((s) => (
-                <li key={s}>
-                  <Link href={`/${s}`} className="text-blue-400 hover:text-blue-300 underline text-sm">
-                    {slugToLabel(s)}
-                  </Link>
-                </li>
+          {/* Trending 2026 Hub — 分类卡片式内链枢纽(根治孤儿页) */}
+          <section aria-labelledby="trending-hub" className="mt-12">
+            <div className="flex items-end justify-between border-b border-zinc-800 pb-3 mb-6">
+              <h2 id="trending-hub" className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider flex items-center gap-2">
+                <span className="w-1.5 h-6 bg-red-600 rounded-full inline-block" aria-hidden />
+                Trending 2026: Bills &amp; NFL Hub
+              </h2>
+              <span className="text-[10px] font-mono text-zinc-500">{TREND_SLUGS.length} DEEP-DIVE PAGES</span>
+            </div>
+
+            <p className="text-sm text-zinc-400 mb-6 max-w-3xl leading-relaxed">
+              Google Trends 实测爆发的 2026 赛季搜索热点，编辑部逐页查实成文——按主题分为四组：
+              比赛报道与预测、球员状态追踪、Bills 位置竞争，以及全网 32 队深度表。
+            </p>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+              {TREND_CATEGORIES.map((cat, idx) => (
+                <article
+                  key={cat.key}
+                  className={`bg-zinc-900/60 rounded-2xl border border-zinc-800 border-l-4 ${cat.accent} p-5 flex flex-col ${
+                    idx === TREND_CATEGORIES.length - 1 ? 'lg:col-span-2' : ''
+                  }`}
+                >
+                  <header className="flex items-center justify-between mb-1.5">
+                    <h3 className="text-base font-headline font-extrabold text-white uppercase tracking-wider">
+                      {cat.title}
+                    </h3>
+                    <span className="text-[10px] font-mono text-zinc-500 bg-zinc-900 border border-zinc-800 rounded px-1.5 py-0.5">
+                      {cat.slugs.length} PAGES
+                    </span>
+                  </header>
+                  <p className="text-xs text-zinc-500 mb-4 leading-relaxed">{cat.desc}</p>
+                  <ul className={`grid gap-x-6 gap-y-2 text-sm ${idx === TREND_CATEGORIES.length - 1 ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
+                    {cat.slugs.map((s) => (
+                      <li key={s} className="flex items-start gap-2">
+                        <span className="mt-[7px] w-1 h-1 rounded-full bg-zinc-600 flex-none" aria-hidden />
+                        <Link
+                          href={`/${s}`}
+                          className="text-zinc-300 hover:text-red-400 transition-colors leading-snug"
+                        >
+                          {slugToLabel(s)}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
               ))}
-            </ul>
+            </div>
           </section>
 
           {/* Game Schedule Grid Stream with Official WebP Team Logos */}
