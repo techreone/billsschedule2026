@@ -6,8 +6,8 @@ import { SITE_CONFIG } from '@/data/scheduleData';
 import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
-  title: "Buffalo Bills 53-Man Roster Projection 2026: Cutdown Day Preview",
-  description: "Our Buffalo Bills 53-man roster projection for 2026: cutdown day deadline (Aug 30, 6 PM ET), position-by-position picks, biggest battles on the defensive line, wide receiver room and practice squad outlook.",
+  title: "Bills 53-Man Roster Projection 2026: Cutdown Day Preview",
+  description: "Bills 53-man roster projection for 2026: cutdown deadline Aug 30 at 6 PM ET, position-by-position picks, defensive line crunch and practice squad picks.",
   keywords: [
     "buffalo bills roster projection 2026",
     "bills roster projection",
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     canonical: `${SITE_CONFIG.url}/bills-roster-projection-2026`,
   },
   openGraph: {
-    title: "Buffalo Bills 53-Man Roster Projection 2026: Who Makes the Cut?",
-    description: "Position-by-position Bills 53-man roster projection ahead of the Aug 30 cutdown deadline — QB, RB, WR battles, defensive line crunch and practice squad picks.",
+    title: "Bills 53-Man Roster Projection 2026: Cutdown Day Preview",
+    description: "Bills 53-man roster projection for 2026: cutdown deadline Aug 30 at 6 PM ET, position-by-position picks, defensive line crunch and practice squad picks.",
     url: `${SITE_CONFIG.url}/bills-roster-projection-2026`,
     type: "article",
   },

@@ -6,8 +6,8 @@ import { SITE_CONFIG } from '@/data/scheduleData';
 import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
-  title: "Bills Wide Receiver Depth Chart 2026: Moore, Coleman, Shakir & Palmer",
-  description: "The complete Buffalo Bills wide receiver depth chart for 2026: D.J. Moore as WR1, Keon Coleman's year-two leap, Khalil Shakir in the slot, Joshua Palmer's bounce-back bid and the roster bubble battle.",
+  title: "Bills WR Depth Chart 2026: Moore, Coleman, Shakir & Palmer",
+  description: "Buffalo Bills wide receiver depth chart for 2026: D.J. Moore as WR1, Keon Coleman's year-two leap, Khalil Shakir in the slot and the roster bubble battle.",
   keywords: [
     "buffalo bills wide receivers",
     "bills wr depth chart",
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     canonical: `${SITE_CONFIG.url}/bills-wr-depth-chart`,
   },
   openGraph: {
-    title: "Buffalo Bills Wide Receiver Depth Chart 2026",
-    description: "D.J. Moore, Keon Coleman, Khalil Shakir and Joshua Palmer headline Buffalo's deepest receiver room of the Josh Allen era. Full projected depth chart and bubble watch.",
+    title: "Bills WR Depth Chart 2026: Moore, Coleman, Shakir & Palmer",
+    description: "Buffalo Bills wide receiver depth chart for 2026: D.J. Moore as WR1, Keon Coleman's year-two leap, Khalil Shakir in the slot and the roster bubble battle.",
     url: `${SITE_CONFIG.url}/bills-wr-depth-chart`,
     type: "article",
   },

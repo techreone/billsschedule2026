@@ -6,8 +6,8 @@ import { SITE_CONFIG } from '@/data/scheduleData';
 import RelatedTrendPages from '@/components/RelatedTrendPages';
 
 export const metadata: Metadata = {
-  title: "When Is the First Bills Game? 2026 Season Opener Date, Time & TV",
-  description: "The Buffalo Bills open the 2026 NFL season on Sunday, September 13 at the Houston Texans — 1:00 PM ET on CBS. Full first-month schedule, preseason finale info, home opener and how to watch.",
+  title: "When Is the First Bills Game? 2026 Opener Date, Time & TV",
+  description: "The Bills open the 2026 season on Sunday, September 13 at the Houston Texans - 1 PM ET on CBS. Plus the preseason finale, home opener and first-month schedule.",
   keywords: [
     "when is the first bills game",
     "bills first game 2026",
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     canonical: `${SITE_CONFIG.url}/when-is-first-bills-game`,
   },
   openGraph: {
-    title: "When Is the First Bills Game? 2026 Opener: Sept 13 at Texans on CBS",
-    description: "Buffalo Bills 2026 season opener: Sunday, September 13, 1:00 PM ET at Houston (CBS). Plus the preseason finale, home opener and the full first month of games.",
+    title: "When Is the First Bills Game? 2026 Opener Date, Time & TV",
+    description: "The Bills open the 2026 season on Sunday, September 13 at the Houston Texans - 1 PM ET on CBS. Plus the preseason finale, home opener and first-month schedule.",
     url: `${SITE_CONFIG.url}/when-is-first-bills-game`,
     type: "article",
   },
