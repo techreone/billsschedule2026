@@ -128,7 +128,7 @@ export default function BRHomePage() {
               The Buffalo Bills enter the 2026 NFL campaign chasing a deep postseason run behind MVP-caliber quarterback Josh Allen, head coach Sean McDermott, offensive coordinator Joe Brady, and one of the most electric home-field environments in professional sports at Highmark Stadium in Orchard Park, New York. The 2026 regular season features an 18-week, 17-game slate containing eight high-stakes home battles and nine grueling road dates against AFC East rivals Miami, the New York Jets, and New England, alongside premier interconference clashes.
             </p>
             <p>
-              Buffalo&apos;s official bye arrives in <strong>Week 12 (Sunday, November 24, 2026)</strong> — providing a vital late-November rest window that coaching and athletic staff prioritize for player recovery ahead of the freezing December stretch. High-profile national television games remain a mainstay, with Thursday Night Football on Prime Video, Monday Night Football on ESPN, and Sunday Night Football on NBC complementing Sunday afternoon regional coverage across CBS and FOX.
+              Buffalo opens on the road in Houston on <strong>Sunday, September 13</strong>, with the home opener following on <strong>Thursday Night Football versus Detroit (September 17)</strong>. The official bye lands in <strong>Week 7</strong>, splitting the season between a Las Vegas road trip and a Week 8 home stand against Baltimore. High-profile national television games remain a mainstay, with Thursday Night Football on Prime Video, Monday Night Football on ESPN, and Sunday Night Football on NBC complementing Sunday afternoon regional coverage across CBS and FOX.
             </p>
             <p>
               Following preseason game evaluations — including key player stats from the <strong>Buffalo Bills vs Cleveland Browns</strong> game, backup quarterback <strong>Kyle Allen</strong>&apos;s offensive distribution, and defensive news surrounding star defensive tackle <strong>Ed Oliver (#91)</strong> — Buffalo possesses one of the deepest rosters in the AFC. This centralized schedule hub aggregates every kickoff time (Eastern Time, with CT/MT/PT conversions), channel assignment, live streaming option, and defensive depth chart detail.
@@ -275,24 +275,24 @@ export default function BRHomePage() {
                 The 2026 NFL regular season features a 17-game regular season schedule spread over an 18-week period. Buffalo hosts eight regular season home games at Highmark Stadium in Orchard Park, NY, and travels for nine road contests across the country. The regular season officially kicks off in early September and runs through early January 2027 before the AFC playoffs begin. Below is the week-by-week opponent breakdown including confirmed kickoff dates, venues, and television broadcast partners:
               </p>
               <ul className="list-disc pl-5 space-y-2 text-zinc-300">
-                <li><strong>Week 1 (Sun, Sep 8)</strong>: vs. Arizona Cardinals — 1:00 PM ET on CBS (Home Opener at Highmark Stadium)</li>
-                <li><strong>Week 2 (Thu, Sep 12)</strong>: @ Miami Dolphins — 8:15 PM ET on Amazon Prime Video (Thursday Night Football)</li>
-                <li><strong>Week 3 (Mon, Sep 23)</strong>: vs. Jacksonville Jaguars — 7:30 PM ET on ESPN (Monday Night Football Doubleheader)</li>
-                <li><strong>Week 4 (Sun, Sep 29)</strong>: @ Baltimore Ravens — 8:20 PM ET on NBC (Sunday Night Football)</li>
-                <li><strong>Week 5 (Sun, Oct 6)</strong>: @ Houston Texans — 1:00 PM ET on CBS (NRG Stadium)</li>
-                <li><strong>Week 6 (Mon, Oct 14)</strong>: @ New York Jets — 8:15 PM ET on ESPN (Monday Night Football at MetLife Stadium)</li>
-                <li><strong>Week 7 (Sun, Oct 20)</strong>: vs. Tennessee Titans — 1:00 PM ET on CBS</li>
-                <li><strong>Week 8 (Sun, Oct 27)</strong>: @ Seattle Seahawks — 4:05 PM ET on FOX (Lumen Field)</li>
-                <li><strong>Week 9 (Sun, Nov 3)</strong>: vs. Miami Dolphins — 1:00 PM ET on CBS</li>
-                <li><strong>Week 10 (Sun, Nov 10)</strong>: @ Indianapolis Colts — 1:00 PM ET on CBS (Lucas Oil Stadium)</li>
-                <li><strong>Week 11 (Sun, Nov 17)</strong>: vs. Kansas City Chiefs — 4:25 PM ET on CBS Game of the Week</li>
-                <li><strong>Week 12 (Sun, Nov 24)</strong>: <strong>BYE WEEK — NO GAME SCHEDULED (Mid-Season Rest Window)</strong></li>
-                <li><strong>Week 13 (Sun, Dec 1)</strong>: vs. San Francisco 49ers — 8:20 PM ET on NBC (Sunday Night Football Snow Game)</li>
-                <li><strong>Week 14 (Sun, Dec 8)</strong>: @ Los Angeles Rams — 1:00 PM ET on FOX (SoFi Stadium)</li>
-                <li><strong>Week 15 (Sun, Dec 15)</strong>: vs. Detroit Lions — 1:00 PM ET on CBS</li>
-                <li><strong>Week 16 (Sun, Dec 22)</strong>: vs. New England Patriots — 1:00 PM ET on CBS</li>
-                <li><strong>Week 17 (Sun, Dec 29)</strong>: vs. New York Jets — 1:00 PM ET on CBS</li>
-                <li><strong>Week 18 (Sun, Jan 5)</strong>: @ New England Patriots — Kickoff Time TBD (CBS / FOX Flex Window)</li>
+                <li><strong>Week 1 (Sun, Sep 13)</strong>: @ Houston Texans — 1:00 PM ET on CBS (NRG Stadium)</li>
+                <li><strong>Week 2 (Thu, Sep 17)</strong>: vs. Detroit Lions — 8:15 PM ET on Amazon Prime Video (Thursday Night Football · Home Opener)</li>
+                <li><strong>Week 3 (Sun, Sep 27)</strong>: vs. LA Chargers — 1:00 PM ET on CBS</li>
+                <li><strong>Week 4 (Sun, Oct 4)</strong>: vs. New England Patriots — 1:00 PM ET on CBS</li>
+                <li><strong>Week 5 (Mon, Oct 12)</strong>: @ Los Angeles Rams — 8:15 PM ET on ESPN (Monday Night Football · SoFi Stadium)</li>
+                <li><strong>Week 6 (Sun, Oct 18)</strong>: @ Las Vegas Raiders — 4:25 PM ET on CBS (Allegiant Stadium)</li>
+                <li><strong>Week 7</strong>: <strong>BYE WEEK — NO GAME SCHEDULED</strong></li>
+                <li><strong>Week 8 (Sun, Nov 1)</strong>: vs. Baltimore Ravens — 1:00 PM ET on CBS</li>
+                <li><strong>Week 9 (Mon, Nov 9)</strong>: @ Minnesota Vikings — 8:15 PM ET on ESPN (Monday Night Football · U.S. Bank Stadium)</li>
+                <li><strong>Week 10 (Sun, Nov 15)</strong>: vs. New York Jets — 1:00 PM ET on CBS</li>
+                <li><strong>Week 11 (Sun, Nov 22)</strong>: vs. Miami Dolphins — 1:00 PM ET on CBS</li>
+                <li><strong>Week 12 (Thu, Nov 26)</strong>: vs. Kansas City Chiefs — 8:20 PM ET (Thanksgiving Day primetime · Highmark Stadium)</li>
+                <li><strong>Week 13 (Sun, Dec 6)</strong>: @ New England Patriots — 4:25 PM ET on CBS (Gillette Stadium)</li>
+                <li><strong>Week 14 (Sun, Dec 13)</strong>: vs. Green Bay Packers — 8:20 PM ET on NBC (Sunday Night Football)</li>
+                <li><strong>Week 15 (Sun, Dec 20)</strong>: vs. Chicago Bears — 8:20 PM ET on NBC (Sunday Night Football)</li>
+                <li><strong>Week 16 (Fri, Dec 25)</strong>: vs. Denver Broncos — 4:30 PM ET on Netflix (Christmas Day game)</li>
+                <li><strong>Week 17 (Sun, Jan 3)</strong>: @ Miami Dolphins — 1:00 PM ET on CBS (Hard Rock Stadium)</li>
+                <li><strong>Week 18 (Sun, Jan 10)</strong>: vs. New York Jets — Kickoff Time TBD (flex scheduling window)</li>
               </ul>
               <p>
                 Each regular season matchup carries heavy postseason weight, particularly non-conference battles against the NFC West (49ers, Rams, Seahawks, Cardinals) and inter-conference duels with AFC South and AFC North opponents. Buffalo&apos;s strength of schedule ranks among the most challenging in the league, requiring consistent execution both home and away.
@@ -340,13 +340,13 @@ export default function BRHomePage() {
             {/* H2-5 */}
             <section className="space-y-3">
               <h2 className="text-xl md:text-2xl font-headline font-extrabold text-white uppercase tracking-wider border-b border-zinc-800 pb-2">
-                5. Week 12 Bye Week Schedule & Player Recovery Impact
+                5. Week 7 Bye Week Schedule & Player Recovery Impact
               </h2>
               <p>
-                A vital scheduling milestone for fantasy football managers and Mafia faithful is determining <strong>when is the Buffalo Bills bye week in 2026</strong>. The NFL has officially assigned Buffalo&apos;s bye to <strong>Week 12 (Sunday, November 24, 2026)</strong>.
+                A vital scheduling milestone for fantasy football managers and Mafia faithful is determining <strong>when is the Buffalo Bills bye week in 2026</strong>. The NFL has assigned Buffalo&apos;s bye to <strong>Week 7</strong> — the weekend of October 25, 2026.
               </p>
               <p>
-                Positioned in late November, a Week 12 bye is widely considered optimal by head coach Sean McDermott and the athletic training staff. It grants players a full 14-day rest and recovery window between the grueling Week 11 showdown against Kansas City and the cold-weather December stretch starting in Week 13. During this bye, key starters dealing with nagging mid-season ailments receive crucial rehabilitation time without missing game snaps.
+                An early-October bye means the Bills play their final 12 weeks without a rest window, including a Thanksgiving primetime showdown with Kansas City and back-to-back Sunday night games against Green Bay and Chicago in December. Fantasy managers should plan for the empty Week 7 when setting lineups, and note that late-season flex scheduling may shift kickoff times for the Sunday night matchups.
               </p>
             </section>
 

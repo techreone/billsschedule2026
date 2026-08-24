@@ -26,7 +26,7 @@ const routes = [
   '/kansas-city-chiefs-depth-chart-2026', '/kyle-allen-bills-qb2', '/lions-qb-depth-chart', '/matt-milano-injury-status',
   '/minnesota-vikings-depth-chart-2026', '/new-york-giants-depth-chart-2026', '/new-york-jets-depth-chart-2026',
   '/nfl-plus-preseason-live-stream-guide', '/panthers-depth-chart-2026', '/panthers-rb-depth-chart',
-  '/ray-davis-bills-rb', '/saints-depth-chart-2026', '/steelers-depth-chart-2026', '/steelers-rb-depth-chart',
+  '/ray-davis-bills-rb', '/bills-roster-projection-2026', '/when-is-first-bills-game', '/bills-wr-depth-chart', '/saints-depth-chart-2026', '/steelers-depth-chart-2026', '/steelers-rb-depth-chart',
   '/stefon-diggs-bills-wr-aftermath', '/tampa-bay-buccaneers-depth-chart-2026', '/tennessee-titans-depth-chart-2026',
   '/texans-depth-chart-2026', '/vikings-qb-depth-chart', '/where-can-i-watch-nfl-preseason-games',
 ]

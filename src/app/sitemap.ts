@@ -60,5 +60,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...trendRoutes];
+  const contentRoutes: MetadataRoute.Sitemap = [
+    '/bills-roster-projection-2026',
+    '/when-is-first-bills-game',
+    '/bills-wr-depth-chart',
+  ].map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
+  }));
+
+  return [...staticRoutes, ...contentRoutes, ...trendRoutes];
 }

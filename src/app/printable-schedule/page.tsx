@@ -199,7 +199,7 @@ export default function PrintableSchedulePage() {
               Official_Buffalo_Bills_2026_Schedule_Printable.pdf
             </h3>
             <p className="text-xs md:text-sm text-zinc-400 max-w-md mx-auto">
-              Includes all 17 regular season games, 3 August preseason games, Week 12 Bye Week, EST game times, television networks (CBS, FOX, NBC, ESPN, Prime Video), and Highmark Stadium home venue labels.
+              Includes all 17 regular season games, 3 August preseason games, Week 7 Bye Week, EST game times, television networks (CBS, FOX, NBC, ESPN, Prime Video), and Highmark Stadium home venue labels.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
