@@ -64,6 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/bills-roster-projection-2026',
     '/when-is-first-bills-game',
     '/bills-wr-depth-chart',
+    '/bills-depth-chart',
   ].map((slug) => ({
     url: `${baseUrl}/${slug}`,
     lastModified: new Date(),

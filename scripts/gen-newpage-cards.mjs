@@ -63,6 +63,17 @@ const cards = {
     ],
     footer: "'Everybody eats' — Joe Brady rotates all four starters",
   }),
+  "depth-chart-hub-card": card({
+    code: "DEPTH CHART", title: "2026 BILLS",
+    rows: [
+      ["Offense", "Allen · Cook · Moore · Shakir"],
+      ["Defense", "Oliver · Walker · Milano · Bernard"],
+      ["Special teams", "Prater K · Martin P"],
+      ["Scheme", "3-4 base under DC Jim Leonhard"],
+      ["Last update", "Post-cutdown projection"],
+    ],
+    footer: "Full unit-by-unit tables inside",
+  }),
 };
 
 for (const [name, svg] of Object.entries(cards)) {
