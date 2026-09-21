@@ -26,10 +26,10 @@ jobs:
         run: npm run build
 
       - name: Deploy Out Directory to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: billsschedule2026
-          directory: out
-          gitToPagesdeploy: true
+        # 原用 cloudflare/pages-action@v1，该 action 已被 GitHub 下架（Unable to resolve action），
+        # 导致 2026-08-24 起所有部署在 "Set up job" 阶段就失败。改为直接跑 wrangler，
+        # 与本账号其他站（roguewiki / deepseek-v4-guide / xknow）保持一致。
+        run: npx --yes wrangler@4 pages deploy out --project-name billsschedule2026 --branch main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
