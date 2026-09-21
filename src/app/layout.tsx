@@ -84,6 +84,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        {/* Google Analytics 4 (GA4) — 衡量 ID 由 ga4.py provision 生成 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DBBGK3Q9EH" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-DBBGK3Q9EH');`,
+          }}
+        />
         <link rel="icon" href="/favicon.ico" sizes="48x48" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
